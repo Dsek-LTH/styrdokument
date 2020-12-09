@@ -1,0 +1,9 @@
+build/
+*.pdf
+*.log
+main.aux
+main.out
+main.pdf
+main.synctex.gz
+.DS_Store
+.texpadtmp
