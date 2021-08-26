@@ -1,9 +1,9 @@
 build/
 *.pdf
 *.log
-main.aux
-main.out
-main.pdf
-main.synctex.gz
+*.aux
+*.out
+*.pdf
+*.synctex.gz
 .DS_Store
 .texpadtmp
