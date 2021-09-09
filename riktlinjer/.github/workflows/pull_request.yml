@@ -1,0 +1,30 @@
+name: Build LaTeX documents
+on:
+  pull_request:
+    branches:
+      - "main"
+jobs:
+  build_latex:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Set up Git repository
+        uses: actions/checkout@v2
+
+      - name: Show Working directory
+        run: ls
+        
+      - name: Setup dsek latex
+        uses: actions/checkout@v2
+        with:
+          repository: Dsek-LTH/dsek-latex
+          path: TEX
+          
+      - name: Show Working directory
+        run: ls TEX
+        
+      - uses: xu-cheng/latex-action@v2
+        with:
+          root_file: "*.tex"
+          glob_root_file: true
+        env:
+          TEXINPUTS: ".:./TEX//:"   
