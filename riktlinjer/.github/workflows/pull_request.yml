@@ -22,10 +22,15 @@ jobs:
       - name: Show Working directory
         run: ls TEX
         
-      - uses: xu-cheng/latex-action@v2
+      - name: Compiles D-sek templates
+        uses: xu-cheng/latex-action@v2
         with:
           root_file: "TEX/*.ins"
           glob_root_file: true 
+          
+      - name: Show Working directory
+        run: ls TEX
+          
       - uses: xu-cheng/latex-action@v2
         with:
           root_file: "*.tex"
