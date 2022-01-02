@@ -26,7 +26,7 @@ jobs:
         with:
           root_file: "*.tex"
           glob_root_file: true
-          pre_compile: "cd dsek-latex; for i in *.ins; do tex $i; done"
+          pre_compile: "cd TEX; for i in *.ins; do tex $i; done"
         env:
           TEXINPUTS: ".:./TEX//:"
           
