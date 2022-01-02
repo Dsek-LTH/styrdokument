@@ -26,6 +26,7 @@ jobs:
         with:
           root_file: "*.tex"
           glob_root_file: true
+          pre_compile: "cd TEX && latexmk -f *.ins"
         env:
           TEXINPUTS: ".:./TEX//:"
           
