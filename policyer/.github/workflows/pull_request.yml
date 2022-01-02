@@ -24,6 +24,10 @@ jobs:
         
       - uses: xu-cheng/latex-action@v2
         with:
+          root_file: "TEX/*.ins"
+          glob_root_file: true 
+      - uses: xu-cheng/latex-action@v2
+        with:
           root_file: "*.tex"
           glob_root_file: true
         env:
