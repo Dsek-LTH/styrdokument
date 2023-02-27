@@ -1,6 +1,6 @@
 # Stadgar
 
-Detta är Datatekniksektionen inom TLTHs stadgar. Under "Releases" finns alla versioner av stadgarna och om en följer commit-meddelanden finns mer detaljerad historik.
+Detta är D-sektionen inom TLTHs stadgar. Under "Releases" finns alla versioner av stadgarna och om en följer commit-meddelanden finns mer detaljerad historik.
 
 ## Användning
 All text i repot ska vara skrivet på svenska.
