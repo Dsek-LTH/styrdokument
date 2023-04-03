@@ -3,6 +3,8 @@
 \usepackage[T1]{fontenc}
 \usepackage[utf8]{inputenc}
 \usepackage[swedish]{babel}
+\usepackage{tikz}
+\usetikzlibrary{arrows.meta,positioning}
 
 \setheader{Policy för Ekonomirutiner}{Policydokument}{}
 
@@ -26,7 +28,8 @@ Sektionsmötet äger policyn.
 Ursprungligen antagen enligt beslut: VTM/2017
 Omarbetning fastställd enligt beslut (samt motionär):
 \begin{itemize}
-    \item VTM 2021 (Joel Bäcker \& Sean Jentz)
+\item VTM 2021 (Joel Bäcker \& Sean Jentz)
+\item VTM 2022 (Emma Kujala)
 \end{itemize}
 Uppdaterad enl. Policy för Policyer på HTM2 2021.
 
@@ -39,6 +42,14 @@ Uppdaterad enl. Policy för Policyer på HTM2 2021.
 
 % donationer
 % värdepapper
+
+\section{Terminologi}
+\begin{description}
+\item[Budgetpost] En budgetpost visar hur mycket sektionen har budgeterat för en viss kostnad eller vinst. Till exempel är Mötesfika en budgetpost.
+\item[Kostnadsställe] Ett kostnadsställe består av budgetposter för både kostnader och vinster för en viss del av en resultatenhets verksamhet. Varje kostnadsställe har en egen kod, till exempel är SEKT01 ett kostnadsställe inom resultatenheten Sektion.
+\item[Resultatenhet] Varje utskott, samt Styrelsen och Sektionen är sin egen resultatenhet. Resultatenheten är uppdelad i ett eller flera kostnadsställen.
+\item[Rambudget] Rambudgeten är den budgeten som ägs av sektionsmötet. Det är en sammanställning av alla resultatenheter och deras kostnadsställen. 
+\end{description}
 
 \section{Avtal}
 Firmatecknare äger alltid rätt att besluta om avtal då det innebär ett
@@ -87,7 +98,29 @@ Utskott som inte har en utskottsordförande som inte sitter i styrelsen vänder 
     \item \textbf{Övriga styrelseledamöter} äger attersteringsrätt för utskott för vilka dem är utskottsordförande, förutom Vice Ordförande som inte har någon attesteringsrätt.
     \item \textbf{Teknikfokusansvarig} äger attesteringsrätt för alla utlägg gjorda för teknikfokus.
 \end{itemize}
-\includegraphics[width=\textwidth]{Attestering.png}
+\begin{tikzpicture}
+  [shorten >=1pt,
+   node distance=1cm,
+%% on grid,
+   >={Stealth[round]},
+   squarednode/.style={rectangle,
+                      draw=black,
+                      minimum size=6mm},]
+  \node[squarednode] (ft)                           {Firmatecknare};
+  \node[squarednode] (vice)   [below left =of ft]   {Vice Skattmästare};
+  \node[squarednode] (styr)   [below right=of ft]   {Styrelseledamot};
+  \node[squarednode] (funk)   [below left =of styr] {Funktionär};
+  \node[squarednode] (tekf)   [below right=of styr] {Teknikfokusansvarig};
+  \node[squarednode] (tekf-f) [below=of tekf]       {Teknikfokusfunktionär};
+  \path[->,every node/.style={font=\footnotesize}]
+  (ft)   edge [loop above] node               {}     ()
+         edge              node [below left ] {}     (vice)
+         edge              node [below right] {}     (styr)
+  (vice) edge              node [below right] {}     (funk)
+  (styr) edge              node [below left ] {}     (funk)
+         edge              node [below left ] {NärA} (tekf)
+  (tekf) edge              node [below]       {}     (tekf-f);
+\end{tikzpicture}
 
 \section{Betalkort}
 Sektionen äger ett antal betalkort, ofta kallat Sektionskort, som ska användas för betalning i sektionens namn. Dessa betalkort skall användas för att minimera behovet av privata utlägg.
@@ -97,9 +130,15 @@ Poster som erhåller ett betalkort avgörs av styrelsen.
 \section{Budgetavsteg}
 Om en budgetpost inom en resultatenhet, hela resultatenheten eller rambudgeten i sin helhet avsiktligt beräknas avvika negativt kan ett budgetavsteg göras.
 
-Styrelsemöte kan fatta beslut om budgetavsteg för belopp mindre än 50\% upp till 10000 SEK per resultatenhet.
+\subsection{Riktlinjer}
+\begin{itemize}
+  \item Styrelsemöte får besluta om att höja kostnader i ett kostnadsställe om denna kostnaden täcks av en inkomst inom samma resultatenhet.
+  \item Styrelsemöte kan fatta beslut om budgetavsteg för belopp mindre än 50\% upp till 10000 SEK per resultatenhet.
+  \item På ett sektionsmöte finns inga begränsningar på vilka budgetförändringar som kan ske.
+\end{itemize}
 
-På ett sektionsmöte finns inga begränsningar på vilka budgetförändringar som kan ske.
+\subsection{Redovisning av budgetavsteg}
+Budgetavsteg gjorda av styrelsen måste redovisas på nästkommande sektionsmöte.
 
 \section{Donationer}
 \subsection{Inkomna Donationer}
