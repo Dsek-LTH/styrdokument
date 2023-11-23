@@ -24,7 +24,7 @@ jobs:
         
       - uses: xu-cheng/latex-action@v2
         with:
-          root_file: "*.tex"
+          root_file: "stadgar.tex"
           glob_root_file: true
         env:
           TEXINPUTS: ".:./TEX//:"   
