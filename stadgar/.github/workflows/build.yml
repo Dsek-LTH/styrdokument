@@ -24,7 +24,7 @@ jobs:
         
       - uses: xu-cheng/latex-action@v2
         with:
-          root_file: "*.tex"
+          root_file: "stadgar.tex"
           glob_root_file: true
         env:
           TEXINPUTS: ".:./TEX//:"
@@ -32,7 +32,7 @@ jobs:
       - uses: actions/upload-artifact@v2
         with:
           name: PDF
-          path: "*.pdf"
+          path: "stadgar.pdf"
           
       - uses: "marvinpinto/action-automatic-releases@latest"
         with:
@@ -40,4 +40,4 @@ jobs:
           automatic_release_tag: "latest"
           prerelease: false
           files: |
-            *.pdf
+            stadgar.pdf
