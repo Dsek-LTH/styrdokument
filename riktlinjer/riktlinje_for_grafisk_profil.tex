@@ -1,0 +1,141 @@
+\documentclass[]{dsekprotokoll}
+
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage[swedish]{babel}
+\usepackage{float}
+\usepackage{tabularx}
+\usepackage{array}
+\usepackage{booktabs}
+
+\setheader{Riktlinje för grafisk profil}{Riktlinje}{Lund, \today}
+
+\title{Riktlinje för grafisk profil}
+\author{Kaspian Jakobsson}
+
+\begin{document}
+\maketitle
+
+\section{Formalia}
+
+\subsection{Sammanfattning}
+Riktlinje för grafisk profil beskriver många av sektionens vanligaste förekommande grafiska element samt verktyg som man kan använda för att utforma grafiskt material för D-sektionen.
+
+\subsection{Syfte}
+D-sektionen producerar många olika dokument, affischer, nyhetsbrev och andra former av grafik. Denna riktlinje ämnar att ge vägledning och klarhet för hur sektionens grafiska profil består av, hur den skall användas och vilka verktyg det finns att använda.
+
+Riktlinjen är menat som ett verktyg och som riktlinjer i första hand, det vill säga att om man bryter mot riktlinjen i strävan efter att utforma något som resulterar i något vackrare än det riktlinjen beskriver bör detta inte betraktas som ett riktlinjebrott.
+
+\subsection{Omfattning}
+Riktlinjen omfattar sektionen som helhet, men riktar sig framförallt till utskott och funktionärer som sysslar med grafisk design och som vill ta del av de riktlinjer som presenteras hädanefter.
+
+
+\subsection{Historik}
+Skriven av Kaspian Jakobsson, 2021
+
+Ursprungligen antagen enligt beslut:
+HTM2 2021.
+
+Dokumentent omformades från att vara en policy till att bli en riktlinje på VTM-extra 2023.
+
+
+\section{Riktlinjer för grafisk utformning}
+På sektionens nuvarande hemsida finns en grafisk profil beskriven som ligger till grund för denna riktlinje. Dock finns en del nya avsnitt, mycket tack vare inspiration från Teknologkårens grafiska profil \footnote{\href{https://drive.google.com/file/d/1EFdTyU6aXKSBEj4cqcDsR325LMzTP_um/view}{Riktlinjer för grafisk profil, 2019, Teknologkåren inom TLTH, Google Drive}}
+
+
+
+
+Mycket av informationen som presenteras i denna första version kan därmed verka redundant. Detta är dock ett medvetet val, då sektionens nuvarande grafiska profil innehåller mycket av det som en designer kan återkomma till. Såsom sektionens färg, som enligt reglementet beskrivs med hexkoden \texttt{\#f280a1}, och att detta kan tolkas som Pantone 189 U, 35,3\% svart eller som S 1050-R20B .NCS när färg ska blandas.
+Ett färgprov finnes här: \\ \href{https://www.dsek.se/aktiva/grafiskprofil/rosa.html}{dsek.se/aktiva/grafiskprofil/rosa.html}
+
+Infocom har färgen ametistlila, som kan beskrivas som \texttt{\#9966CC}
+
+%\section{Namn}
+% Fylla på om sektionens namn, se kårens grafiska profil
+
+
+\section{D-sektionens sigill, logotyp och mer}
+I sektionens stadgar, §1.3, står det att sektionens symbol ser ut enligt nedanstående bild:
+\begin{figure} [!hbp]
+    \centering
+    \Dsymbol[32mm]
+\end{figure}
+
+För konsekvensens skull bör inte sigillet förekomma annat än i storlekarna 16 mm och 32 mm eller, om en större storlek skulle behövas, i multipler av dessa storlekar.
+
+Sektionens sigill är annars den logotyp som bör och används i störst utsträckning, och den ser ut såhär:
+\begin{figure}[!hbp]
+    \centering
+    \Dlogo[32mm] \includegraphics[height=32mm]{D-logo-org-col.pdf}
+    \label{fig:my_label}
+\end{figure}
+
+Det finns även äldre logotyper och symboler för sektionen bevarade, men dessa bör inte användas utan en särskild åtanke.
+\begin{figure}[!hbp]
+    \centering
+    \includegraphics[height=32mm]{D-logo-org-bw-compact.pdf} \includegraphics[height=32mm]{D-logo-org-col-compact.pdf} \\
+    \includegraphics[height=32mm]{C-logo-org-bw.pdf} \includegraphics[height=32mm]{C-logo-org-col.pdf}
+    \label{fig:my_label}
+\end{figure}
+\\
+Om man är mer intresserad av logo/sigill/etc finns det på den här länken: \\
+\href{https://www.dsek.se/aktiva/grafiskprofil/logotyp.php}{dsek.se/aktiva/grafiskprofil/logotyp.php}
+
+
+%\subsection{Beskärning}
+%\subsection{Användning}
+%\subsection{Placering}
+
+\section{Typografiska riktlinjer}
+Majoriteten av allt material som sektionen producerar, om man till exempel ser till utskriven vikt i kilogram, är skrift, ofta i form av dokument (likt detta!). Huruvida detta är att ses som en typografisk utformning är dock upp till betraktaren.
+
+I regel brukar sektionens dokument skrivas med mallar likt den som denna riktlinje är utformad med hjälp utav. Då är det följande typsnitt som används:
+
+\begin{table}[!hbp]
+    \centering
+    \begin{tabular}{ll}
+        \toprule
+        \textbf{Del av dokumentet}                & \textbf{Typsnitt och grad}                 \\
+        \midrule
+        Brödtext                                  & Palatino, 11 pt                            \\
+        Fotnoter                                  & Palatino, 9 pt                             \\
+        Första rubriknivån (x)                    & {\sffamily \bfseries Helvetica fet}, 14 pt \\
+        Andra rubriknivån (x.y)                   & {\sffamily \bfseries Helvetica fet}, 12 pt \\
+        Tredje rubriknivån (x.y.z)                & {\sffamily \bfseries Helvetica fet}, 11 pt \\
+        Tabell- och figurbeskrivningar (captions) & \textit{Palatino kursiv}, 9 pt             \\
+
+        \bottomrule
+    \end{tabular}
+    \label{tab:my_label}
+\end{table}
+
+\subsection{\LaTeX-mallar}
+Sektionen har historiskt sett varit duktiga på att använda typsättningssystemet \LaTeX, och därmed finns det både dokumentklasser och funktioner som både är väldokumenterade och välfungerande.
+
+All källkod och dokumentmallar och så vidare finns sparat på sektionens GitHub, som ni hittar här: \\
+\href{https://github.com/Dsek-LTH/dsek-latex}{github.com/Dsek-LTH/dsek-latex}
+
+\section{Riktlinjer för grafisk formgivning}
+Sektionens tryckmaterial bör vara:
+\begin{itemize}
+    \item informativ
+    \item tydlig
+    \item ögonfallande
+\end{itemize}
+
+\section{Riktlinjer för film och foto}
+Sektionens fotografier och filmer bör vara:
+\begin{itemize}
+    \item Välexponerade
+    \item Integritetsbevarande
+    \item Dokumenterande av stämning likväl situation
+\end{itemize}
+
+%\section{Nyhetsbrev och mailutskick}
+
+%\section{Profilkläder}
+% Kan vara bra att beskriva
+
+%Affischmall
+
+\end{document}
