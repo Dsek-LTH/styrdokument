@@ -1,9 +1,0 @@
-build/
-*.log
-stadgar.aux
-stadgar.out
-stadgar.pdf
-stadgar.synctex.gz
-stadgar.fls
-stadgar.fdb_latexmk
-.DS_Store
