@@ -1,0 +1,11 @@
+build/
+*.pdf
+*.log
+*.aux
+*.out
+*.pdf
+*.synctex.gz
+*.fdb_latexmk
+*.fls
+.DS_Store
+.texpadtmp
