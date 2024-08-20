@@ -69,10 +69,10 @@
   \lpcode#1`\w=50
   \lpcode#1`\x=50
   \lpcode#1`\y=50
-  \ifnum\pdftexversion > 14
+  \ifnum\luatexversion > 14
     \adjustprotcode#1
   \else
-    \ifnum\pdftexversion > 13
+    \ifnum\luatexversion > 13
       \ifnum\expandafter`\pdftexrevision > `g
         \adjustprotcode#1
       \fi

@@ -51,12 +51,13 @@
   \ExecuteOptions{pdfbookmarks,pdfmarginkern}
   \ProcessOptions\relax
   \ifpdf
+    \edef\pdfcompresslevel{\pdfvariable compresslevel}
     \pdfcompresslevel=9
     \ifnum\@usepdfmarginkern=1
-      \pdfprotrudechars=1
+      \let\pdfprotrudechars=1
       \RequirePackage{dsekmarginkern}
       \AtBeginDocument{%
-        \ifnum\pdftexversion > 13
+        \ifnum\luatexversion > 13
           {\setprotcode\font}%
           {\bfseries\setprotcode\font}%
           {\itshape\setprotcode\font}%
@@ -83,7 +84,8 @@
     \newcommand{\makepdfinfo}{%
       \pdfstringdef\pdf@title\@title
       \pdfstringdef\pdf@author\@author
-      \pdfinfo{/Title   (\pdf@title)
+      \pdfextension info
+               {/Title   (\pdf@title)
                /Author  (\pdf@author)
                /Creator (LaTeX 2e)}}
   \fi
