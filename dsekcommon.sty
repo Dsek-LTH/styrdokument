@@ -39,55 +39,55 @@
 \tthdump{%
   \DeclareOption{pdfbookmarks}{%
     \def\dsek@bookmarks{true}%
-    \def\dsek@pdfpagemode{UseOutlines}}
+  \def\dsek@pdfpagemode{UseOutlines}}
   \DeclareOption{nopdfbookmarks}{%
     \def\dsek@bookmarks{false}%
-    \def\dsek@pdfpagemode{None}}
+  \def\dsek@pdfpagemode{None}}
   \newcount\@usepdfmarginkern
   \DeclareOption{pdfmarginkern}{%
-    \@usepdfmarginkern=1}
+  \@usepdfmarginkern=1}
   \DeclareOption{nopdfmarginkern}{%
-    \@usepdfmarginkern=0}
+  \@usepdfmarginkern=0}
   \ExecuteOptions{pdfbookmarks,pdfmarginkern}
   \ProcessOptions\relax
   \ifpdf
-    \edef\pdfcompresslevel{\pdfvariable compresslevel}
-    \pdfcompresslevel=9
-    \ifnum\@usepdfmarginkern=1
-      \let\pdfprotrudechars=1
-      \RequirePackage{dsekmarginkern}
-      \AtBeginDocument{%
-        \ifnum\luatexversion > 13
-          {\setprotcode\font}%
-          {\bfseries\setprotcode\font}%
-          {\itshape\setprotcode\font}%
-          {\slshape\setprotcode\font}%
-        \else
-          \PackageWarning{dsekcommon}{%
-            Margin kerning is only available with pdfTeX 0.14\MessageBreak
-            and later. Use the option `nopdfmarginkern' or\MessageBreak
-            upgrade pdfTeX if you don't want to see this\MessageBreak
-            warning anymore}%
-        \fi
-      }%
+  \edef\pdfcompresslevel{\pdfvariable compresslevel}
+  \pdfcompresslevel=9
+  \ifnum\@usepdfmarginkern=1
+  \let\pdfprotrudechars=1
+  \RequirePackage{dsekmarginkern}
+  \AtBeginDocument{%
+    \ifnum\luatexversion > 13
+    {\setprotcode\font}%
+    {\bfseries\setprotcode\font}%
+    {\itshape\setprotcode\font}%
+    {\slshape\setprotcode\font}%
+    \else
+    \PackageWarning{dsekcommon}{%
+      Margin kerning is only available with pdfTeX 0.14\MessageBreak
+      and later. Use the option `nopdfmarginkern' or\MessageBreak
+      upgrade pdfTeX if you don't want to see this\MessageBreak
+    warning anymore}%
     \fi
-    \RequirePackage[pdfpagemode=\dsek@pdfpagemode,
-                    bookmarks=\dsek@bookmarks,
-                    bookmarksnumbered,
-                    bookmarksopen=true,
-                    colorlinks=true,
-                    linkcolor=black,
-                    urlcolor=black]{hyperref}[2001/04/13]
-    \def\@author{}
-    \def\@title{}
-    \AtBeginDocument{\makepdfinfo}
-    \newcommand{\makepdfinfo}{%
-      \pdfstringdef\pdf@title\@title
-      \pdfstringdef\pdf@author\@author
-      \pdfextension info
-               {/Title   (\pdf@title)
-               /Author  (\pdf@author)
-               /Creator (LaTeX 2e)}}
+  }%
+  \fi
+  \RequirePackage[pdfpagemode=\dsek@pdfpagemode,
+    bookmarks=\dsek@bookmarks,
+    bookmarksnumbered,
+    bookmarksopen=true,
+    colorlinks=true,
+    linkcolor=black,
+  urlcolor=black]{hyperref}[2001/04/13]
+  \def\@author{}
+  \def\@title{}
+  \AtBeginDocument{\makepdfinfo}
+  \newcommand{\makepdfinfo}{%
+    \pdfstringdef\pdf@title\@title
+    \pdfstringdef\pdf@author\@author
+    \pdfextension info
+    {/Title   (\pdf@title)
+      /Author  (\pdf@author)
+  /Creator (LaTeX 2e)}}
   \fi
 }
 \def\UrlFont{\slshape}
@@ -111,28 +111,29 @@
 \setlength{\parindent}{0mm}
 \renewcommand{\@makefntext}[1]{%
   \parindent 2.2em\everypar={\hangafter 1\hangindent 1em}%
-  \noindent\makebox[1em][l]{\textsuperscript{\@thefnmark}\ }#1}
-\renewcommand{\maketitle}{\begin{titlepage}%
-  \let\footnotesize\small
-  \let\footnoterule\relax
-  \let \footnote \thanks
-  \null\vfil
-  \vskip 60\p@
-  \begin{center}%
-    {\LARGE\bf\sffamily\@title\par}%
-    \vskip 3em%
-    {\large
-     \lineskip .75em%
-      \begin{tabular}[t]{c}%
-        \@author
+\noindent\makebox[1em][l]{\textsuperscript{\@thefnmark}\ }#1}
+\renewcommand{\maketitle}{
+  \begin{titlepage}%
+    \let\footnotesize\small
+    \let\footnoterule\relax
+    \let \footnote \thanks
+    \null\vfil
+    \vskip 60\p@
+    \begin{center}%
+      {\LARGE\bf\sffamily\@title\par}%
+      \vskip 3em%
+      {\large
+        \lineskip .75em%
+        \begin{tabular}[t]{c}%
+          \@author
       \end{tabular}\par}%
       \vskip 1.5em%
-    {\large\@date\par}%
-  \vskip 20\p@
-  \Dlogosmall[32mm]
-  \end{center}\par
-  \@thanks
-  \vfil\null
+      {\large\@date\par}%
+      \vskip 20\p@
+      \Dlogosmall[32mm]
+    \end{center}\par
+    \@thanks
+    \vfil\null
   \end{titlepage}%
   \setcounter{footnote}{0}%
   \global\let\thanks\relax
@@ -149,9 +150,9 @@
 \newcommand{\setheader}[3]{%
   \lhead{\parbox{18mm}{\Dlogosmall[16mm]}%
     \parbox{80mm}{%
-      \textbf{\MakeUppercase{\orgname}}\newline{\small\MakeUppercase{#1}}}}
+  \textbf{\MakeUppercase{\orgname}}\newline{\small\MakeUppercase{#1}}}}
   \chead{}
-  \rhead{\parbox{60mm}{{\small\hbox{}\hfill#2\newline\hbox{}\hfill#3}}}}
+\rhead{\parbox{60mm}{{\small\hbox{}\hfill#2\newline\hbox{}\hfill#3}}}}
 \endinput
 %%
 %% End of file `dsekcommon.sty'.

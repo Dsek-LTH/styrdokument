@@ -3,7 +3,7 @@
 Det här är repot för D-sektionen inom TLTH:s styrdokument. Under "Releases" finns alla versioner av styrdokumenten sedan de separata repona fördes samman. Läs commit-meddelanden för en mer detaljerad historik.
 
 ## Användning
-All text i repot ska vara skrivet på svenska.
+All text i repot ska vara skriven på svenska och formatteras med [tex-fmt](https://github.com/WGUNDERWOOD/tex-fmt).
 
 ### Efter ett sektionsmöte
 * Klona repot. `git clone https://github.com/Dsek-LTH/styrdokument.git`

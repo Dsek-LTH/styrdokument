@@ -36,10 +36,10 @@
 \newcommand{\protokoll@envname}{}
 \DeclareOption{protokoll}{%
   \renewcommand{\paragraf@tocdepth}{1}
-  \renewcommand{\protokoll@envname}{protokoll}}
+\renewcommand{\protokoll@envname}{protokoll}}
 \DeclareOption{stadgar}{%
   \renewcommand{\paragraf@tocdepth}{2}
-  \renewcommand{\protokoll@envname}{stadgeavsnitt}}
+\renewcommand{\protokoll@envname}{stadgeavsnitt}}
 \ExecuteOptions{protokoll}
 \ProcessOptions
 \pagestyle{fancy}
@@ -53,7 +53,7 @@
 \newlength{\subjectcollength}
 \newcommand{\columnwidths}[2]{
   \setlength{\numbercollength}{#1}
-  \setlength{\subjectcollength}{#2}}
+\setlength{\subjectcollength}{#2}}
 \columnwidths{11mm}{38mm}
 \newlength{\paragraf@extraskip}
 \newenvironment{\protokoll@envname}{%
@@ -64,12 +64,12 @@
       \setlength{\leftmargin}{\labelwidth + \labelsep}%
       \renewcommand{\makelabel}[1]{%
         \ifpdf
-          \pdfbookmark[\paragraf@tocdepth]{%
-            \S\parnumber{} ##1}{par:\parnumber}%
-          \hypertarget{par:\parnumber}{}%
+        \pdfbookmark[\paragraf@tocdepth]{%
+        \S\parnumber{} ##1}{par:\parnumber}%
+        \hypertarget{par:\parnumber}{}%
         \fi
         \ifpdf
-          \phantomsection
+        \phantomsection
         \fi
         \renewcommand{\@currentlabelname}{##1}%
         \label{par:\parnumber}%
@@ -77,40 +77,40 @@
           \makebox[\labelwidth][l]{%
             \parbox[t]{\numbercollength}{\S\parnumber}%
             \parbox[t]{\subjectcollength}{%
-              \raggedright\hspace{0pt}##1}}}\hfill}%
+      \raggedright\hspace{0pt}##1}}}\hfill}%
       \newcommand{\paragraf}[3][0]{%
         \vspace{\the\paragraf@extraskip}%
         \setlength{\paragraf@extraskip}{##1\baselineskip}%
         \renewcommand{\parnumber}{##2}%
-        \item[##3]}}}{%
+\item[##3]}}}{%
     \vspace{\the\paragraf@extraskip}%
-  \end{list}}
+\end{list}}
 \renewcommand{\maketitle}{%
-  \section*{\@title}}
+\section*{\@title}}
 \newenvironment{narvaro}{%
   \newcommand{\narvaro@caption}{\textbf{Närvaro:}}%
   \newcommand{\person}[3][]{%
     \narvaro@caption &
     \ifthenelse{\equal{##1}{}}{##2}{\personakt{##2}{##1}} & ##3 \\
-    \renewcommand{\narvaro@caption}{}}%
-  \begin{longtable}[l]{@{}lll}}{%
-  \end{longtable}}
+  \renewcommand{\narvaro@caption}{}}%
+\begin{longtable}[l]{@{}lll}}{%
+\end{longtable}}
 \newcommand{\beslot}{\textbf{beslöt}\xspacedsek}
 \newcommand{\Beslot}{\textbf{Beslöt}\xspacedsek}
 \newcommand{\parref@star}[1]{%
   \ifpdf
-    \hyperlink{par:#1}{\S#1}%
+  \hyperlink{par:#1}{\S#1}%
   \else
-    \S#1%
-  \fi}%
+  \S#1%
+\fi}%
 \newcommand{\parref@nostar}[1]{%
   \ifpdf
-    \hyperlink{par:#1}{\S#1~\nameref{par:#1}}%
+  \hyperlink{par:#1}{\S#1~\nameref{par:#1}}%
   \else
-    \S#1~\nameref{par:#1}%
-  \fi}%
+  \S#1~\nameref{par:#1}%
+\fi}%
 \newcommand{\parref}{%
-  \@ifstar{\parref@star}{\parref@nostar}}
+\@ifstar{\parref@star}{\parref@nostar}}
 \endinput
 %%
 %% End of file `dsekprotokoll.cls'.

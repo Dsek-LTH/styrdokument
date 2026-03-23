@@ -40,24 +40,24 @@
   \rpcode#1 34=500  % ''
   \rpcode#1 123=300 % --
   \rpcode#1 124=200 % ---
-  \rpcode#1`\)=50
-  \rpcode#1`\A=50
-  \rpcode#1`\F=50
-  \rpcode#1`\K=50
-  \rpcode#1`\L=50
-  \rpcode#1`\T=50
-  \rpcode#1`\V=50
-  \rpcode#1`\W=50
-  \rpcode#1`\X=50
-  \rpcode#1`\Y=50
-  \rpcode#1`\k=50
-  \rpcode#1`\r=50
-  \rpcode#1`\t=50
-  \rpcode#1`\v=50
-  \rpcode#1`\w=50
-  \rpcode#1`\x=50
-  \rpcode#1`\y=50
-  \lpcode#1`\(=50
+\rpcode#1`\)=50
+\rpcode#1`\A=50
+\rpcode#1`\F=50
+\rpcode#1`\K=50
+\rpcode#1`\L=50
+\rpcode#1`\T=50
+\rpcode#1`\V=50
+\rpcode#1`\W=50
+\rpcode#1`\X=50
+\rpcode#1`\Y=50
+\rpcode#1`\k=50
+\rpcode#1`\r=50
+\rpcode#1`\t=50
+\rpcode#1`\v=50
+\rpcode#1`\w=50
+\rpcode#1`\x=50
+\rpcode#1`\y=50
+\lpcode#1`\(=50
   \lpcode#1`\A=50
   \lpcode#1`\J=50
   \lpcode#1`\T=50
@@ -70,32 +70,32 @@
   \lpcode#1`\x=50
   \lpcode#1`\y=50
   \ifnum\luatexversion > 14
-    \adjustprotcode#1
+  \adjustprotcode#1
   \else
-    \ifnum\luatexversion > 13
-      \ifnum\expandafter`\pdftexrevision > `g
-        \adjustprotcode#1
-      \fi
-    \fi
+  \ifnum\luatexversion > 13
+  \ifnum\expandafter`\pdftexrevision > `g
+  \adjustprotcode#1
+  \fi
+  \fi
   \fi
 
 }
 \def\adjustprotcode#1{%
   \@tempcnta=0
   \loop
-    \ifcase\lpcode#1\@tempcnta\else
-      \adjustcp\lpcode#1\@tempcnta
-    \fi
-    \ifcase\rpcode#1\@tempcnta\else
-      \adjustcp\rpcode#1\@tempcnta
-    \fi
-    \advance\@tempcnta 1
+  \ifcase\lpcode#1\@tempcnta\else
+  \adjustcp\lpcode#1\@tempcnta
+  \fi
+  \ifcase\rpcode#1\@tempcnta\else
+  \adjustcp\rpcode#1\@tempcnta
+  \fi
+  \advance\@tempcnta 1
   \ifnum\@tempcnta < 256 \repeat
 }
 \def\adjustcp#1#2#3{%
   \setbox0=\hbox{%
     \ifx#2\font\else#2\fi
-    \char#3}%
+  \char#3}%
   \@tempcntb=\wd0
   \multiply\@tempcntb #1#2#3
   \divide\@tempcntb \fontdimen6 #2
