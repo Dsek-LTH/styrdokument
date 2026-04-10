@@ -1,6 +1,10 @@
+# yaml-language-server: $schema=https://json.schemastore.org/github-workflow.json
 name: Compile PDFs
 run-name: "Recompile after ${{ github.actor }}'s changes"
-on: [push]
+on:
+  push:
+    branches:
+      - main
 
 jobs:
   compile-pdfs:
