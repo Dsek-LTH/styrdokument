@@ -23,6 +23,8 @@ jobs:
         with:
           ref: main
           path: main
+      - name: Create build directory
+        run: mkdir build
 
       - name: Compile diffs for statutes
         run: |
