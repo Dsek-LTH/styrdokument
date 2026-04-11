@@ -1,0 +1,130 @@
+# yaml-language-server: $schema=https://json.schemastore.org/github-workflow.json
+name: Compile diffs
+run-name: "Compile and compare ${{ github.actor }}'s changes"
+on:
+  pull_request:
+    branches:
+      - main
+
+jobs:
+  compile-diffs:
+    runs-on: ubuntu-latest
+    container:
+      image: texlive/texlive:latest
+      env:
+        TEXINPUTS: ".:..:"
+    steps:
+      - name: Install latexdiff
+        run: apt update && apt install latexdiff -y
+      - name: Check out document sources
+        uses: actions/checkout@v4
+      - name: Checkout main
+        uses: actions/checkout@v4
+        with:
+          ref: main
+          path: main
+      - name: Create build directory
+        run: mkdir build
+
+      - name: Compile diffs for statutes
+        run: |
+          if ! diff main/stadgar/stadgar.tex stadgar/stadgar.tex > /dev/null; then
+              latexmk -outdir=../build -cd stadgar/stadgar.tex
+              latexdiff --flatten \
+                  main/stadgar/stadgar.tex stadgar/stadgar.tex > stadgar/stadgar_diff.tex
+              latexmk -outdir=../build -cd stadgar/stadgar_diff.tex
+          fi
+      - name: Compile diffs for regulations
+        run: |
+          if ! diff main/reglemente/reglemente.tex reglemente/reglemente.tex > /dev/null; then
+              latexmk -outdir=../build -cd reglemente/reglemente.tex
+              latexdiff --flatten \
+                  main/reglemente/reglemente.tex reglemente/reglemente.tex > reglemente/reglemente_diff.tex
+              latexmk -outdir=../build -cd reglemente/reglemente_diff.tex
+          fi
+      - name: Compile diffs for policies
+        run: |
+          for filename in policyer/*.tex; do
+              if ! diff main/$filename $filename > /dev/null; then
+                  latexmk -outdir=../build -cd $filename && \
+                  latexdiff --flatten \
+                      main/$filename $filename > ${filename%.*}_diff.tex && \
+                  latexmk -outdir=../build -cd ${filename%.*}_diff.tex
+              fi
+          done
+      - name: Compile diffs for guidelines
+        run: |
+          for filename in riktlinjer/*.tex; do
+              if ! diff main/$filename $filename > /dev/null; then
+                  latexmk -outdir=../build -cd $filename && \
+                  latexdiff --flatten \
+                      main/$filename $filename > ${filename%.*}_diff.tex && \
+                  latexmk -outdir=../build -cd ${filename%.*}_diff.tex
+              fi
+          done
+
+      - name: List outputs
+        run: ls build
+      - name: Upload PDFs as artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: pr-pdfs
+          path: build/*.pdf
+
+      - name: Update PR comment with artifact links
+        uses: actions/github-script@v7
+        with:
+          script: |
+            const marker = '<!-- latex-artifacts -->';
+
+            const { owner, repo } = context.repo;
+            const issue_number = context.issue.number;
+            const runId = context.runId;
+
+            const runUrl = `https://github.com/${owner}/${repo}/actions/runs/${runId}`;
+
+            const body = `${marker}
+            ### 📄 Compiled LaTeX Documents
+
+            The latest PDFs for this pull request have been generated automatically.
+
+            **Available artifacts:**
+            - ✅ PR version PDFs
+            - 🔄 latexdiff PDFs vs \`main\`
+
+            👉 **Download here:**  
+            ${runUrl}  
+            (Scroll to the **Artifacts** section on that page.)
+
+            _Last updated: ${new Date().toISOString()}_
+            `;
+
+            // Fetch existing comments on the PR
+            const comments = await github.rest.issues.listComments({
+              owner,
+              repo,
+              issue_number,
+            });
+
+            // Look for an existing comment with our marker
+            const existing = comments.data.find(
+              comment => comment.body && comment.body.includes(marker)
+            );
+
+            if (existing) {
+              // Update existing comment
+              await github.rest.issues.updateComment({
+                owner,
+                repo,
+                comment_id: existing.id,
+                body,
+              });
+            } else {
+              // Create new comment
+              await github.rest.issues.createComment({
+                owner,
+                repo,
+                issue_number,
+                body,
+              });
+            }
