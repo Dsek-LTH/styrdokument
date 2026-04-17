@@ -29,12 +29,12 @@ Sektionen i sin helhet.
 Ursprungligen antagen enligt beslut: VTM 2017.
 Omarbetning fastställd enligt beslut (samt motionär):
 \begin{itemize}
-\item VTM 2021 (Joel Bäcker \& Sean Jentz)
-\item (uppdaterad enl. Policy för Policyer på HTM2 2021)
-\item VTM 2022 (Emma Kujala)
-\item (uppdaterad enl. Policy för styrdokument på HTM2 2021)
-\item HTM2 2023 (Axel Svensson)
-\item HTM1 2025 (Tristan Farkas)
+  \item VTM 2021 (Joel Bäcker \& Sean Jentz)
+  \item (uppdaterad enl. Policy för Policyer på HTM2 2021)
+  \item VTM 2022 (Emma Kujala)
+  \item (uppdaterad enl. Policy för styrdokument på HTM2 2021)
+  \item HTM2 2023 (Axel Svensson)
+  \item HTM1 2025 (Tristan Farkas)
 \end{itemize}
 
 \section{Övergripande}
@@ -99,7 +99,8 @@ det första för styrelsen först.
   \end{tabular}
   \renewcommand{\arraystretch}{1.0}
 \end{center}
-* --- För rambudget och kostnadsställen kan styrelsen alltid ta budgetavsteg om summor lägre
+* --- För rambudget och kostnadsställen kan styrelsen alltid ta
+budgetavsteg om summor lägre
 än 10 000 kr även om detta är mer än 50\% av budgeterat resultat.
 
 Budgetavstegen ska vara skriftliga och dokumenteras för verksamhetens ekonomiska
@@ -110,21 +111,30 @@ Styrelsens och skattmästarens budgetavsteg ska redovisas på nästkommande
 sektionsmöte.
 
 \section{Avtal}
-Firmatecknare äger alltid rätt att besluta om avtal som innebär ett positivt nettoresultat och om
-avtal som följer redan lagd budget. En förutsättning är att avtalet inte går emot sektionens eller
+Firmatecknare äger alltid rätt att besluta om avtal som innebär ett
+positivt nettoresultat och om
+avtal som följer redan lagd budget. En förutsättning är att avtalet
+inte går emot sektionens eller
 Teknologkårens styrdokument.
 
 \section{Sektionskort}
-Sektionen äger ett antal betalkort, ofta kallade Sektionskort, som ska användas för betalning i
-sektionens namn. Dessa betalkort skall användas för att minimera behovet av privata utlägg.
+Sektionen äger ett antal betalkort, ofta kallade Sektionskort, som
+ska användas för betalning i
+sektionens namn. Dessa betalkort skall användas för att minimera
+behovet av privata utlägg.
 
 Vilka som erhåller sektionskort bestäms av styrelsen.
 
 \section{Inköp för sektionen}
-Alla köp i sektionens namn, vare sig privata eller med sektionskort, 
-ska redogöras för genom en utläggsräkning tillsammans med ett kvitto som uppnår lagstadgade krav för bokföring. 
-Kontoutdrag räknas inte. Utläggsräkningar ska ha inkommit till skattmästeriet inom 60 dagar från det att utgiften uppstått, om inte särskilda skäl föreligger.
-Privata utlägg som inte inkommer inom denna tidsram och där särskilda skäl inte föreligger kommer inte att beaktas. Bedömningen av vad som utgör särskilda skäl sker enligt
+Alla köp i sektionens namn, vare sig privata eller med sektionskort,
+ska redogöras för genom en utläggsräkning tillsammans med ett kvitto
+som uppnår lagstadgade krav för bokföring.
+Kontoutdrag räknas inte. Utläggsräkningar ska ha inkommit till
+skattmästeriet inom 60 dagar från det att utgiften uppstått, om inte
+särskilda skäl föreligger.
+Privata utlägg som inte inkommer inom denna tidsram och där särskilda
+skäl inte föreligger kommer inte att beaktas. Bedömningen av vad som
+utgör särskilda skäl sker enligt
 skattmästarens diskretionära beslut.
 
 Samtliga utlägg skall signeras av två individer, personen som gjort utlägget och
@@ -163,29 +173,29 @@ attesterade.
 \end{description}
 
 \begin{center}
-\begin{tikzpicture}
-  [shorten >=1pt,
-   node distance=1cm,
-%% on grid,
-   >={Stealth[round]},
-   squarednode/.style={rectangle,
-                      draw=black,
-                      minimum size=6mm},]
-  \node[squarednode] (ft)                          {Firmatecknare};
-  \node[squarednode] (vice)   [below left=of ft]   {Vice Skattmästare};
-  \node[squarednode] (styr)   [below right=of ft]  {Styrelseledamot};
-  \node[squarednode] (funk)   [below left=of styr] {Funktionär};
-  \node[squarednode] (tekf)   [below right=of styr]{Teknikfokusansvarig};
-  \node[squarednode] (tekf-f) [below=of tekf]      {Teknikfokusfunktionär};
-  \path[->,every node/.style={font=\footnotesize}]
-  (ft)   edge [loop above] node               {} ()
-         edge              node [below left]  {} (vice)
-         edge              node [below right] {} (styr)
-  (vice) edge              node [below right] {} (funk)
-  (styr) edge              node [below left]  {} (funk)
-         edge              node [below  left] {NärA} (tekf)
-  (tekf) edge              node [below]       {} (tekf-f);
-\end{tikzpicture}
+  \begin{tikzpicture}
+    [shorten >=1pt,
+      node distance=1cm,
+      %% on grid,
+      >={Stealth[round]},
+      squarednode/.style={rectangle,
+        draw=black,
+    minimum size=6mm},]
+    \node[squarednode] (ft)                          {Firmatecknare};
+    \node[squarednode] (vice)   [below left=of ft]   {Vice Skattmästare};
+    \node[squarednode] (styr)   [below right=of ft]  {Styrelseledamot};
+    \node[squarednode] (funk)   [below left=of styr] {Funktionär};
+    \node[squarednode] (tekf)   [below right=of styr]{Teknikfokusansvarig};
+    \node[squarednode] (tekf-f) [below=of tekf]      {Teknikfokusfunktionär};
+    \path[->,every node/.style={font=\footnotesize}]
+    (ft)   edge [loop above] node               {} ()
+    edge              node [below left]  {} (vice)
+    edge              node [below right] {} (styr)
+    (vice) edge              node [below right] {} (funk)
+    (styr) edge              node [below left]  {} (funk)
+    edge              node [below  left] {NärA} (tekf)
+    (tekf) edge              node [below]       {} (tekf-f);
+  \end{tikzpicture}
 \end{center}
 
 \section{Kontanthantering}
