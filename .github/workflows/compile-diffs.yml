@@ -30,7 +30,7 @@ jobs:
         run: |
           if ! diff main/stadgar/stadgar.tex stadgar/stadgar.tex > /dev/null; then
               latexmk -outdir=../build -cd stadgar/stadgar.tex
-              latexdiff --flatten \
+              latexdiff --flatten --append-textcmd=funktionar \
                   main/stadgar/stadgar.tex stadgar/stadgar.tex > stadgar/stadgar_diff.tex
               latexmk -outdir=../build -cd stadgar/stadgar_diff.tex
           fi
@@ -38,7 +38,7 @@ jobs:
         run: |
           if ! diff main/reglemente/reglemente.tex reglemente/reglemente.tex > /dev/null; then
               latexmk -outdir=../build -cd reglemente/reglemente.tex
-              latexdiff --flatten \
+              latexdiff --flatten --append-textcmd=funktionar \
                   main/reglemente/reglemente.tex reglemente/reglemente.tex > reglemente/reglemente_diff.tex
               latexmk -outdir=../build -cd reglemente/reglemente_diff.tex
           fi
@@ -47,7 +47,7 @@ jobs:
           for filename in policyer/*.tex; do
               if ! diff main/$filename $filename > /dev/null; then
                   latexmk -outdir=../build -cd $filename && \
-                  latexdiff --flatten \
+                  latexdiff --flatten --append-textcmd=funktionar \
                       main/$filename $filename > ${filename%.*}_diff.tex && \
                   latexmk -outdir=../build -cd ${filename%.*}_diff.tex
               fi
@@ -57,7 +57,7 @@ jobs:
           for filename in riktlinjer/*.tex; do
               if ! diff main/$filename $filename > /dev/null; then
                   latexmk -outdir=../build -cd $filename && \
-                  latexdiff --flatten \
+                  latexdiff --flatten --append-textcmd=funktionar \
                       main/$filename $filename > ${filename%.*}_diff.tex && \
                   latexmk -outdir=../build -cd ${filename%.*}_diff.tex
               fi
@@ -84,19 +84,19 @@ jobs:
             const runUrl = `https://github.com/${owner}/${repo}/actions/runs/${runId}`;
 
             const body = `${marker}
-            ### 📄 Compiled LaTeX Documents
+            ### 📄 Kompilerade document
 
-            The latest PDFs for this pull request have been generated automatically.
+            Ändringarna har kompilerats och finns att ladda ner för granskning.
 
-            **Available artifacts:**
-            - ✅ PR version PDFs
-            - 🔄 latexdiff PDFs vs \`main\`
+            **Genererade dokument:**
+            - ✅ Färdiga PDF:er av styrdokumenten med dessa ändringar
+            - 🔄 PDF med diff mot nuvarande `main` (genererad med `latexdiff`).
 
-            👉 **Download here:**  
+            👉 **Ladda ner här:**  
             ${runUrl}  
-            (Scroll to the **Artifacts** section on that page.)
+            (Scrolla ner till **Artifacts**)
 
-            _Last updated: ${new Date().toISOString()}_
+            _Senast uppdaterad: ${new Date().toISOString()}_
             `;
 
             // Fetch existing comments on the PR
