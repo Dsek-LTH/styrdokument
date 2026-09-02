@@ -1,0 +1,30 @@
+# yaml-language-server: $schema=https://json.schemastore.org/github-workflow.json
+name: Release
+run-name: "Release after ${{ github.actor }}'s merge"
+on:
+  push:
+    branches:
+      - main
+
+permissions:
+  contents: write
+
+jobs:
+  compile:
+    uses: ./.github/workflows/compile-pdfs.yml
+
+  release:
+    needs: compile
+    runs-on: ubuntu-latest
+    steps:
+      - name: Download PDFs
+        uses: actions/download-artifact@v4
+        with:
+          name: pdfs
+          path: build
+      - name: Create release
+        run: |
+          gh release delete latest -y 2>/dev/null || true
+          gh release create latest build/*.pdf
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
