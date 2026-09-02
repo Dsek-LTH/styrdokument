@@ -25,11 +25,13 @@ jobs:
         run: latexmk -outdir=../build -cd reglemente/reglemente.tex
       - name: Compile policies
         run: |
+          set -euo pipefail
           for filename in policyer/*.tex; do
               latexmk -outdir=../build -cd $filename
           done
       - name: Compile guidelines
         run: |
+          set -euo pipefail
           for filename in riktlinjer/*.tex; do
               latexmk -outdir=../build -cd $filename
           done

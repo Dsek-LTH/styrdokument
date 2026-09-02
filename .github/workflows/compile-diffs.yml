@@ -28,6 +28,7 @@ jobs:
 
       - name: Compile diffs for statutes
         run: |
+          set -euo pipefail
           if ! diff main/stadgar/stadgar.tex stadgar/stadgar.tex > /dev/null; then
               latexmk -outdir=../build -cd stadgar/stadgar.tex
               latexdiff --flatten \
@@ -36,6 +37,7 @@ jobs:
           fi
       - name: Compile diffs for regulations
         run: |
+          set -euo pipefail
           if ! diff main/reglemente/reglemente.tex reglemente/reglemente.tex > /dev/null; then
               latexmk -outdir=../build -cd reglemente/reglemente.tex
               latexdiff --flatten \
@@ -44,6 +46,7 @@ jobs:
           fi
       - name: Compile diffs for policies
         run: |
+          set -euo pipefail
           for filename in policyer/*.tex; do
               if ! diff main/$filename $filename > /dev/null; then
                   latexmk -outdir=../build -cd $filename && \
@@ -54,6 +57,7 @@ jobs:
           done
       - name: Compile diffs for guidelines
         run: |
+          set -euo pipefail
           for filename in riktlinjer/*.tex; do
               if ! diff main/$filename $filename > /dev/null; then
                   latexmk -outdir=../build -cd $filename && \
