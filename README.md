@@ -27,3 +27,5 @@ Redaktionella ändringar ändrar inte betydelsen av dokumenten, utan ändrar enb
 Vid höstterminsmöte 1 2017 togs ett beslut att införa historik för sektionens styrdokument. Det togs även ett beslut att ålägga styrelsen att retroaktivt i den mån det går att införa denna historik. Detta påbörjades genom att i början i styrdokumenten fylla i en tabell med: datum, möte som tog beslutet, motion och vad som ändrades i klartext. Detta var inte hållbart i längden och Styrelsen 2019 flyttade hantering av historiken till Github. Den tidigare historiken ligger i en tidigt commit kallad "tidigare historik". De första ändringarna till styrdokumenten Github användes för var besluten från höstterminsmöte 2 2018.
 
 Från 2019 till 2024 användes separata repon för [stadgar](https://github.com/Dsek-LTH/stadgar), [reglemente](https://github.com/Dsek-LTH/reglemente), [policyer](https://github.com/Dsek-LTH/policys) och [riktlinjer](https://github.com/Dsek-LTH/riktlinjer). Detta var omständigt och gjorde ändringar svårare att följa. Sommaren 2024 konsoliderades repona till det du ser framför dig.
+
+2026 uppdaterades samtliga styrdokument till att använda Typst istället för LaTeX.

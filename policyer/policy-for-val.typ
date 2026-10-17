@@ -1,32 +1,36 @@
-Formalia
+#import "@preview/dsek:0.1.0": *
+
+#show: policy.with(
+  subject: "val",
+  summary: [
+    Denna policyn beskriver hur valprocessen skall gå till både för val gjorda av sektionsmötet och styrelsen. Den täcker även hur processen inför valen skall gå till.
+  ],
+  purpose: [
+    Syftet med denna policy är att förtydliga stadgan och reglementet samt att vägleda Valberedningen samt utskottsvalberedningarna i sitt arbete.
+  ],
+  scope: [
+    Alla val som behandlas på sektionen.
+  ],
+  history: (
+    (meeting: "-", change: "Utkast färdigställt", who: "Anna Qvil"),
+    (meeting: "VTM-extra 2019", change: "Ursprungligen antagen enligt beslut", who: "-"),
+    (meeting: "HTM1 2021", change: "Uppdaterad", who: "-"),
+    (meeting: "S13 2021", change: "Uppdaterad", who: "-"),
+    (meeting: "HTM2 2021", change: "Uppdaterad enl. Policy för Policyer", who: "-"),
+    (meeting: "VTM 2023", change: "Uppdaterad", who: "-"),
+    (meeting: "VTM-extra 2023", change: "Uppdaterad", who: "-"),
+    (meeting: "VTM-extra 2023", change: "Uppdaterad enl. Policy för styrdokument", who: "-"),
+    (meeting: "HTM1 2023", change: "Uppdaterad", who: "-"),
+    (meeting: "HTM2 2023", change: "Uppdaterad", who: "-"),
+    (meeting: "HTM1 2025", change: "Uppdaterad", who: "-"),
+    (meeting: "HTM2 2025", change: "Uppdaterad", who: "-"),
+  ),
+)
 
 
-Sammanfattning
+= Val på sektionsmöten
 
-Denna policyn beskriver hur valprocessen skall gå till både för val gjorda av sektionsmötet och styrelsen. Den täcker även hur processen inför valen skall gå till.
-
-
-Syfte
-
-Syftet med denna policy är att förtydliga stadgan och reglementet samt att vägleda Valberedningen samt utskottsvalberedningarna i sitt arbete.
-
-
-Omfattning
-
-Alla val som behandlas på sektionen.
-
-
-Historik
-
-Utkast färdigställt av: Anna Qvil
-Ursprungligen antagen enligt beslut: VTM extra 2019.
-Uppdaterad: HTM1 2021, S13 2021, HTM2 2021 (enl. Policy för Policyer), VTM 2023, VTM-extra 2023. Uppdaterad enl. Policy för styrdokument på VTM-extra 2023. HTM1 2023. HTM2 2023. HTM1 2025. HTM2 2025.
-
-
-Val på sektionsmöten
-
-
-Utlysning
+== Utlysning
 
 Utlysning av de poster som går att söka på sektionsmötet skall anslås senast fyra veckor innan mötet. Valberedningens ordförande ansvarar för att utlysningen sker.
 
@@ -35,8 +39,7 @@ Utlysningen ska innehålla en beskrivning av posten, mandatperiod, hur man ansö
 Senast i samband med utlysning av en kärnpost eller en post som tillsätts av ett sektionsmöte ska kravprofil finnas tillgänglig. Vid val där gruppsammansättning vägs in ska en kravprofil för gruppen också finnas
 tillgänglig i samband med utlysningen.
 
-
-Beredning
+== Beredning
 
 Val som uträttas av sektionsmötet bereds av Valberedningen med undantag för Likabehandlingsombud, Studerandeskyddsombud och Världsmästare samt att kandidater till Valberedningen ej valbereds.
 
@@ -45,8 +48,7 @@ och Trivselrådet valbereder som standard genom intervjuer. Om en annan valproce
 
 En person som ämnar att söka en post i ett utskott ska inte ha suttit med i en valberedning för samma utskott under det utskottsåret de vill söka, med undantag för valen för Phadder och Pluggphadder.
 
-
-Valförfarande
+== Valförfarande
 
 Motkandidatur mot Valberedningens förslag måste anmälas till Talman senast klockan 23.59 två dagar efter Valberedningens förslag har offentliggjorts på sektionens informationskanaler. Ämnar man motkandidera mot fler poster ska alla dessa anmälas.
 
@@ -59,15 +61,11 @@ Vid beredda val då nomineringar inte är offentliga ska statistik över antalet
 är det lägsta intervallet, nästföljande är 5-9, sen 10-14 och så
 vidare.
 
+= Val av kärnposter samt de av sektionsmötet delegerade valen
 
-Val av kärnposter samt de av sektionsmötet delegerade valen
+Alla kärnposter nämns i @appendix-a.
 
-
-Alla kärnposter nämns i Appendix A.
-
-
-Beredning
-
+== Beredning
 
 Alla kärnposter samt av sektionsmötet delegerade val, med undantag för phaddrar, skall beredas enligt följande:
 
@@ -89,12 +87,11 @@ Valberedningen ska stadfästas av styrelsen på ett styrelsemöte. Valprocessen 
 
 En person som ämnar att söka en post i ett utskott ska inte ha suttit med i en valberedning för samma utskott under det utskottsåret de vill söka, med undantag för valen för Phadder och Pluggphadder.
 
-
-Utlysning
+== Utlysning
 
 Utlysningen av valet ske senast 2 veckor innan mötet då valet skall hållas.
 
-När på året de olika posterna bör utlysas samt väljas finns specificerat i appendix B. Poster som inte specificeras i appendix B utlyses när utskottsordförande anser det lämpligt.
+När på året de olika posterna bör utlysas samt väljas finns specificerat i @appendix-b. Poster som inte specificeras i appendix B utlyses när utskottsordförande anser det lämpligt.
 
 Utskottsordförande och i vissa fall utskottsordförande i samråd med utskottsordförande electus ansvarar för att utlysningen sker. Utlysningen skall vara på sådant sätt som ger möjlighet för alla sektionens medlemmar att söka posten.
 
@@ -105,8 +102,7 @@ tillgänglig i samband med utlysningen. Vid utlysning ska valprocessen beskrivas
 
 Vid fyllnadsval av de poster som finns i appendix A skall alltid en utlysning ske. Dock kan styrelsen välja att tillförordna en funktionär till posten under tiden för utlysningen. Övriga poster fyllnadsväljs på så sätt utskottsordförande anser det lämpligt.
 
-
-Valförfarande
+== Valförfarande
 
 Utskottsordförande ansvarar för att skicka in de funktionärer hen önskar välja in som en handling till ett styrelsemöte. På styrelsemötet skall utskottsordföranden redogöra hur processen inför valet gått till. På styrelsemötet kan inte motkandidatur ske utan nyutlysning av valet sker ifall processen anses felaktig eller kandidaterna olämpliga.
 
@@ -124,185 +120,133 @@ Vid beredda val då nomineringar inte är offentliga ska statistik över antalet
 är det lägsta intervallet, nästföljande är 5-9, sen 10-14 och så
 vidare.
 
-
-Val av övriga poster
-
+= Val av övriga poster
 
 Detta stycke berör poster som ska väljas på styrelsemöte och inte är en kärnpost, inte är
 delegerade av ett sektionsmöte, och inte har en stadfäst valberedning.
 
-
-Beredning
-
+== Beredning
 
 Beredning sker så som utskottsordförande finner lämpligt, men det ska göras på ett sådant sätt att alla har möjlighet att söka posten.
 
 En person som ämnar att söka en post i ett utskott ska inte ha suttit med i en valberedning för samma utskott under det utskottsåret de vill söka, med undantag för valen för Phadder och Pluggphadder.
 
-
-Utlysning
-
+== Utlysning
 
 Övriga poster kan väljas in utan särskild utlysning om så utskottsordförande anser det lämpligt. Dock skall processen för dessa även vara på ett sådant sätt att alla har möjlighet att söka posten.
 
-
-Valförande
-
+== Valförande
 
 Utskottsordförande ansvarar för att skicka in de funktionärer den önskar välja in som en handling
 till ett styrelsemöte. På styrelsemötet skall utskottsordföranden redogöra hur processen för valet
 gått till. På styrelsemötet kan inte motkandidatur ske utan ny utlysning av valet sker ifall processen
 anses felaktig eller kandidaterna olämpliga.
 
+#pagebreak()
+
+#appendix("Kärnposter")[
+  #columns(2)[
+    = Cafémästeriet
+    - Brunchmästare
+    - Inventarieansvarig
 
-Appendix A: Kärnposter
+    = Näringslivsutskottet
+    - Medlem i projektgruppen för DELTA
 
+    = Aktivitetsutskottet
+    - Karnevalsansvarig
+    - Sångarstridsförman
+    - Tandemgeneral
+    - Shopaholic
 
-Cafémästeriet
+    = Sexmästeriet
+    - Hovmästare
+    - Pubmästare
+    - Vice Pubmästare
+    - Barmästare
+    - Vice Barmästare
+    - Sångförman
+    - Köksmästare
+    - Vice Köksmästare
+    - Preferensmästare
 
+    = Nollningsutskottet
+    - Stabsmedlem
+    - Øverpeppare
+    - Peppare
+    - Phadder
 
-Brunchmätare
-Inventarieansvarig
+    = Framtidsutskottet
+    - Framtidsledamot
 
+    = Jubileet
+    - Jubileumsansvarig
 
-Näringslivsutskottet
+    = Centralprocessutskottet
+    - DWWW-ansvarig
+    - root
+    - Utvecklare
+  ]
+]
 
+#appendix("Poster som bör väljas innan början av verksamhetsåret")[
+  #columns(2)[
+    = Cafémästeriet
 
-Medlem i projektgruppen för DELTA
+    - Stekare
+    - Brunchmästare
+    - Inventarieansvarig
 
+    = Källarmästeriet
 
-Aktivitetsutskottet
+    - Trädgårdsmästare
+    - Bilansvarig
 
+    = Aktivitetsutskottet
 
-Karnevalsansvarig
-Sångarstridsförman
-Tandemgeneral
-Shopaholic
+    - Idrottsförman
+    - LAN-partyansvarig
+    - Shopaholic
 
+    = Sexmästeriet
 
-Sexmästeriet
+    - Hovmästare
+    - Pubmästare
+    - Vice Pubmästare
+    - Barmästare
+    - Vice Barmästare
+    - Sångförman
+    - Köksmästare
+    - Vice Köksmästare
+    - Preferensmästare
 
+    = Nollningsutskottet
 
-Hovmästare
-Pubmästare
-Vice Pubmästare
-Barmästare
-Vice Barmästare
-Sångförman
-Köksmästare
-Vice Köksmästare
-Preferensmästare
+    - Stabsmedlem
+    - Øverpeppare
 
+    = Framtidsutskottet
 
-Nollningsutskottet
+    - Framtidsledamot
 
+    = Centralprocessutskottet
 
-Stabsmedlem
-Øverpeppare
-Peppare
-Phadder
+    - DWWW-ansvarig
+    - root
+    - Utvecklare
+  ]
+]
 
+#appendix("Poster som bör väljas innan läsårets start")[
+  = Näringslivsutskottet
 
-Framtidsutskottet
+  - Medlem i projektgruppen DELTA
 
+  = Aktivitetsutskottet
 
-Framtidsledamot
+  - Karnevalsansvarig
 
+  = Jubileet
 
-Jubileet
-
-
-Jubileumsansvarig
-
-
-Centralprocessutskottet
-
-
-DWWW-ansvarig
-root
-Utvecklare
-
-
-Appendix B
-
-
-Poster som bör väljas innan början av verksamhetsåret
-
-
-Cafémästeriet
-
-
-Stekare
-Brunchmästare
-Inventarieansvarig
-
-
-Källarmästeriet
-
-
-Trädgårdsmästare
-Bilansvarig
-
-
-Aktivitetsutskottet
-
-
-Idrottsförman
-LAN-partyansvarig
-Shopaholic
-
-
-Sexmästeriet
-
-
-Hovmästare
-Pubmästare
-Vice Pubmästare
-Barmästare
-Vice Barmästare
-Sångförman
-Köksmästare
-Vice Köksmästare
-Preferensmästare
-
-
-Nollningsutskottet
-
-
-Stabsmedlem
-Øverpeppare
-
-
-Framtidsutskottet
-
-
-Framtidsledamot
-
-
-Centralprocessutskottet
-
-
-DWWW-ansvarig
-root
-Utvecklare
-
-
-Poster som bör väljas innan läsårets start
-
-
-Näringslivsutskottet
-
-
-Medlem i projektgruppen DELTA
-
-
-Aktivitetsutskottet
-
-
-Karnevalsansvarig
-
-
-Jubileet
-
-
-Jubileumsansvarig
+  - Jubileumsansvarig
+]
