@@ -1,135 +1,142 @@
-\documentclass[]{dsekprotokoll}
+#import "@preview/dsek:0.1.0": *
 
-\usepackage[T1]{fontenc}
-\usepackage[utf8]{inputenc}
-\usepackage[swedish]{babel}
-\usepackage{titlesec}
+#show: policy.with(
+  subject: "styrdokument",
+  summary: [
+    Denna policy beskriver hur styrdokument på D-sektionen fungerar samt innehåller en förteckning av dessa. Policyn innehåller även hur styrdokumenten ska vara utformade.
+  ],
+  purpose: [
+    Syftet med denna policy är att klargöra vilka styrdokument som finns samt funktion och användning av dessa.
+  ],
+  scope: [
+    Policyn omfattar alla D-sektionens styrdokument.
+  ],
+  history: (
+    (
+      meeting: [VTM-extra 2023],
+      change: [Ursprungligen antagen],
+      who: [Styrelsen genom Oliver Levay],
+    ),
+    (
+      meeting: [VTM 2024],
+      change: [Lade till bestämmelser om automatisk uppdatering av förteckningar och struktur för övriga styrdokument],
+      who: [Filip af Klinteberg],
+    ),
+    (
+      meeting: [VTM 2024],
+      change: [Lade till ett avsnitt om Strategiska mål och verksamhetsplan],
+      who: [Joel Bäcker, Josefin Wetterstrand och Sean Jentz],
+    ),
+  ),
+)
 
-\setheader{Policy}{Lund, \today}{}
+= Stadgar
 
-\title{Policy för Styrdokument}
-\author{Oliver Levay}
-
-\begin{document}
-\section*{Policy för styrdokument}
-\section{Formalia}
-\subsection{Sammanfattning}
-Denna policy beskriver hur styrdokument på D-sektionen fungerar samt innehåller en förteckning av dessa. Policyn innehåller även hur styrdokumenten ska vara utformade.
-\subsection{Syfte}
-Syftet med denna policy är att klargöra vilka styrdokument som finns samt funktion och användning av dessa.
-\subsection{Omfattning}
-Policyn omfattar alla D-sektionens styrdokument.
-
-\subsection{Historik}
-Ursprungligt utkast färdigställt av Oliver Levay inför VTM-Extra 2023.
-
-Antagen enligt beslut på VTM-Extra 2023.
-
-Omarbetning fastställd enligt beslut (samt motionär):
-\begin{itemize}
-    \item VTM 2024 (Filip af Klinteberg)
-    \item VTM 2024 (Joel Bäcker, Josefin Wetterstrand, Sean Jentz)
-\end{itemize}
-
-\section{Stadgar}
 Senaste versionen av D-sektionens stadgar ska finnas tillgängliga på sektionens hemsida (dsek.se).
 
-\section{Strategiska mål och verksamhetsplan}
+= Strategiska mål och verksamhetsplan
+
 Senaste versionen av D-sektionens strategiska mål och verksamhetsplan ska finnas tillgängliga på sektionens hemsida (dsek.se).
 
-\section{Reglemente}
+= Reglemente
+
 Senaste versionen av D-sektionens reglemente ska finnas tillgängliga på sektionens hemsida (dsek.se).
 
-\section{Policyer}
-Policyerna behandlar D-sektionens åsikter i enstaka frågor eller om hur D-sektionen ska agera i olika situationer. Policyer kan därmed ge vägledning till D-sektionen centralt, D-sektionen lokalt i dess
-utskott, intresseföreningar och fria föreningar. Vilka som berörs av en policy skall stå i policyn under punkt 1.3 Omfattning. Aktuella policyer ska årligen samt vid ändringar tillställas berörda funktionärer.
+= Policyer
 
-\section{Riktlinjer}
+Policyerna behandlar D-sektionens åsikter i enstaka frågor eller om hur D-sektionen ska agera i olika situationer. Policyer kan därmed ge vägledning till D-sektionen centralt, D-sektionen lokalt i dess utskott, intresseföreningar och fria föreningar. Vilka som berörs av en policy skall stå i policyn under punkt 1.3 Omfattning. Aktuella policyer ska årligen samt vid ändringar tillställas berörda funktionärer.
+
+= Riktlinjer
+
 Riktlinjer berör administrativa uppgifter samt för hur D-sektionens funktionärer ska agera i olika situationer. Riktlinjer instiftas av styrelsen. Aktuella riktlinjer ska årligen, samt vid ändringar, tillställas berörda funktionärer.
 
-\section{Uppbyggnad av policy}
+= Uppbyggnad av policy
 
-\subsection{Namn}
+== Namn
 
-En policy ska namnges enligt: \textit{``Policy för X''}.
+En policy ska namnges enligt: _"Policy för X"_.
 
-\subsection{Struktur}
+== Struktur
 
-Samtliga av D-sektionens policyer ska inledas på samma sätt som ovan med:
+Samtliga av D-sektionens policyer ska inledas på samma sätt som ovan:
 
-\hfill\begin{minipage}{\dimexpr\textwidth-3cm}
-    \xdef\tpd{\the\prevdepth}
-    \section*{1. Formalia}
-    \subsection*{1.1 Sammanfattning}
-    Här ska det finnas en kort sammanfattning av policyn för att läsaren
-    snabbt ska förstå vad innehållet i policyn handlar om. \\
+#context block(
+  width: 100%,
+  height: auto,
+  inset: 1em,
+)[
+  #set heading(outlined: false, bookmarked: false)
+  #let old-heading-count = counter(heading).get()
 
-    \subsection*{1.2 Syfte}
-    Här ska det finnas en beskrivning av vad syftet med policyn är. \\
+  #counter(heading).update(0)
+  = Formalia
 
-    \subsection*{1.3 Omfattning}
-    Här ska det stå vilka som omfattas av policyn. Exempel är: D-sektionens styrelse, Funktionärer vid D-sektionen.\\
+  == Sammanfattning
+  Här ska det finnas en kort sammanfattning av policyn för att läsaren snabbt ska förstå vad innehållet i policyn handlar om.
 
-    \subsection*{1.4 Historik}
-    Syftet med en historikpunkt är att snabbt kunna få en överblick över hur
-    dokumentet ändrats och vem man ska kontakta för att få mer
-    information. Här ska det stå vem som gjorde utkastet på det ursprungliga
-    förslaget, enligt vilket beslut som det ursprungliga förslaget blev fastställt, vem som gjort eventuella omarbetningar samt enligt vilka beslut de
-    eventuella omarbetningarna har blivit fastställda.
-    \\
+  == Syfte
+  Här ska det finnas en beskrivning av vad syftet med policyn är.
 
-    Historik samt korta beskrivningar av förändringar som skett bör presenteras i en lista i kronologisk ordning. \\
-\end{minipage}
+  == Omfattning
+  Här ska det stå vilka som omfattas av policyn. Exempel är: D-sektionens styrelse, Funktionärer vid D-sektionen.
 
-\prevdepth\tpd
+  == Historik
+  Syftet med en historikpunkt är att snabbt kunna få en överblick över hur dokumentet ändrats och vem man ska kontakta för att få mer information. Här ska det stå vem som gjorde utkastet på det ursprungliga förslaget, enligt vilket beslut som det ursprungliga förslaget blev fastställt, vem som gjort eventuella omarbetningar samt enligt vilka beslut de eventuella omarbetningarna har blivit fastställda.
 
-\subsection{Ändringar av strukturen}
+  Historik samt korta beskrivningar av förändringar som skett bör presenteras i en lista i kronologisk ordning.
+
+  #counter(heading).update(old-heading-count)
+]
+
+== Ändringar av strukturen
+
 Ifall ovanstående struktur ändras så ska samtliga policyer uppdateras för att matcha den nya uppbyggnaden.
 
-\section{Uppdatering av styrdokument}
-\subsection{Styrdokument som sektionsmötet beslutar om}
-Det är endast sektionsmötets som kan
-\begin{itemize}
-    \item Instifta nya policyer.
-    \item Instifta ändringar i befintliga policyer.
-    \item Instifta ändringar i reglementet.
-    \item Instifta ändringar i sektionens stadgar.
-\end{itemize}
+= Uppdatering av styrdokument
 
-\subsection{Styrdokument som styrelsen beslutar om}
+== Styrdokument som sektionsmötet beslutar om
+
+Det är endast sektionsmötet som kan
+- Instifta nya policyer
+- Instifta ändringar i befintliga policyer
+- Instifta ändringar i reglementet
+- Instifta ändringar i sektionens stadgar
+
+== Styrdokument som styrelsen beslutar om
+
 Styrelsen kan instifta nya riktlinjer samt uppdatera existerande. Även om en riktlinje instiftas på ett sektionsmöte ägs den av styrelsen. I annat fall bör det vara en policy.
 
-\section{Förteckning}
+= Förteckning
 
-\subsection{Policyförteckning}
+== Policyförteckning
+
 När policyer läggs till eller tas bort så ska förändringarna automatiskt införas i listan nedan.
 
 D-sektionen har följande policyer:
-\begin{itemize}
-    \item Policy för alkohol och droger
-    \item Policy för jämlikhet
-    \item Policy för mötestider
-    \item Policy för ekonomi
-    \item Policy för hantering av personuppgifter
-    \item Policy för sektionsbil
-    \item Policy för val
-    \item Policy för valberedningsarbete
-    \item Policy för tackverksamhet
-    \item Policy för styrdokument
-    \item Policy för samverkan med D-Chip
-\end{itemize}
-\subsection{Riktlinjeförteckning}
-Ändringar i denna förteckning behandlas som redaktionella ändringar. Därmed om styrelsen inför, tar bort eller uppdaterar riktlinjer kan förteckningen ändras utan ett beslut från ett sektionsmöte.
 
-D-sektionen har följande riktlinjer:
-\begin{itemize}
-    \item Riktlinje för anmodanden och inbjudningar
-    \item Riktlinje för informationsspridning
-    \item Riktlinje för internationalisering
-    \item Riktlinje för marknadsföring och prissättning
-    \item Riktlinje för sektionsbilens användning
-    \item Riktlinje för grafisk profil
-    \item Riktlinje för överlämning
-    \item Riktlinje för utmärkelsen DuCtig
-\end{itemize}
-\end{document}
+- Policy för alkohol och droger
+- Policy för jämlikhet
+- Policy för mötestider
+- Policy för ekonomi
+- Policy för hantering av personuppgifter
+- Policy för sektionsbil
+- Policy för val
+- Policy för valberedningsarbete
+- Policy för tackverksamhet
+- Policy för styrdokument
+- Policy för samverkan med D-Chip
+
+== Riktlinjeförteckning
+
+Ändringar i denna förteckning behandlas som redaktionella ändringar. Därmed om styrelsen inför, tar bort eller uppdaterar riktlinjer kan förteckningen ändras utan ett beslut från ett sektionsmöte. D-sektionen har följande riktlinjer:
+
+- Krishanteringsplan
+- Riktlinje för anmodanden och inbjudningar
+- Riktlinje för informationsspridning
+- Riktlinje för internationalisering
+- Riktlinje för marknadsföring och prissättning
+- Riktlinje för sektionsbilens användning
+- Riktlinje för grafisk profil
+- Riktlinje för överlämning
+- Riktlinje för utmärkelsen DuCtig
+

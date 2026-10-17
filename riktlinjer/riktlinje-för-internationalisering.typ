@@ -1,416 +1,367 @@
-\documentclass{dsekprotokoll}
+#import "@preview/dsek:0.1.0": *
 
-\usepackage[T1]{fontenc}
-\usepackage[utf8]{inputenc}
-\usepackage[swedish]{babel}
-\usepackage{multicol}
-\usepackage{hyperref}
+#show: guideline.with(
+  subject: "internationalisering",
+  summary: [
+    Denna riktlinje ger direktiv kring jämlikhetsarbete med avseende på internationella studenter, samt ord eller namn som bör användas vid översättning av diverse information.
+  ],
+  purpose: [
+    Syftet med denna riktlinje är att specifiera vilken information som bör finnas tillgänglig på engelska och hur den bör översättas.
+  ],
+  scope: [
+    Riktlinjen omfattar hela D-sektionens verksamhet.
+  ],
+  history: (
+    (
+      meeting: "VTM 2020",
+      change: "Antagen",
+      who: "Styrelsen genom Filip Vannfält",
+    ),
+    (
+      meeting: "HTM1 2021",
+      change: "Uppdaterad",
+      who: "-",
+    ),
+    (
+      meeting: "HTM2 2021",
+      change: "Uppdaterad enligt Policy för Polycier",
+      who: "-",
+    ),
+    (
+      meeting: "VTM-extra 2023",
+      change: "Omformades från policy till riktlinje",
+      who: "-",
+    ),
+    (
+      meeting: "S04 2025",
+      change: "Uppdaterad till Riktlinje för internationalisering",
+      who: "Dag Hemberg och Arvid Carp",
+    ),
+  ),
+)
 
-\setheader{Riktlinje för internationalisering}{Riktlinje}{\today}
-
-\title{Riktlinje för internationalisering}
-\author{Dag Hemberg}
-
-\newcolumntype{L}[1]{>{\raggedright\let\newline\\\arraybackslash\hspace{0pt}}m{#1}}
-\newcolumntype{C}[1]{>{\centering\let\newline\\\arraybackslash\hspace{0pt}}m{#1}}
-\newcolumntype{R}[1]{>{\raggedleft\let\newline\\\arraybackslash\hspace{0pt}}m{#1}}
-
-\begin{document}
-\maketitle
-
-\section{Formalia}
-\subsection{Sammanfattning}
-Denna riktlinje ger direktiv kring jämlikhetsarbete med avseende på internationella studenter, samt ord eller namn som bör användas vid översättning av diverse information.
-
-\subsection{Syfte}
-Syftet med denna riktlinje är att specifiera vilken information som bör finnas tillgänglig på engelska och hur den bör översättas.
-
-\subsection{Omfattning}
-Riktlinjen omfattar hela D-sektionens verksamhet.
-
-\subsection{Historik}
-\begin{itemize}
-    \item Utkast färdigställt av Styrelsen 2020 genom Filip Vannfält.
-    \item Policy antagen på VTM 2020.
-    \item Uppdaterad på HTM1 2021.
-    \item Uppdaterad enligt Policy för Polycier på HTM2 2021.
-    \item Dokumentent omformades från att vara en policy till att vara en riktlinje på VTM-extra 2023.
-    \item Uppdaterat utkast färdigställt av Dag Hemberg och Arvid Carp
-    \item Uppdaterad till Riktlinje för internationalisering på S04 2025.
-\end{itemize}
-
-\pagebreak
-
-\section{Översättningar}
+= Översättningar
 
 Informationsmaterial samt kommunikation i officiella sammanhang bör tillhandahållas på både svenska och engelska. Detta innefattar
 
-\begin{itemize}
-    \item Webbsidor
-    \item Nyheter, utlysningar och övriga inlägg
-    \item Eventbeskrivningar
-    \item Formulär
-    \item Kravprofiler för lämpliga poster%*
-\end{itemize}
+- Webbsidor
+- Nyheter, utlysningar och övriga inlägg
+- Eventbeskrivningar
+- Formulär
+- Kravprofiler för lämpliga poster
 
-% *Med lämpliga poster avses de poster som inte rimligen kräver att man kan tala svenska. En lista över sådana poster finns i Appendix A.
+= Svensk-engelsk ordlista
 
-\section{Svensk-engelsk ordlista}
+Följande översättningar bör användas som utgångspunkt vid översättning av webbsidor, inlägg, dokument och dylikt. Om ett ord saknas i uppslaget kan man även leta i Teknologkårens #link("https://drive.google.com/file/d/11Apblt7-pbPmw0icfIQ60R2PShVvYqVA/view?usp=sharing")[_Riktlinjer för svensk-engelsk ordlista_].
 
-Följande översättningar bör användas som utgångspunkt vid översättning av webbsidor, inlägg, dokument och dylikt. Om ett ord saknas i uppslaget kan man även leta i Teknologkårens \textit{Riktlinjer för svensk-engelsk ordlista}. 
+För att främja en öppen kultur bör studentikosa ord som inte har någon direkt motsvarighet på engelska, såsom gyckle, spex, sittning, cheps, osv, inte översättas.
 
-För att främja en öppen kultur bör studentikosa ord som inte har någon direkt motsvarighet på engelska, såsom gyckle, spex, sittning, cheps, osv, inte översättas. 
+Vid namnändringsförslag eller förslag på införande av en ny post eller utskott bör motionären eller motionärerna själva komma med tänkta engelska översättningar. Vid uppdatering av reglementet uppdateras listan med eventuella nya post- eller utskottsnamn automatiskt.
 
-Vid namnändringsförslag eller förslag på införande av en ny post eller utskott bör motionären eller motionärerna själva komma med tänkta engelska översättningar. Vid uppdatering av reglementet uppdateras listan med eventuella nya post- eller utskottsnamn automatiskt. 
+== Vanligt förekommmande ord
 
-\subsection{Vanligt förekommmande ord}
-\subsubsection*{Sektionen}
-\begin{center}
-    \begin{tabular}{R{6.5cm}|L{6.5cm}}
-        D-sektionen & The D-guild\\
-        Funktionär & Volunteer / Worker\\
-        Post & Position\\
-        Kärnpost & Core position\\
-        Styrelsen & The Board\\
-        Utskott & Committee\\
-        Utskottsvalberedning & Nomination group\\
-        Teknologkåren / Kåren & Teknologkåren / the Union\\
-        D-Chip & D-Chip\\
-    \end{tabular}
-\end{center}
+=== Sektionen
 
-\subsubsection*{Studier}
-\begin{center}
-    \begin{tabular}{R{6.5cm}|L{6.5cm}}
-        Datateknik & Computer Science and Engineering\\
-        Informations- och kommunikationsteknik & Information and Communication Engineering\\
-        Mastersutbildning i VR/AR & Master Program in VR/AR\\
-        Civilingenjör & Master of Science in Engineering\\
-        Lunds Tekniska Högskola & The Faculty of Engineering\\
-        Läsperiod & Study period\\
-        Tentaperiod & Exam period\\
-        Inläsningsvecka & Exam preparation week\\
-    \end{tabular}
-\end{center}
+#set table.vline(stroke: 0.7pt)
+#show table.cell: set par(justify: false)
+#set table(
+  columns: (1fr, 1fr),
+  align: (right, left),
+  stroke: none,
+)
 
-\subsubsection*{Dokument}
-\begin{center}
-    \begin{tabular}{R{6.5cm}|L{6.5cm}}
-        % dokument
-        Styrdokument & Governing documents\\
-        Stadgar & Statutes \\
-        Reglemente & Regulations \\
-        Policy & Policy \\
-        Riktlinje & Guideline \\
-        Strategiska mål & Strategic goals\\
-        Verksamhetsplan & Plan of operations\\
-        Likabehandlingsplan & Equal treatment plan\\
-        Kravprofil & Requirements profile\\
-        Rambudget & Framework budget\\
-        \\
+#table(
+  [D-sektionen], table.vline(), [The D-guild],
+  [Funktionär], [Volunteer / Worker],
+  [Post], [Position],
+  [Kärnpost], [Core position],
+  [Styrelsen], [The Board],
+  [Utskott], [Committee],
+  [Utskottsvalberedning], [Nomination group],
+  [Teknologkåren / Kåren], [Teknologkåren / the Union],
+  [D-Chip], [D-Chip],
+)
 
-        Kallelse & Notice \\
-        Föredragningslista & Agenda\\
-        Protokoll & Meeting minutes\\
-        Motion & Motion\\
-        Proposition & Proposal\\
-        Handling & Meeting document\\
-        Bilaga & Appendix\\
-    \end{tabular}
-\end{center}
+=== Studier
 
-\subsubsection*{Mötesformalia}
-\begin{center}
-    \begin{tabular}{R{6.5cm}|L{6.5cm}}
-        Styrelsemöte & Board meeting\\
-        Vårterminsmöte & Spring assembly\\
-        Höstterminsmöte & Fall assembly\\
-        Valmöte & Election assembly\\
-        \\
+#table(
+  [Datateknik], table.vline(), [Computer Science and Engineering],
+  [Informations- och kommunikationsteknik], [Information and Communication Engineering],
+  [Mastersutbildning i VR/AR], [Master Program in VR/AR],
+  [Civilingenjör], [Master of Science in Engineering],
+  [Lunds Tekniska Högskola], [The Faculty of Engineering],
+  [Läsperiod], [Study period],
+  [Tentaperiod], [Exam period],
+  [Inläsningsvecka], [Exam preparation week],
+)
 
-        Adjungera & Co-opt\\
-        Ajournera & Adjourn\\
-        Bifall & Approval\\
-        Avslag & Rejection\\
-        Bordlägga & Defer\\
-        Återremittera & Send back\\
-        Lägga till handlingarna & Enter into the records\\
-        Stadfästa & Ratify\\
-        Reservation & Objection\\
-        Acklamation & Acclamation\\
-        Mötets mening & The will of the meeting\\
-        Ordningsfråga & Point of order\\
-        Sakupplysning & Point of information\\
-        Yrka på [...] & Move to [...]\\
-        Klump & Group\\
-        \\
+=== Dokument
 
-        Mötesordförande & Meeting chair\\
-        Mötessekreterare & Meeting secretary\\
-        Justerare & Minute reviewer\\
-        Motionär & Mover\\
-    \end{tabular}
-\end{center}
+#table(
+  [Styrdokument], table.vline(), [Governing documents],
+  [Stadgar], [Statutes],
+  [Reglemente], [Regulations],
+  [Policy], [Policy],
+  [Riktlinje], [Guideline],
+  [Strategiska mål], [Strategic goals],
+  [Verksamhetsplan], [Plan of operations],
+  [Likabehandlingsplan], [Equal treatment plan],
+  [Kravprofil], [Requirements profile],
+  [Rambudget], [Framework budget],
+  [], [],
+  [Kallelse], [Notice],
+  [Föredragningslista], [Agenda],
+  [Protokoll], [Meeting minutes],
+  [Motion], [Motion],
+  [Proposition], [Proposal],
+  [Handling], [Meeting document],
+  [Bilaga], [Appendix],
+)
 
-\pagebreak
-\subsection{Utskott och poster}
-\subsubsection*{Presidiet}
-\vspace{12pt}
-\begin{center}
-    \begin{tabular}{R{6.5cm}|L{6.5cm}}
-        \textbf{Presidiet} & \textbf{The Presidium} \\
-        Sektionsordförande & Guild President \\
-        Vice Sektionsordförande & Vice Guild President
-    \end{tabular}
-\end{center}
+=== Mötesformalia
 
-\subsubsection*{Informationsutskottet}
-\vspace{12pt}
-\begin{center}
-    \begin{tabular}{R{6.5cm}|L{6.5cm}}
-        \textbf{Informationsutskottet} & \textbf{The Communications Committee}\\
-        Informationsansvarig & Head of Communications\\
-        Vice Informationsansvarig & Vice Head of Communications\\
-        Arkivarie & Archivist\\
-        Artist & Artist\\
-        Fotograf & Photographer\\
-        Filmare & Filmmaker\\
-        Influencer & Influencer\\\\
+#table(
+  [Styrelsemöte], table.vline(), [Board meeting],
+  [Vårterminsmöte], [Spring assembly],
+  [Höstterminsmöte], [Fall assembly],
+  [Valmöte], [Election assembly],
+  [], [],
+  [Adjungera], [Co-opt],
+  [Ajournera], [Adjourn],
+  [Bifall], [Approval],
+  [Avslag], [Rejection],
+  [Bordlägga], [Defer],
+  [Återremittera], [Send back],
+  [Lägga till handlingarna], [Enter into the records],
+  [Stadfästa], [Ratify],
+  [Reservation], [Objection],
+  [Acklamation], [Acclamation],
+  [Mötets mening], [The will of the meeting],
+  [Ordningsfråga], [Point of order],
+  [Sakupplysning], [Point of information],
+  [Yrka på [...] ], [Move to [...] ],
+  [Klump], [Group],
+  [], [],
+  [Mötesordförande], [Meeting chair],
+  [Mötessekreterare], [Meeting secretary],
+  [Justerare], [Minute reviewer],
+  [Motionär], [Mover],
+)
 
-        \textbf{Redaktionen} & \textbf{The Editorial Board}\\
-        Redaktör & Editor\\
-        Journalist & Journalist\\\\
+== Utskott och poster
 
-        \textbf{D-shopen} & \textbf{The D-Shop}\\
-        Shopaholic & Shopaholic\\
-        Märkvärdig & Patchy\\
-        Skald & Bard\\
-    \end{tabular}
-\end{center}
+=== Presidiet
 
-\subsubsection*{Skattmästeriet}
-\vspace{12pt}
-\begin{center}
-    \begin{tabular}{R{6.5cm}|L{6.5cm}}
-        \textbf{Skattmästeriet} & \textbf{The Treasury}\\
-        Skattmästare & Treasurer\\
-        Vice Skattmästare & Vice Treasurer\\
-        Skattförman & Treasury Foreman\\
-    \end{tabular}
-\end{center}
+#table(
+  [*Presidiet*], table.vline(), [*The Presidium*],
+  [Sektionsordförande], [Guild President],
+  [Vice Sektionsordförande], [Vice Guild President],
+)
 
-\subsubsection*{Cafémästeriet}
-\vspace{12pt}
-\begin{center}
-    \begin{tabular}{R{6.5cm}|L{6.5cm}}
-        \textbf{Cafémästeriet} & \textbf{The Café Committee}\\
-        Cafémästare & Head of the Café\\
-        Vice Cafémästare & Vice Head of the Café\\
-        Dagsansvarig & Daycarer\\
-        Inventarieansvarig & Stockpiler \\
-        Stekare & Grillmaster \\
-        \\
+=== Informationsutskottet
 
-        \textbf{Brunchmästeriet} & \textbf{The Brunch Committee}\\
-        Brunchmästare & Head of Brunch \\
-        Bakis & Baked \\
-    \end{tabular}
-\end{center}
+#table(
+  [*Informationsutskottet*], table.vline(), [*The Communications Committee*],
+  [Informationsansvarig], [Head of Communications],
+  [Vice Informationsansvarig], [Vice Head of Communications],
+  [Arkivarie], [Archivist],
+  [Artist], [Artist],
+  [Fotograf], [Photographer],
+  [Filmare], [Filmmaker],
+  [Influencer], [Influencer],
+  [], [],
+  [*Redaktionen*], [*The Editorial Board*],
+  [Redaktör], [Editor],
+  [Journalist], [Journalist],
+  [], [],
+  [*D-shopen*], [*The D-Shop*],
+  [Shopaholic], [Shopaholic],
+  [Märkvärdig], [Patchy],
+  [Skald], [Bard],
+)
 
-\subsubsection*{Sexmästeriet}
-\vspace{12pt}
-\begin{center}
-    \begin{tabular}{R{6.5cm}|L{6.5cm}}
-        \textbf{Sexmästeriet} & \textbf{The Festivities Committee}\\
-        Sexmästare & Head of Festivities\\
-        Vice Sexmästare & Vice Head of Festivities\\
-        Köksmästare & Head chef\\
-        Vice köksmästare & Sous chef\\
-        Preferensmästare & Preferences chef\\
-        Pubmästare & Head of Pubs\\
-        Vice Pubmästare & Vice Head of Pubs\\
-        Barmästare & Bartender\\
-        Vice Barmästare & Vice Bartender\\
-        Hovmästare & Maître D'guild\\
-        Sångförman & Toastmaster\\
-        \\
+=== Skattmästeriet
 
-        Ölförman & Beer Boss\\
-        Vinförman & Wine Warden\\
-        Sektionskock & Guild Cook\\
-        TappaD & Beer Boss in charge of Draft\\
-    \end{tabular}
-\end{center}
+#table(
+  [*Skattmästeriet*], table.vline(), [*The Treasury*],
+  [Skattmästare], [Treasurer],
+  [Vice Skattmästare], [Vice Treasurer],
+  [Skattförman], [Treasury Foreman],
+)
 
-\subsubsection*{Studierådet}
-\vspace{12pt}
-\begin{center}
-    \begin{tabular}{R{6.5cm}|L{6.5cm}}
-        \textbf{Studierådet} & \textbf{The Student Council}\\
-        Studierådsordförande & Head of the Student Council\\
-        Vice Studierådsordförande & Vice Head of the Student Council\\
-        Studierådssekreterare & Secretary of the Student Council\\
-        Årskursrepresentant & Class Representative\\
-        Studentrepresentant i [...] & Student Representative of [...]\\
-        Husstyrelsen & The House Board\\
-        Institutionsstyrelsen & The Department Board\\
-        Programledningen & Program Management\\
-    \end{tabular}
-\end{center}
+=== Cafémästeriet
 
-\subsubsection*{Näringslivsutskottet}
-\vspace{12pt}
-\begin{center}
-    \begin{tabular}{R{7.4cm}|L{7.4cm}}
-        \textbf{Näringslivsutskottet} & \textbf{The Corporate Relations Committee}\\
-        Näringslivsansvarig & Head of Corporate Relations\\
-        Vice Näringslivsansvarig & Vice Head of Corporate Relations\\
+#table(
+  [*Cafémästeriet*], table.vline(), [*The Café Committee*],
+  [Cafémästare], [Head of the Café],
+  [Vice Cafémästare], [Vice Head of the Café],
+  [Dagsansvarig], [Daycarer],
+  [Inventarieansvarig], [Stockpiler],
+  [Stekare], [Grillmaster],
+  [], [],
+  [*Brunchmästeriet*], [*The Brunch Committee*],
+  [Brunchmästare], [Head of Brunch],
+  [Bakis], [Baked],
+)
 
-        \textbf{Alumnigruppen} & \textbf{The Alumni Committee}\\
-        Alumniansvarig & Head of the Alumni Committee\\
-        Alumnigruppsmedlem & Member of the Alumni Committee\\
+=== Sexmästeriet
 
-        \textbf{Projektgruppen för DELTA} & \textbf{The DELTA Project Group}\\
-        DELTA-general & The Project Manager of DELTA\\
-        Medlem i projektgruppen för DELTA & Member of the DELTA Project Group
-    \end{tabular}
-\end{center}
+#table(
+  [*Sexmästeriet*], table.vline(), [*The Festivities Committee*],
+  [Sexmästare], [Head of Festivities],
+  [Vice Sexmästare], [Vice Head of Festivities],
+  [Köksmästare], [Head chef],
+  [Preferensmästare], [Preferences chef],
+  [Vice köksmästare], [Sous chef],
+  [Pubmästare], [Head of Pubs],
+  [Vice Pubmästare], [Vice Head of Pubs],
+  [Barmästare], [Bartender],
+  [Vice Barmästare], [Vice Bartender],
+  [Hovmästare], [Maître D'guild],
+  [Sångförman], [Toastmaster],
+  [], [],
+  [Ölförman], [Beer Boss],
+  [Vinförman], [Wine Warden],
+  [Sektionskock], [Guild Cook],
+  [TappaD], [Beer Boss in charge of Draft],
+)
 
-\subsubsection*{Källarmästeriet}
-\vspace{12pt}
-\begin{center}
-    \begin{tabular}{R{6.5cm}|L{6.5cm}}
-        \textbf{Källarmästeriet} & \textbf{The Facilities Committee}\\
-        Källarmästare & Head of Facilities\\
-        Vice Källarmästare & Vice Head of Facilities\\
-        Ljud- och ljusansvarig & Audiovisual Technician\\
-        Trädgårdsmästare & Gardener\\
-        Bilansvarig & Guild Car Mechanic\\
-    \end{tabular}
-\end{center}
+=== Studierådet
 
-\subsubsection*{Aktivitetsutskottet}
-\vspace{12pt}
-\begin{center}
-    \begin{tabular}{R{6.5cm}|L{6.5cm}}
-        \textbf{Aktivitetsutskottet} & \textbf{The Recreation Committee}\\
-        Aktivitetsansvarig & Head of Recreation\\
-        Vice aktivitetsansvarig & Vice Head of Recreation\\
-        UtEDischoansvarig & UtEDischo Manager\\
-        Idrottsförman & Head of Sports Events\\
-        Karnevalsansvarig & Lundakarnevalen Representative\\
-        LAN-partyansvarig & LAN-party Coordinator\\
-        Sångarstridsförman & TLTH Song Contest Team Captain\\
-        Tandemgeneral & Tandem Relay Team Captain\\
-        Semesterfirare & Holidaymaker\\
-        D-sportare & Tournament Organizer\\
-        Nöjesförman & Chief of Joy\\
-    \end{tabular}
-\end{center}
+#table(
+  [*Studierådet*], table.vline(), [*The Student Council*],
+  [Studierådsordförande], [Head of the Student Council],
+  [Vice Studierådsordförande], [Vice Head of the Student Council],
+  [Studierådssekreterare], [Secretary of the Student Council],
+  // [Studerandeskyddsombud], [Student Safety Representative], // FIXME: move to srd
 
-\subsubsection*{Nollningsutskottet}
-\vspace{12pt}
-\begin{center}
-    \begin{tabular}{R{7.4cm}|L{7.4cm}}
-        \textbf{Nollningsutskottet} & \textbf{The Introductions Committee}\\
-        Øverphøs & Head of the Introductions Committee\\
-        Stabsmedlem & Member of the Introductions Committee\\
-        Øverpeppare & Head of Introduction Coordinators\\
-        Peppare & Introduction Coordinator\\
-        Phadder & Mentor\\
-    \end{tabular}
-\end{center}
+  [Årskursrepresentant], [Class Representative],
+  [Studentrepresentant i [...] ], [Student Representative of [...] ],
+  [Husstyrelsen], [The House Board],
+  [Institutionsstyrelsen], [The Department Board],
+  [Programledningen], [Program Management],
+)
 
+=== Näringslivsutskottet
 
-\subsubsection*{Centralprocessutskottet}
-\vspace{12pt}
-\begin{center}
-    \begin{tabular}{R{6.5cm}|L{6.5cm}}
-        \textbf{Centralprocessutskottet} & \textbf{The Central Processing Unit}\\
-        Processmästare & Head Processor\\
-        Vice Processmästare & Subprocessor\\
-        DWWW-ansvarig & Head of DWWW\\
-        root & root\\
-        Utvecklare & Developer\\
-    \end{tabular}
-\end{center}
+#table(
+  [*Näringslivsutskottet*], table.vline(), [*The Corporate Relations Committee*],
+  [Näringslivsansvarig], [Head of Corporate Relations],
+  [Vice Näringslivsansvarig], [Vice Head of Corporate Relations],
+  [], [],
+  [*Alumnigruppen*], [*The Alumni Committee*],
+  [Alumniansvarig], [Head of the Alumni Committee],
+  [Alumnigruppsmedlem], [Member of the Alumni Committee],
+  [], [],
+  [*Projektgruppen för DELTA*], [*The DELTA Project Group*],
+  [DELTA-general], [The Project Manager of DELTA],
+  [Medlem i projektgruppen för DELTA], [Member of the DELTA Project Group],
+  [DELTA-värd], [DELTA Host],
+)
 
+=== Källarmästeriet
 
-\subsubsection*{Framtidsutskottet}
-\vspace{12pt}
-\begin{center}
-    \begin{tabular}{R{6.5cm}|L{6.5cm}}
-        \textbf{Framtidsutskottet} & \textbf{The Strategic Committee}\\
-        Framtidsordförande & Head of the Strategic Committee\\
-        Framtidsledamot & Member of the Strategic Committee\\
-    \end{tabular}
-\end{center}
+#table(
+  [*Källarmästeriet*], table.vline(), [*The Facilities Committee*],
+  [Källarmästare], [Head of Facilities],
+  [Vice Källarmästare], [Vice Head of Facilities],
+  [Ljud- och ljusansvarig], [Audiovisual Technician],
+  [Trädgårdsmästare], [Gardener],
+  [Bilansvarig], [Guild Car Mechanic],
+)
 
+=== Aktivitetsutskottet
 
-\subsubsection*{Trivselrådet}
-\vspace{12pt}
-\begin{center}
-    \begin{tabular}{R{6.5cm}|L{6.5cm}}
-        \textbf{Trivselrådet} & \textbf{The Student Well-being Committee}\\
-        Trivselmästare & Head of Student Well-being\\
-        Likabehandlingsombud & Equal Opportunities Representative\\
-        Studerandeskyddsombud & Student Safety Representative\\
-        Världsmästare & World Master\\
-        Her Tech Future-representant & Her Tech Future Representative\\
-    \end{tabular}
-\end{center}
+#table(
+  [*Aktivitetsutskottet*], table.vline(), [*The Recreation Committee*],
+  [Aktivitetsansvarig], [Head of Recreation],
+  [Vice aktivitetsansvarig], [Vice Head of Recreation],
+  [UtEDischoansvarig], [UtEDischo Manager],
+  [Idrottsförman], [Head of Sports Events],
+  [Karnevalsansvarig], [Lundakarnevalen Representative],
+  [LAN-partyansvarig], [LAN-party Coordinator],
+  [Sångarstridsförman], [TLTH Song Contest Team Captain],
+  [Tandemgeneral], [Tandem Relay Team Captain],
+  [Semesterfirare], [Holidaymaker],
+  // [Coach], [Coach], // FIXME: add
+  [D-sportare], [Tournament Organizer],
+  [Nöjesförman], [Chief of Joy],
+)
 
-\subsubsection*{Tackmästeriet}
-\vspace{12pt}
-\begin{center}
-    \begin{tabular}{R{7cm}|L{7cm}}
-        \textbf{Tackmästeriet} & \textbf{The Thanksgiving Committee}\\
-        Tackmästare & Head of the Thanksgiving Committee\\
-        Tackmästerist & Member of the Thanksgiving Committee\\
-    \end{tabular}
-\end{center}
+=== Nollningsutskottet
 
-\subsubsection*{Medaljelelekommittén}
-\vspace{12pt}
-\begin{center}
-    \begin{tabular}{R{6.5cm}|L{6.5cm}}
-        \textbf{Medaljelelekommittén} & \textbf{The Honours Committee}\\
-        Övermarskalk & Master of Ceremonies\\
-        Medaljelelekommittémedlem & Member of the Honours Committee\\
-        Inspektor & Inspector
-    \end{tabular}
-\end{center}
+#table(
+  [*Nollningsutskottet*], table.vline(), [*The Introductions Committee*],
+  [Øverphøs], [Head of the Introductions Committee],
+  [Stabsmedlem], [Member of the Introductions Committee],
+  [Øverpeppare], [Head of Introduction Coordinators],
+  [Peppare], [Introduction Coordinator],
+  [Phadder], [Mentor],
+  // [Pluggphadder], [Study mentor], // FIXME: add
+)
 
+=== Centralprocessutskottet
 
-\subsubsection*{Valberedningen}
-\vspace{12pt}
-\begin{center}
-    \begin{tabular}{R{6.5cm}|L{6.5cm}}
-        \textbf{Valberedningen} & \textbf{The Nomination Committee}\\
-        Valberedningens ordförande & Head of the Nomination Committee\\
-        Valberedningsrepresentant & Member of the Nomination Committee\\
-    \end{tabular}
-\end{center}
+#table(
+  [*Centralprocessutskottet*], table.vline(), [*The Central Processing Unit*],
+  [Processmästare], [Head Processor],
+  [Vice Processmästare], [Subprocessor],
+  [DWWW-ansvarig], [Head of DWWW],
+  [root], [root],
+  [Utvecklare], [Developer],
+)
 
+=== Framtidsutskottet
 
-\subsubsection*{Övriga förtroendevalda}
-\vspace{12pt}
-\begin{center}
-    \begin{tabular}{R{7cm}|L{7cm}}
-        Talman & Assembly speaker\\
-        Revisor & Auditor\\
-        Jubileumsgeneral & Head of the Anniversary Committee\\
-        Jubileumsansvarig & Member of the Anniversary Committee\\
-        Valnämndsrepresentant & Guild representative for the Council Election Board\\
-    \end{tabular}
-\end{center}
+#table(
+  [*Framtidsutskottet*], table.vline(), [*The Strategic Committee*],
+  [Framtidsordförande], [Head of the Strategic Committee],
+  [Framtidsledamot], [Member of the Strategic Committee],
+)
 
-% \pagebreak
-%
-% \section*{Appendix A: Poster som är lämpliga att söka för internationella studenter} \label{lämpliga}
-%
-% \begin{itemize}
-%     \item TBD av Styr25
-% \end{itemize}
+=== Trivselrådet
 
-\end{document}
+#table(
+  [*Trivselrådet*], table.vline(), [*The Student Well-being Committee*],
+  [Trivselmästare], [Head of Student Well-being],
+  [Likabehandlingsombud], [Equal Opportunities Representative],
+  [Studerandeskyddsombud], [Student Safety Representative],
+  // FIXME: ^ move to srd
+  [Världsmästare], [World Master],
+  [Her Tech Future-representant], [Her Tech Future Representative],
+)
+
+=== Tackmästeriet
+
+#table(
+  [*Tackmästeriet*], table.vline(), [*The Thanksgiving Committee*],
+  [Tackmästare], [Head of the Thanksgiving Committee],
+  [Tackmästerist], [Member of the Thanksgiving Committee],
+)
+
+=== Medaljelelekommittén
+
+#table(
+  [*Medaljelelekommittén*], table.vline(), [*The Honours Committee*],
+  [Övermarskalk], [Master of Ceremonies],
+  [Medaljelelekommittémedlem], [Member of the Honours Committee],
+  [Inspektor], [Inspector],
+)
+
+=== Valberedningen
+
+#table(
+  [*Valberedningen*], table.vline(), [*The Nomination Committee*],
+  [Valberedningens ordförande], [Head of the Nomination Committee],
+  [Valberedningsrepresentant], [Member of the Nomination Committee],
+)
+
+=== Övriga förtroendevalda
+
+#table(
+  [Talman], table.vline(), [Assembly speaker],
+  [Revisor], [Auditor],
+  [Jubileumsgeneral], [Head of the Anniversary Committee],
+  [Jubileumsansvarig], [Member of the Anniversary Committee],
+  [Valnämndsrepresentant], [Guild representative for the Council Election Board],
+)

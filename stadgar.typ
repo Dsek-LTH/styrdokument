@@ -1,898 +1,534 @@
-\documentclass[stadgar]{dsekprotokoll}
-\usepackage{enumerate}
-\ifpdf
-  \usepackage{thumbpdf}
-\fi
-\usepackage{graphicx}
+#import "@preview/dsek:0.1.0": *
+#import strings: *
 
+#show: statutes
 
-\usepackage[strict]{changepage}
+= Sektionen
 
-\usepackage[utf8]{inputenc}
+/ Namn:
+  Sektionens namn är D-sektionen inom Teknologkåren vid Lunds Tekniska Högskola, hädanefter kallat sektionen. Kortare benämningar är D-sektionen inom TLTH, D-sektionen och Dsek.
 
-% Puts a full stop after the section number
-\makeatletter
-\def\@seccntformat#1{\csname the#1\endcsname.\quad}
-\makeatother
+/ Ändamål:
+  Föreningens ändamål och syfte är att verka för sammanhållningen mellan sina medlemmar, att främja deras studier och utbildning, att tillvarata deras gemensamma intressen, samt vad därmed äger sammanhang. Sektionen drivs utan vinstintresse.
 
-\setheader{STADGAR}{HTM-1 2021}{\today}
+/ Organisations-?nummer:
+  Sektionens organisationsnummer är 845003-2878
 
-\begin{document}
+/ Symbol:
+  Sektionens officiella symbol ser ut enligt nedanstående bild.
 
-\title{Stadgar för D-sektionen inom TLTH}
-\date{\today}
+  #image(path("/grafik/guild/dsek/symbol/symbol_real.svg"), height: 13mm)
 
-\maketitle
+/ Sigill:
+  Sektionens officiella sigill ser ut enligt nedanstående bild.
 
-\section{Sektionen}
+  #image(path("/grafik/guild/dsek/color.svg"), height: 25mm)
 
-\begin{stadgeavsnitt}
+/ Färg:
+  Sektionens färg är Råsa.
 
-\paragraf{1.1}{Namn}
+/ Maskot:
+  Sektionens maskot är Rosa Pantern.
 
-Sektionens namn är D-sektionen inom Teknologkåren vid Lunds Tekniska Högskola, hädanefter kallat sektionen. Kortare benämningar är D-sektionen inom TLTH, D-sektionen och Dsek.
+/ Blomma:
+  Sektionens blomma är Råsa Digitalis.
 
-\paragraf{1.2}{Ändamål}
+/ Hymn:
+  Sektionshymnen är ”Rosa på bal” av E. Taube
 
-Föreningens ändamål och syfte är att verka för sammanhållningen mellan sina
-medlemmar, att främja deras studier och utbildning, att tillvarata deras
-gemensamma intressen, samt vad därmed äger sammanhang. Sektionen drivs utan
-vinstintresse.
+/ Överklagande:
+  Beslut taget av någon av sektionens myndigheter kan hos kårens fullmäktige överklagas av minst en tiondel, eller etthundra av sektionens medlemmar inom tre veckor från den dag beslutet tillkännagetts.
 
-\paragraf{1.3}{Organisationsnummer}
-Sektionens organisationsnummer är 845003-2878\\
+/ Undanröjande:
+  Beslut taget av någon av sektionens myndigheter kan av kårens fullmäktige undanröjas endast om det uppenbart strider mot @sektionen-ändamål[] eller mot ändamålsparagrafen i kårens stadgar.
 
-\paragraf{1.4}{Symbol}
+/ Stadfästelse:
+  Stadfästelse innebär att en högre instans bekräftar ett beslut taget av en instans underordnad den högre instansen. Ett beslut som behöver stadfästas gäller från den tidpunkt beslutet togs, men kan rivas upp, ändras eller godkännas vid tiden för stadfästelse.
 
-Sektionens officiella symbol ser ut enligt nedanstående bild.
+= Ordinarie medlemmar
 
-\tthdump{\Dsymbol[10mm]}
-%%tth:\special{html:<img src="/ikoner/D-symbol.gif" alt="[D-sektionens D]">}
+/ Definition:
+  Ordinarie medlem är var person som är medlem i Teknologkåren vid LTH samt antingen läser vid ett av följande program
+  - Civilingenjörsutbildningen i Datateknik vid LTH
+  - Civilingenjörsutbildningen i Informations- och kommunikationsteknik vid LTH
+  - Student av kårstyrelsen förd till sektionen.
+  - Masterutbildning virtuell verklighet och förstärkt verklighet
 
-\paragraf{1.5}{Sigill}
+/ Skyldigheter:
+  Medlem är skyldig
+  - att vara ordinarie medlem vid TLTH, samt
+  - att iaktta kårens och sektionens stadgar och reglemente.
 
-Sektionens officiella sigill ser ut enligt nedanstående bild.
-\begin{figure}[htb]
-\begin{adjustwidth}{5cm}{0cm}
-\includegraphics[height=20mm,width=20 mm]{sigill.pdf}
-\end{adjustwidth}
-\end{figure}
+/ Rättigheter:
+  Medlem som fullgjort sina skyldigheter enligt @ordinarie-medlemmar-skyldigheter äger rätt
+  - att med en röst deltaga i de val av funktionärer och representanter som företräder sektionen,
+  - att närvara med yttranderätt, yrkanderätt och rösträtt vid sektionsmöte,
+  - att taga del av protokoll och övriga handlingar som berör sektionen, samt
+  - att kandidera vid allmänna val inom sektion och kår.
 
+= Hedersmedlemmar
 
-\paragraf{1.6}{Färg}
+/ Definition:
+  Person som gjort betydande insatser för sektionens verksamhet, existens eller fortlevnad.
 
-Sektionens färg är Råsa.
+/ Val:
+  Hedersmedlem kan utses av sektionsmöte med minst nio tiondelar av samtliga avgivna röster.
 
-\paragraf{1.7}{Maskot}
+/ Skyldigheter:
+  Hedersmedlem är skyldig
+  - att iaktta kårens och sektionens stadgar och reglemente.
 
-Sektionens maskot är Rosa Pantern.
+/ Rättigheter:
+  Hedersmedlem äger rätt
+  - att närvara med yttranderätt och yrkanderätt vid sektions-?möte,
+  - att taga del av protokoll och övriga handlingar som berör sektionen, samt
+  - att kandidera vid funktionärsval inom sektionen undantaget poster som innebär styrelsepost eller chef för utskott.
 
-\paragraf{1.8}{Blomma}
+= Virtuella medlemmar
 
-Sektionens blomma är Råsa Digitalis.
+/ Definition:
+  Person som av praktiska och ideologiska skäl önskar tillhöra sektionen samt med själ och hjärta är villig att prisa densamma.
 
-\paragraf{1.9}{Hymn}
+/ Val:
+  Virtuell medlem kan utses av sektionsmöte med kvalificerad majoritet.
 
-Sektionshymnen är ''Rosa på bal'' av E. Taube.
+/ Skyldigheter:
+  Virtuell medlem är skyldig
+  - att iaktta kårens och sektionens stadgar och reglemente.
 
-\paragraf{1.10}{Överklagande}
+/ Rättigheter:
+  Virtuell medlem äger rätt
+  - att närvara med yttranderätt och yrkanderätt vid sektions-?möte,
+  - att taga del av protokoll och övriga handlingar som berör sektionen, samt
+  - att kandidera vid funktionärsval inom sektionen undantaget poster som innebär styrelsepost eller chef för utskott.
 
-Beslut taget av någon av sektionens myndigheter kan hos kårens fullmäktige
-överklagas av minst en tiondel, eller etthundra av sektionens medlemmar
-inom tre veckor från den dag beslutet tillkännagetts.
+= Alumnimedlemmar
 
-\paragraf{1.11}{Undanröjande}
+/ Definition:
+  En ordinarie medlem som inte längre studerar vid LTH övergår till att bli Alumnimedlem.
 
-Beslut taget av någon av sektionens myndigheter kan av kårens fullmäktige
-undanröjas endast om det uppenbart strider mot ändamålsparagrafen \S1.2
-eller mot ändamålsparagrafen i kårens stadgar.
+/ Skyldigheter:
+  Alumnimedlem är skyldig
+  - att iaktta kårens och sektionens stadgar och reglemente.
+  - att vara passiv medlem vid Teknologkåren vid LTH.
 
-\paragraf{1.12}{Stadfästelse}
+/ Rättigheter:
+  Alumnimedlem äger rätt
+  - att närvara med yttranderätt och yrkanderätt vid sektions-?möte,
+  - att taga del av protokoll och övriga handlingar som berör sektionen, samt
+  - att kandidera vid funktionärsval inom sektionen undantaget poster som innebär styrelsepost eller chef för utskott.
 
-Stadfästelse innebär att en högre instans bekräftar ett beslut taget av en instans underordnad den högre instansen. Ett beslut som behöver stadfästas gäller från den tidpunkt beslutet togs, men kan rivas upp, ändras eller godkännas vid tiden för stadfästelse.
+/ Utträde:
+  Alumnimedlemmar kan utträda ur sektionen genom egen förfrågan varpå sektionsmöte må besluta så. Sektionsmötet må även besluta att entlediga Alumnimedlemmar om denne inte uppfyller de skyldigheter som åligger posten
 
-\end{stadgeavsnitt}
+= Organisation
 
-\section{Ordinarie medlemmar}
+/ Högsta beslutande organ:
+  Sektionsmötet är sektionens högsta beslutande organ.
 
-\begin{stadgeavsnitt}
+/ Organisation:
+  Sektionens verksamhet utövas på det sätt denna stadga föreskriver genom
+  + Styrelsen,
+  + Studierådet,
+  + Utskott,
+  + Valberedningen,
+  + Revisorer,
+  + Inspektor, samt
+  + Fristående föreningar
 
-\paragraf{2.1}{Definition}
+= Verksamhetsår
 
- Ordinarie medlem är var person som är medlem i Teknologkåren vid LTH samt antingen läser vid
-ett av följande program:
-\begin{itemize}
-\item Civilingenjörsutbildningen i Datateknik vid LTH
-\item Civilingenjörsutbildningen i Informations- och kommunikationsteknik vid LTH
-\item Student av kårstyrelsen förd till sektionen.
-\item Masterutbildning virtuell verklighet och förstärkt verklighet
-\end{itemize}
+/ Verksamhetsår:
+  Sektionens verksamhets- och räkenskapsår omfattar tiden 1 januari till 31 december.
 
-\paragraf{2.2}{Skyldigheter}
+= Sektionsmöte
 
-Medlem är skyldig:
-\begin{attlista}
-\item vara ordinarie medlem vid TLTH
-\item iaktta kårens och sektionens stadgar och reglemente.
-\end{attlista}
+/ Befogenhet:
+  Sektionsmötet är sektionens högsta beslutande organ.
 
-\paragraf{2.3}{Rättigheter}
+/ Rösträtt:
+  Rösträtt tillkommer sektionens ordinarie medlemmar.
 
-Medlem som fullgjort sina skyldigheter enligt \S2.2 äger rätt att:
-\begin{attlista}
-\item med en röst deltaga i de val av funktionärer och representanter som
-  företräder sektionen
-\item närvara med yttranderätt, yrkanderätt och rösträtt vid sektionsmöte
-\item taga del av protokoll och övriga handlingar som berör sektionen, samt
-\item kandidera vid allmänna val inom sektion och kår.
-\end{attlista}
+/ Röstlängd:
+  Röstlängden specificerar de, vid mötet närvarande, som har rösträtt. Man kan endast finnas uppskriven på röstlängden om man uppfyller de krav specificerade enligt @sektionsmöte-rösträtt[].
 
-\end{stadgeavsnitt}
+  Röstlängden skall fastställas innan motion eller valfrågor behandlas samt specifikt inför den första valpunkten, dessa två fallen kan sammanfalla. Röstlängden får ej justeras under en punkt, och det är Talmannen som äger rätten att avgöra huruvida en punkt är påbörjad eller ej. Röstlängden kan justeras på en mötesdeltagares begäran.
 
-\section{Hedersmedlemmar}
+/ Sammanträden:
+  Sektionsmöte får endas hållas under ordinarie terminer.
 
-\begin{stadgeavsnitt}
+/ Beslutsförhet:
+  Sektionsmötet äger rätt att fatta beslut då antalet närvarande röstberättigade medlemmar är minst tjugofem.
 
-\paragraf{3.1}{Definition}
+/ Adjungeringar:
+  Ständigt adjungerande med yttranderätt och yrkanderätt vid sektionsmöten är
+  + inspektorn,
+  + revisorerna, samt
+  + kårstyrelsens ledamöter
 
-Person som gjort betydande insatser för sektionens verksamhet, existens
-eller fortlevnad.
+/ Förhandlingsledare:
+  Sektionsmötets förhandlingar leds av talmannen eller av mötet tillförordnad mötesordförande.
 
-\paragraf{3.2}{Val}
+/ Utlysande:
+  Styrelsen kallar till sektionsmöte.
 
-Hedersmedlem kan utses av sektionsmöte med minst nio tiondelar av samtliga
-avgivna röster.
+  Kallelse till ordinarie sektionsmöte skall anslås skriftligen i sektionslokalen där alla sektionsmedlemmar kan se senast tjugoen dagar före mötet samt enligt kåren definierade krav.
 
-\paragraf{3.3}{Skyldigheter}
+  Kallelse till extra sektionsmöte skall anslås skriftligen i sektionslokalen där alla sektionsmedlemmar kan se senast sju dagar före mötet samt enligt kåren definierade krav.
 
-Hedersmedlem är skyldig:
-\begin{attlista}
-\item iaktta kårens och sektionens stadgar och reglemente.
-\end{attlista}
+/ Handlingar:
+  Föredragningslista samt erforderliga handlingar skall anslås skriftligen i sektionslokalen där alla sektionsmedlemmar kan se senast sju dagar före mötet
 
-\paragraf{3.4}{Rättigheter}
+/ Upptagande av ärende:
+  Varje medlem äger rätt att upptaga ärende till behandling på ordinarie sektionsmöte, undantaget valmöte. Sådan motion skall skriftligen ha inkommit till styrelsen, digitalt eller i styrelsens brevlåda, minst fjorton dagar innan sammanträdet.
 
-Hedersmedlem äger rätt:
-\begin{attlista}
-\item närvara med yttranderätt och yrkanderätt vid sektionsmöte,
-\item taga del av protokoll och övriga handlingar som berör sektionen, samt
-\item kandidera vid funktionärsval inom sektionen undantaget poster som innebär styrelsepost eller chef för utskott.
-\end{attlista}
+/ Interpellation:
+  Varje medlem som önskar erhålla förklaring av funktionär angående dennes verksamhet äger rätt att ställa interpellation till denne. Om så begärs av den till vilken interpellation är riktad, skall den avges i skriftlig form. Sådan interpellation skall skriftligen ha inkommit till styrelsen samt ha tillställts den som interpellationen är riktad till senast fem dagar före sammanträdet. Svar på interpellationen skall avges på sammanträdet.
 
-\end{stadgeavsnitt}
+/ Misstroendevotum:
+  Varje medlem äger rätt att ställa misstroendevotum mot sektionsfunktionär. Sådan misstroendevotum ska skriftligen ha inkommit till styrelsen senast fjorton dagar före sammanträdet. Om sektionsmötet bifaller yrkandet om misstroende entledigas funtionären från sitt uppdrag
 
-\section{Virtuella medlemmar}
+/ Sen handling:
+  En sen handling definieras som en handling, vilken har inkommit efter utsatt sista datum enligt @sektionsmöte-upptagande-av-ärende, @sektionsmöte-interpellation eller @sektionsmöte-misstroendevotum, eller annan handling, exempelvis bilaga, som inte anslagits i tid enligt @sektionsmöte-handlingar. Om sådan handling har inkommit innan sista datum för anslag enligt @sektionsmöte-handlingar kan styrelsen välja att anslå och ta med den i föredragningslistan under prefixet _Sen handling_. Mötet beslutar sedan med enkel majoritet huruvida punkten skall behandlas. I den händelse att handlingen inte kan anslås i tid enligt @sektionsmöte-handlingar kan styrelsen istället välja att låta mötet avgöra huruvida den skall införas på föredragningslistan när denna fastställs. Alla sena handlingar som ej lyfts enligt ovan bordläggs till nästföljande sektionsmöte, då de behandlas som korrekt inkomna handlingar.
 
-\begin{stadgeavsnitt}
+/ Vårterminsmöte:
+  Vid vårterminsmötet skall följande ärenden tas upp:
+  + verksamhetsberättelse och bokslut från föregående års styrelse,
+  + revisionsberättelse för det förflutna verksamhetsåret,
+  + fråga om ansvarsfrihet för föregående års styrelse,
+  + verksamhetsrapport från styrelsen, samt
+  + val enligt reglemente.
 
-\paragraf{4.1}{Definition}
+/ Höstterminsmöte\ ett:
+  Det första höstterminsmötet skall hållas i första läsperioden efter sommaren. Vid detta möte skall följande ärenden tas upp:
+  + halvårsrapport,
+  + verksamhetsrapport från styrelsen,
+  + uppdateringar till de strategiska målen för nästkommande verksamhetsår, samt
+  + val enligt reglemente.
 
-Person som av praktiska och ideologiska skäl önskar tillhöra sektionen samt
-med själ och hjärta är villig att prisa densamma.
+/ Valmöte:
+  Valmötet skall hållas innan höstterminsmöte två. Vid detta möte skall följande ärenden tas upp:
+  + val enligt reglemente.
 
-\paragraf{4.2}{Val}
+/ Höstterminsmöte\ två:
+  Vid andra höstterminsmötet skall följande ärenden tas upp:
+  + information om sektionens ekonomiska status,
+  + budget för nästkommande verksamhetsår
+  + verksamhetsrapport från styrelsen,
+  + verksamhetsplan för nästkommande verksamhetsår, samt
+  + val enligt reglemente.
 
-Virtuell medlem kan utses av sektionsmöte med kvalificerad majoritet.
+/ Extra sektionsmöte:
+  Extra sektionsmöte skall hållas
+  #fmt.resolutions(term: "då")[
+    - då sektionens styrelse beslutar så,
+    - då revisorerna hos styrelsen därom skriftligt anhåller, med uppgivande av vilket ärende som önskas behandlas, eller
+    - då minst tjugofem medlemmar hos styrelsen därom skriftligen anhåller, med uppgivande av vilket ärende som önskas behandlas.
+  ]
 
-\paragraf{4.3}{Skyldigheter}
+  Dylikt möte skall hållas inom fjorton dagar samt enligt kåren definierade krav efter det att anhållan inkommit till styrelsen.
 
-Virtuell medlem är skyldig:
-\begin{attlista}
-\item iaktta kårens och sektionens stadgar och reglemente.
-\end{attlista}
+= Valberedning
 
-\paragraf{4.4}{Rättigheter}
+/ Uppgift:
+  Valberedningen har som uppgift att förbereda val som skall förrättas av sektionsmötet.
 
-Virtuell medlem äger rätt:
-\begin{attlista}
-\item närvara med yttranderätt och yrkanderätt vid sektionsmöte,
-\item taga del av protokoll och övriga handlingar som berör sektionen, samt
-\item kandidera vid funktionärsval inom sektionen undantaget poster som
-  innebär styrelsepost eller chef för utskott.
-\end{attlista}
+/ Sammansättning:
+  Sektionens valberedning består av ordförande samt valberedningsrepresentanter. Valberedningsrepresentanter ska vara medlemmar som förväntas vara ordinarie medlem vid TLTH ett år framöver. Valberedningens sammansättning ska eftersträva representation från flera årskurser.
 
-\end{stadgeavsnitt}
+/ Åligganden:
+  Det åligger valberedningen att senast sju dagar innan sektionsmötet, skriftligen anslå sitt förslag skriftligen i sektionslokalen där alla sektionsmedlemmar kan se.
 
-\section{Alumnimedlemmar}
+= Val
 
-\begin{stadgeavsnitt}
+/ Valbarhet:
+  Valbarhet till funktionärspost regleras av var sektionsmedlems medlemstyp. Valbarhet till inspektor regleras av §16.2 /*inspektor-val*/. Valbarhet till revisor är öppet för allmänheten.
 
-\paragraf{5.1}{Definition}
-        En ordinarie medlem som inte längre
-        studerar vid LTH övergår till att bli Alumnimedlem
+/ Fyllnadsval:
+  Styrelsemedlemmar, revisorer, inspektor, valberedning, vice skattmästare, skattförman och Framtidsordförande kan endast väljas av sektionsmöte. Representanter i universitetets organ kan endast nomineras av sektionsmöte eller studierådet. Fyllnadsval av övriga funktionärer kan förrättas av styrelsen.
 
-\paragraf{5.2}{Skyldigheter}
+/ Entledigande:
+  Funktionär kan bli entledigad av den instans som har valt denne. Sektionsmötet äger rätt att med kvalificerad majoritet entlediga alla funktionärer.
 
-Alumnimedlem är skyldig:
-\begin{attlista}
-        \item iaktta kårens och sektionens stadgar och reglemente.
-        \item vara passiv medlem vid Teknologkåren vid LTH.
-\end{attlista}
+= Procedurregler
 
-\paragraf{5.3}{Rättigheter}
+/ Röstning:
+  Röstning via fullmakt är ej tillåten.
 
-Alumnimedlem äger rätt:
-\begin{attlista}
-\item närvara med yttranderätt och yrkanderätt vid sektionsmöte,
-\item taga del av protokoll och övriga handlingar som berör sektionen, samt
-\item kandidera vid funktionärsval inom sektionen undantaget poster som
-  innebär styrelsepost eller chef för utskott.
-\end{attlista}
+/ Jävighet:
+  Ingen må deltaga i beslut om ansvarsfrihet för åtgärd för vilken denne är ansvarig, eller i beslut av vars utgång denne kan äga ett ekonomiskt intresse.
 
-\paragraf{5.4}{Utträde}
- Alumnimedlemmar kan utträda ur sektionen genom egen förfrågan varpå sektionsmöte må besluta så. Sektionsmötet må även besluta att entlediga Alumnimedlemmar om denne inte uppfyller de skyldigheter som åligger posten.
+/ Acklamation:
+  Beslut fattas genom acklamation, såvida votering ej begärts.
 
-\end{stadgeavsnitt}
+/ Votering:
+  Votering skall vara sluten vid personval. I alla övriga fall skall öppen votering hållas. Om så begärs skall vid öppen votering föras röstprotokoll. Sluten votering sker efter namnupprop. Om röstetalet är lika äger mötesordförande utslagsröst vid öppen votering.
 
-\section{Organisation}
+  Vid sluten votering där det finns fler än två kandidater som kandiderar för samma post, och två av dem erhåller samma röstantal, samt att båda enligt kårens stadgar inte kan gå vidare till nästa röstomgång, ska ett nytt slutet personval etableras mellan de kandidater som fick samma mängd röster. Därefter ska det röstas om vilken av de kandidater som ska få behålla sin plats i det ursprungliga valet.
 
-\begin{stadgeavsnitt}
+/ Adjungerande:
+  Adjungerade må deltaga i sammanträde med yttranderätt och yrkanderätt.
 
-\paragraf[1]{6.1}{Högsta beslutande organ}
+/ Kvalificerad majoritet:
+  Med kvalificerad majoritet menas, om ej annat stadgats, minst två tredjedelar av de avgivna rösterna
 
-Sektionsmötet är sektionens högsta beslutande organ.
+/ Övrigt:
+  Om ej annat stadgats i stadgan eller reglementet gäller den förhandlingsordning som är reglerad i Teknologkårens stadgar, med lämplig anpassning för sektionens organ.
 
-\paragraf{6.2}{Organisation}
+= Protokoll
 
-Sektionens verksamhet utövas på det sätt denna stadga föreskriver genom:
-\begin{enumerate}[a)]
-\item Styrelsen,
-\item Studierådet,
-\item Utskott,
-\item Valberedningen,
-\item Revisorer,
-\item Inspektor, samt
-\item Fristående föreningar.
-\end{enumerate}
+/ Sektionsmöte:
+  Vid sektionsmöte skall föras protokoll, som upptar anteckningar om ärendets art, samtliga ställda och ej återtagna yrkanden, beslut, särskilda yttranden och reservationer samt förteckning över de närvarande.
 
-\end{stadgeavsnitt}
+/ Övriga myndigheter:
+  Vid övriga beslutande myndigheters sammanträden förs protokoll, som upptar tagna beslut och förteckning över de närvarande.
 
-\section{Verksamhetsår}
+/ Justering:
+  Sektionsmötesprotokoll justeras inom fjorton dagar av mötesordföranden samt två, på mötet valda justeringspersoner.
 
-\begin{stadgeavsnitt}
+  Övriga myndigheters protokoll justeras snarast av mötesordförande eller av mötet vald justeringsperson.
 
-\paragraf{7.1}{Verksamhetsår}
+/ Offentliggörande:
+  Justerade protokoll skall vara offentliga och tillgängliga för sektionens medlemmar.
 
-Sektionens verksamhets- och räkenskapsår omfattar tiden 1~januari till
-31~december.
+/ Arkivering:
+  Samtliga möteshandlingar skall arkiveras.
 
-\end{stadgeavsnitt}
+= Styrelsen
 
-\section{Sektionsmöte}
+/ Befogenhet:
+  Sektionsstyrelsen är sektionens högsta verkställande organ.
 
-\begin{stadgeavsnitt}
+/ Sammansättning:
+  Sektionsstyrelsen utgörs av #styr.ordf, #styr.vice_ordf, #skattm.mastare, #infu.ansv, #srd.ordf, #cafe.mastare, #naru.ansv, #km.mastare, #aktu.ansv, #sexm.mastare, #nollu.oph samt #cpu.mastare.
 
-\paragraf{8.1}{Befogenhet}
+/ Beslut:
+  Sektionsstyrelsen är beslutsför om fler än hälften av sektionsstyrelsens ledamöter är närvarande.
 
-Sektionsmötet är sektionens högsta beslutande organ.
+/ Sammanträde:
+  Sektionsstyrelsen sammanträder på kallelse av ordföranden eller vid dennes frånvaro av vice ordföranden. Rätt att begära utlysning av styrelsemöte har
+  + styrelseledamot,
+  + revisor, samt
+  + inspektor.
 
-\paragraf{8.2}{Rösträtt}
+/ Kallelse:
+  Kallelse till styrelsemöte samt föredragningslista skall senast fem dagar före sammanträdet tillställas styrelsens ledamöter, revisorerna, inspektorn samt anslås skriftligen i sektionslokalen där alla sektionsmedlemmar kan se.
 
-Rösträtt tillkommer sektionens ordinarie medlemmar.
+/ Solidaritet:
+  Styrelseledamot som utan reservation deltagit i beslut som fattats i sektionsstyrelsen är solidariskt ansvarig för detta. Styrelseledamot som ej varit närvarande vid beslut är solidariskt ansvarig om denne inte reserverat sig i protokollet senast vid nästa sammanträde då denne varit närvarande.
 
-\paragraf{8.3}{Röstlängd}
+/ Redaktionella rättigheter:
+  Styrelsen innehar rätten att genomföra redaktionella ändringar bland styrdokumenten på styrelsemöten i det fall då styrelsen är enhällig i beslutet. Med en redaktionell ändring menas en ändring som inte påverkar betydelsen av ett styrdokument, utan enbart ändrar läsbarheten eller rättar språkliga, typografiska eller andra uppenbara fel. Genomröstade ändringar skall redovisas under nästkommande sektionsmöte.
 
-Röstlängden specificerar de, vid mötet närvarande, som har rösträtt. Man kan endast finnas uppskriven på röstlängden om man uppfyller de krav specificerade enligt §8.2.
+= Utskott
 
-Röstlängden skall fastställas innan motion eller valfrågor behandlas samt specifikt inför den första valpunkten, dessa två fallen kan sammanfalla. Röstlängden får ej justeras under en punkt, och det är Talmannen som äger rätten att avgöra huruvida en punkt är påbörjad eller ej. Röstlängden kan justeras på en mötesdeltagares begäran.
+/ Definition:
+  Sektionens utskott är
+  + #infu.name,
+  + #skattm.name,
+  + #srd.name,
+  + #cafe.name,
+  + #naru.name,
+  + #km.name,
+  + #aktu.name,
+  + #nollu.name,
+  + #sexm.name,
+  + #medalj.name,
+  + #triv.name,
+  + #fram.name,
+  + #tackm.name, samt
+  + #cpu.name,
 
-\paragraf{8.4}{Sammanträden}
-Sektionsmöte får endas hållas under ordinarie terminer.
+/ Åligganden:
+  Det åligger sektionens utskott att följa sektionens stadgar och reglemente.
 
-\paragraf{8.5}{Beslutsförhet}
+/ Informations-?utskottet:
+  #infu.name har till uppgift att tillgodose sektionsmedlemmarnas behov av information och fotografering, underhåll och handhavande av sektionens arkiv samt vad därmed äger sammanhang
 
-Sektionsmötet äger rätt att fatta beslut då antalet närvarande
-röstberättigade medlemmar är minst tjugofem.
+/ Skattmästeriet:
+  #skattm.name har till uppgift att handha sektionens ekonomi och bokföring samt vad därmed äger sammanhang.
 
-\paragraf{8.6}{Adjungeringar}
+/ Studierådet:
+  #srd.name är sektionens högst beslutande organ för studiebevakning samt vad därmed äger sammanhang. Undantaget är frågor som berörs av sektionsmötet.
 
-Ständigt adjungerande med yttranderätt och yrkanderätt vid sektionsmöten
-är:
-\begin{enumerate}[a)]
-\item inspektorn,
-\item revisorerna, samt
-\item kårstyrelsens ledamöter.
-\end{enumerate}
+/ Cafémästeriet:
+  #cafe.name har till uppgift att till studentvänliga priser tillgodose sektionsmedlemmarnas behov av cafévaror samt vad därmed äger sammanhang.
 
-\paragraf{8.7}{Förhandlingsledare}
+/ Näringslivsutskottet:
+  #naru.name har till uppgift att tillgodose sektionsmedlemmarnas intressen vad gäller kontakter med näringslivet samt vad därmed äger sammanhang.
 
-Sektionsmötets förhandlingar leds av talmannen eller av mötet tillförordnad
-mötesordförande.
+/ Källarmästeriet:
+  #km.name har till uppgift att tillgodose sektionsmedlemmarnas intressen i frågor om underhåll av sektionens lokaler samt vad därmed äger sammanhang.
 
-\paragraf{8.8}{Utlysande}
+/ Aktivitetsutskottet:
+  #aktu.name har till uppgift att tillgodose sektionsmedlemmarnas behov av nöjen och förströelser samt vad därmed äger sammanhang.
 
-Styrelsen kallar till sektionsmöte.
+/ Nollningsutskottet:
+  #nollu.name har till uppgift att genomföra nollning samt vad därmed äger sammanhang.
 
-Kallelse till ordinarie sektionsmöte skall anslås skriftligen i sektionslokalen där alla sektionsmedlemmar kan se senast tjugoen dagar före mötet samt enligt kåren definierade krav.
+/ Sexmästeriet:
+  #sexm.name har till uppgift att tillgodose sektionsmedlemmarnas intressen vad gäller festaktivitet samt vad därmed äger sammanhang.
 
-Kallelse till extra sektionsmöte skall anslås skriftligen i sektionslokalen där alla sektionsmedlemmar kan se senast sju dagar före mötet samt enligt kåren definierade krav.
+/ Medaljelele-?kommittén:
+  #medalj.name har till uppgift att dela ut medaljer till sektionsfunktionärer.
 
-\paragraf{8.9}{Handlingar}
+/ Trivselrådet:
+  #triv.name har till uppgift att organisera och se över sektionens likabehandlings-, internationaliserings- samt arbetsmiljöarbete.
 
-Föredragningslista samt erforderliga handlingar skall anslås skriftligen i sektionslokalen där alla sektionsmedlemmar kan se senast sju dagar före mötet.
+/ Framtidsutskottet:
+  #fram.name har som uppgift att stödja sektionen i dess strategiska arbete, bereda förslag för styrelsen och sektionsmötet samt jobba med långsiktiga projekt.
 
-\paragraf{8.10}{Upptagande av ärende}
+/ Tackmästeriet:
+  #tackm.name har som uppgift att planera och genomföra sektionsgemensamma tackevenemang.
 
-Varje medlem äger rätt att upptaga ärende till behandling på ordinarie sektionsmöte, undantaget valmöte. Sådan motion skall skriftligen ha inkommit till styrelsen, digitalt eller i styrelsens brevlådan, minst fjorton dagar innan sammanträdet.
+/ Central-?process-?utskottet:
+  #cpu.name har till uppgift att underhålla sektionens hemsidor, mjukvara och hårdvara, att tillgodose sektionsmedlemmarnas intressen vad gäller programmering och teknik samt vad därmed äger sammanhang.
 
-\paragraf{8.10.1}{Interpellation}
-Varje medlem som önskar erhålla förklaring av funktionär angående dennes verksamhet äger rätt att ställa interpellation till denne. Om så begärs av den till vilken interpellation är riktad, skall den avges i skriftlig form. Sådan interpellation skall skriftligen ha inkommit till styrelsen samt ha tillställts den som interpellationen är riktad till senast fem dagar före sammanträdet. Svar på interpellationen skall avges på sammanträdet.
+/ Alternativ titulering:
+  Alternativ titulering för utskott är mästeri.
 
-\paragraf{8.10.2}{Misstroendevotum}
+= Projektkomitté
 
-Varje medlem äger rätt att ställa misstroendevotum mot sektionsfunktionär. Sådan misstroendevotum ska skriftligen ha inkommit till styrelsen senast fjorton dagar före sammanträdet. Om sektionsmötet bifaller yrkandet om misstroende entledigas funtionären från sitt uppdrag.
+/ Beskrivning:
+  En projektkommitté är ett tillfälligt sektionsorgan med syfte att genomföra ett specifikt projekt. Projektkommittéer driver sin verksamhet självständigt efter beslut fattat av styrelsen eller sektionsmötet.
 
-\paragraf{8.11}{Sen handling}
-En sen handling definieras som en handling, vilken har inkommit efter utsatt sista datum enligt
-\S8.10, eller annan handling, exempelvis bilaga, som inte anslagits i tid enligt \S8.9. Om sådan
-handling har inkommit innan sista datum för anslag enligt \S8.9 kan styrelsen välja att anslå och
-ta med den i föredragningslistan under prefixet Sen handling. Mötet beslutar sedan med enkel
-majoritet huruvida punkten skall behandlas. I den händelse att handlingen inte kan anslås i
-tid enligt \S8.9 kan styrelsen istället välja att låta mötet avgöra huruvida den skall införas på föredragningslistan
-när denna fastställs. Alla sena handlingar som ej lyfts enligt ovan bordläggs
-till nästföljande sektionsmöte, då de behandlas som korrekt inkomna handlingar.
+/ Uppstart:
+  Ny projektkommitté startas genom styrelse- eller sektionsmötesbeslut. I förslag till beslut skall projektledare, projektnamn, budget, syfte samt verksamhetsplan som inkluderar ungefärlig tidsplan finnas med.
 
-\paragraf{8.12}{Vårterminsmöte}
+/ Kontakt:
+  Projektledaren har som ansvar att hålla kontakt med beslutande organ.
 
-Vid vårterminsmötet skall följande ärenden förekomma:
-\begin{enumerate}[a)]
-\item verksamhetsberättelse och bokslut från föregående års styrelse,
-\item revisionsberättelse för det förflutna verksamhetsåret,
-\item fråga om ansvarsfrihet för föregående års styrelse,
-\item Verksamhetsrapport från styrelsen, samt
-\item val enligt reglemente.
-\end{enumerate}
+/ Årlig uppföljning:
+  Om projektet går över flera verksamhetsår skall årlig rapport lämnas till beslutande organ.
 
-\paragraf{8.13}{Höstterminsmöte ett}
+/ Avslut:
+  Efter att projektets verksamhet är genomförd skall projektledare överlämna verksamhetsberättelse samt ekonomisk berättellse till styrelsen. På nästkommande möte av beslutande instans ska frågan om formellt avslutande av projektet tas upp. Beslutande organ äger rätt att besluta om avslutande av projekt även om projektledare inte överlämnar ekonomisk- och verksamhetsbe- rättelse.
 
-Det första höstterminsmötet skall hållas i första läsperioden efter sommaren. Vid detta möte skall följande ärenden förekomma:
-\begin{enumerate}[a)]
-\item halvårsrapport,
-\item Verksamhetsrapport från styrelsen,
-\item strategiska målen för nästkommande verksamhetsår, samt
-\item val enligt reglemente.
-\end{enumerate}
+/ Skyldigheter:
+  Projektkommittéer är skyldiga att följa sektionens stadgar och reglemente.
 
-\paragraf{8.14}{Valmöte}
+/ Tolkning av funktionärskap:
+  En medlem i en projektkommitté blir inte funktionär för sektionen, likaså behöver denne inte vara medlem i sektionen.
 
-Valmötet skall hållas innan höstterminsmöte två. Vid detta möte skall följande ärenden tas upp:
-\begin{enumerate}[a)]
-\item val enligt regelmente.
-\end{enumerate}
+= Inspektor
 
-\paragraf{8.15}{Höstterminsmöte två}
+/ Uppgift:
+  Inspektorn skall ägna uppmärksamhet åt och stödja sektionens verksamhet samt vad därmed äger sammanhang.
 
-Vid andra höstterminsmötet skall följande ärenden tas upp:
-\begin{enumerate}[a)]
-\item information om sektionens ekonomiska status,
-\item budget för nästkommande verksamhetsår,
-\item Verksamhetsrapport från styrelsen, samt
-\item verksamhetsplan för nästkommande verksamhetsår, samt val enligt reglemente
-\end{enumerate}
+/ Val:
+  Inspektorn väljs, med kvalificerad majoritet, av sektionsmöte för en tid på två år. Inspektorn ska väljas bland de anställda vid Lunds Tekniska Högskola som uppvisar vilja att främja sektionens verksamhet samt dess medlemmars studietid.
 
-\paragraf{8.16}{Extra sektionsmöte}
+/ Åligganden:
+  Det åligger inspektorn att hålla sig informerad om sektionens verksamhet.
 
-Extra sektionsmöte skall hållas
-\begin{fetlista}{då}
-\item sektionens styrelse beslutar så,
-\item revisorerna hos styrelsen därom skriftligt anhåller, med
-  uppgivande av vilket ärende som önskas behandlas, eller
-\item minst tjugofem medlemmar hos styrelsen därom skriftligen
-  anhåller, med uppgivande av vilket ärende som önskas behandlas.
-\end{fetlista}
+/ Rättigheter:
+  Inspektorn äger rätt
+  - att närvara vid samtliga sektionens myndigheters sammanträden med yttranderätt och yrkanderätt,
+  - att erhålla samtliga sektionens handlingar rörande sektionens myndigheters sammanträden,
+  - att taga del av sektionens protokoll och övriga handlingar, samt i övrigt bli informerad om sektionens verksamhet, samt
+  - att erhålla av sektionen utgivna publikationer.
 
-Dylikt möte skall hållas inom fjorton dagar samt enligt kåren definierade krav efter det att anhållan inkommit till styrelsen.
+= Funktionärer
 
+/ Definition:
+  Sektionens funktionärer är
+  #fmt.resolutions(term: "av")[
+    - av sektionsmötet utsedda till förtroendeposter,
+    - av sektionsstyrelsen utsedda till förtroendeposter, samt
+    - av studierådet utsedda till förtroendeposter.
+  ]
 
-\end{stadgeavsnitt}
+/ Skyldigheter:
+  Sektionens funktionärer är skyldiga att följa gällande stadgar och reglemente, samt att verka för sektionens bästa.
 
-\section{Valberedning}
+/ Mandatperiod:
+  Mandatperioden för sektionens funktionärer är kalenderår då ej annat stadgats i reglementet.
 
-\begin{stadgeavsnitt}
+= Ekonomi
 
-\paragraf{9.1}{Uppgift}
+/ Skötsel:
+  Sektionens ekonomi sköts av sektionens skattmästare. Varje utskott är dock ansvarig för sin verksamhet.
 
-Valberedningen har som uppgift att förbereda val som skall förrättas av
-sektionsmötet.
+/ Redovisning:
+  Sektionsstyrelsen ansvarar för att sektionens redovisning sköts i enlighet med myndigheters krav och god redovisningssed.
 
-\paragraf{9.2}{Sammansättning}
+/ Firma:
+  Sektionens firma tecknas av styrelsen som helhet samt skattmästaren och ordföranden var för sig.
 
-Sektionens valberedning består av ordförande samt valberedningsrepresentanter. Valberedningsrepresentanter ska vara medlemmar som förväntas vara ordinarie medlem vid TLTH ett år
-framöver. Valberedningens sammansättning ska eftersträva representation från flera årskurser.
+= Stadgan
 
+/ Tolkning:
+  Vid tolkning av stadgan gäller inspektorns tolkning intill dess sektionsmötet beslutat i saken. Vid avsaknad av inspektor gäller sektionsordförandens tolkning intill dess sektionsmötet beslutat i saken. Tolkningar skall protokollföras och redovisas på nästkommande sektionsmöte.
 
-\paragraf{9.3}{Åligganden}
+/ Ändring:
+  För ändring av stadgan krävs likalydande beslut med kvalificerad majoritet på två sektionsmöten med minst en månad och högst tretton månader emellan.
 
-Det åligger valberedningen att senast sju dagar innan sektionsmötet, skriftligen anslå sitt förslag skriftligen i sektionslokalen där alla sektionsmedlemmar kan se.
+  Alternativ till stadgeändringar kan endast inlämnas i förväg som ändringsyrkande, eller som svar av styrelsen. Sådana ändringsyrkande ska vara talman tillhanda minst en dag före sektionsmötet. Smärre ändringar av förslag vad gäller grammatik och dylikt kan göras av mötet.
 
-\end{stadgeavsnitt}
+/ Fastställande:
+  Ändring av paragraf träder ej i kraft förrän de stadfästs på vederbörligt sätt i enlighet med kårens stadgar.
 
-\section{Val}
+/ Giltighet:
+  Skulle någon av dessa stadgar strida mot kårens stadgar, gäller i sådana fall kårens stadgar.
 
-\begin{stadgeavsnitt}
+/ Historik:
+  Stadgan skall versionshanteras.
 
-\paragraf{10.1}{Valbarhet}
+= Reglemente
 
-Valbarhet till funktionärspost regleras av var sektionsmedlems
-medlemstyp. Valbarhet till inspektor regleras av \S16.2. Valbarhet till revisor är öppet för
-allmänheten.
+/ Definition:
+  Reglementet är ett tillägg till stadgarna, i vilket tillämpningsföreskrifter och övriga föreskrifter återfinns.
 
-\paragraf{10.2}{Fyllnadsval}
+/ Tolkning:
+  Vid tolkning av reglementet gäller inspektorns tolkning intill dess sektionsmötet beslutat i saken. Vid avsaknad av inspektor gäller sektionsordförandens tolkning intill dess sektionsmötet beslutat i saken. Tolkningar skall protokollföras och redovisas på nästkommande sektionsmöte.
 
-Styrelsemedlemmar, revisorer, inspektor, valberedning, vice skattmästare, skattförman och Framtidsordförande kan endast väljas av sektionsmöte. Representanter i universitetets organ kan endast nomineras av sektionsmöte eller studierådet. Fyllnadsval av övriga
-funktionärer kan förrättas av styrelsen.
+/ Ändring:
+  För ändring av reglementet krävs likalydande beslut på två sektionsmöten med minst en månad och högst tretton månader emellan, eller beslut med kvalificerad majoritet på ett sektionsmöte.
 
+/ Historik:
+  Reglementet skall versionshanteras.
 
+= Fristående föreningar
 
-\paragraf{10.3}{Entledigande}
+/ Definition:
+  För att betraktas som en fristående förening skall föreningen vara godkänd av sektionsmötet och ha av sektionsmötet stadfästa stadgar.
 
-Funktionär kan bli entledigad av den instans som har valt denne. Sektionsmötet äger rätt
-att med kvalificerad majoritet entlediga alla funktionärer.
+/ Bildande:
+  Fristående föreningar kan bildas bland sektionens medlemmar.
 
-\end{stadgeavsnitt}
+/ Stadgar:
+  Stadgar skall innehålla namn och bestämmelser om syfte, medlemskap, ekonomi, föreningsmöte och föreningsstyrelse.
 
-\section{Procedurregler}
+/ Syfte och\ verksamhet:
+  En fristående förenings syfte och verksamhet får inte gå i konflikt med sektionens dito.
 
-\begin{stadgeavsnitt}
+/ Rättigheter:
+  En fristående förening inom sektionen må av styrelsen beviljas rätt att utnyttja vissa av sektionslokalerna för sin verksamhet.
 
-\paragraf{11.1}{Röstning}
+/ Skyldigheter:
+  En fristående förening är skyldig att, följa sektionen och kårens styrdokument. En fristående förening är skyldig att, erbjuda sektionens alla medlemmar möjlighet att vara en del av föreningen och verka för föreningens mål och syften.
 
-Röstning via fullmakt är ej tillåten.
+/ Förlust- och underskottsgaranti:
+  Sektionen kan lämna förlust- och underskottsgaranti upp till högst hälften av förlusten/underskottet till föreningen.
 
-\paragraf{11.2}{Jävighet}
+/ Revisorer:
+  Om sektionen givit någon form av ekonomiska garantier till föreningen skall en av föreningens revisorer utses av sektionen.
 
-Ingen må deltaga i beslut om ansvarsfrihet för åtgärd för vilken denne är ansvarig, 
-eller i beslut av vars utgång denne kan äga
-ett ekonomiskt intresse.
+/ Sammansättning:
+  Den fristående föreningens medlemmar skall till övervägande del utgöras av sektionsmedlemmar.
 
-\paragraf{11.3}{Acklamation}
+/ Fristående föreningar under sektionen:
+  Sektionen har inga fristående föreningar.
 
-Beslut fattas genom acklamation, såvida votering ej begärts.
+= Ordenssällskapet
 
-\paragraf{11.4}{Votering}
+/ Ordenssällskapet #guild.dseklth, ODLTH:
+  ODLTH är organisatoriskt underställt övermarskalken. ODLTH lyder under, av sektionen, för ODLTH fastslagna stadgar.
 
-Votering skall vara sluten vid personval. I alla övriga fall skall öppen
-votering hållas. Om så begärs skall vid öppen votering föras röstprotokoll.
-Sluten votering sker efter namnupprop. Om röstetalet är lika äger
-mötesordförande utslagsröst vid öppen votering.
+= Upplösning
 
-Vid sluten votering där det finns fler än två kandidater som kandiderar för samma post, 
-och två av dem erhåller samma röstantal, samt att båda enligt kårens stadgar inte kan gå 
-vidare till nästa röstomgång, ska ett nytt slutet personval etableras mellan de kandidater
-som fick samma mängd röster. Därefter ska det röstas om vilken av de kandidater som ska få 
-behålla sin plats i det ursprungliga valet.
+/ Upplösning:
+  Sektionen kan ej upplösas.
 
-\paragraf{11.5}{Adjungerade}
-
-Adjungerade må deltaga i sammanträde med yttranderätt och yrkanderätt.
-
-\paragraf{11.6}{Kvalificerad majoritet}
-
-Med kvalificerad majoritet menas, om ej annat stadgats, minst två
-tredjedelar av de avgivna rösterna.
-
-\paragraf{11.7}{Övrigt}
-
-Om ej annat stadgats i stadgan eller reglementet gäller den förhandlingsord- ning som är reglerad i Teknologkårens stadgar, med lämplig anpassning för sektionens organ.
-
-\end{stadgeavsnitt}
-
-\section{Protokoll}
-
-\begin{stadgeavsnitt}
-
-\paragraf{12.1}{Sektionsmöte}
-
-Vid sektionsmöte skall föras protokoll, som upptar anteckningar om ärendets
-art, samtliga ställda och ej återtagna yrkanden, beslut, särskilda
-yttranden och reservationer samt förteckning över de närvarande.
-
-\paragraf{12.2}{Övriga myndigheter}
-
-Vid övriga beslutande myndigheters sammanträden förs protokoll, som upptar
-tagna beslut och förteckning över de närvarande.
-
-\paragraf{12.3}{Justering}
-
-Sektionsmötesprotokoll justeras inom fjorton dagar av mötesordföranden samt två, på mötet valda justeringsmän.
-
-Övriga myndigheters protokoll justeras snarast av mötesordförande eller av mötet vald justeringsperson.
-
-\paragraf{12.4}{Offentliggörande}
-
-Justerade protokoll skall vara offentliga och tillgängliga för sektionens medlemmar.
-
-\paragraf{12.5}{Arkivering}
-
-Samtliga möteshandlingar skall arkiveras.
-
-\end{stadgeavsnitt}
-
-\section{Styrelsen}
-
-\begin{stadgeavsnitt}
-
-\paragraf{13.1}{Befogenhet}
-
-Sektionsstyrelsen är sektionens högsta verkställande organ.
-
-\paragraf{13.2}{Sammansättning}
-
-Sektionsstyrelsen utgörs av Ordförande, Vice Ordförande, Skattmästare, Informationsansvarig, Studierådsordförande, Cafémästare, Näringslivsansvarig, Källarmästare, Aktivitetsansvarig, Sexmästare, Øverphøs samt Processmästare.
-
-\paragraf{13.3}{Beslut}
-
-Sektionsstyrelsen är beslutsför om fler än hälften av sektionsstyrelsens
-ledamöter är närvarande.
-
-\paragraf{13.4}{Sammanträde}
-
-Sektionsstyrelsen sammanträder på kallelse av ordföranden eller vid dennes
-frånvaro av vice ordföranden. Rätt att begära utlysning av styrelsemöte
-har
-\begin{enumerate}[a)]
-\item styrelseledamot,
-\item revisor, samt
-\item inspektor.
-\end{enumerate}
-
-\paragraf{13.5}{Kallelse}
-
-Kallelse till styrelsemöte samt föredragningslista skall senast fem dagar före sammanträdet tillställas styrelsens ledamöter,
-revisorerna, inspektorn samt anslås skriftligen i sektionslokalen där alla sektionsmedlemmar kan se.
-
-\paragraf{13.6}{Solidaritet}
-
-Styrelseledamot som utan reservation
-deltagit i beslut som fattats i sektionsstyrelsen är solidariskt ansvarig för detta. 
-Styrelseledamot som ej varit närvarande vid beslut är solidariskt ansvarig om denne inte reserverat
-sig i protokollet senast vid nästa sammanträde då denne varit närvarande.
-
-\paragraf{13.7}{Redaktionella rättigheter }
-
-Styrelsen innehar rätten att genomföra redaktionella ändringar bland styrdokumenten på styrelsemöten i 
-det fall då styrelsen är enhällig i beslutet. Med en redaktionell ändring menas en ändring som inte påverkar 
-betydelsen av ett styrdokument, utan enbart ändrar läsbarheten eller rättar språkliga, typografiska eller 
-andra uppenbara fel. Genomröstade ändringar skall redovisas under nästkommande sektionsmöte.
-
-\end{stadgeavsnitt}
-
-\section{Utskott}
-
-\begin{stadgeavsnitt}
-
-\paragraf{14.1}{Definition}
-
-Sektionens utskott är:
-\begin{enumerate}[a)]
-\item Informationsutskottet,
-\item Skattmästeriet,
-\item Studierådet,
-\item Cafémästeriet,
-\item Näringslivsutskottet,
-\item Källarmästeriet,
-\item Aktivitetsutskottet,
-\item Sexmästeriet,
-\item Nollningsutskottet,
-\item Medaljelelekommittén,
-\item Trivselrådet,
-\item Framtidsutskottet,
-\item Tackmästeriet, samt
-\item Centralprocessutskottet.
-\end{enumerate}
-
-\paragraf{14.2}{Åligganden}
-
-Det åligger sektionens utskott att följa sektionens stadgar och
-reglemente.
-
-\paragraf{14.3}{Informationsutskottet}
-
-Informaitonsutskottet har till uppgift att tillgodose sektionsmedlemmarnas behov av information och fotografering, underhåll och handhavande av sektionens arkiv samt vad därmed äger sammanhang.
-
-\paragraf{14.4}{Skattmästeriet}
-
-Skattmästeriet har till uppgift att handha sektionens ekonomi och bokföring
-samt vad därmed äger sammanhang.
-
-\paragraf{14.5}{Studierådet}
-
-Sektionens studieråd är sektionens högst beslutande organ för studiebevakning samt vad
-därmed äger sammanhang. Undantaget är frågor som berörs av sektionsmötet.
-
-\paragraf{14.6}{Cafémästeriet}
-
-Cafémästeriet har till uppgift att till studentvänliga priser tillgodose
-sektionsmedlemmarnas behov av cafévaror samt vad därmed äger sammanhang.
-\paragraf{14.7}{Näringslivsutskottet}
-
-Näringslivsutskottet har till uppgift att tillgodose sektionsmedlemmarnas
-intressen vad gäller kontakter med näringslivet samt vad därmed äger
-sammanhang.
-
-\paragraf{14.8}{Källarmästeriet}
-
-Källarmästeriet har till uppgift att tillgodose sektionsmedlemmarnas intressen i frågor om underhåll av sektionens lokaler samt vad därmed äger sammanhang.
-
-\paragraf{14.9}{Aktivitetsutskottet}
-
-Aktivitetsutskottet har till uppgift att tillgodose sektionsmedlemmarnas behov
-av nöjen och förströelser samt vad därmed äger sammanhang.
-
-\paragraf{14.10}{Nollningsutskottet}
-
-Nollningsutskottet har till uppgift att genomföra nollning samt vad därmed äger sammanhang.
-
-\paragraf{14.11}{Sexmästeriet}
-
-Sexmästeriet har till uppgift att tillgodose sektionsmedlemmarnas intressen
-vad gäller festaktivitet samt vad därmed äger sammanhang.
-
-\paragraf{14.12}{Medaljelelekommittén}
-
-Medaljelelekommittén har till uppgift att dela ut medaljer till
-sektionsfunktionärer.
-
-\paragraf{14.13}{Trivselrådet}
-
-Trivselrådet har till uppgift att organisera och se över sektionens likabehandlings-, internationaliserings- samt arbetsmiljöarbete.
-
-\paragraf{14.14}{Framtidsutskottet}
-
-Framtidsutskottet har som uppgift att stödja sektionen i dess strategiska arbete, bereda förslag för styrelsen och sektionsmötet samt jobba med långsiktiga projekt.
-
-\paragraf{14.15}{Tackmästeriet}
-
-Tackmästeriet har som uppgift att planera och genomföra sektionsgemensamma tackevenemang.
-
-\paragraf{14.16}{Centralprocessutskottet}
-
-Centralprocessutskottet har till uppgift att underhålla sektionens
-hemsidor, mjukvara och hårdvara, att tillgodose sektionsmedlemmarnas intressen vad gäller programmering och teknik samt
-vad därmed äger sammanhang.
-
-\paragraf{14.17}{Alternativ titulering}
-
-Alternativ titulering för utskott är mästeri.
-
-\end{stadgeavsnitt}
-
-\section{Projektkommitté}
-
-En projektkommitté är ett tillfälligt sektionsorgan med syfte att genomföra ett specifikt projekt. Projektkommittéer driver sin verksamhet självständigt efter beslut fattat av styrelsen eller sektionsmötet
-\begin{stadgeavsnitt}
-\paragraf{15.1}{Uppstart}
-Ny projektkommitté startas genom styrelse- eller sektionsmötesbeslut. I förslag till beslut skall projektledare, projektnamn, budget, syfte samt verksamhetsplan som inkluderar ungefärlig tidsplan finnas med.
-\paragraf{15.2}{Kontakt}
- Projektledaren har som ansvar att hålla kontakt med beslutande organ.
-\paragraf{15.3}{Årlig uppföljning}
-Om projektet går över flera verksamhetsår skall årlig rapport lämnas till beslutande organ.
-\paragraf{15.4}{Avslut}
-Efter att projektets verksamhet är genomförd skall projektledare överlämna verksamhetsberättelse samt ekonomisk berättellse till styrelsen. På nästkommande möte av beslutande instans ska frågan om formellt avslutande av projektet tas upp. Beslutande organ äger rätt att besluta om avslutande av projekt även om projektledare inte överlämnar ekonomisk- och verksamhetsberättelse.
-\paragraf{15.5}{Skyldigheter}
- Projektkommittéer är skyldiga att följa sektionens stadgar och reglemente.
-\paragraf{15.6}{Tolkning av funktionärskap}
-En medlem i en projektkommitté blir inte funktionär för sektionen, likaså behöver denne inte vara medlem i sektionen.
-\end{stadgeavsnitt}
-
-\section{Inspektor}
-
-\begin{stadgeavsnitt}
-
-\paragraf{16.1}{Uppgift}
-
-Inspektorn skall ägna uppmärksamhet åt och stödja sektionens verksamhet
-samt vad därmed äger sammanhang.
-
-\paragraf{16.2}{Val}
-%%inte säker, kolla motionen igen sen o veta vilket framvaskat förslag det gäller
-Inspektorn väljs, med kvalificerad majoritet, av sektionsmöte för en tid på två år. Inspektorn ska väljas bland de anställda vid Lunds Tekniska Högskola som uppvisar vilja att främja sektionens verksamhet samt dess medlemmars studietid.
-
-\paragraf{16.3}{Åligganden}
-
-Det åligger inspektorn att hålla sig informerad om sektionens verksamhet.
-
-\paragraf{16.4}{Rättigheter}
-
-Inspektorn äger rätt:
-\begin{attlista}
-\item närvara vid samtliga sektionens myndigheters sammanträden med
-  yttranderätt och yrkanderätt,
-\item erhålla samtliga sektionens handlingar rörande sektionens
-  myndigheters sammanträden,
-\item taga del av sektionens protokoll och övriga handlingar, samt i övrigt
-  bli informerad om sektionens verksamhet, samt
-\item erhålla av sektionen utgivna publikationer.
-\end{attlista}
-
-\end{stadgeavsnitt}
-
-\section{Funktionärer}
-
-\begin{stadgeavsnitt}
-
-\paragraf{17.1}{Definition}
-
-Sektionens funktionärer är:
-\begin{fetlista}{av}
-\item sektionsmötet utsedda till förtroendeposter,
-\item sektionsstyrelsen utsedda till förtroendeposter, samt
-\item studierådet utsedda till förtroendeposter
-\end{fetlista}
-
-\paragraf{17.2}{Skyldigheter}
-
-Sektionens funktionärer är skyldiga att följa gällande stadgar och
-reglemente, samt att verka för sektionens bästa.
-
-\paragraf{17.3}{Mandatperiod}
-
-Mandatperioden för sektionens funktionärer är kalenderår då ej annat
-stadgats i reglementet.
-
-\end{stadgeavsnitt}
-
-\section{Ekonomi}
-
-\begin{stadgeavsnitt}
-
-\paragraf{18.1}{Skötsel}
-
-Sektionens ekonomi sköts av sektionens skattmästare. Varje utskott är dock
-ansvarig för sin verksamhet.
-
-\paragraf{18.2}{Redovisning}
-
-Sektionsstyrelsen ansvarar för att sektionens redovisning sköts i enlighet
-med myndigheters krav och god redovisningssed.
-
-\paragraf{18.3}{Firma}
-
-Sektionens firma tecknas av styrelsen som helhet samt skattmästaren och ordföranden
-var för sig.
-
-\end{stadgeavsnitt}
-
-\section{Stadgan}
-
-\begin{stadgeavsnitt}
-
-\paragraf{19.1}{Tolkning}
-
-Vid tolkning av stadgan gäller inspektorns tolkning intill dess
-sektionsmötet beslutat i saken. Vid avsaknad av inspektor gäller
-sektionsordförandens tolkning intill dess sektionsmötet beslutat i saken.
-Tolkningar skall protokollföras och redovisas på nästkommande
-sektionsmöte.
-
-\paragraf{19.2}{Ändring}
-
-För ändring av stadgan krävs likalydande beslut med kvalificerad majoritet
-på två sektionsmöten med minst en månad och högst tretton månader emellan.
-\\\\
-Alternativ till stadgeändringar kan endast inlämnas i förväg som ändringsyrkande, eller som svar av styrelsen. Sådana ändringsyrkande ska vara talman tillhanda minst en dag före sektionsmötet. Smärre ändringar av förslag vad gäller grammatik och dylikt kan göras av mötet
-
-\paragraf{19.3}{Fastställande}
-
-Ändring av paragraf träder ej i kraft förrän de stadfästs på vederbörligt
-sätt i enlighet med kårens stadgar.
-
-\paragraf{19.4}{Giltighet}
-
-Skulle någon av dessa stadgar strida mot kårens stadgar, gäller i sådana
-fall kårens stadgar.
-
-\paragraf{19.5}{Historik}
-Stadgan skall versionshanteras
-
-\end{stadgeavsnitt}
-
-\section{Reglemente}
-
-\begin{stadgeavsnitt}
-
-\paragraf{20.1}{Definition}
-
-Reglementet är ett tillägg till stadgarna, i vilket
-tillämpningsföreskrifter och övriga föreskrifter återfinns.
-
-\paragraf{20.2}{Tolkning}
-
-Vid tolkning av reglementet gäller inspektorns tolkning intill dess
-sektionsmötet beslutat i saken. Vid avsaknad av inspektor gäller
-sektionsordförandens tolkning intill dess sektionsmötet beslutat i saken.
-Tolkningar skall protokollföras och redovisas på nästkommande
-sektionsmöte.
-
-\paragraf{20.3}{Ändring}
-
-För ändring av reglementet krävs likalydande beslut på två sektionsmöten
-med minst en månad och högst tretton månader emellan, eller beslut med
-kvalificerad majoritet på ett sektionsmöte.
-
-\paragraf{20.4}{Historik} Reglementet skall versionshanteras
-
-\end{stadgeavsnitt}
-
-\section{Fristående föreningar}
-
-\begin{stadgeavsnitt}
-
-\paragraf{21.1}{Definition}
-
-För att betraktas som en fristående förening skall föreningen vara godkänd
-av sektionsmötet och ha av sektionsmötet stadfästa stadgar.
-
-\paragraf{21.2}{Bildande}
-
-Fristående föreningar kan bildas bland sektionens medlemmar.
-
-\paragraf{21.3}{Stadgar}
-
-Stadgar skall innehålla namn och bestämmelser om syfte, medlemskap,
-ekonomi, föreningsmöte och föreningsstyrelse.
-
-\paragraf{21.4}{Syfte och verksamhet}
-
-En fristående förenings syfte och verksamhet får inte gå i konflikt med
-sektionens dito.
-
-\paragraf{21.5}{Rättigheter}
-
-En fristående förening inom sektionen må av styrelsen beviljas rätt att
-utnyttja vissa av sektionslokalerna för sin verksamhet.
-
-\paragraf{21.6}{Skyldigheter}
-
-En fristående förening är skyldig att, följa sektionen och kårens styrdokument. En fristående förening är skyldig att, erbjuda sektionens alla medlemmar möjlighet att vara en del av föreningen och verka för föreningens mål och syften.
-
-\paragraf{21.7}{Förlust- och underskottsgaranti}
-
-Sektionen kan lämna förlust- och underskottsgaranti upp till högst hälften
-av förlusten/underskottet till föreningen.
-
-\paragraf{21.8}{Revisorer}
-
-Om sektionen givit någon form av ekonomiska garantier till föreningen skall
-en av föreningens revisorer utses av sektionen.
-
-\paragraf{21.9}{Sammansättning}
-
-Den fristående föreningens medlemmar skall till övervägande del utgöras av
-sektionsmedlemmar.
-
-\paragraf{21.10}{Fristående föreningar under sektionen.}
-Sektionen har inga fristående föreningar.
-
-\end{stadgeavsnitt}
-
-\section{Ordenssällskapet}
-
-\begin{stadgeavsnitt}
-
-\paragraf[2]{22.1}{Ordenssällskapet D-sektionen vid Lunds Tekniska Högskola, ODLTH}
-
-ODLTH är organisatoriskt underställt övermarskalken. ODLTH lyder under, av
-sektionen, för ODLTH fastslagna stadgar.
-
-\end{stadgeavsnitt}
-
-\section{Upplösning}
-
-\begin{stadgeavsnitt}
-
-\paragraf{23.1}{Upplösning}
-
-Sektionen kan ej upplösas.
-
-\paragraf{23.2}{Tillgångar}
-
-Vid upplösning av sektionen tillfaller tillgångarna Teknologkåren vid Lunds
-Tekniska Högskola, vilken har att förvalta dessa under minst fem år,
-varefter kåren äger använda tillgångarna till förmån för studenterna vid
-LTH. I fall av en ny studentsammanslutning bildas inom dessa fem år, må
-kåren överväga om tillgångarna skall överlåtas till den nya organisationen.
-
-\end{stadgeavsnitt}
-
-\end{document}
+/ Tillgångar:
+  Vid upplösning av sektionen tillfaller tillgångarna Teknologkåren vid Lunds Tekniska Högskola, vilken har att förvalta dessa under minst fem år, varefter kåren äger använda tillgångarna till förmån för studenterna vid LTH. I fall av en ny studentsammanslutning bildas inom dessa fem år, må kåren överväga om tillgångarna skall överlåtas till den nya organisationen.
