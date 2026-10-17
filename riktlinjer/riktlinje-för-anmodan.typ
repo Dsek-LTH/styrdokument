@@ -1,207 +1,177 @@
-\documentclass{dsekprotokoll}
+#import "@preview/dsek:0.1.0": *
+#import strings: nollu, medalj
 
-\usepackage[T1]{fontenc}
-\usepackage[utf8]{inputenc}
-\usepackage[swedish]{babel}
-\usepackage{graphicx}
-\usepackage{wrapfig}
+#show: guideline.with(
+  subject: "anmodanden och inbjudningar",
+  summary: [
+    Riktlinjen beskriver vilka och i vilken prioritetsordning personer bör anmodas och bjudas in till vissa tillställningar.
+  ],
+  purpose: [
+    Syftet med riktlinjen är att ge ett lätt och konsekvent sätt för anordnare av sittningar och baler att veta vem som bör anmodas och bjudas in.
+  ],
+  scope: [
+    Sektionen i sin helhet.
+  ],
+  history: (
+    (meeting: "S22 2023", change: "Antagen", who: "Axel Svensson"),
+  ),
+)
 
-\newcommand{\datum}{2020--09--03}
+= Terminologi
 
-\setheader{Riktlinje för anmodanden och inbjudningar}{Riktlinje}{Lund -- 1 oktober 2023}
+== Anmodan
 
-\author{Axel Svensson}
+En anmodan till en tillställning är ett erbjudande att köpa biljett till den. För det mesta utan vidare formaliteter, men mer exklusiva gäster bör tillställas en formell anmodan. Ordningen för anmodan refererar till i vilken prioritetsordning biljettförsäljningen bör ske.
 
-\title{Riktlinje för anmodanden och inbjudningar}
-\begin{document}
+== Inbjudan
 
-\maketitle
-\section{Formalia}
-\subsection{Sammanfattning}
-Riktlinje för anmodanden och inbjudningar beskriver vilka och i vilken prioritetsordning personer bör anmodas och
-bjudas in till vissa tillställningar.
+En inbjudan är det samma som en anmodan fast att anordnaren står för biljettpriset; en erbjudan att delta. Eftersom inbjudan oftast är mer exklusiv än anmodan är de flesta inbjudningar formella. I enlighet med svensk alkohollag betalar inte arrangören priset för eventuell förköpbar alkohol (t.ex. vinpaket, punschbiljetter).
 
-\subsection{Syfte}
-Riktlinjens syfte är att ge ett lätt och konsekvent sätt för anordnare av sittningar och baler att veta vem som bör anmodas och bjudas in.
+= Nollningen
 
-\subsection{Omfattning}
-Sektionen i sin helhet.
+== Icke-gasque-sittningar under nollningen
 
-\subsection{Historik}
-Antagen på S22 2023.
+=== Inbjudningar
 
-\section{Terminologi}
-
-\subsection{Anmodan}
-En anmodan till en tillställning är ett erbjudande att köpa
-biljett till den. För det mesta utan vidare formaliteter, men
-mer exklusiva gäster bör tillställas en formell anmodan. Ordningen
-för anmodan refererar till i vilken prioritesordning biljettförsäljningen bör ske.
-
-
-\subsection{Inbjudan}
-En inbjudan är det samma som en anmodan fast att anordnaren står för biljettpriset; en erbjudan att delta. Eftersom
-inbjudan oftast är mer exklusiv än anmodan är de flesta inbjudningar formella.
-I enlighet med svensk alkohollag betalar inte arrangören priset för eventuell förköpbar alkohol (t.ex. vinpaket, punschbiljetter).
-
-
-
-
-\section{Nollningen}
-
-\subsection{Icke-gasque-sittningar under nollningen} \label{icke-gasque}
-\subsubsection{Inbjudningar}
 Till en icke-gasque-sittning under nollningen ska följande erhålla en inbjudan:
-\begin{itemize}
-    \item øverphøs och stabsmedlemmar
-\end{itemize}
 
-\subsubsection{Anmodanden}
-Till en icke-gasque-sittning under nollningen ska följande
-anmodas i den turordning som följer i mån av plats:
+- #nollu.oph och #(nollu.stab)mar.
 
-\begin{itemize}
-    \item utsedda nyktra och ansvariga phaddrar,
-    \item øverphøs och stabsmedlemmar,
-    \item øverpeppare och peppare,
-    \item nollor,
-    \item grupphaddrar,
-    \item övriga phaddrar, samt
-    \item styrelseledamöter.
-\end{itemize}
+=== Anmodanden
 
-\subsection{Lär-känna-gasque (LKG)}
+Till en icke-gasque-sittning under nollningen ska följande anmodas i den turordning som följer i mån av plats:
 
-\subsubsection{Inbjudningar}
+- utsedda nyktra och ansvariga Phaddrar,
+- #nollu.opepp och #nollu.pepp,
+- Nollor,
+- Grupphaddrar,
+- övriga Phaddrar, samt
+- styrelseledamöter.
+
+=== Lär-känna-gasque (LKG)
+
+==== Inbjudningar
+
 Till LKG ska följande erhålla en inbjudan:
-\begin{itemize}
-    \item inspektorn och inspektrix.
-    \item øverphøs och stabsmedlemmar,
-\end{itemize}
 
-\subsubsection{Anmodanden}
+- Inspektorn och Inspektrix.
+- #nollu.oph och #(nollu.stab)mar.
+
+==== Anmodanden
+
 Till LKG ska följande anmodas i den turordning som följer i mån av plats:
-\begin{itemize}
-    \item utsedda ansvariga phaddrar,
-    \item øverpeppare och peppare,
-    \item styrelseledamöter,
-    \item nollor,
-    \item grupphaddrar,
-    \item övriga phaddrar,
-    \item nollningsfunktionärer,
-\end{itemize}
 
+- Utsedda nyktra och ansvariga Phaddrar,
+- #nollu.opepp och #nollu.pepp,
+- Styrelseledamöter,
+- Nollor,
+- Grupphaddrar,
+- övriga Phaddrar, samt
+- Nollningsfunktionärer
 
-\subsection{Sektionsöverskridande-sittningar}
+=== Sektionsöverskridande sittningar
 
-\subsubsection{Inbjudan}
-Till sektionsöverkridande sittningar ska följande erhålla en inbjudan:
-\begin{itemize}
-    \item Øverphøs och stabsmedlemmar
-\end{itemize}
+==== Inbjudan
 
-\subsubsection{Anmodanden}
-Till sektionsöverskridande sittningar ska följande anmodas i den turordning som följer i mån
-av plats:
-  \begin{itemize}
-    \item utsedda ansvariga phaddrar,
-    \item øverpeppare och peppare,
-    \item styrelseledamöter,
-    \item nollor,
-    \item grupphaddrar,
-    \item övriga phaddrar,
-    \item nollningsfunktionärer,
-  \end{itemize}
+Till sektionsöverskridande sittningar ska följande erhålla en inbjudan:
 
-\subsection{Nollegasque}
+- #nollu.oph och #(nollu.stab)mar.
 
-\subsubsection{Inbjudningar}
+==== Anmodanden
+
+Till sektionsöverskridande sittningar ska följande anmodas i den turordning som följer i mån av plats:
+
+- Utsedda nyktra och ansvariga Phaddrar,
+- #nollu.opepp och #nollu.pepp,
+- Styrelseledamöter,
+- Nollor,
+- Grupphaddrar,
+- övriga Phaddrar, samt
+- Nollningsfunktionärer
+
+=== Nollegasque
+
+==== Inbjudningar
+
 Till nollegasque ska följande erhålla en inbjudan:
-\begin{itemize}
-    \item inspektorn och inspektrix, samt
-    \item hedersmedlemmar.
-\end{itemize}
 
-\subsubsection{Anmodanden}
-Till nollegasque ska följande anmodas i den turordning som
-följer i mån av plats:
-  \begin{itemize}
-    \item utsedda ansvariga phaddrar,
-    \item øverphøs och stabsmedlemmar,
-    \item øverpeppare och peppare,
-    \item styrelseledamöter,
-    \item nollor,
-    \item grupphaddrar,
-    \item övriga phaddrar,
-    \item nollningsfunktionärer,
-    \item heltidare vid Teknologkåren från D-sektionen,
-    \item sektionens kårkontakter,
-    \item kårens nollningsutskott,
-    \item övriga aktiva medlemmar, samt
-    \item passiva medlemmar.
-  \end{itemize}
+- Inspektorn och Inspektrix, samt
+- hedersmedlemmar.
 
+==== Anmodanden
 
+Till nollegasque ska följande anmodas i den turordning som följer i mån av plats:
 
-\section{Andra sittningar}
+- Utsedda ansvariga Phaddrar,
+- #nollu.oph och #(nollu.stab)mar,
+- #nollu.opepp och #nollu.pepp,
+- styrelseledamöter,
+- nollor,
+- grupphaddrar,
+- övriga Phaddrar,
+- Nollningsfunktionärer,
+- heltidare vid Teknologkåren från D-sektionen,
+- sektionens kårkontakter,
+- kårens nollningsutskott,
+- övriga aktiva medlemmar, samt
+- passiva medlemmar.
 
-\subsection{Skiphtesgasque}
+= Andra sittningar
 
-\subsubsection{Inbjudningar}
+== Skiphtesgasque
+
+=== Inbjudningar
+
 Till skiphtesgasquen ska följande erhålla en inbjudan:
 
-\begin{itemize}
-    \item inspektorn och inspektrix, samt
-    \item hedersmedlemmar.
-\end{itemize}
+- Inspektorn och Inspektrix, samt
+- hedersmedlemmar.
 
-\subsubsection{Anmodanden}
+=== Anmodanden
 
 Till skiphtesgasquen ska följande anmodas i den turordning som följer i mån av plats:
-  \begin{itemize}
-    \item tillträdande styrelseledamöter och övermarsalk,
-    \item avgående styrelseledamöten och övermarsalk,
-    \item tillträdande funktionärer,
-    \item avgående funktionärer,
-    \item före detta styrelseledamöter,
-    \item övriga aktiva medlemmar, samt
-    \item passiva medlemmar.
-  \end{itemize}
 
-\subsection{Övriga Gasquer}
-\subsubsection{Inbjudan}
-Till övriga gasquer ska följande erhålla en inbjudan;
-\begin{itemize}
-    \item Inspektor och inspektrix, samt
-    \item Hedersmedlemmar.
-\end{itemize}
+- tillträdande styrelseledamöter och #medalj.omslk,
+- avgående styrelseledamöter och #medalj.omslk,
+- tillträdande funktionärer,
+- avgående funktionärer,
+- före detta styrelseledamöter,
+- övriga aktiva medlemmar, samt
+- passiva medlemmar.
 
-\subsubsection{Anmodanden}
-Till övriga gasquer ska följande anmodas i den turordning som följer i mån av plats:
-\begin{itemize}
-    \item styrelseledamöter,
-    \item funktionärer,
-    \item övriga aktiva medlemmar,
-    \item passiva medlemmar,
-    \item alumner.
-\end{itemize}
-\section{Övrigt}
+== Övriga Gasquer
 
-\subsection{Mottagare av utmärkelser}
+=== Inbjudningar
+
+Till övriga gasuqer ska följande erhålla en inbjudan:
+
+- Inspektorn och Inspektrix, samt
+- hedersmedlemmar.
+
+=== Anmodanden
+
+Till övriga gasuqer ska följande anmodas i den turordning som följer i mån av plats:
+
+- styrelseledamöter,
+- funktionärer,
+- övriga aktiva medlemmar,
+- passiva medlemmar, samt
+- alumner.
+
+= Övrigt
+
+== Mottagare av utmärkelser
+
 Person som ska utdelas utmärkelser (t.ex. medalj eller gyllene pekpinnen) ska inbjudas alternativt anmodas.
 
-\subsection{Ordenskapitel}
-Inspektorn och inspektrix ska inbjudas och övermarskalken
-ska inbjudas alternativt anmodas om sittningen är kopplad
-till ett ordenskapitel.
+== Ordenskapitel
 
-\subsection{Övriga}
+Inspektorn och Inspektrix ska inbjudas och #medalj.omslk ska inbjudas alternativt anmodas om sittningen är kopplad till ett ordenskapitel.
+
+== Övriga
+
 Andra personer kan inbjudas/anmodas beroende på tillställning.
 
-\subsection{Respektive (plus ett)}
-Sexmästaren (eller eventuell annan arrangör av evenemanget) avgör huruvida personer anmodas med plus etta.
+== Respektive (plus ett)
 
-
-
-
-\end{document}
+#(strings.sexm.mastare)n (eller eventuell annan arrangör av evenemanget) avgör huruvida personer anmodas med plus etta.

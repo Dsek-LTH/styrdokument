@@ -1,52 +1,51 @@
-\documentclass{dsekprotokoll}
+#import "@preview/dsek:0.1.0": *
 
-\usepackage[T1]{fontenc}
-\usepackage[utf8]{inputenc}
-\usepackage[swedish]{babel}
-\usepackage{multicol}
+#show: policy.with(
+  subject: "samverkan med D-chip",
+  summary: [
+    Policy för samverkan med D-Chip beskriver hur sektionen ska samarbeta med föreningen "D-Chip" (med organisationsnummret 802537-6669).
+  ],
+  purpose: [
+    Syftet med policyn är att formalisera det stöd som sektionen ämnar att ge D-Chip.
+  ],
+  scope: [
+    Sektionen i sin helhet.
+  ],
+  history: (
+    (
+      meeting: "VTM-extra 2023",
+      change: "Ursprungligen antagen",
+      who: "Styrelsen genom Hampus Serneke",
+    ),
+    (
+      meeting: "HTM1 2024",
+      change: "Uppdaterade rättigheter angående informationsspridning och evenemang, och införde skyldigheter angående evenemang och sektionsbilen",
+      who: "Styrelsen genom Emma Haggren",
+    ),
+    (
+      meeting: "HTM2 2025",
+      change: "Förtydligade rättigheter gällande alkoholtillstånd",
+      who: "Styrelsen genom Tristan Farkas och Måns Bard Nilsson",
+    ),
+  ),
+)
 
-\setheader{Policy för samverkan med D-Chip}{Policydokument}{}
-
-\title{Policy för samverkan med D-Chip}
-\author{Felicia Gabrielii Augustsson}
-
-\begin{document}
-
-\section*{Policy för samverkan med D-Chip}
-\section{Formalia}
-\subsection{Sammanfattning}
-Policy för samverkan med D-Chip beskriver hur sektionen ska samarbeta med föreningen “D-Chip” (med organisationsnummret 802537-6669).
-\subsection{Syfte}
-Policyns syfte är att formalisera det stöd som sektionen ämnar att ge D-Chip. 
-\subsection{Omfattning}
-Sektionen i sin helhet.
-
-\subsection{Historik}
-
-Policyn framtogs av Hampus Serneke till VTM-Extra 2023.
-
-Uppdaterad HTM2 2024 av Emma Haggren. Uppdaterad HTM2 2025.
-
-\section{Stöd till D-Chip}
+= Stöd till D-Chip
 
 D-Chip får:
 
-\begin{itemize}
-    \item boka sektionens lokaler samt sektionsbilen med samma prioritet som sektionens utskott,
-    \item boka pubar och sittningar efter samverkan med Sexmästaren,
-    \item ha en lättillgänglig länk till D-Chips hemsida på sektionens hemsida samt att sektionen hostar D-Chips hemsida,
-    \item relevant access på sektionens hemsida samt övriga kanaler för att kunna skicka ut nyheter och lägga till evenemang i kalendern,
-    \item stöd från sektionen med att hantera mejlaliaser, mejlservrar samt access med LU-kort,
-    \item äga dispositionsrätt till Kommitéa,
-    \item hjälp med kommunikation med huset och bokning av husets lokaler,
-    \item vara delaktiga och visa upp föreningen under nollningen på minst två aktiviteter om så önskas.
-\end{itemize}
+- boka sektionens lokaler samt sektionsbilen med samma prioritet som sektionens utskott,
+- boka pubar och sittningar efter samverkan med #strings.sexm.mastare,
+- ha en lättillgänglig länk till D-Chips hemsida på sektionens hemsida samt att sektionen hostar D-Chips hemsida,
+- relevant access på sektionens hemsida samt övriga kanaler för att kunna skicka ut nyheter och lägga till evenemang i kalendern,
+- stöd från sektionen med att hantera mejlaliaser, mejlservrar samt access med LU-kort,
+- äga dispositionsrätt till Kommitéa,
+- hjälp med kommunikation med huset och bokning av husets lokaler,
+- vara delaktiga och visa upp föreningen under nollningen på minst två aktiviteter om så önskas.
 
 D-Chip bör:
-\begin{itemize}
-    \item tas i hänsyn för att undvika att sektionens och D-Chips evenemang inte krockar, speciellt vid föreningsmöten.
-    \item betala för drivmedel vid användning av sektionsbilen.
-\end{itemize}
-Medlemmarna i D-chips styrelse erhåller dessutom de förmåner som ordinarie funktionärer vid D-sektionen får.
 
-\end{document}
+- tas i hänsyn för att undvika att sektionens och D-Chips evenemang inte krockar, speciellt vid föreningsmöten.
+- betala för drivmedel vid användning av sektionsbilen.
+
+Medlemmarna i D-chips styrelse erhåller dessutom de förmåner som ordinarie funktionärer vid D-sektionen får.

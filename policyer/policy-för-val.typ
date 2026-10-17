@@ -1,290 +1,221 @@
-\documentclass{dsekprotokoll}
+#import "@preview/dsek:0.1.0": *
+#import strings: *
 
-\usepackage[T1]{fontenc}
-\usepackage[utf8]{inputenc}
-\usepackage[swedish]{babel}
-\usepackage{multicol}
+#show: policy.with(
+  subject: "val",
+  summary: [
+    Denna policyn beskriver hur valprocessen skall gå till både för val gjorda av sektionsmötet och styrelsen. Den täcker även hur processen inför valen skall gå till.
+  ],
+  purpose: [
+    Syftet med denna policy är att förtydliga stadgan och reglementet samt att vägleda Valberedningen samt utskottsvalberedningarna i sitt arbete.
+  ],
+  scope: [
+    Alla val som behandlas på sektionen.
+  ],
+  history: (
+    (meeting: "VTM-extra 2019", change: "Ursprungligen antagen enligt beslut", who: "Anna Qvil"),
+    (meeting: "HTM1 2021", change: "Uppdaterad", who: "-"),
+    (meeting: "S13 2021", change: "Uppdaterad", who: "-"),
+    (meeting: "HTM2 2021", change: "Uppdaterad enl. Policy för Policyer", who: "-"),
+    (meeting: "VTM 2023", change: "Uppdaterad", who: "-"),
+    (
+      meeting: "VTM-extra 2023",
+      change: "Uppdaterad; Uppdaterad enl. Policy för styrdokument på VTM-extra 2023",
+      who: "-",
+    ),
+    (meeting: "HTM1 2023", change: "Uppdaterad", who: "-"),
+    (meeting: "HTM2 2023", change: "Uppdaterad", who: "-"),
+    (meeting: "HTM1 2025", change: "Uppdaterad", who: "-"),
+    (meeting: "HTM2 2025", change: "Uppdaterad", who: "-"),
+  ),
+)
 
-\setheader{Policy för val}{Policydokument}{}
+= Val på sektionsmöten
 
-\title{Policy för val}
-\author{Anna Qvil}
+== Utlysning
 
-\begin{document}
+Utlysning av de poster som går att söka på sektionsmötet ska anslås senast fyra veckor innan mötet. Valberedningens ordförande ansvarar för att utlysningen sker.
 
-\maketitle
-\section{Formalia}
-\subsection{Sammanfattning}
-Denna policyn beskriver hur valprocessen skall gå till både för val gjorda av sektionsmötet och styrelsen. Den täcker även hur processen inför valen skall gå till.
+Utlysningen ska innehålla en beskrivning av posten, mandatperiod, hur man ansöker, sista ansökningsdag, datum för valet samt vem som kan kontaktas för ytterligare frågor. Ansökan ska vara öppen minst 5 dagar.
 
-\subsection{Syfte}
-Syftet med denna policy är att förtydliga stadgan och reglementet samt att vägleda Valberedningen samt utskottsvalberedningarna i sitt arbete.
+Senast i samband med utlysning av en kärnpost eller en post som tillsätts av ett sektionsmöte ska kravprofil finnas tillgänglig. Vid val där gruppsammansättning vägs in ska en kravprofil för gruppen också finnas tillgänglig i samband med utlysningen.
 
-\subsection{Omfattning}
-Alla val som behandlas på sektionen.
+== Beredning
 
-\subsection{Historik}
-Utkast färdigställt av: Anna Qvil \\
-Ursprungligen antagen enligt beslut: VTM extra 2019.
-Uppdaterad: HTM1 2021, S13 2021, HTM2 2021 (enl. Policy för Policyer), VTM 2023, VTM-extra 2023. Uppdaterad enl. Policy för styrdokument på VTM-extra 2023. HTM1 2023. HTM2 2023. HTM1 2025. HTM2 2025.
-
-
-\section{Val på sektionsmöten}
-
-\subsection{Utlysning}
-Utlysning av de poster som går att söka på sektionsmötet skall anslås senast fyra veckor innan mötet. Valberedningens ordförande ansvarar för att utlysningen sker.
-
-Utlysningen ska innehålla en beskrivning av posten, mandatperiod, hur man ansöker, sista  ansökningsdag, datum för valet samt vem som kan kontaktas för ytterligare frågor. Ansökan ska vara öppen minst 5 dagar.
-
-Senast i samband med utlysning av en kärnpost eller en post som tillsätts av ett sektionsmöte ska kravprofil finnas tillgänglig. Vid val där gruppsammansättning vägs in ska en kravprofil för gruppen också finnas
-tillgänglig i samband med utlysningen.
-
-\subsection{Beredning}
 Val som uträttas av sektionsmötet bereds av Valberedningen med undantag för Likabehandlingsombud, Studerandeskyddsombud och Världsmästare samt att kandidater till Valberedningen ej valbereds.
 
-Trivselrådets kärnposter valbereds genom att Trivselmästare electus sätter ihop en utskottsvalberedning på minst tre medlemmar i sektionen bestående av följande: Trivselmästare electus själv, minst en gammal utskottsmedlem och minst en medlem i Valberedningen. Denna utskottsvalberedning skall stadfästas på HTM-val. Trivselmästare electus ansvarar för att skicka in de funktionärer utskottsvalberedningen önskar välja in som en handling till Höstterminsmöte två. På sektionsmötet skall de redogöra för hur processen inför valet gått till. Valberedningen
-och Trivselrådet valbereder som standard genom intervjuer. Om en annan valprocess har utförts ska det presenteras inför det väljande mötet.
+Trivselrådets kärnposter valbereds genom att Trivselmästare electus sätter ihop en utskottsvalberedning på minst tre medlemmar i sektionen bestående av följande: Trivselmästare electus själv, minst en gammal utskottsmedlem och minst en medlem i Valberedningen. Denna utskottsvalberedning ska stadfästas på HTM-val. Trivselmästare electus ansvarar för att skicka in de funktionärer utskottsvalberedningen önskar välja in som en handling till Höstterminsmöte två. På sektionsmötet ska de redogöra för hur processen inför valet gått till. Valberedningen och Trivselrådet valbereder som standard genom intervjuer. Om en annan valprocess har utförts ska det presenteras inför det väljande mötet.
 
-En person som ämnar att söka en post i ett utskott ska inte ha suttit med i en valberedning för samma utskott under det utskottsåret de vill söka, med undantag för valen för Phadder och Pluggphadder.
+En person som ämnar att söka en post i ett utskott ska inte ha suttit med i en valberedning för samma utskott under det utskottsåret de vill söka, med undantag för valen för #nollu.phadder och #nollu.pluggphadder.
 
-\subsection{Valförfarande}
+== Valförfarande
+
 Motkandidatur mot Valberedningens förslag måste anmälas till Talman senast klockan 23.59 två dagar efter Valberedningens förslag har offentliggjorts på sektionens informationskanaler. Ämnar man motkandidera mot fler poster ska alla dessa anmälas.
 
-Motkandidatur skall anslås omgående samt den föreslagna kandidaten skall meddelas. Ansvarig för att meddela kandidaten samt anslå motkandidaten är Valberedningens ordförande. Endast personer som blivit valberedda för det berörda valet får motkandidera.
+Motkandidatur ska anslås omgående samt den föreslagna kandidaten ska meddelas. Ansvarig för att meddela kandidaten samt anslå motkandidaten är Valberedningens ordförande. Endast personer som blivit valberedda för det berörda valet får motkandidera.
 Fri nominering tillåts endast till de poster som valberedningen inte har något förslag till.
 
-På mötet skall val av styrelsemedlem ha 7 minuter för presentation och 8 minuter för frågor. Samt att val av annan förtroendepost skall ha 4 minuter för presentation och 5 minuter för frågor.
+På mötet ska val av styrelsemedlem ha 7 minuter för presentation och 8 minuter för frågor. Samt att val av annan förtroendepost ska ha 4 minuter för presentation och 5 minuter för frågor.
 
-Vid beredda val då nomineringar inte är offentliga ska statistik över antalet som genomgått en valprocess föras. Statistiken ska ingå i den möteshandling där valberedningen presenterar sitt förslag till mötet. Statistiken ska presenteras i fasta intervall om 5, där 0-4
-är det lägsta intervallet, nästföljande är 5-9, sen 10-14 och så
-vidare.
+Vid beredda val då nomineringar inte är offentliga ska statistik över antalet som genomgått en valprocess föras. Statistiken ska ingå i den möteshandling där valberedningen presenterar sitt förslag till mötet. Statistiken ska presenteras i fasta intervall om 5, där 0--4 är det lägsta intervallet, nästföljande är 5--9, sen 10--14 och så vidare.
 
-\section{Val av kärnposter samt de av sektionsmötet delegerade valen}
+= Val av kärnposter samt de av sektionsmötet delegerade valen
 
-Alla kärnposter nämns i Appendix A.
+Alla kärnposter nämns i @appendix-a.
 
-\subsection{Beredning}
+== Beredning
 
-Alla kärnposter samt av sektionsmötet delegerade val, med undantag för phaddrar, skall beredas enligt följande:
+Alla kärnposter samt av sektionsmötet delegerade val, med undantag för phaddrar, ska beredas enligt följande:
 
-Utskottsordförande/utskottsordförande electus sätter ihop en utskottsvalberedning på minst tre medlemmar i sektionen bestående av följande: utskottsordförande/utskottsordförande electus själv, minst en gammal utskottsmedlem och minst en medlem i Valberedningen. En person som agerar Valberedningsrepresentant inom en utskottsvalberedning får inte
-redan vara invald till en post i utskottet med en mandatperiod som överlappar mandatperioden för posten som valbereds. Valberedningsrepresentanten bör väljas så att den inte är gift, sambo eller närstående till någon sökande. Denna utskottsvalberedning skall stadfästas av styrelsen.
+Utskottsordförande/utskottsordförande electus sätter ihop en utskottsvalberedning på minst tre medlemmar i sektionen bestående av följande: utskottsordförande/utskottsordförande electus själv, minst en gammal utskottsmedlem och minst en medlem i Valberedningen. En person som agerar Valberedningsrepresentant inom en utskottsvalberedning får inte redan vara invald till en post i utskottet med en mandatperiod som överlappar mandatperioden för posten som valbereds. Valberedningsrepresentanten bör väljas så att den inte är gift, sambo eller närstående till någon sökande. Denna utskottsvalberedning ska stadfästas av styrelsen.
 
 Utskottsvalberedningen för Jubileumsansvarig behöver inte bestå utav en gammal utskottsmedlem.
 
 Utskottsordförande/ utskottsordförande electus agerar utskottsvalberedningens ledare i den ovan nämnda utskottsvalberedningen.
 
-Phaddrar bereds av en utskottsvalberedning bestående av Øverphøs och Stabsmedlemmar. Om så
-finnes lämpligt kan denna utskottsvalberedning även bestå av en eller flera Øverpeppare, Peppare
-och Valberedningsrepresentanter.
+Phaddrar bereds av en utskottsvalberedning bestående av #nollu.oph och stabsmedlemmar. Om så finnes lämpligt kan denna utskottsvalberedning även bestå av en eller flera #nollu.opepp, #nollu.pepp och valberedningsrepresentanter.
 
-De ovannämnda utskottsvalberedningarna faller under de bestämmelser som finns i de policyer
-vilka berör valberedningsarbete.
+De ovannämnda utskottsvalberedningarna faller under de bestämmelser som finns i de policyer vilka berör valberedningsarbete.
 
 Valberedningen ska stadfästas av styrelsen på ett styrelsemöte. Valprocessen ska vara utformad för att den sökande ska få möjlighet att uppvisa egenskaperna som finns i kravprofilen.
 
-En person som ämnar att söka en post i ett utskott ska inte ha suttit med i en valberedning för samma utskott under det utskottsåret de vill söka, med undantag för valen för Phadder och Pluggphadder.
+En person som ämnar att söka en post i ett utskott ska inte ha suttit med i en valberedning för samma utskott under det utskottsåret de vill söka, med undantag för valen för #nollu.phadder och #nollu.pluggphadder.
 
-\subsection{Utlysning}
-Utlysningen av valet ske senast 2 veckor innan mötet då valet skall hållas.
+== Utlysning
 
-När på året de olika posterna bör utlysas samt väljas finns specificerat i appendix B. Poster som inte specificeras i appendix B utlyses när utskottsordförande anser det lämpligt.
+Utlysningen av valet ske senast 2 veckor innan mötet då valet ska hållas.
 
-Utskottsordförande och i vissa fall utskottsordförande i samråd med utskottsordförande electus ansvarar för att utlysningen sker. Utlysningen skall vara på sådant sätt som ger möjlighet för alla sektionens medlemmar att söka posten.
+När på året de olika posterna bör utlysas samt väljas finns specificerat i @appendix-b och @appendix-c. Poster som inte specificeras i appendix B utlyses när utskottsordförande anser det lämpligt.
+
+Utskottsordförande och i vissa fall utskottsordförande i samråd med utskottsordförande electus ansvarar för att utlysningen sker. Utlysningen ska vara på sådant sätt som ger möjlighet för alla sektionens medlemmar att söka posten.
 
 Utlysningen ska innehålla en beskrivning av posten, mandatperiod, hur man söker, sista ansökningsdag, datum för valet samt vem som kan kontaktas för mer information.
 
-Senast i samband med utlysning ska kravprofil finnas tillgänglig. Vid val där gruppsammansättning vägs in ska en kravprofil för gruppen också finnas
-tillgänglig i samband med utlysningen. Vid utlysning ska valprocessen beskrivas tydligt.
+Senast i samband med utlysning ska kravprofil finnas tillgänglig. Vid val där gruppsammansättning vägs in ska en kravprofil för gruppen också finnas tillgänglig i samband med utlysningen. Vid utlysning ska valprocessen beskrivas tydligt.
 
-Vid fyllnadsval av de poster som finns i appendix A skall alltid en utlysning ske. Dock kan styrelsen välja att tillförordna en funktionär till posten under tiden för utlysningen. Övriga poster fyllnadsväljs på så sätt utskottsordförande anser det lämpligt.
+Vid fyllnadsval av de poster som finns i appendix A ska alltid en utlysning ske. Dock kan styrelsen välja att tillförordna en funktionär till posten under tiden för utlysningen. Övriga poster fyllnadsväljs på så sätt utskottsordförande anser det lämpligt.
 
-\subsection{Valförfarande}
-Utskottsordförande ansvarar för att skicka in de funktionärer hen önskar välja in som en handling till ett styrelsemöte. På styrelsemötet skall utskottsordföranden redogöra hur processen inför valet gått till. På styrelsemötet kan inte motkandidatur ske utan nyutlysning av valet sker ifall processen anses felaktig eller kandidaterna olämpliga.
+== Valförfarande
 
-Valberedningens ordförande ansvarar för att sektionsmedlemmar anonymt ska kunna ge
-feedback på valprocesserna som sker utanför sektionsmöten. Valberedningens ordförande bör filtrera bort personangrepp eller liknande kränkningar i feedbacken. Feedbacken ska i samband
-med det att valprocessen presenteras för styrelsen framföras och ska tas i beaktning av
-styrelsen. Feedbacken ska inkomma till utskottsvalberedningens ledare innan det väljande mötet
-så att vederbörande har möjlighet att bemöta feedbacken. Både feedbacken samt utskottsvalberedningens svar ska protokollföras.
+Utskottsordförande ansvarar för att skicka in de funktionärer hen önskar välja in som en handling till ett styrelsemöte. På styrelsemötet ska utskottsordföranden redogöra hur processen inför valet gått till. På styrelsemötet kan inte motkandidatur ske utan nyutlysning av valet sker ifall processen anses felaktig eller kandidaterna olämpliga.
 
-Har Valberedningens ordförande sökt en post eller suttit med i utskottsvalberedningen under det berörda valet ska Valberedningens ordförande överlämna ansvaret av att samla in och presentera
-feedback till en valberedningsreprsentant. Valberedningsrepresentanten ska inte sökt en
-post i det berörda valet eller suttit med i den berörda utskottsvalberedningen.
+Valberedningens ordförande ansvarar för att sektionsmedlemmar anonymt ska kunna ge feedback på valprocesserna som sker utanför sektionsmöten. Valberedningens ordförande bör filtrera bort personangrepp eller liknande kränkningar i feedbacken. Feedbacken ska i samband med det att valprocessen presenteras för styrelsen framföras och ska tas i beaktning av styrelsen. Feedbacken ska inkomma till utskottsvalberedningens ledare innan det väljande mötet så att vederbörande har möjlighet att bemöta feedbacken. Både feedbacken samt utskottsvalberedningens svar ska protokollföras.
 
-Vid beredda val då nomineringar inte är offentliga ska statistik över antalet som genomgått en valprocess föras. Statistiken ska ingå i den möteshandling där valberedningen presenterar sitt förslag till mötet. Statistiken ska presenteras i fasta intervall om 5, där 0-4
-är det lägsta intervallet, nästföljande är 5-9, sen 10-14 och så
-vidare.
+Har Valberedningens ordförande sökt en post eller suttit med i utskottsvalberedningen under det berörda valet ska Valberedningens ordförande överlämna ansvaret av att samla in och presentera feedback till en valberedningsreprsentant. Valberedningsrepresentanten ska inte sökt en post i det berörda valet eller suttit med i den berörda utskottsvalberedningen.
 
-\section{Val av övriga poster}
+Vid beredda val då nomineringar inte är offentliga ska statistik över antalet som genomgått en valprocess föras. Statistiken ska ingå i den möteshandling där valberedningen presenterar sitt förslag till mötet. Statistiken ska presenteras i fasta intervall om 5, där 0-4 är det lägsta intervallet, nästföljande är 5-9, sen 10-14 och så vidare.
 
-Detta stycke berör poster som ska väljas på styrelsemöte och inte är en kärnpost, inte är
-delegerade av ett sektionsmöte, och inte har en stadfäst valberedning.
+= Val av övriga poster
 
-\subsection*{Beredning}
+Detta stycke berör poster som ska väljas på styrelsemöte och inte är en kärnpost, inte är delegerade av ett sektionsmöte, och inte har en stadfäst valberedning.
+
+== Beredning
 
 Beredning sker så som utskottsordförande finner lämpligt, men det ska göras på ett sådant sätt att alla har möjlighet att söka posten.
 
-En person som ämnar att söka en post i ett utskott ska inte ha suttit med i en valberedning för samma utskott under det utskottsåret de vill söka, med undantag för valen för Phadder och Pluggphadder.
+En person som ämnar att söka en post i ett utskott ska inte ha suttit med i en valberedning för samma utskott under det utskottsåret de vill söka, med undantag för valen för #nollu.phadder och #nollu.pluggphadder.
 
-\subsection*{Utlysning}
+== Utlysning
 
-Övriga poster kan väljas in utan särskild utlysning om så utskottsordförande anser det lämpligt. Dock skall processen för dessa även vara på ett sådant sätt att alla har möjlighet att söka posten.
+Övriga poster kan väljas in utan särskild utlysning om så utskottsordförande anser det lämpligt. Dock ska processen för dessa även vara på ett sådant sätt att alla har möjlighet att söka posten.
 
-\subsection*{Valförande}
+== Valförfarande
 
-Utskottsordförande ansvarar för att skicka in de funktionärer den önskar välja in som en handling
-till ett styrelsemöte. På styrelsemötet skall utskottsordföranden redogöra hur processen för valet
-gått till. På styrelsemötet kan inte motkandidatur ske utan ny utlysning av valet sker ifall processen
-anses felaktig eller kandidaterna olämpliga.
+Utskottsordförande ansvarar för att skicka in de funktionärer den önskar välja in som en handling till ett styrelsemöte. På styrelsemötet ska utskottsordföranden redogöra hur processen för valet gått till. På styrelsemötet kan inte motkandidatur ske utan ny utlysning av valet sker ifall processen anses felaktig eller kandidaterna olämpliga.
 
+#appendix("Kärnposter")[
+  #columns(2)[
+    = #cafe.name
+    - #cafe.brunchm
+    - #cafe.inventarieansv
 
-\pagebreak
-\subsection*{Appendix A: Kärnposter}
-\begin{multicols}{2}
+    = #naru.name
+    - #naru.deltapr
 
-    \subsubsection*{Cafémästeriet}
-    \begin{itemize}
-        \item Brunchmätare
-        \item Inventarieansvarig
-    \end{itemize}
+    = #aktu.name
+    - #aktu.karnevalsansv
+    - #aktu.sasfm
+    - #aktu.tandemgen
+    - #strings.infu.shopaholic
 
-    \subsubsection*{Näringslivsutskottet}
-    \begin{itemize}
-        \item Medlem i projektgruppen för DELTA
-    \end{itemize}
+    = #sexm.name
+    - #sexm.hovm
+    - #sexm.pubm
+    - #sexm.vpubm
+    - #sexm.barm
+    - #sexm.vbarm
+    - #sexm.sangfm
+    - #sexm.kokm
+    - #sexm.vkokm
+    - #sexm.prefm
 
+    = #nollu.name
+    - #nollu.stab
+    - #nollu.opepp
+    - #nollu.pepp
+    - #nollu.phadder
 
-    \subsubsection*{Aktivitetsutskottet}
-    \begin{itemize}
-        \item Karnevalsansvarig
-        \item Sångarstridsförman
-        \item Tandemgeneral
-        \item Shopaholic
-    \end{itemize}
+    = #fram.name
+    - #fram.ledamot
 
+    = Jubileet
+    - #otherpos.jubleansv
 
-    \subsubsection*{Sexmästeriet}
-    \begin{itemize}
-        \item Hovmästare
-        \item Pubmästare
-        \item Vice Pubmästare
-        \item Barmästare
-        \item Vice Barmästare
-        \item Sångförman
-        \item Köksmästare
-        \item Vice Köksmästare
-        \item Preferensmästare
-    \end{itemize}
+    = #cpu.name
+    - #cpu.dwwwansv
+    - #cpu.root
+    - #cpu.utvecklare
+  ]
+]
 
-    \subsubsection*{Nollningsutskottet}
-    \begin{itemize}
-        \item Stabsmedlem
-        \item Øverpeppare
-        \item Peppare
-        \item Phadder
-    \end{itemize}
+#appendix("Poster som bör väljas innan början av verksamhetsåret")[
+  #columns(2)[
+    = #cafe.name
+    - #cafe.stekare
+    - #cafe.brunchm
+    - #cafe.inventarieansv
 
-    \subsubsection*{Framtidsutskottet}
-    \begin{itemize}
-        \item Framtidsledamot
-    \end{itemize}
+    = #km.name
+    - #km.tradgm
+    - #km.bilansv
 
-    \subsubsection*{Jubileet}
-    \begin{itemize}
-        \item Jubileumsansvarig
-    \end{itemize}
+    = #aktu.name
+    - #aktu.idrottsfm
+    - #aktu.lanpartyansv
+    - #strings.infu.shopaholic
 
-    \subsubsection*{Centralprocessutskottet}
-    \begin{itemize}
+    = #sexm.name
+    - #sexm.hovm
+    - #sexm.pubm
+    - #sexm.vpubm
+    - #sexm.barm
+    - #sexm.vbarm
+    - #sexm.sangfm
+    - #sexm.kokm
+    - #sexm.vkokm
+    - #sexm.prefm
 
-        \item DWWW-ansvarig
-        \item root
-        \item Utvecklare
-    \end{itemize}
-\end{multicols}
+    = #nollu.name
+    - #nollu.stab
+    - #nollu.opepp
 
-\pagebreak
-\subsection*{Appendix B}
-\subsubsection*{Poster som bör väljas innan början av verksamhetsåret}
-\begin{multicols}{2}
+    = #fram.name
+    - #fram.ledamot
 
-    \subsubsection*{Cafémästeriet}
-    \begin{itemize}
-        \item Stekare
-        \item Brunchmästare
-        \item Inventarieansvarig
-    \end{itemize}
+    = #cpu.name
+    - #cpu.dwwwansv
+    - #cpu.root
+    - #cpu.utvecklare
+  ]
+]
 
-    \subsubsection*{Källarmästeriet}
-    \begin{itemize}
-        \item Trädgårdsmästare
-        \item Bilansvarig
-    \end{itemize}
+#appendix("Poster som bör väljas innan läsårets start")[
+  = #naru.name
+  - #naru.deltapr
 
-    \subsubsection*{Aktivitetsutskottet}
-    \begin{itemize}
-        \item Idrottsförman
-        \item LAN-partyansvarig
-        \item Shopaholic
-    \end{itemize}
+  = #aktu.name
+  - #aktu.karnevalsansv
 
-
-    \subsubsection*{Sexmästeriet}
-    \begin{itemize}
-        \item Hovmästare
-        \item Pubmästare
-        \item Vice Pubmästare
-        \item Barmästare
-        \item Vice Barmästare
-        \item Sångförman
-        \item Köksmästare
-        \item Vice Köksmästare
-        \item Preferensmästare
-    \end{itemize}
-
-    \subsubsection*{Nollningsutskottet}
-    \begin{itemize}
-        \item Stabsmedlem
-        \item Øverpeppare
-    \end{itemize}
-
-    \subsubsection*{Framtidsutskottet}
-    \begin{itemize}
-        \item Framtidsledamot
-    \end{itemize}
-
-    \subsubsection*{Centralprocessutskottet}
-    \begin{itemize}
-    \item DWWW-ansvarig
-    \item root
-    \item Utvecklare
-    \end{itemize}
-    
-\end{multicols}
-
-\subsubsection*{Poster som bör väljas innan läsårets start}
-
-\begin{multicols}{2}
-    \subsubsection*{Näringslivsutskottet}
-    \begin{itemize}
-        \item Medlem i projektgruppen DELTA
-    \end{itemize}
-
-    \subsubsection*{Aktivitetsutskottet}
-    \begin{itemize}
-        \item Karnevalsansvarig
-    \end{itemize}
-
-    \subsubsection*{Jubileet}
-    \begin{itemize}
-        \item Jubileumsansvarig
-    \end{itemize}
-
-\end{multicols}
-
-
-
-
-
-\end{document}
+  = Jubileet
+  - #otherpos.jubleansv
+]
