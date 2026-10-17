@@ -9,54 +9,30 @@ on:
 jobs:
   compile-pdfs:
     runs-on: ubuntu-latest
-    container:
-      image: texlive/texlive:latest
-      env:
-        TEXINPUTS: ".:..:"
     steps:
-      - name: Install `gh`
-        run: |
-          (type -p wget >/dev/null || (apt update && apt-get install wget -y)) \
-          && mkdir -p -m 755 /etc/apt/keyrings \
-          && wget -qO- \
-            https://cli.github.com/packages/githubcli-archive-keyring.gpg | \
-            tee /etc/apt/keyrings/githubcli-archive-keyring.gpg > /dev/null \
-          && chmod go+r /etc/apt/keyrings/githubcli-archive-keyring.gpg \
-          && echo "deb [arch=$(dpkg --print-architecture) \
-            signed-by=/etc/apt/keyrings/githubcli-archive-keyring.gpg] \
-            https://cli.github.com/packages stable main" | \
-            tee /etc/apt/sources.list.d/github-cli.list > /dev/null \
-          && apt update \
-          && apt install gh -y
       - name: Check out document sources
         uses: actions/checkout@v4
-      - name: Create build directory
-        run: mkdir build
-      - name: list
-        run: ls
-      - name: Compile statutes
+        with:
+          submodules: recursive
+      - name: Set up Typst
+        uses: typst-community/setup-typst@v5
+        with:
+          typst-version: '0.15.1'
+      - name: Download fonts
         run: |
-          latexmk -outdir=../build -cd stadgar/stadgar.tex
-      - name: Compile regulations
+          git clone --depth 1 https://github.com/Dsek-LTH/dsek-typst ../dsek-typst
+      - name: Compile documents
         run: |
-          latexmk -outdir=../build -cd reglemente/reglemente.tex
-      - name: Compile policies
-        run: |
-          for filename in policyer/*.tex; do
-              latexmk -outdir=../build -cd $filename
-          done
-      - name: Compile guidelines
-        run: |
-          for filename in riktlinjer/*.tex; do
-              latexmk -outdir=../build -cd $filename
+          mkdir build
+          for filename in stadgar.typ reglemente.typ strategiska-mål.typ policyer/*.typ riktlinjer/*.typ; do
+              typst compile --root . --font-path ../dsek-typst/fonts \
+                  "$filename" "build/$(basename "${filename%.typ}").pdf"
           done
       - name: List outputs
         run: ls build
       - name: Create release
         if: ${{ github.ref_name == 'main' }}
         run: |
-          git config --global --add safe.directory \
-              /__w/styrdokument/styrdokument
           gh release delete latest -y
           gh release create latest build/*.pdf
         env:

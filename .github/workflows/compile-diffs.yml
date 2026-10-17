@@ -9,60 +9,48 @@ on:
 jobs:
   compile-diffs:
     runs-on: ubuntu-latest
-    container:
-      image: texlive/texlive:latest
-      env:
-        TEXINPUTS: ".:..:"
     steps:
-      - name: Install latexdiff
-        run: apt update && apt install latexdiff -y
-      - name: Check out document sources
+      - name: Check out PR sources
         uses: actions/checkout@v4
-      - name: Checkout main
+        with:
+          submodules: recursive
+      - name: Check out main
         uses: actions/checkout@v4
         with:
           ref: main
           path: main
-      - name: Create build directory
-        run: mkdir build
-
-      - name: Compile diffs for statutes
+      - name: Set up Typst
+        uses: typst-community/setup-typst@v5
+        with:
+          typst-version: "0.15.1"
+      - name: Install typdiff
         run: |
-          if ! diff main/stadgar/stadgar.tex stadgar/stadgar.tex > /dev/null; then
-              latexmk -outdir=../build -cd stadgar/stadgar.tex
-              latexdiff --flatten \
-                  main/stadgar/stadgar.tex stadgar/stadgar.tex > stadgar/stadgar_diff.tex
-              latexmk -outdir=../build -cd stadgar/stadgar_diff.tex
-          fi
-      - name: Compile diffs for regulations
+          curl -fsSL \
+            https://github.com/sou1118/typdiff/releases/download/v0.1.4/typdiff-x86_64-unknown-linux-gnu.tar.gz \
+            | tar -xz -C "$RUNNER_TEMP"
+          echo "$RUNNER_TEMP" >> "$GITHUB_PATH"
+      - name: Download fonts
         run: |
-          if ! diff main/reglemente/reglemente.tex reglemente/reglemente.tex > /dev/null; then
-              latexmk -outdir=../build -cd reglemente/reglemente.tex
-              latexdiff --flatten \
-                  main/reglemente/reglemente.tex reglemente/reglemente.tex > reglemente/reglemente_diff.tex
-              latexmk -outdir=../build -cd reglemente/reglemente_diff.tex
-          fi
-      - name: Compile diffs for policies
+          git clone --depth 1 https://github.com/Dsek-LTH/dsek-typst ../dsek-typst
+      - name: Compile documents and diffs
         run: |
-          for filename in policyer/*.tex; do
-              if ! diff main/$filename $filename > /dev/null; then
-                  latexmk -outdir=../build -cd $filename && \
-                  latexdiff --flatten \
-                      main/$filename $filename > ${filename%.*}_diff.tex && \
-                  latexmk -outdir=../build -cd ${filename%.*}_diff.tex
+          mkdir build
+          for filename in stadgar.typ reglemente.typ strategiska-mål.typ policyer/*.typ riktlinjer/*.typ; do
+              name="$(basename "${filename%.typ}")"
+              if [ ! -f "main/$filename" ]; then
+                  # Document is new in this pull request; no diff possible
+                  typst compile --root . --font-path ../dsek-typst/fonts \
+                      "$filename" "build/$name.pdf"
+                  continue
+              fi
+              if ! cmp -s "main/$filename" "$filename"; then
+                  typst compile --root . --font-path ../dsek-typst/fonts \
+                      "$filename" "build/$name.pdf"
+                  typdiff "main/$filename" "$filename" -o "build/${name}_diff.typ"
+                  typst compile --root . --font-path ../dsek-typst/fonts \
+                      "build/${name}_diff.typ" "build/${name}_diff.pdf"
               fi
           done
-      - name: Compile diffs for guidelines
-        run: |
-          for filename in riktlinjer/*.tex; do
-              if ! diff main/$filename $filename > /dev/null; then
-                  latexmk -outdir=../build -cd $filename && \
-                  latexdiff --flatten \
-                      main/$filename $filename > ${filename%.*}_diff.tex && \
-                  latexmk -outdir=../build -cd ${filename%.*}_diff.tex
-              fi
-          done
-
       - name: List outputs
         run: ls build
       - name: Upload PDFs as artifact
@@ -75,7 +63,7 @@ jobs:
         uses: actions/github-script@v7
         with:
           script: |
-            const marker = '<!-- latex-artifacts -->';
+            const marker = '<!-- typst-artifacts -->';
 
             const { owner, repo } = context.repo;
             const issue_number = context.issue.number;
@@ -84,16 +72,16 @@ jobs:
             const runUrl = `https://github.com/${owner}/${repo}/actions/runs/${runId}`;
 
             const body = `${marker}
-            ### 📄 Compiled LaTeX Documents
+            ### 📄 Compiled Typst Documents
 
             The latest PDFs for this pull request have been generated automatically.
 
             **Available artifacts:**
             - ✅ PR version PDFs
-            - 🔄 latexdiff PDFs vs \`main\`
+            - 🔄 typdiff PDFs vs \`main\`
 
-            👉 **Download here:**  
-            ${runUrl}  
+            👉 **Download here:**
+            ${runUrl}
             (Scroll to the **Artifacts** section on that page.)
 
             _Last updated: ${new Date().toISOString()}_
