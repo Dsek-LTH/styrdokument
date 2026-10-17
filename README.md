@@ -6,7 +6,7 @@ Det här är repot för D-sektionen inom TLTH:s styrdokument. Under "Releases" f
 All text i repot ska vara skrivet på svenska.
 
 ### Efter ett sektionsmöte
-* Klona repot. `git clone https://github.com/Dsek-LTH/styrdokument.git`
+* Klona repot. `git clone --recurse-submodules https://github.com/Dsek-LTH/styrdokument.git`
 * Om du redan klonat det, se till att du är på senaste revisionen. `git checkout main && git pull`
 * Skapa en ny branch. `git checkout -b <branchnamn, t.ex. HTM2-2019>`
 * För varje motion och proposition:
