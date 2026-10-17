@@ -5,20 +5,17 @@ Det här är repot för D-sektionen inom TLTH:s styrdokument. Under "Releases" f
 ## Användning
 All text i repot ska vara skrivet på svenska.
 
-### Efter ett sektionsmöte
+### Efter ett sektions- eller styrelsemöte
 * Klona repot. `git clone --recurse-submodules https://github.com/Dsek-LTH/styrdokument.git`
 * Om du redan klonat det, se till att du är på senaste revisionen. `git checkout main && git pull`
-* Skapa en ny branch. `git checkout -b <branchnamn, t.ex. HTM2-2019>`
-* För varje motion och proposition:
-    * Ändra i dokumenten på det sätt som krävs för den nya motionen eller propositionen.
-    * Efter varje införd ändring skapa en commit med ett meddelande innehållande mötesförkortningen och ändringen. `git commit -m "[HTM2 2019] Lade till nya åligganden under Staben"`
+* Skapa en ny branch. `git checkout -b <branchnamn, t.ex. HTM2-2019 eller S22-2026>`
+* För varje motion, proposition eller handling:
+    * Ändra i dokumenten på det sätt som krävs för handlingen
+    * Efter varje införd ändring, skapa en commit med ett meddelande innehållande mötesförkortningen och ändringen; t.ex `git commit -m "[HTM2 2019] Lade till nya åligganden under Staben"` eller `git commit -m "[S22 2026] Redaktionella ändringar i riktlinje för internationalisering"`
     * Om en mer detaljerad beskrivning behövs bör kroppen av commitens meddelande istället användas. `git commit`
 * Pusha upp din branch till Github. `git push -u origin <branchnamn, tex HTM2-2019>`
 * Öppna en pull request på https://github.com/Dsek-LTH/styrdokument/pulls för att få med dina ändringar till huvudbranchen.
 * När denna godkänts skapas en ny release och PDF:er automatiskt.
-
-### När du vill göra redaktionella ändringar
-Redaktionella ändringar ändrar inte betydelsen av dokumenten, utan ändrar enbart läsbarheten eller rättar små uppenbara fel. För att skapa en redaktionell ändring, följ instruktionerna för "Efter ett sektionsmöte" med undantag för att commit-meddelandet inte ska innehålla en mötesförkortning utan istället [Redaktionella ändringar]. `git commit -m "[Redaktionella ändringar] Fixade stavfel"`. Döp gärna branchen till något i stil med "redaktionellaandringar".
 
 ### När du vill göra ändringar till repot
 Ändringar som inte påverkar styrdokumenten direkt, så som ändringar av continuous integration eller README-filen, ska inte innehålla en mötesförkortning utan istället [Repoändringar]. `git commit -m "[Repoändringar] Uppdaterade README"`. Döp gärna branchen till något i stil med "repoandringar"
