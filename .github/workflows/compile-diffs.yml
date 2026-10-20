@@ -72,19 +72,19 @@ jobs:
             const runUrl = `https://github.com/${owner}/${repo}/actions/runs/${runId}`;
 
             const body = `${marker}
-            ### 📄 Compiled Typst Documents
+            ### 📄 Kompilerade dokument
 
-            The latest PDFs for this pull request have been generated automatically.
+            Ändringarna har kompilerats och finns att ladda ner för granskning.
 
-            **Available artifacts:**
-            - ✅ PR version PDFs
-            - 🔄 typdiff PDFs vs \`main\`
+            **Genererade dokument:**
+            - ✅ Färdiga PDF:er av styrdokumenten med dessa ändringar
+            - 🔄 PDF med diff mot nuvarande \`main\` (genererad med \`typdiff\`).
 
-            👉 **Download here:**
+            👉 **Ladda ner här:**
             ${runUrl}
-            (Scroll to the **Artifacts** section on that page.)
+            (Scrolla ner till **Artifacts**)
 
-            _Last updated: ${new Date().toISOString()}_
+            _Senast uppdaterad: ${new Date().toISOString()}_
             `;
 
             // Fetch existing comments on the PR
