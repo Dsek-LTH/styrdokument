@@ -3,7 +3,7 @@
 #show: guideline.with(
   subject: "sektionsbilens användning",
   summary: [
-    Riktlinjen beskriver hur bilen som antingen är inhyrd eller ägd av sektionen bokas, och regler vid utlåning samt uthyrning. Sektionens bil är för tillfället en Volvo V50 med registreringsnummer WPW 221, namngiven ÿalle.
+    Riktlinjen beskriver hur bilen som antingen är inhyrd eller ägd av sektionen bokas, och regler vid utlåning samt uthyrning.
   ],
   purpose: [
     Syftet med denna riktlinje är att specificera hur Sektionsbilen får och kan användas. Detta dokument ska återspegla hur bilen tillhandahålls sektionens medlemmar i praktiken.
@@ -16,12 +16,13 @@
     (meeting: "VTM-extra 2023", change: "Riktlinjen antogs", who: "-"),
     (meeting: "S20 2023", change: "Uppdaterad för att återspegla formalia enl. Policy för styrdokument", who: "-"),
     (meeting: "S28 2023", change: "Uppdaterad på styrelsemöte, för att kassaskåpet har flyttats", who: "-"),
+    (meeting: "HTM1 2026", change: "Tog bort bilspecifika detaljer och utdaterad information", who: "Dag Hemberg"),
   ),
 )
 
 = Bokning
 
-Bokningssystemet sköts via hemsidan (https://www.dsek.se/booking) och tillhandahålls av Källarmästaren. I fall där bokning inte kan ske via hemsidan så kan det även göras i direkt samverkan med Källarmästaren via exempelvis personligt meddelande eller mejl.
+Bokningssystemet sköts via hemsidan (#link("https://www.dsek.se/booking")[dsek.se/booking]) och tillhandahålls av Källarmästaren. I fall där bokning inte kan ske via hemsidan så kan det även göras i direkt samverkan med Källarmästaren via exempelvis personligt meddelande eller mejl.
 
 Om bilen används utan Källarmästarens tillåtelse så kan det vara underlag för entledigande då det bryter mot Policy för Sektionsbil.
 
@@ -29,17 +30,13 @@ Endast funktionärer med, i Sverige, giltigt körkort får använda bilen i syft
 
 = Nycklar
 
-Nycklarna till bilen förvaras på en säker plats och lämnas ut på passande sätt. För tillfället är de i kassaskåpet under baren och koden till detta ges ut till berörda funktionärer vid bokning.
+Nycklarna till bilen förvaras på en säker plats och lämnas ut på passande sätt till berörda funktionärer vid bokning.
 
 = Parkering
 
-Då ÿalle inte är bokad ska den vara på parkeringen vid Navet. Parkering utanför E-huset samt Navet betalas av sektionen, men längre parkering på E-husets parkering är inte tillåten eftersom bilen tidigare fått sin katalysator stulen där.
+Då sektionsbilen inte är bokad ska den vara på E-husets parkering.
 
 En funktionär kan göra privat utlägg för parkering utanför LTH:s område.
-
-
-
-Vid parkering måste bilen sättas i _Nedsatt skyddsläge_ för att inte börja larma vid "extrema temperaturer". Detta aktiveras genom att trycka på knappen i taket, längst till vänster. När Nedsatt skyddsläge är aktiverat så lyser knappen orange. Knappen ser ungefär ut som bilden bredvid.
 
 = Bensin
 
@@ -47,13 +44,11 @@ Om det är under en kvarts tank kvar i bilen _måste_ Källarmästaren eller Bil
 
 = Att köra bilen
 
-ÿalle har en körjournal som måste fyllas i en gång för varje bokning. Den finns fysiskt i bilen, samt elektroniskt via Källarmästeriets Linktree (linktr.ee/kallarm) om det inte finns plats på de fysiska papprena. Låt Källarmästaren eller Bilansvariga veta om den fysiska körjournalen börjar bli fylld så att den kan ersättas.
+Sektionsbilen har en körjournal som måste fyllas i en gång för varje bokning. Den finns fysiskt i bilen eller tillhandahålls elektroniskt av Källarmästaren. Låt Källarmästaren eller Bilansvariga veta om den fysiska körjournalen börjar bli fylld så att den kan ersättas.
 
-Du ska endast anteckna mätarställningen då ÿalle ska lämna Navets parkering för första gången, samt när ÿalle återvänt dit för sista gången under din bokning.
+Du ska endast anteckna mätarställningen i början samt i slutet av din bokning.
 
-Viktigt när man kör: kör _*försiktigt*_ över gupp, då den nya katalysatorn är lite stor. Det är speciellt ett farthinder på östra sidan om E-huset som åtföljs av en grop som man ska vara försiktig vid.
-
-När du är klar med bilen, parkera på Navets parkering igen, fyll i körjournalen och aktivera nedsatt skyddsläge. Nycklarna ska låsas in i samma kassaskåp igen, och med det så är din bokning klar.
+När du är klar med bilen, parkera den på samma ställe som den stod innan bokningen.
 
 = Frågor?
 

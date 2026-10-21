@@ -41,8 +41,6 @@ Inlägg relaterade till marknadsföring från företag bör ej överskrida tre g
 
 Annonser och marknadsföring från företag publiceras endast från Facebook-sidan 'Näringslivsutskottet D-sektionen inom TLTH'.
 
-För andra fall som berör informationsspridning, se policyn 'Policy för informationsspridning genom sektionens kanaler".
-
 = Priser och Betalning
 
 == Priskategori
