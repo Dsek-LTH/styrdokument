@@ -1,0 +1,4 @@
+[package]
+name = "styrdokument"
+version = "2026.10.17"  # datum för senaste ändringen
+entrypoint = "stadgar.typ"
