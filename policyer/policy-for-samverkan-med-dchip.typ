@@ -18,7 +18,6 @@
   ),
 )
 
-
 = Stöd till D-Chip
 
 D-Chip får:

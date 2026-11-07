@@ -35,7 +35,6 @@
   ),
 )
 
-
 = Stadgar
 
 Senaste versionen av D-sektionens stadgar ska finnas tillgängliga på sektionens hemsida (dsek.se).
@@ -50,8 +49,7 @@ Senaste versionen av D-sektionens reglemente ska finnas tillgängliga på sektio
 
 = Policyer
 
-Policyerna behandlar D-sektionens åsikter i enstaka frågor eller om hur D-sektionen ska agera i olika situationer. Policyer kan därmed ge vägledning till D-sektionen centralt, D-sektionen lokalt i dess
-utskott, intresseföreningar och fria föreningar. Vilka som berörs av en policy skall stå i policyn under punkt 1.3 Omfattning. Aktuella policyer ska årligen samt vid ändringar tillställas berörda funktionärer.
+Policyerna behandlar D-sektionens åsikter i enstaka frågor eller om hur D-sektionen ska agera i olika situationer. Policyer kan därmed ge vägledning till D-sektionen centralt, D-sektionen lokalt i dess utskott, intresseföreningar och fria föreningar. Vilka som berörs av en policy skall stå i policyn under punkt 1.3 Omfattning. Aktuella policyer ska årligen samt vid ändringar tillställas berörda funktionärer.
 
 = Riktlinjer
 

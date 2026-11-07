@@ -6,8 +6,7 @@
     Denna policy beskriver hur D-sektionen inom TLTH arbetar med frågor som rör alkohol och droger, ställningstaganden samt visioner med arbetet.
   ],
   purpose: [
-    D-sektionen inom TLTH är en ideell förening som arrangerar evenemang
-    med syftet att främja sektionens medlemmars studiesociala miljö. Dessa evenemang tar ibland formen av eftersläpp, pubar och sittningar. Vid dessa tillställningar kan det förekomma försäljning av alkoholhaltiga drycker. Syftet med denna policy är att främja en ansvarsfull alkoholservering vid tillställningar anordnade av D-sektionen samt att göra ett aktivt ställningstagande mot användande av narkotika. D-sektionen ställer sig även bakom TLTH:s alkohol- och drogpolicy. Denna policy bör ses som ett komplement till TLTH:s policy
+    D-sektionen inom TLTH är en ideell förening som arrangerar evenemang med syftet att främja sektionens medlemmars studiesociala miljö. Dessa evenemang tar ibland formen av eftersläpp, pubar och sittningar. Vid dessa tillställningar kan det förekomma försäljning av alkoholhaltiga drycker. Syftet med denna policy är att främja en ansvarsfull alkoholservering vid tillställningar anordnade av D-sektionen samt att göra ett aktivt ställningstagande mot användande av narkotika. D-sektionen ställer sig även bakom TLTH:s alkohol- och drogpolicy. Denna policy bör ses som ett komplement till TLTH:s policy
   ],
   scope: [
 
@@ -41,7 +40,6 @@
   ),
 )
 
-
 = Alkoholservering
 
 == Allmänt
@@ -50,8 +48,7 @@ Denna policy utgår i från alkohollagen (SFS 2010:1622) som ska följas vid all
 
 == Under arrangemangets gång
 
-Den serveringsansvarige bör kontinuerligt under arrangemangets gång kontrollera att nödutgångar och brandgångar ej är blockerade samt tillse att ordning upprätthålls och att en hög berusningsgrad hos gästerna undviks. I det fallet att en gäst skulle dricka sig för berusad ska
-denne avvisas från tillställningen.
+Den serveringsansvarige bör kontinuerligt under arrangemangets gång kontrollera att nödutgångar och brandgångar ej är blockerade samt tillse att ordning upprätthålls och att en hög berusningsgrad hos gästerna undviks. I det fallet att en gäst skulle dricka sig för berusad ska denne avvisas från tillställningen.
 
 På ett serveringsställe där serveringstillstånd gäller får inte någon inta eller tillåtas inta andra alkoholdrycker eller alkoholdrycksliknande preparat än sådana som har serverats i enlighet med tillståndet.
 

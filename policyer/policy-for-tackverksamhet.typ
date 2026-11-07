@@ -31,9 +31,7 @@
 
 = Definitioner
 
-I detta dokument defineras _tackgrupp_ som en gruppering
-av funktionärer inom sektionen som har en egen tackbudget.
-
+I detta dokument defineras _tackgrupp_ som en gruppering av funktionärer inom sektionen som har en egen tackbudget.
 
 = Syfte
 
@@ -47,8 +45,7 @@ Tackverksamheten på D-sektionen skall ej ha alkohol som huvudsyfte. Den skall f
 
 Nedan regleras vad var sektionsmedlem äga rätt till samt vad de tillför till budgetering.
 
-Var enskild funktionär, inte funktionärspost, bidrar med 0.35\% av prisbasbeloppet och dess
-exakta belopp väljs vid redigering av sektionens budget till tackgruppens tackbudget det året. Varje styrelseledamot som även är utskottsordförande bidrar till tackbudgeten för sitt respektive utskott och inte styrelsen. Dock kan en enskild person inte tackas mer än vad lagen och kårens policys reglerar, om detta inträffar skall tacket för personen i fråga diskuteras med denne och en lösning finnas där den känner sig tillfredsställd med det tack denne får.
+Var enskild funktionär, inte funktionärspost, bidrar med 0.35\% av prisbasbeloppet och dess exakta belopp väljs vid redigering av sektionens budget till tackgruppens tackbudget det året. Varje styrelseledamot som även är utskottsordförande bidrar till tackbudgeten för sitt respektive utskott och inte styrelsen. Dock kan en enskild person inte tackas mer än vad lagen och kårens policys reglerar, om detta inträffar skall tacket för personen i fråga diskuteras med denne och en lösning finnas där den känner sig tillfredsställd med det tack denne får.
 
 Phaddrar, Funktionärer inom Sexmästeriet och DELTA-värdar särbehandlas. Tacket för dessa funktionärer budgeteras på en separat budgetpost som inte är beroende av antalet funktionärer. Dessa tackkostnader får dock ej överstiga 1\% av prisbasbeloppet per funktionär. Dessutom får de även rätt till nedanstående förmåner.
 
@@ -58,9 +55,7 @@ Var funktionär på D-sektionen äga rätt till:
 
 === Hantering av överföring av outnyttjade medel
 
-Vid årsskiftet varje år flyttas föregående års outnyttjade pengar från Förenat tack
-under kostnadsstället *SEX01* till nästkommande års Förenat tack under samma
-kostnadsställe.
+Vid årsskiftet varje år flyttas föregående års outnyttjade pengar från Förenat tack under kostnadsstället *SEX01* till nästkommande års Förenat tack under samma kostnadsställe.
 
 Föregående års Sexmästare äger rätt att disponera dessa medel.
 
@@ -68,8 +63,7 @@ Attestering av dessa medel bör ske av skattmästaren i dialog med föregående 
 
 == Arbetskläder
 
-Arbetskläder som används i D-sektionens namn skall följa de lagar som finns angående utformning och syfte. Vidare skall kläder som används med D-sektionens varumärke bäras med detta i åtanke, funktionärer skall vara medvetna om att de representerar sektionen när de använder dessa plagg.
-Subventionering av arbetskläder motsvarande 350 kr ges till funktionärer som har en större ansvarspost.
+Arbetskläder som används i D-sektionens namn skall följa de lagar som finns angående utformning och syfte. Vidare skall kläder som används med D-sektionens varumärke bäras med detta i åtanke, funktionärer skall vara medvetna om att de representerar sektionen när de använder dessa plagg. Subventionering av arbetskläder motsvarande 350 kr ges till funktionärer som har en större ansvarspost.
 
 Är en person funktionär inom två olika tackgrupper får denne subventionering för båda posterna. Om personen innehar två poster inom en tackgrupp får denne enbart subventionering för ett klädesplagg. Styrelsen får subventionerade styrelsetröjor utöver mästerispecifika tröjor för att det är viktigt att visa den dubbla tillhörighet som de innehar.
 

@@ -9,9 +9,7 @@
     Riktlinje för grafisk profil beskriver många av sektionens vanligaste förekommande grafiska element samt verktyg som man kan använda för att utforma grafiskt material för D-sektionen.
   ],
   purpose: [
-    D-sektionen producerar många olika dokument, affischer, nyhetsbrev och andra former av grafik. Denna riktlinje ämnar att ge vägledning och klarhet för hur sektionens grafiska profil består av, hur den skall användas och vilka verktyg det finns att använda.
-    
-    Riktlinjen är menat som ett verktyg och som riktlinjer i första hand, det vill säga att om man bryter mot riktlinjen i strävan efter att utforma något som resulterar i något vackrare än det riktlinjen beskriver bör detta inte betraktas som ett riktlinjebrott.
+    D-sektionen producerar många olika dokument, affischer, nyhetsbrev och andra former av grafik. Denna riktlinje ämnar att ge vägledning och klarhet för hur sektionens grafiska profil består av, hur den skall användas och vilka verktyg det finns att använda. Riktlinjen är menat som ett verktyg och som riktlinjer i första hand, det vill säga att om man bryter mot riktlinjen i strävan efter att utforma något som resulterar i något vackrare än det riktlinjen beskriver bör detta inte betraktas som ett riktlinjebrott.
   ],
   scope: [
     Riktlinjen omfattar sektionen som helhet, men riktar sig framförallt till utskott och funktionärer som sysslar med grafisk design och som vill ta del av de riktlinjer som presenteras hädanefter.
@@ -35,13 +33,11 @@
   ),
 )
 
-
 = Riktlinjer för grafisk utformning
 
 På sektionens nuvarande hemsida finns en grafisk profil beskriven som ligger till grund för denna riktlinje. Dock finns en del nya avsnitt, mycket tack vare inspiration från Teknologkårens grafiska profil #footnote[#link("https://drive.google.com/file/d/1EFdTyU6aXKSBEj4cqcDsR325LMzTP_um/view")[Riktlinjer för grafisk profil, 2019, Teknologkåren inom TLTH, Google Drive]]
 
-Mycket av informationen som presenteras i denna första version kan därmed verka redundant. Detta är dock ett medvetet val, då sektionens nuvarande grafiska profil innehåller mycket av det som en designer kan återkomma till. Såsom sektionens färg, som enligt reglementet beskrivs med hexkoden `#f280a1`, och att detta kan tolkas som Pantone 189 U, 35,3\% svart eller som S 1050-R20B .NCS när färg ska blandas.
-Ett färgprov finnes här:  \ #link("https://www.dsek.se/aktiva/grafiskprofil/rosa.html")[dsek.se/aktiva/grafiskprofil/rosa.html]
+Mycket av informationen som presenteras i denna första version kan därmed verka redundant. Detta är dock ett medvetet val, då sektionens nuvarande grafiska profil innehåller mycket av det som en designer kan återkomma till. Såsom sektionens färg, som enligt reglementet beskrivs med hexkoden `#f280a1`, och att detta kan tolkas som Pantone 189 U, 35,3\% svart eller som S 1050-R20B .NCS när färg ska blandas. Ett färgprov finnes här:  \ #link("https://www.dsek.se/aktiva/grafiskprofil/rosa.html")[dsek.se/aktiva/grafiskprofil/rosa.html]
 
 Infocom har färgen ametistlila, som kan beskrivas som `#9966CC`
 

@@ -3,8 +3,7 @@
 #show: guideline.with(
   subject: "anmodanden och inbjudningar",
   summary: [
-    Riktlinje för anmodanden och inbjudningar beskriver vilka och i vilken prioritetsordning personer bör anmodas och
-    bjudas in till vissa tillställningar.
+    Riktlinje för anmodanden och inbjudningar beskriver vilka och i vilken prioritetsordning personer bör anmodas och bjudas in till vissa tillställningar.
   ],
   purpose: [
     Riktlinjens syfte är att ge ett lätt och konsekvent sätt för anordnare av sittningar och baler att veta vem som bör anmodas och bjudas in.
@@ -17,21 +16,15 @@
   ),
 )
 
-
 = Terminologi
 
 == Anmodan
 
-En anmodan till en tillställning är ett erbjudande att köpa
-biljett till den. För det mesta utan vidare formaliteter, men
-mer exklusiva gäster bör tillställas en formell anmodan. Ordningen
-för anmodan refererar till i vilken prioritetsordning biljettförsäljningen bör ske.
+En anmodan till en tillställning är ett erbjudande att köpa biljett till den. För det mesta utan vidare formaliteter, men mer exklusiva gäster bör tillställas en formell anmodan. Ordningen för anmodan refererar till i vilken prioritetsordning biljettförsäljningen bör ske.
 
 == Inbjudan
 
-En inbjudan är det samma som en anmodan fast att anordnaren står för biljettpriset; en erbjudan att delta. Eftersom
-inbjudan oftast är mer exklusiv än anmodan är de flesta inbjudningar formella.
-I enlighet med svensk alkohollag betalar inte arrangören priset för eventuell förköpbar alkohol (t.ex. vinpaket, punschbiljetter).
+En inbjudan är det samma som en anmodan fast att anordnaren står för biljettpriset; en erbjudan att delta. Eftersom inbjudan oftast är mer exklusiv än anmodan är de flesta inbjudningar formella. I enlighet med svensk alkohollag betalar inte arrangören priset för eventuell förköpbar alkohol (t.ex. vinpaket, punschbiljetter).
 
 = Nollningen
 
@@ -44,8 +37,7 @@ Till en icke-gasque-sittning under nollningen ska följande erhålla en inbjudan
 
 === Anmodanden
 
-Till en icke-gasque-sittning under nollningen ska följande
-anmodas i den turordning som följer i mån av plats:
+Till en icke-gasque-sittning under nollningen ska följande anmodas i den turordning som följer i mån av plats:
 
 - utsedda nyktra och ansvariga phaddrar,
 - øverphøs och stabsmedlemmar,
@@ -83,8 +75,7 @@ Till sektionsöverkridande sittningar ska följande erhålla en inbjudan:
 
 === Anmodanden
 
-Till sektionsöverskridande sittningar ska följande anmodas i den turordning som följer i mån
-av plats:
+Till sektionsöverskridande sittningar ska följande anmodas i den turordning som följer i mån av plats:
 - utsedda ansvariga phaddrar,
 - øverpeppare och peppare,
 - styrelseledamöter,
@@ -103,8 +94,7 @@ Till nollegasque ska följande erhålla en inbjudan:
 
 === Anmodanden
 
-Till nollegasque ska följande anmodas i den turordning som
-följer i mån av plats:
+Till nollegasque ska följande anmodas i den turordning som följer i mån av plats:
 - utsedda ansvariga phaddrar,
 - øverphøs och stabsmedlemmar,
 - øverpeppare och peppare,
@@ -166,9 +156,7 @@ Person som ska utdelas utmärkelser (t.ex. medalj eller gyllene pekpinnen) ska i
 
 == Ordenskapitel
 
-Inspektorn och inspektrix ska inbjudas och övermarskalken
-ska inbjudas alternativt anmodas om sittningen är kopplad
-till ett ordenskapitel.
+Inspektorn och inspektrix ska inbjudas och övermarskalken ska inbjudas alternativt anmodas om sittningen är kopplad till ett ordenskapitel.
 
 == Övriga
 

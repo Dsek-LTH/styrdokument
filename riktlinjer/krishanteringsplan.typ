@@ -161,7 +161,9 @@ Efter en krissituation kan både direkt berörda personer och personer som varit
 
 == #(triv.name)
 
-#triv.name är en stödresurs inom sektionen som arbetar med frågor kopplade till likabehandling, internationalisering och arbetsmiljö. #triv.name finns till för alla sektionsmedlemmar och kan kontaktas om något har hänt, om man känner sig utsatt eller om man behöver någon att prata med. Vid krissituationer som exempelvis rör trakasserier, diskriminering, konflikter eller andra händelser som påverkar en medlems trygghet kan #triv.name bidra med stöd och vägledning. Ärenden och funderingar kan lämnas in via #(triv.name)s formulär, där det även finns möjlighet att vara anonym. Både #(triv.likbehombud)en och #(triv.mastare)n omfattas av tystnadsplikt.
+#triv.name är en stödresurs inom sektionen som arbetar med frågor kopplade till likabehandling, internationalisering och arbetsmiljö. #triv.name finns till för alla sektionsmedlemmar och kan kontaktas om något har hänt, om man känner sig utsatt eller om man behöver någon att prata med.
+
+Vid krissituationer som exempelvis rör trakasserier, diskriminering, konflikter eller andra händelser som påverkar en medlems trygghet kan #triv.name bidra med stöd och vägledning. Ärenden och funderingar kan lämnas in via #(triv.name)s formulär, där det även finns möjlighet att vara anonym. Både #(triv.likbehombud)en och #(triv.mastare)n omfattas av tystnadsplikt.
 
 #(triv.likbehombud)en kan kontaktas via #link("mailto:likabehandlingsombud@dsek.se"), och dessa mejl tas inte del av #(triv.mastare)n om ärendet skulle gälla denne. #(triv.mastare)n kan kontaktas via #link("mailto:trivselm@dsek.se").
 

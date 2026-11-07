@@ -35,7 +35,6 @@
   ),
 )
 
-
 = Riktlinjer för Marknadsföring genom sektionens kanaler
 
 Inlägg relaterade till marknadsföring från företag bör ej överskrida tre gånger i veckan.
@@ -48,8 +47,7 @@ För andra fall som berör informationsspridning, se policyn 'Policy för inform
 
 == Priskategori
 
-D-sektionen tillämpar tre olika priskategorier på informationskanalerna för att ta hänsyn till olika företags och organisationers förutsättningar.
-Rabattsatserna appliceras på informationsspridning enligt tabellen i @appendix.
+D-sektionen tillämpar tre olika priskategorier på informationskanalerna för att ta hänsyn till olika företags och organisationers förutsättningar. Rabattsatserna appliceras på informationsspridning enligt tabellen i @appendix.
 
 - Priskategori 1: Gratis
 - Priskategori 2: 50\% rabatt
