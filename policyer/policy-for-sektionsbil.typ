@@ -19,7 +19,6 @@
   ),
 )
 
-
 = Ändamål
 
 Sektionsbilen ska endast användas av sektionens medlemmar inom Sverige i sektionsfrämjande syfte. Detta kan vara t.ex frakt eller inköp av materiel till sektionen och dess evenemang samt kickoffer, tackfester eller dylikt.
@@ -30,9 +29,7 @@ Ett bokningssystem bör tillhandahållas av Källarmästaren. I nödfall kan sty
 
 = Ansvar
 
-Du som bokat är ansvarig och är den enda som får köra. Undantag för detta gäller då bokningen görs för någon annans räkning, till exempel då en utskottsordförande bokar åt sina funktionärer. I detta fall ska det vara tydligt vem som ska använda bilen i bokningen. Föraren förblir ansvarig tills nyckeln är tillbakalämnad. Innan körning ska bilens skick ses över och skador rapporteras till Källarmästaren eller
-Bilansvariga, annars riskerar föraren att få ansvaret för skadorna. Privat utlägg kan göras för parkering under godkända
-bokningar, men övriga kostnader så som böter betalas av föraren.
+Du som bokat är ansvarig och är den enda som får köra. Undantag för detta gäller då bokningen görs för någon annans räkning, till exempel då en utskottsordförande bokar åt sina funktionärer. I detta fall ska det vara tydligt vem som ska använda bilen i bokningen. Föraren förblir ansvarig tills nyckeln är tillbakalämnad. Innan körning ska bilens skick ses över och skador rapporteras till Källarmästaren eller Bilansvariga, annars riskerar föraren att få ansvaret för skadorna. Privat utlägg kan göras för parkering under godkända bokningar, men övriga kostnader så som böter betalas av föraren.
 
 Om en skada uppkommer eller en olycka sker under körningen ska du omedelbart rapportera detta till Källarmästaren eller Bilansvariga, oavsett storlek. Källarmästaren kan alltid kontaktas på #link("mailto:kallarm@dsek.se"). Kostnaden för sagda olycka betalas av sektionen givet att föraren inte varit oaktsam.
 

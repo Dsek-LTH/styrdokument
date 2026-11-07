@@ -19,7 +19,6 @@
   ),
 )
 
-
 = Bokning
 
 Bokningssystemet sköts via hemsidan (https://www.dsek.se/booking) och tillhandahålls av Källarmästaren. I fall där bokning inte kan ske via hemsidan så kan det även göras i direkt samverkan med Källarmästaren via exempelvis personligt meddelande eller mejl.
@@ -64,8 +63,7 @@ Nyckeln finns i kassaskåpet i Shäraton, koden är än så länge samma som tid
 
 Sektionsbilen är på parkeringen vid navet, så det är bara att följa mittvägen precis förbi kårhuset, och sedan gå vänster vid det där trädet som är mitt i vägen. Regnumret står på bilnyckelns lapp, WPW221.
 
-Viktigt innan ni kör iväg: kolla mätarställningen och skriv ner körjournalen. Det finns också en digital körjournal om du hellre fyller i den:
-https://docs.google.com/forms/d/e/1FAIpQLSdY5cN7OlorvnM9I-Nh-5Dsqy9CHrkMDdKQlebt9cEyO-aNRg/viewform
+Viktigt innan ni kör iväg: kolla mätarställningen och skriv ner körjournalen. Det finns också en digital körjournal om du hellre fyller i den: https://docs.google.com/forms/d/e/1FAIpQLSdY5cN7OlorvnM9I-Nh-5Dsqy9CHrkMDdKQlebt9cEyO-aNRg/viewform
 
 Viktig sak när man kör: kör LÅNGSAMT över guppar, det är en del under bilen som kan gå sönder annars (inte farligt för körandet)
 

@@ -30,24 +30,19 @@
   ),
 )
 
-
 = Beskrivning
 
-DuCtig är en utmärkelse för att uppmärksamma D- och C-studenter som är DuCtiga, det vill
-säga studenter som föregår med gott exempel genom att klara sina kurser.
+DuCtig är en utmärkelse för att uppmärksamma D- och C-studenter som är DuCtiga, det vill säga studenter som föregår med gott exempel genom att klara sina kurser.
 
 = Mål
 
-Målet med DuCtig är att få fler studenter att prioritera sin studier redan från början och därmed
-öka andelen studenter som klarar minst 60 poäng per läsår (från programmet).
+Målet med DuCtig är att få fler studenter att prioritera sin studier redan från början och därmed öka andelen studenter som klarar minst 60 poäng per läsår (från programmet).
 
 = Berättigade
 
-DuCtig delas ut retroaktivt på läsårsbasis. Under det läsåret ska studenten ha uppfyllt följande
-kriterier:
+DuCtig delas ut retroaktivt på läsårsbasis. Under det läsåret ska studenten ha uppfyllt följande kriterier:
 
-- Studenten ska ha varit registrerad på Datatekniksprogrammet eller Informations- och
-  Kommunikationstekniksprogrammet.
+- Studenten ska ha varit registrerad på Datatekniksprogrammet eller Informations- och Kommunikationstekniksprogrammet.
 - Studenten ska ha minst 60 poäng i avklarade kurser från det läsåret.
 - Studenten ska ha varit förstagångsregistrerad på de kurserna.
 - Kurserna ska vara från programmet.
@@ -57,13 +52,11 @@ kriterier:
 
 = Utdelning
 
-DuCtig delas ut av studierådet till de studenter som uppfyllde kriterierna föregående läsår. Studenter kan själva ansöka om att få utmärkelsen för tidigare läsår (genom att uppvisa Ladokutdrag), dock ska detta ske inom fem år från slutet av det berörda läsåret. DuCtig kan delas ut
-maximalt tre gånger till en student.
+DuCtig delas ut av studierådet till de studenter som uppfyllde kriterierna föregående läsår. Studenter kan själva ansöka om att få utmärkelsen för tidigare läsår (genom att uppvisa Ladokutdrag), dock ska detta ske inom fem år från slutet av det berörda läsåret. DuCtig kan delas ut maximalt tre gånger till en student.
 
 = Utmärkelsen
 
 Utmärkelsen består av följande tre saker:
 - Tygmärke. Delas endast ut första gången en student får DuCtig.
 - Diplom. Delas ut varje gång studenten får DuCtig.
-- Medalj. Medaljen finns i tre olika valörer; brons, silver och guld. Brons delas ut första
-  gången, silver andra och guld sista. Studenten byter in sin medalj för att få nästa.
+- Medalj. Medaljen finns i tre olika valörer; brons, silver och guld. Brons delas ut första gången, silver andra och guld sista. Studenten byter in sin medalj för att få nästa.

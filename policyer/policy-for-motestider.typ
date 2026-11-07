@@ -35,19 +35,15 @@
   ),
 )
 
-
 = Riktlinjer för Mötestider
 
 För att alla sektionens medlemmar skall ha en möjlighet att påverka sektionens beslut samt få möjligheten att yttra angående sektionens verksamhet, så bör tiderna för sektionens öppna möten begränsas för att se till att alla medlemmar i största grad kan medverka.
 
 == Sektionsmöte
 
-Mötestiderna för sektionsmöten bör begränsas till att hålla på mellan tiderna 17:00 -
-23:00, senare än kl 23:00 bör pågående punkt avslutas med max en timmes tillägg.
-Notera att mötestider för sektionsmötet även regleras i stadgarna, under kapitel 8. Om sektionsmötet avslutas med kvarvarande punkter så ajourneras mötet till nästkommande vardag, alternativt utsatt ajourneringsdag specificerat i kallelsen.
+Mötestiderna för sektionsmöten bör begränsas till att hålla på mellan tiderna 17:00 - 23:00, senare än kl 23:00 bör pågående punkt avslutas med max en timmes tillägg. Notera att mötestider för sektionsmötet även regleras i stadgarna, under kapitel 8. Om sektionsmötet avslutas med kvarvarande punkter så ajourneras mötet till nästkommande vardag, alternativt utsatt ajourneringsdag specificerat i kallelsen.
 
-Om sektionsmötet beslutar att fortsätta mötet bör frågan om att ajournera mötet lyftas
-efter varje avslutad punkt.
+Om sektionsmötet beslutar att fortsätta mötet bör frågan om att ajournera mötet lyftas efter varje avslutad punkt.
 
 == Styrelsemöte
 

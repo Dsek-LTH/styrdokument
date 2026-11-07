@@ -30,7 +30,6 @@
   ),
 )
 
-
 = Bakgrund
 
 Överlämning bland funktionärer har varierat i kvalitet under de gångna åren. Denna riktlinje ämnar därför garantera att varje överlämning innehåller särskilda moment som säkerställer att den nyinvalda har tillräcklig kunskap och är införstådd om vad sektionsarbetet innebär.

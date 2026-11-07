@@ -8,8 +8,7 @@
   En lämplig tolkning av råsa är \#F280A1 i sRGB.
 
 / Rosa Pantern:
-  Med Rosa Pantern åsyftas den figur som skapades av Friz Freleng och David
-  DePatie till Blake Edwards film "The Pink Panther" år 1963.
+  Med Rosa Pantern åsyftas den figur som skapades av Friz Freleng och David DePatie till Blake Edwards film "The Pink Panther" år 1963.
 
 / Råsa Digitalis:
   Med Råsa Digitalis menas en råsa fingerborgsblomma, på latin Digitalis Purpurea.
@@ -20,16 +19,23 @@
   Hedersmedlemmar är:
   - Nina Reistad \
     _Inlagd i reglementet på VTM1 2000. Inröstad 1993_
-  - Per-Henrik Rasmussen  \ _inröstad 1994_
+
+  - Per-Henrik Rasmussen \
+    _inröstad 1994_
+
   - Rune Kullberg \
     _Invald på HTM1 2002 för sitt arbete för studentinflytande, hans handlingskraft i studentfrågor, och hans stora initiativförmåga som ordförande i Utbildningsnämnden för D_
+
   - Nora Ekdahl \
     _Invald VTM 2010 för sina insatser som studievägledare för C- och D-programmet._
-  - Mats Cedervall  \
+
+  - Mats Cedervall \
     _Invald på HTM1 2018 för sitt stora Intresse i sektionens lokaler och för att han som Husprefekt alltid har verkat för studenternas ökade inflytande i husstyrelsen_
-  - Jan Eric Larsson  \
+
+  - Jan Eric Larsson \
     _Invald på HTM1 2022 för sina insatser och sitt stora engagemang som Inspektor under en lång tid._
-  - Anu Uus  \
+
+  - Anu Uus \
     _Invald på HTM1 2022 för sina insatser och sitt stora engagemang som Inspektrix under en lång tid._
 
 / Grundarna av D-sektionen inom TLTH:
@@ -45,9 +51,7 @@
 = Strategiska mål och verksamhetsplan
 
 / Strategiska mål och verksamhetsplan:
-  De strategiska målen ska innehålla strategiska mål som sektionen ska arbeta med
-  över längre tid. Verksamhetsplanen ska utgå från de strategiska målen och definiera konkreta mål som ska arbetas med under verksamhetsåret. Ett strategiskt mål
-  kan sträcka sig över flera år och ska varje år ha en konkret motsvarighet i verksamhetsplanen.
+  De strategiska målen ska innehålla strategiska mål som sektionen ska arbeta med över längre tid. Verksamhetsplanen ska utgå från de strategiska målen och definiera konkreta mål som ska arbetas med under verksamhetsåret. Ett strategiskt mål kan sträcka sig över flera år och ska varje år ha en konkret motsvarighet i verksamhetsplanen.
 
 = Policyer
 
@@ -76,9 +80,7 @@
 
 / Höstterminsmöte ett:
   Under höstterminsmöte ett skall följande poster tillsättas:
-  - Valberedningsrepresentant från den lägsta årskursen (Det totala
-    antalet valberedningsrepresentanter får vid inget tillfälle överstiga
-    20.)
+  - Valberedningsrepresentant från den lägsta årskursen (Det totala antalet valberedningsrepresentanter får vid inget tillfälle överstiga 20.)
   - Øverphøs (1)
   - Trivselmästare (1)
 
@@ -126,10 +128,8 @@
 / Åligganden:
   Det åligger valberedningen
   - att valbereda kandidater till de poster som väljs under sektionsmöte med undantag för poster inom Valberedningen
-  - att kontakta och informera samtliga kandidater om resultatet från valprocessen innan det
-    väljande mötet
-  - att skicka in förslag på vilka kandidater Valberedningen anser vara lämpliga i form av en
-    handling till det väljande mötet
+  - att kontakta och informera samtliga kandidater om resultatet från valprocessen innan det väljande mötet
+  - att skicka in förslag på vilka kandidater Valberedningen anser vara lämpliga i form av en handling till det väljande mötet
   - att skicka minst en valberedningsrepresentant till varje utskottsvalberedning.
 
 = Styrelsen
@@ -150,8 +150,7 @@
   - att anordna överlämning för nästkommande styrelse
 
 / Sammanträde:
-  Sektionsstyrelsen sammanträder på kallelse av ordförande eller vid dennes frånvaro av vice ordförande. Ständigt adjungerad är, förutom de av stadgan och reglementet fastställda, även E-sektionens
-  ordförande, två styrelseledarmöter från D-chip, sektionens kårkontakter, Trivselmästaren samt Framtidsordförande.
+  Sektionsstyrelsen sammanträder på kallelse av ordförande eller vid dennes frånvaro av vice ordförande. Ständigt adjungerad är, förutom de av stadgan och reglementet fastställda, även E-sektionens ordförande, två styrelseledarmöter från D-chip, sektionens kårkontakter, Trivselmästaren samt Framtidsordförande.
 
 = Utskott
 
@@ -435,9 +434,7 @@ Medaljelelekommittén delar ut medaljer till sektionsfunktionärer. Medaljelelek
   - att föreslå representanter till TLTH:s externa organ
 
 / Sammanträde:
-  Studierådet sammanträder på kallelse av Studierådsordföranden eller vid
-  dennes frånvaro av Vice Studierådsordföranden. Rätt att begära utlysning av
-  studierådsmöte har
+  Studierådet sammanträder på kallelse av Studierådsordföranden eller vid dennes frånvaro av Vice Studierådsordföranden. Rätt att begära utlysning av studierådsmöte har
   + minst 10 sektionsmedlemmar
   + revisor
   + Inspektor
@@ -462,8 +459,7 @@ Medaljelelekommittén delar ut medaljer till sektionsfunktionärer. Medaljelelek
   - Funktionärer
 
 / Kallelse:
-  Kallelse till studierådsmöte samt föredragningslista skall senast fem
-  dagar före sammanträdet anslås skriftligen i sektionslokalen där alla sektionsmedlemmar kan se.
+  Kallelse till studierådsmöte samt föredragningslista skall senast fem dagar före sammanträdet anslås skriftligen i sektionslokalen där alla sektionsmedlemmar kan se.
 
 = Trivselrådet
 
@@ -545,8 +541,7 @@ Ordföranden leder styrelsens arbete och är sektionens ansikte utåt.
 
 == Informationsansvarig
 
-Informationsansvarig ansvarar för sektionens informationsspridning samt att upprätthålla
-kommunikation mellan styrelsen och sektionen. Informationsansvarig leder även Informationsutskottet.
+Informationsansvarig ansvarar för sektionens informationsspridning samt att upprätthålla kommunikation mellan styrelsen och sektionen. Informationsansvarig leder även Informationsutskottet.
 
 / Åligganden:
   Det åligger Informationsansvarig
@@ -559,8 +554,7 @@ kommunikation mellan styrelsen och sektionen. Informationsansvarig leder även I
 
 == Skattmästare
 
-Skattmästaren handhar sektionens ekonomi, sköter bokföring och ekonomisk
-uppföljning. Skattmästaren leder även skattmästeriet.
+Skattmästaren handhar sektionens ekonomi, sköter bokföring och ekonomisk uppföljning. Skattmästaren leder även skattmästeriet.
 
 / Åligganden:
   Det åligger Skattmästaren
@@ -571,14 +565,11 @@ uppföljning. Skattmästaren leder även skattmästeriet.
 
 / Rättigheter:
   Skattmästaren äger rätt
-  - att ha fortsatt tillgång till föreningens bokföring och övrig relevant dokumentation i syfte att möjliggöra upprättande och granskning av bokslut för det gångna verksamhetsåret. Denna
-    åtkomst ska säkerställas i minst fem månader efter det att bokslut för det föregående verksamhetsåret har fastställts av årsmötet, eller fem månader efter mandatperiodens utgång, beroende
-    på vilket som inträffar sist.
+  - att ha fortsatt tillgång till föreningens bokföring och övrig relevant dokumentation i syfte att möjliggöra upprättande och granskning av bokslut för det gångna verksamhetsåret. Denna åtkomst ska säkerställas i minst fem månader efter det att bokslut för det föregående verksamhetsåret har fastställts av årsmötet, eller fem månader efter mandatperiodens utgång, beroende på vilket som inträffar sist.
 
 == Studierådsordförande
 
-Studierådsordföranden är ansvarig för sektionens studiebevakning.
-Studierådsordföranden leder även studierådet.
+Studierådsordföranden är ansvarig för sektionens studiebevakning. Studierådsordföranden leder även studierådet.
 
 / Åligganden:
   Det åligger Studierådsordförande
@@ -596,8 +587,7 @@ Cafémästaren är ansvarig för sektionens caféverksamhet. Cafémästaren lede
 
 == Näringslivsansvarig
 
-Näringslivsansvarig samordnar sektionens kontakter med näringslivet.
-Näringslivsansvarig leder även Näringslivsutskottet.
+Näringslivsansvarig samordnar sektionens kontakter med näringslivet. Näringslivsansvarig leder även Näringslivsutskottet.
 
 / Åligganden:
   Det åligger Näringslivsansvarig
@@ -607,8 +597,7 @@ Näringslivsansvarig leder även Näringslivsutskottet.
 
 == Källarmästare
 
-Källarmästaren är ansvarig för sektionens lokaler och inventarier.
-Källarmästaren leder även källarmästeriet.
+Källarmästaren är ansvarig för sektionens lokaler och inventarier. Källarmästaren leder även källarmästeriet.
 
 / Åligganden:
   Det åligger Källarmästaren
@@ -617,8 +606,7 @@ Källarmästaren leder även källarmästeriet.
 
 == Aktivitetsansvarig
 
-Aktivitetsansvarig är ansvarig för sektionens studiesociala verksamheter,
-undantaget fest- och pubverksamhet. Aktivitetsansvarig leder även Aktivitetsutskottet.
+Aktivitetsansvarig är ansvarig för sektionens studiesociala verksamheter, undantaget fest- och pubverksamhet. Aktivitetsansvarig leder även Aktivitetsutskottet.
 
 / Åligganden:
   Det åligger Aktivitetsansvarig
@@ -785,8 +773,7 @@ Coach ska för sektionen arrangera fotbollslagets verksamhet.
 
 == Ljud- och ljusansvarig
 
-Ljud- och ljusansvarig är ansvarig för sektionens ljud- och
-ljusutrustning.
+Ljud- och ljusansvarig är ansvarig för sektionens ljud- och ljusutrustning.
 
 / Åligganden:
   Det åligger Ljud- och ljusansvarig
@@ -821,8 +808,7 @@ Journalisten bistår Redaktören i dennes arbete.
 
 == Her Tech Future Representant
 
-Her Tech Future Representant är ansvarig för Her Tech Future-arrangemanget på
-sektionen.
+Her Tech Future Representant är ansvarig för Her Tech Future-arrangemanget på sektionen.
 
 / Åligganden:
   Det åligger Her Tech Future Representant
@@ -911,8 +897,7 @@ Jubileumsgeneral ansvarar för arrangerandet av D-sektionens jubileum.
 
 == Trivselmästare
 
-Trivselmästaren är ansvarig för likabehandling- och internationaliseringsarbetet på sektionen. Trivselmästaren ska driva sektionens arbetsmiljöfrågor. Trivselmästaren leder trivselrådet. Trivselmästaren bör
-ha tystnadsplikt för ärenden den behandlar.
+Trivselmästaren är ansvarig för likabehandling- och internationaliseringsarbetet på sektionen. Trivselmästaren ska driva sektionens arbetsmiljöfrågor. Trivselmästaren leder trivselrådet. Trivselmästaren bör ha tystnadsplikt för ärenden den behandlar.
 
 / Åligganden:
   Det åligger Trivselmästaren
@@ -940,8 +925,7 @@ Karnevalsansvarig har hand om sektionens deltagande i karnevalen och väljs var 
 / Åligganden:
   Det åligger Karnevalsansvarig
   - att se till att sektionen deltager i karnevalens arrangemang såsom tåg- och tältnöjen
-  - att presentera en budget över sin verksamhet för styrelsen senast
-    tre månader före karnevalen äger rum
+  - att presentera en budget över sin verksamhet för styrelsen senast tre månader före karnevalen äger rum
   - att hålla kontakten med Karnevalskommittén
 
 / Mandatperiod:
@@ -1130,8 +1114,7 @@ Revisorerna skall granska sektionens verksamhet och bokslut.
   - att taga del av sektionsmötenas och styrelsens protokoll
   - att verkställa fortlöpande inventering eller kontrollera ställd inventering av sektionens kassa och övriga tillgångar
   - att tillse huruvida sektionens organisation av och kontroll över bokföring är tillfredsställande
-  - att senast fjorton dagar innan vårterminsmötet, året
-    efter mandatperioden, till styrelsen inlämna revisionsberättelse
+  - att senast fjorton dagar innan vårterminsmötet, året efter mandatperioden, till styrelsen inlämna revisionsberättelse
 
 / Rättigheter:
   Revisorerna äger rätt
@@ -1156,16 +1139,13 @@ root underhåller sektionens datorer och därtill kopplad utrustning.
 
 == Studerandeskyddsombud
 
-Studerandeskyddsombudet bevakar sektionens intressen i olika organ för arbetsmiljöfrågor.
-Studerandeskyddsombudet för fram sektionens och studierådets åsikter gentemot E-husets
-husstyrelse. Studerandeskyddsombudet ansvarar för att informera studierådet om det som tagits upp på mötet för husstyrelsen.
+Studerandeskyddsombudet bevakar sektionens intressen i olika organ för arbetsmiljöfrågor. Studerandeskyddsombudet för fram sektionens och studierådets åsikter gentemot E-husets husstyrelse. Studerandeskyddsombudet ansvarar för att informera studierådet om det som tagits upp på mötet för husstyrelsen.
 
 / Åligganden:
   Det åligger Studerandeskyddsombudet
   - att verka för god studiemiljö
   - att medverka på HMS-kommitténs möten
-  - att medverka på husstyrelsemöten för E-husets husstyrelse som
-    studentrepresentant
+  - att medverka på husstyrelsemöten för E-husets husstyrelse som studentrepresentant
   - att förmedla sektionens åsikter på HMS-kommitémöten och husstyrelsemöten
   - att informera sektionen om kommande HMS-kommitémöten och Husstyrelsemöten
   - att informera studierådet om vad som sagts på tidigare HMS-kommitémöten och Husstyrelsemöten
@@ -1180,8 +1160,7 @@ Stekaren tillagar varor som används i maträtterna som serveras i Café iDét.
 
 / Åligganden:
   Det åligger Stekaren
-  - att med lämpligt intervall
-    tillaga mat åt Cafémästeriets dagliga verksamhet, så att det alltid finns tillgängligt
+  - att med lämpligt intervall tillaga mat åt Cafémästeriets dagliga verksamhet, så att det alltid finns tillgängligt
 
 == Dagsansvarig
 
@@ -1220,8 +1199,7 @@ Stabsmedlem arrangerar, under Øverphøs ledning, nollning.
 / Åligganden:
   Det åligger Stabsmedlem
   - att bistå Øverphøs i dennes arbete.
-  - att planera och genomföra nollningsrelaterade
-    evenemang.
+  - att planera och genomföra nollningsrelaterade evenemang.
 
 == Studentrepresentant, Institutionsstyrelse
 
@@ -1281,8 +1259,7 @@ Sångförmannen leder sången under sektionens fester.
 / Åligganden:
   Det åligger Sångförmannen
   - att ansvara för schema och sång under sektionens sittningar.
-  - att hjälpa Hovmästaren sätta tidschema på
-    sektionens sittningar.
+  - att hjälpa Hovmästaren sätta tidschema på sektionens sittningar.
   - att vara sexmästeriets kontaktperson angående gyckel.
   - att lära nollan vett och etikett på sittningar.
   - att göra sångblad då så erfordras.
@@ -1298,8 +1275,7 @@ Talmannen är mötesordförande på sektionsmötena.
 
 == Tandemgeneral
 
-Tandemgeneralen ska representera D-sektionen på Tandemstafetten, delta
-vid dess planering och se till att D-sektionens medlemmar får chansen att delta.
+Tandemgeneralen ska representera D-sektionen på Tandemstafetten, delta vid dess planering och se till att D-sektionens medlemmar får chansen att delta.
 
 / Åligganden:
   Det åligger Tandemgeneralen
@@ -1307,8 +1283,7 @@ vid dess planering och se till att D-sektionens medlemmar får chansen att delta
 
 == DELTA-general
 
-DELTA-general har tillsammans med Näringslivsansvarig hand om
-D-sektionens årliga arbetsmarknadsmässa DELTA.
+DELTA-general har tillsammans med Näringslivsansvarig hand om D-sektionens årliga arbetsmarknadsmässa DELTA.
 
 / Åligganden:
   Det åligger DELTA-general
@@ -1356,8 +1331,7 @@ Valberedningens ordförande leder valberedningens arbete.
 
 == Valberedningsrepresentant
 
-Valberedningsrepresentanten verkar för att bredda sektionens
-rekryteringsbas.
+Valberedningsrepresentanten verkar för att bredda sektionens rekryteringsbas.
 
 / Åligganden:
   Det åligger Valberedningsrepresentanten
@@ -1365,8 +1339,7 @@ rekryteringsbas.
   - att inte diskutera intervjuerna och detaljer om kandidaterna förutom med valberedningen och den berörda kandidaten
 
 / Krav:
-  Det krävs att valberedningsrepresentant ej är vald till styrelseledamot under en period som överlappar med mandadet
-  för posten valberedningsrepresentant
+  Det krävs att valberedningsrepresentant ej är vald till styrelseledamot under en period som överlappar med mandadet för posten valberedningsrepresentant
 
 == Valnämndsrepresentant TLTH
 
@@ -1389,8 +1362,7 @@ Världsmästaren verkar för sektionens internationalisering.
 
 == Årskursrepresentant
 
-Årskursrepresentanten är den som utvärderar våra kurser och framför sina
-kursarers åsikter.
+Årskursrepresentanten är den som utvärderar våra kurser och framför sina kursarers åsikter.
 
 / Åligganden:
   Det åligger Årskursrepresentanten
@@ -1434,8 +1406,7 @@ kursarers åsikter.
 
 == Øverpeppare
 
-Ø verpepparna agerar Stabens högra hand genom att vara med i planering
-och genomförande av nollningsrelaterade evenemang. Ø verpepparna ansvarar för att leda Pepparna.
+Ø verpepparna agerar Stabens högra hand genom att vara med i planering och genomförande av nollningsrelaterade evenemang. Ø verpepparna ansvarar för att leda Pepparna.
 
 / Åligganden:
   Det åligger Øverpeppare
@@ -1444,8 +1415,7 @@ och genomförande av nollningsrelaterade evenemang. Ø verpepparna ansvarar för
 
 == Peppare
 
-Pepparna agerar Ø verpepparnas högra hand genom att vara med i planering
-och genomförande av nollningsrelaterade evenemang.
+Pepparna agerar Ø verpepparnas högra hand genom att vara med i planering och genomförande av nollningsrelaterade evenemang.
 
 / Åligganden:
   Det åligger Pepparna
@@ -1543,13 +1513,11 @@ Utvecklarna hjälper utskottet i dess åligganden.
 
 == Influencer
 
-Influencer ska hjälpa till att hantera sektionens sociala medier samt skapa innehåll som visar
-upp sektionen på ett representativt sätt
+Influencer ska hjälpa till att hantera sektionens sociala medier samt skapa innehåll som visar upp sektionen på ett representativt sätt
 
 / Åligganden:
   Det åligger Influencer
-  - att bistå informationsutskottets presidie med att hantera sektionens
-    sociala medier
+  - att bistå informationsutskottets presidie med att hantera sektionens sociala medier
   - att skapa innehåll som visar upp sektionen på ett representativt sätt
 
 == Näringslivskoordinator
@@ -1562,8 +1530,7 @@ upp sektionen på ett representativt sätt
 
 I detta avsnitt listas de medaljer och utmärkelser som sektionen delar ut samt de kriterier som ligger bakom förvärvandet av dessa.
 
-Medaljer och utmärkelser delas företrädesvis ut två gånger om året, under de årliga ordenskapitlen i samband med Skiphtesgasque och Nollegasque. Vid speciella tillfällen, såsom t.ex. Jubileum, kan ett extra ordenskapitel
-hållas.
+Medaljer och utmärkelser delas företrädesvis ut två gånger om året, under de årliga ordenskapitlen i samband med Skiphtesgasque och Nollegasque. Vid speciella tillfällen, såsom t.ex. Jubileum, kan ett extra ordenskapitel hållas.
 
 == Funktionärsmedaljen
 
@@ -1595,9 +1562,7 @@ DuCtig-medaljen erhålles som en del av studierådets utmärkelse DuCtig (Data u
 
 == Styrelsemedaljen
 
-Styrelsemedaljen tilldelas de personer som innehar funktionärspost inom sektionsstyrelsen. En
-styrelsemedalj delas ut vid påbörjad mandatperiod på posten. Styrelsemedaljen utdelas till en
-och samma person endast en gång. Denna medalj tillhandages gratis.
+Styrelsemedaljen tilldelas de personer som innehar funktionärspost inom sektionsstyrelsen. En styrelsemedalj delas ut vid påbörjad mandatperiod på posten. Styrelsemedaljen utdelas till en och samma person endast en gång. Denna medalj tillhandages gratis.
 
 == Insignier
 
