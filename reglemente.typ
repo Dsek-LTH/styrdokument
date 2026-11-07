@@ -1,2404 +1,1914 @@
-\documentclass[pdfbookmarks,a4paper,11pt]{article}
-\usepackage{dsekcommon}
-\usepackage[utf8]{inputenc}
-\usepackage{enumerate}
-\usepackage{lastpage}
-\usepackage{longtable}
-\ifpdf
-  \usepackage{thumbpdf}
-\fi
-\usepackage{calc}
-
-\pagestyle{fancy}
-
-\lhead{}
-\chead{}
-\rhead{}
-\lfoot{}
-\cfoot{\thepage\ (\nohyperpageref{LastPage})}
-\rfoot{}
-
-% Puts a full stop after the section number
-\makeatletter
-\def\@seccntformat#1{\csname the#1\endcsname.\quad}
-\makeatother
-
-\newcommand{\funktionar}[1]{%
-  \subsection*{#1}\par
-  \addcontentsline{toc}{subsection}{#1}}
-
-\newlength{\itemcollength}
-\setlength{\itemcollength}{40mm}
-\newenvironment{reglemlista}{%
-  \begin{list}{}{%
-      \setlength{\labelwidth}{\itemcollength}%
-      \setlength{\leftmargin}{\labelwidth + \labelsep}%
-      \renewcommand{\makelabel}[1]{%
-        \raisebox{0pt}[1ex][0pt]{%
-          \makebox[\labelwidth][l]{%
-            \parbox[t]{\itemcollength}{%
-              \raggedright\hspace{0pt}##1}}}\hfill}%
-      }}{%
-  \end{list}}
-
-%%%%%%%%%%%%% HEADER %%%%%%%%%%%%%
-
-\title{Reglemente för D-sektionen inom TLTH\\ Organisationsnummer: 845003-2878}
-\date{\today}
-
-\setheader{REGLEMENTE}{VTM 2023}{\today}
-
-%%%%%%%%%%%%% HEADER %%%%%%%%%%%%%
-\begin{document}
-
-\maketitle
-
-%%%%%%%%%%%%% SECTION %%%%%%%%%%%%%
-\section{Teknologia}
-
-\begin{reglemlista}
-
-	\item[Råsa]
-	En lämplig tolkning av råsa är \#F280A1 i sRGB.
-
-	\item[Rosa Pantern]
-	Med Rosa Pantern åsyftas den figur som skapades av Friz Freleng och David
-	DePatie till Blake Edwards film ''The Pink Panther'' år 1963.
-
-	\item[Råsa Digitalis]
-	Med Råsa Digitalis menas en råsa fingerborgsblomma, på latin Digitalis Purpurea.
-
-\end{reglemlista}
+Teknologia
 
 
-%%%%%%%%%%%%% SECTION %%%%%%%%%%%%%
-\section{Hedersomnämnande}
+Råsa:
+En lämplig tolkning av råsa är #F280A1 i sRGB.
 
-\begin{reglemlista}
+Rosa Pantern:
+Med Rosa Pantern åsyftas den figur som skapades av Friz Freleng och David
+DePatie till Blake Edwards film ”The Pink Panther” år 1963.
 
-	\item[Hedersmedlemmar]
-	Hedersmedlemmar är:
-	\begin{itemize}
-		\item Nina Reistad\\
-		      \emph{Inlagd i reglementet på VTM1 2000. Inröstad 1993}
-		\item Per-Henrik Rasmussen \\ \emph{inröstad 1994}
-		\item Rune Kullberg\\
-		      \emph{Invald på HTM1 2002 för sitt arbete för studentinflytande, hans handlingskraft i studentfrågor, och hans stora initiativförmåga som ordförande i Utbildningsnämnden för D}
-		\item Nora Ekdahl\\
-		      \emph{Invald VTM 2010 för sina insatser som studievägledare för C- och D-programmet.}
-		\item Mats Cedervall \\
-		      \emph{Invald på HTM1 2018 för sitt stora Intresse i sektionens lokaler och för att han som Husprefekt alltid har verkat för studenternas ökade inflytande i husstyrelsen}
-		\item Jan Eric Larsson \\
-			  \emph{Invald på HTM1 2022 för sina insatser och sitt stora engagemang som Inspektor under en lång tid.}
-		\item Anu Uus \\
-			  \emph{Invald på HTM1 2022 för sina insatser och sitt stora engagemang som Inspektrix under en lång tid.}
-	\end{itemize}
-
-	\item[Grundarna av D-sektionen inom TLTH]
-	Grundarna av D-sektionen inom TLTH är:
-
-	\begin{itemize}
-		\item Lars Svensson
-		\item Ulf Bengtsson
-		\item Henrik Cronström
-		\item Kristin Andersson
-		\item Stefan Molund
-		\item Jan Eric Larsson
-	\end{itemize}
-
-\end{reglemlista}
+Råsa Digitalis:
+Med Råsa Digitalis menas en råsa fingerborgsblomma, på latin Digitalis Purpurea.
 
 
-%%%%%%%%%%%%% SECTION %%%%%%%%%%%%%
-\section{Strategiska mål och verksamhetsplan}
+Hedersomnämnande
 
-\begin{reglemlista}
 
-	\item[Strategiska mål och verksamhetsplan]
-	De strategiska målen ska innehålla strategiska mål som sektionen ska arbeta med
+Hedersmedlemmar:
+Hedersmedlemmar är:
+
+Nina Reistad
+Inlagd i reglementet på VTM1 2000. Inröstad 1993
+Per-Henrik Rasmussen
+inröstad 1994
+Rune Kullberg
+Invald på HTM1 2002 för sitt arbete för studentinflytande, hans handlingskraft i studentfrågor, och hans stora initiativförmåga som ordförande i Utbildningsnämnden för D
+Nora Ekdahl
+Invald VTM 2010 för sina insatser som studievägledare för C- och D-programmet.
+Mats Cedervall
+Invald på HTM1 2018 för sitt stora Intresse i sektionens lokaler och för att han som Husprefekt alltid har verkat för studenternas ökade inflytande i husstyrelsen
+Jan Eric Larsson
+Invald på HTM1 2022 för sina insatser och sitt stora engagemang som Inspektor under en lång tid.
+Anu Uus
+Invald på HTM1 2022 för sina insatser och sitt stora engagemang som Inspektrix under en lång tid.
+
+
+Grundarna av D-sektionen inom TLTH:
+Grundarna av D-sektionen inom TLTH är:
+
+
+Lars Svensson
+Ulf Bengtsson
+Henrik Cronström
+Kristin Andersson
+Stefan Molund
+Jan Eric Larsson
+
+
+Strategiska mål och verksamhetsplan
+
+
+Strategiska mål och verksamhetsplan:
+De strategiska målen ska innehålla strategiska mål som sektionen ska arbeta med
 över längre tid. Verksamhetsplanen ska utgå från de strategiska målen och definiera konkreta mål som ska arbetas med under verksamhetsåret. Ett strategiskt mål
 kan sträcka sig över flera år och ska varje år ha en konkret motsvarighet i verksamhetsplanen.
 
-\end{reglemlista}
 
-%%%%%%%%%%%%% SECTION %%%%%%%%%%%%%
-\section{Policyer}
-
-\begin{reglemlista}
-	\item[Policyer]
-    Sektionen har ett antal policyer som fungerar som förlängningar av reglementet gällande en särskild fråga. Notera att brott mot policyer kan medföra påföljder enligt TLTH:s ''Policy för entledigande och avstängning''. En förteckning med sektionens policyer återfinns i policy för styrdokument.
-\end{reglemlista}
+Policyer
 
 
-%%%%%%%%%%%%% SECTION %%%%%%%%%%%%%
-\section{Sektionsmöte}
+Policyer:
+Sektionen har ett antal policyer som fungerar som förlängningar av reglementet gällande en särskild fråga. Notera att brott mot policyer kan medföra påföljder enligt TLTH:s ”Policy för entledigande och avstängning”. En förteckning med sektionens policyer återfinns i policy för styrdokument.
 
-\begin{reglemlista}
 
-	\item[Utlysande]
-	Utöver skriftligt anslag i sektionslokalen skall följande tillställas kallelse:
-	\begin{itemize}
-		\item Valberedningen
-		\item Revisorerna
-		\item Kårordföranden
-		\item Inspektorn
-	\end{itemize}
-	
-	\item[Förtydligande]
-	Efter varje post står en siffra inom parentes, det är antal personer som kan sitta på en post, om det inte står någon siffra så är det erforderligt antal.
+Sektionsmöte
 
-	\item[Vårterminsmöte]
-	Under vårterminsmötet skall följande poster tillsättas:
-	\begin{itemize}
 
-		\item DELTA-general (2)
-		\item Jubileumsgeneral (1) (väljes året innan jubileet äger rum)
-		\item Tackmästare (1)
-		\item Studerandeskyddsombud (1)
-	\end{itemize}
+Utlysande:
+Utöver skriftligt anslag i sektionslokalen skall följande tillställas kallelse:
 
-	\item[Höstterminsmöte ett]
-	Under höstterminsmöte ett skall följande poster tillsättas:
-	\begin{itemize}
-		\item Valberedningsrepresentant från den lägsta årskursen (Det totala
+Valberedningen
+Revisorerna
+Kårordföranden
+Inspektorn
+
+
+Förtydligande:
+Efter varje post står en siffra inom parentes, det är antal personer som kan sitta på en post, om det inte står någon siffra så är det erforderligt antal.
+
+Vårterminsmöte:
+Under vårterminsmötet skall följande poster tillsättas:
+
+
+DELTA-general (2)
+Jubileumsgeneral (1) (väljes året innan jubileet äger rum)
+Tackmästare (1)
+Studerandeskyddsombud (1)
+
+
+Höstterminsmöte ett:
+Under höstterminsmöte ett skall följande poster tillsättas:
+
+Valberedningsrepresentant från den lägsta årskursen (Det totala
 antalet valberedningsrepresentanter får vid inget tillfälle överstiga
 20.)
-		\item Øverphøs (1)
-		\item Trivselmästare (1)
-	\end{itemize}
-
-	\item[Valmöte]
-	Under valmötet skall följande poster tillsättas:
-	\begin{itemize}
-		\item Ordförande (1)
-		\item Vice Ordförande (1)
-		\item Informationsansvarig (1)
-		\item Skattmästare (1)
-		\item Cafémästare (1)
-		\item Sexmästare (1)
-		\item Studierådsordförande (1)
-		\item Näringslivsansvarig (1)
-		\item Källarmästare (1)
-		\item Aktivitetsansvarig (1)
-        \item Processmästare (1)
-		\item Vice Informationsansvarig (1)
-		\item Vice Skattmästare (1)
-		\item Vice Cafémästare (1)
-		\item Vice Sexmästare (1)
-		\item Vice Studierådsordförande (1)
-		\item Vice Näringslivsansvarig (1)
-		\item Vice Källarmästare (1)
-		\item Vice Aktivitetsansvarig (1)
-        \item Vice Processmästare (1)
-		\item Revisor (2)
-		\item Inspektor (1)
-		\item Framtidsordförande (1)
-		\item Valnämndsrepresentant TLTH (1)
-		\item Alumniansvarig (1)
-		\item UtEDdischoansvarig (1-2)
-		\item Övermarskalk (1)
-		\item Talman (1)
-		\item Skattförman (1-4)
-		\item Tackmästare (1)
-	\end{itemize}
-
-	\item[Höstterminsmöte Två]
-	\begin{itemize}
-		\item Valberedningsordförande (1)
-		\item  Valberedningsrepresentanter som förväntas vara ordinarie medlem vid TLTH ett år framöver (Det totala antalet valberedningsrepresentanter får vid inget tillfälle överstiga 20.)
-		\item root (1)
-		\item DWWW-ansvarig (1)
-	\end{itemize}
-\end{reglemlista}
-
-%%%%%%%%%%%%% SECTION %%%%%%%%%%%%%
-\section{Valberedningen}
-
-\begin{reglemlista}
-
-	\item[Åligganden]
-	Det åligger valberedningen
-	\begin{attlista}
-		\item valbereda kandidater till de poster som väljs under sektionsmöte med undantag för poster inom Valberedningen
-		\item kontakta och informera samtliga kandidater om resultatet från valprocessen innan det
-		väljande mötet
-		\item skicka in förslag på vilka kandidater Valberedningen anser vara lämpliga i form av en
-		handling till det väljande mötet
-	\item skicka minst en valberedningsrepresentant till varje utskottsvalberedning.
-	\end{attlista}
-\end{reglemlista}
-
-%%%%%%%%%%%%% SECTION %%%%%%%%%%%%%
-\section{Styrelsen}
-
-\begin{reglemlista}
-
-	\item[Åligganden]
-	Det åligger styrelsen
-	\begin{attlista}
-		\item inför sektionen ansvara för sektionens verksamhet
-		\item förbereda och genomföra sektionsmöten
-		\item verkställa och övervaka genomförandet av sektionsmötets beslut
-		\item ansvara för sektionens medel
-		\item bereda inkomna förslag
-		\item handha sektionens korrespondens
-		\item utarbeta förslag till budget och resultatdispositioner
-		\item utarbeta förslag till verksamhetsplan
-		\item senast sex veckor efter verksamhetsårets slut till revisor\-erna överlämna verksamhetsberättelse, protokoll och övriga handlingar revisorerna önskar ta del av
-		\item en gång per termin informera medaljelekomittén om de funktionärer som styreslen anser skall mottaga medalj
-		\item uträtta val som inte uträttats av sektionsmötet
-		\item anordna överlämning för nästkommande styrelse
-	\end{attlista}
-
-	\item[Sammanträde]
-	Sektionsstyrelsen sammanträder på kallelse av ordförande eller vid dennes frånvaro av vice ordförande. Ständigt adjungerad är, förutom de av stadgan och reglementet fastställda, även E-sektionens
-	ordförande, två styrelseledarmöter från D-chip, sektionens kårkontakter, Trivselmästaren samt Framtidsordförande.
-
-\end{reglemlista}
-
-%%%%%%%%%%%%% SECTION %%%%%%%%%%%%%
-\section{Utskott}
-
-\begin{reglemlista}
-
-	\item[Åligganden]
-	Det åligger utskotten
-	\begin{attlista}
-		\item söka erforderliga tillstånd
-		\item följa av sektionen uppsatta riktlinjer
-	\end{attlista}
-
-	\item[Utskottsordföranden]
-	Det åligger utskottsordföranden
-	\begin{attlista}
-		\item ansvara för utskottets verksamhet
-		\item senast fyra veckor efter verksamhetsårets slut till styrelsen inlämna verksamhetsberättelse
-		\item leda och fördela arbetet inom utskottet
-		\item budgetera, redovisa och följa upp utskottets verksamhet
-		\item upprätta bokslut
-		\item sammankalla utskottet minst två gånger per verksamhetsår
-		\item hålla styrelsen informerad om utskottets verksamhet
-		\item utse erforderligt antal funktionärer utöver de av sektionen valda
-		\item anordna överlämning för efterträdare
-	\end{attlista}
-
-	\item[Titulering]
-	Alternativ titulering för utskottsordförande är mästare.
-
-\end{reglemlista}
-
-%%%%%%%%%%%%% SECTION %%%%%%%%%%%%%
-\section{Cafémästeriet}
-
-\begin{reglemlista}
-
-	\item[Åligganden]
-	Det åligger cafémästeriet
-	\begin{attlista}
-		\item ansvara för caféts verksamhet
-		\item verka för att ett så brett cafésortiment som möjligt finns tillgängligt för sektionens medlemmar
-		\item ansvara för daglig städning av iDét
-		\item då det är praktiskt lämpligt, assistera D-shopen med försäljning av märken
-	\end{attlista}
-
-	\item[Sammansättning]
-	Cafémästeriet består av
-	\begin{itemize}
-		\item Cafémästare
-		\item Vice Cafémästare
-		\item Dagsansvarig
-		\item Stekare
-        \item Brunchmästare
-        \item Inventarieansvarig
-        \item Bakis
-		\item Funktionärer
-	\end{itemize}
-
-\end{reglemlista}
-
-%%%%%%%%%%%%% SECTION %%%%%%%%%%%%%
-\section{Näringslivsutskottet}
-
-\begin{reglemlista}
-
-	\item[Åligganden]
-	Det åligger näringslivsutskottet
-	\begin{attlista}
-		\item verka för att sektionens goda relationer med näringslivet behålls och förbättras
-		\item verka för att information om datateknik- och infocomutbildningarna vid LTH sprids till företag och näringsliv
-		\item underlätta kontakten mellan sektionsmedlemmar och verkligheten
-		\item vid behov söka sponsorer till sektionen
-		\item genom kontakt med gamla sektionsmedlemmar kunna ge en inblick i verksamheten i intressanta företag
-		\item bistå Nollningsutskottet i sponsorsökandet inför nollningen
-	\end{attlista}
-
-	\item[Sammansättning]
-	Näringslivsutskottet består av
-	\begin{itemize}
-		\item Näringslivsansvarig
-		\item Vice Näringlivsansvarig
-		\item Alumnigruppen
-		\item Projektgruppen för DELTA
-		\item DELTA-värd
-		\item Funktionärer
-        \item Näringlivskoordinator
-	\end{itemize}
-
-	\item[\textbf{Alumnigruppen}]
-
-	\item[Åligganden]
-	Det åligger alumnigruppen
-	\begin{attlista}
-		\item  upprätthålla en förteckning över utexaminerade D- och C-teknologer
-		\item upprätthålla kontakten med utexaminerade D- och C-teknologer
-	\end{attlista}
-
-	\item[Sammansättning]
-	Alumnigruppen består av
-	\begin{itemize}
-		\item Alumniansvarig
-		\item Alumnigruppsmedlem (erfoderligt antal)
-	\end{itemize}
-
-\end{reglemlista}
-\textbf{Projektgruppen för DELTA}
-\begin{reglemlista}
-	\item[Åligganden]
-	Det åligger Projektgruppen för DELTA
-
-	\begin{attlista}
-		\item på våren anordna arbetsmarknadsmässan DELTA
-	\end{attlista}
-
-	\item[Sammansättning]
-	Projektgruppen för DELTA består av
-	\begin{itemize}
-		\item DELTA-generaler
-		\item Projektledare inom DELTA (erfoderligt antal)
-	\end{itemize}
-
-\end{reglemlista}
+Øverphøs (1)
+Trivselmästare (1)
 
 
-%%%%%%%%%%%%% SECTION %%%%%%%%%%%%%
-\section{Källarmästeriet}
+Valmöte:
+Under valmötet skall följande poster tillsättas:
 
-\begin{reglemlista}
+Ordförande (1)
+Vice Ordförande (1)
+Informationsansvarig (1)
+Skattmästare (1)
+Cafémästare (1)
+Sexmästare (1)
+Studierådsordförande (1)
+Näringslivsansvarig (1)
+Källarmästare (1)
+Aktivitetsansvarig (1)
+Processmästare (1)
+Vice Informationsansvarig (1)
+Vice Skattmästare (1)
+Vice Cafémästare (1)
+Vice Sexmästare (1)
+Vice Studierådsordförande (1)
+Vice Näringslivsansvarig (1)
+Vice Källarmästare (1)
+Vice Aktivitetsansvarig (1)
+Vice Processmästare (1)
+Revisor (2)
+Inspektor (1)
+Framtidsordförande (1)
+Valnämndsrepresentant TLTH (1)
+Alumniansvarig (1)
+UtEDdischoansvarig (1-2)
+Övermarskalk (1)
+Talman (1)
+Skattförman (1-4)
+Tackmästare (1)
 
-	\item[Åligganden]
-	Det åligger källarmästeriet
-	\begin{attlista}
-		\item underhålla sektionens lokaler och inventarier
-		\item hålla minst en Snickerboa per termin
-	\end{attlista}
 
-	%%% Togs bort vtm 2018 "resning reglemente" snickerboa bör dock förklaras
-	% \item[Snickerboa]
-	%   Under snickerboa ges sektionsmedlemmarna möjlighet att försköna och
-	%   underhålla sektionens lokaler och inventarier. Till snickerboa ränner
-	%   alla sektionsmedlemmar.
+Höstterminsmöte Två:
 
-	\item[Sammansättning]
-	Källarmästeriet består av
-	\begin{itemize}
-		\item Källarmästaren
-		\item Vice Källarmästare
-		\item Ljud- och ljusansvarig
-		\item Trädgårdsmästare
-        \item Bilansvarig
-		\item Funktionärer
-	\end{itemize}
+Valberedningsordförande (1)
+Valberedningsrepresentanter som förväntas vara ordinarie medlem vid TLTH ett år framöver (Det totala antalet valberedningsrepresentanter får vid inget tillfälle överstiga 20.)
+root (1)
+DWWW-ansvarig (1)
 
-\end{reglemlista}
 
-%%%%%%%%%%%%% SECTION %%%%%%%%%%%%%
-\section{Medaljelelekommittén}
+Valberedningen
+
+
+Åligganden:
+Det åligger valberedningen
+
+valbereda kandidater till de poster som väljs under sektionsmöte med undantag för poster inom Valberedningen
+kontakta och informera samtliga kandidater om resultatet från valprocessen innan det
+väljande mötet
+skicka in förslag på vilka kandidater Valberedningen anser vara lämpliga i form av en
+handling till det väljande mötet
+skicka minst en valberedningsrepresentant till varje utskottsvalberedning.
+
+
+Styrelsen
+
+
+Åligganden:
+Det åligger styrelsen
+
+inför sektionen ansvara för sektionens verksamhet
+förbereda och genomföra sektionsmöten
+verkställa och övervaka genomförandet av sektionsmötets beslut
+ansvara för sektionens medel
+bereda inkomna förslag
+handha sektionens korrespondens
+utarbeta förslag till budget och resultatdispositioner
+utarbeta förslag till verksamhetsplan
+senast sex veckor efter verksamhetsårets slut till revisorerna överlämna verksamhetsberättelse, protokoll och övriga handlingar revisorerna önskar ta del av
+en gång per termin informera medaljelekomittén om de funktionärer som styreslen anser skall mottaga medalj
+uträtta val som inte uträttats av sektionsmötet
+anordna överlämning för nästkommande styrelse
+
+
+Sammanträde:
+Sektionsstyrelsen sammanträder på kallelse av ordförande eller vid dennes frånvaro av vice ordförande. Ständigt adjungerad är, förutom de av stadgan och reglementet fastställda, även E-sektionens
+ordförande, två styrelseledarmöter från D-chip, sektionens kårkontakter, Trivselmästaren samt Framtidsordförande.
+
+
+Utskott
+
+
+Åligganden:
+Det åligger utskotten
+
+söka erforderliga tillstånd
+följa av sektionen uppsatta riktlinjer
+
+
+Utskottsordföranden:
+Det åligger utskottsordföranden
+
+ansvara för utskottets verksamhet
+senast fyra veckor efter verksamhetsårets slut till styrelsen inlämna verksamhetsberättelse
+leda och fördela arbetet inom utskottet
+budgetera, redovisa och följa upp utskottets verksamhet
+upprätta bokslut
+sammankalla utskottet minst två gånger per verksamhetsår
+hålla styrelsen informerad om utskottets verksamhet
+utse erforderligt antal funktionärer utöver de av sektionen valda
+anordna överlämning för efterträdare
+
+
+Titulering:
+Alternativ titulering för utskottsordförande är mästare.
+
+
+Cafémästeriet
+
+
+Åligganden:
+Det åligger cafémästeriet
+
+ansvara för caféts verksamhet
+verka för att ett så brett cafésortiment som möjligt finns tillgängligt för sektionens medlemmar
+ansvara för daglig städning av iDét
+då det är praktiskt lämpligt, assistera D-shopen med försäljning av märken
+
+
+Sammansättning:
+Cafémästeriet består av
+
+Cafémästare
+Vice Cafémästare
+Dagsansvarig
+Stekare
+Brunchmästare
+Inventarieansvarig
+Bakis
+Funktionärer
+
+
+Näringslivsutskottet
+
+
+Åligganden:
+Det åligger näringslivsutskottet
+
+verka för att sektionens goda relationer med näringslivet behålls och förbättras
+verka för att information om datateknik- och infocomutbildningarna vid LTH sprids till företag och näringsliv
+underlätta kontakten mellan sektionsmedlemmar och verkligheten
+vid behov söka sponsorer till sektionen
+genom kontakt med gamla sektionsmedlemmar kunna ge en inblick i verksamheten i intressanta företag
+bistå Nollningsutskottet i sponsorsökandet inför nollningen
+
+
+Sammansättning:
+Näringslivsutskottet består av
+
+Näringslivsansvarig
+Vice Näringlivsansvarig
+Alumnigruppen
+Projektgruppen för DELTA
+DELTA-värd
+Funktionärer
+Näringlivskoordinator
+
+
+Alumnigruppen:
+
+Åligganden:
+Det åligger alumnigruppen
+
+upprätthålla en förteckning över utexaminerade D- och C-teknologer
+upprätthålla kontakten med utexaminerade D- och C-teknologer
+
+
+Sammansättning:
+Alumnigruppen består av
+
+Alumniansvarig
+Alumnigruppsmedlem (erfoderligt antal)
+
+
+Projektgruppen för DELTA
+
+Åligganden:
+Det åligger Projektgruppen för DELTA
+
+
+på våren anordna arbetsmarknadsmässan DELTA
+
+
+Sammansättning:
+Projektgruppen för DELTA består av
+
+DELTA-generaler
+Projektledare inom DELTA (erfoderligt antal)
+
+
+Källarmästeriet
+
+
+Åligganden:
+Det åligger källarmästeriet
+
+underhålla sektionens lokaler och inventarier
+hålla minst en Snickerboa per termin
+
+
+Sammansättning:
+Källarmästeriet består av
+
+Källarmästaren
+Vice Källarmästare
+Ljud- och ljusansvarig
+Trädgårdsmästare
+Bilansvarig
+Funktionärer
+
+
+Medaljelelekommittén
+
 
 Medaljelelekommittén delar ut medaljer till sektionsfunktionärer. Medaljelelekommittén leds av Övermarskalken.
 
-\begin{reglemlista}
 
-	\item[Åligganden]
-	Det åligger medaljelelekommittén
-	\begin{attlista}
-		\item vid högtidliga tillfällen, minst två gånger per år, tillsammans med (på skiftesgasquen avgående) sektionsordförande dela ut medaljer och andra utmärkelser till funktionärer som gjort sig förtjänta av dylikt
-		\item underhålla en lista över personer och utmärkelser på sektionens hemsida
-		\item minst en gång per termin bjuda in sektionsordförande till möte, så att denna kan informera om styrelsens åsikter om funktionärers prestationer
-	\end{attlista}
+Åligganden:
+Det åligger medaljelelekommittén
 
-	\item[Sammansättning]
-	Medaljelelekommittén består av
-	\begin{itemize}
-		\item Övermarskalken
-		\item Inspektor
-		\item Medaljelelekommittémedlemmar
-	\end{itemize}
-\end{reglemlista}
-
-%%%%%%%%%%%%% SECTION %%%%%%%%%%%%%
-\section{Aktivitetsutskottet}
-
-\begin{reglemlista}
-
-	\item[Åligganden]
-	Det åligger Aktivitetsutskottet
-	\begin{attlista}
-		\item anordna för sektionens medlemmar trevliga evenemang
-		\item verka för att sektionen har lag med i av andra studentorganisationer anordnade aktiviteter, såsom Tandemstafetten och DÖMD
-		\item informera om större arrangemang på andra orter
-	\end{attlista}
-
-	\item[Sammansättning]
-	Aktivitetsutskottet består av
-	\begin{itemize}
-		\item Aktivitetsansvarig
-		\item Vice Aktivitetsansvarig
-		\item UtEDischoansvarig
-		\item Idrottsförman
-		\item Karnevalsansvarig
-		\item LANparty-ansvarig
-		\item Sångarstridsförmän
-		\item Tandemgeneral
-		\item Semesterfirare
-		\item D-sportare
-		\item Nöjesförman
-		\item Coach
-		\item Funktionärer
-	\end{itemize}
+vid högtidliga tillfällen, minst två gånger per år, tillsammans med (på skiftesgasquen avgående) sektionsordförande dela ut medaljer och andra utmärkelser till funktionärer som gjort sig förtjänta av dylikt
+underhålla en lista över personer och utmärkelser på sektionens hemsida
+minst en gång per termin bjuda in sektionsordförande till möte, så att denna kan informera om styrelsens åsikter om funktionärers prestationer
 
 
-%%%%%%%%%%%%% SECTION %%%%%%%%%%%%%
-\section{Informationsutskottet}
+Sammansättning:
+Medaljelelekommittén består av
 
-\begin{reglemlista}
-
-	\item[Åligganden]
-	Det åligger Informationsutskottet
-	\begin{attlista}
-		\item utge sektionens medier
-		\item ansvara för sektionens anslagstavlor
-		\item sända kopior av sektionens publikationer till lämpliga instanser
-		\item upprätthålla sektionens arkiv
-	\end{attlista}
-
-	\item[Sammansättning]
-	Informationsutskottet består av
-	\begin{itemize}
-		\item Informationsansvarig
-		\item Vice Informationsansvarig
-		\item Arkivarie
-		\item Artist
-		\item Fotograf
-		\item Filmare
-    \item Redaktionen
-		\item Funktionärer
-    \item D-shopen
-    \item Influencer
-	\end{itemize}
+Övermarskalken
+Inspektor
+Medaljelelekommittémedlemmar
 
 
-    \item[\textbf{Redaktionen}]
-
-    \item[Åliggande]
-    Det åligger Redaktionen
-    \begin{attlista}
-	\item framställa publikationer för sektionen
-    \end{attlista}
-
-    \item[Sammansättning]
-    Redaktionen består av 
-    \begin{itemize}
-        \item Redaktör
-        \item Journalist
-    \end{itemize}
-
-\end{reglemlista}
+Aktivitetsutskottet
 
 
-	\item[\textbf{D-shopen}]
+Åligganden:
+Det åligger Aktivitetsutskottet
 
-	\item[Åligganden]
-	Det åligger D-shopen
-	\begin{attlista}
-		\item handha inköp och försäljning av olika sektionsprofilerade produkter samt dylikt.
-		\item förnya sortimentet då så krävs.
-	\end{attlista}
-	\item[Sammansättning]
-	D-shopen består av
-	\begin{itemize}
-		\item Shopaholic
-		\item Märkvärdig
-		\item Skald
-	\end{itemize}
-\end{reglemlista}
+anordna för sektionens medlemmar trevliga evenemang
+verka för att sektionen har lag med i av andra studentorganisationer anordnade aktiviteter, såsom Tandemstafetten och DÖMD
+informera om större arrangemang på andra orter
 
 
-%%%%%%%%%%%%% SECTION %%%%%%%%%%%%%
-\section{Sexmästeriet}
+Sammansättning:
+Aktivitetsutskottet består av
 
-\begin{reglemlista}
+Aktivitetsansvarig
+Vice Aktivitetsansvarig
+UtEDischoansvarig
+Idrottsförman
+Karnevalsansvarig
+LANparty-ansvarig
+Sångarstridsförmän
+Tandemgeneral
+Semesterfirare
+D-sportare
+Nöjesförman
+Coach
+Funktionärer
 
-	\item[Åligganden]
-	Det åligger sexmästeriet
-	\begin{attlista}
-		\item  anordna sittningar, pubar samt eftersläpp.
-	\end{attlista}
 
-	\item[Pubmästeriet]
-	Pubmästeriet ansvarar för sektionens pubverksamhet.
+Informationsutskottet
 
-	\item[Sammansättning]
-	Sexmästeriet består av
-	\begin{itemize}
-		\item Sexmästare
-		\item Vice Sexmästare
-		\item Köksmästare
-		\item Vice köksmästare
-		\item Pubmästare
-		\item Vice Pubmästare
-		\item Barmästare
-		\item Vice Barmästare
-		\item Sektionskock
-		\item Sångförman
-		\item Preferensmästare
-		\item Ölförman
-		\item Hovmästare
-		\item Vinförman
-		\item Funktionärer
-        \item TappaD
-	\end{itemize}
-\end{reglemlista}
 
-%%%%%%%%%%%%% SECTION %%%%%%%%%%%%%
-\section{Skattmästeriet}
+Åligganden:
+Det åligger Informationsutskottet
 
-\begin{reglemlista}
+utge sektionens medier
+ansvara för sektionens anslagstavlor
+sända kopior av sektionens publikationer till lämpliga instanser
+upprätthålla sektionens arkiv
 
-	\item[Åligganden]
-	Det åligger skattmästeriet
-	\begin{attlista}
-		\item handha sektionens bokföring
-		\item handha sektionens transaktioner
-		\item skriva budgetförslag
-		\item samordna sektionens ekonomiska verksamhet
-		\item följa och bevaka sektionens likviditet
-	\end{attlista}
 
-	\item[Sammansättning]
-	Skattmästeriet består av
-	\begin{itemize}
-		\item Skattmästare
-		\item Vice Skattmästare
-		\item Skattförman
-		\item Funktionärer
-	\end{itemize}
-\end{reglemlista}
+Sammansättning:
+Informationsutskottet består av
 
-%%%%%%%%%%%%% SECTION %%%%%%%%%%%%%
-\section{Nollningsutskottet}
+Informationsansvarig
+Vice Informationsansvarig
+Arkivarie
+Artist
+Fotograf
+Filmare
+Redaktionen
+Funktionärer
+D-shopen
+Influencer
 
-\begin{reglemlista}
 
-	\item[Åligganden]
-	Det åligger Nollningsutskottet
-	\begin{attlista}
-		\item med hjälp av sektionen planera och genomföra nollningen
-		\item tillse att tredje part ej drabbas
-		\item ansvara för att aktiviteter under nollningen visar positiv bild av D-sektionen och Teknologkåren
-		\item vara goda representanter för D-sektionen och Teknologkåren under nollningen
-		\item inom Staben utse ett ställföreträdande Øverphøs
-	\end{attlista}
+Redaktionen:
 
-	\item[Sammansättning]
-	Nollningsutskottet består av
-	\begin{itemize}
-		\item Øverphøs
-		\item Stabsmedlemmar
-		\item \O verpeppare
-		\item Peppare
-		\item Phaddrar
-		\item Pluggphaddrar
-        \item Funktionärer
-	\end{itemize}
+Åliggande:
+Det åligger Redaktionen
 
-	\item[Staben]
-	Staben består av
-	\begin{itemize}
-		\item Øverphøs
-		\item Stabsmedlemmar
-	\end{itemize}
+framställa publikationer för sektionen
 
-\end{reglemlista}
 
-%%%%%%%%%%%%% SECTION %%%%%%%%%%%%%
-\section{Studierådet}
+Sammansättning:
+Redaktionen består av
 
-\begin{reglemlista}
+Redaktör
+Journalist
 
-	\item[Åligganden]
-	Det åligger studierådet
-	\begin{attlista}
-		\item ansvara för sektionens studiebevakning
-		\item välja
-		\begin{itemize}
-			\item Studierådssekreterare
-			\item Studentrepresentant, Institutionsstyrelse
-			\item Studentrepresentant, Programledning
-			\item Årskursrepresentant, D1
-			\item Årskursrepresentant, C1
-			\item Årskursrepresentant, D2
-			\item Årskursrepresentant, C2
-			\item Årskursrepresentant, D3
-			\item Årskursrepresentant, C3
-			\item Årskursrepresentant, VR/AR1
-			\item Årskursrepresentant, VR/AR2
-            \item Årskursrepresentant, Specialisering
-			\item Funktionärer
-		\end{itemize}
-		
-		\item föreslå representanter till TLTH:s externa organ
-	\end{attlista}
 
-	\item[Sammanträde]
-	Studierådet sammanträder på kallelse av Studierådsordföranden eller vid
-	dennes frånvaro av Vice Studierådsordföranden. Rätt att begära utlysning av
-	studierådsmöte har
-	\begin{enumerate}
-		\item minst 10 sektionsmedlemmar
-		\item revisor
-		\item Inspektor
-	\end{enumerate}
-	
-		\item[Sammansättning]
-	Studierådet består av
-	\begin{itemize}
-		\item Studierådsordförande
-		\item Vice Studierådsordförande
-		\item Studierådssekreterare
-		\item Studentrepresentant, Institutionsstyrelse
-		\item Studentrepresentant, Programledning
-		\item Årskursrepresentant, D1
-		\item Årskursrepresentant, C1
-		\item Årskursrepresentant, D2
-		\item Årskursrepresentant, C2
-		\item Årskursrepresentant, D3
-		\item Årskursrepresentant, C3
-		\item Årskursrepresentant, VR/AR1
-		\item Årskursrepresentant, VR/AR2
-        \item Årskursrepresentant, Specialisering
-		\item Studerandeskyddsombud
-		\item Funktionärer
-	\end{itemize}
+D-shopen:
 
-	\item[Kallelse]
-	Kallelse till studierådsmöte samt föredragningslista skall senast fem
-	dagar före sammanträdet anslås skriftligen i sektionslokalen där alla sektionsmedlemmar kan se.
+Åligganden:
+Det åligger D-shopen
 
-\end{reglemlista}
+handha inköp och försäljning av olika sektionsprofilerade produkter samt dylikt.
+förnya sortimentet då så krävs.
 
-\section{Trivselrådet}
+Sammansättning:
+D-shopen består av
 
-\begin{reglemlista}
+Shopaholic
+Märkvärdig
+Skald
 
-	\item[Åligganden]
-	Det åligger Trivselrådet
-	\begin{attlista}
-		\item driva sektionens arbete med frågor som berör likabehandling, internationalisering samt arbetsmiljö
-		\item erbjuda en kanal där sektionsmedlemmar kan vända sig till med frågor som berör likabehandling, internationalisering samt arbetsmiljö
-		\item stötta sektionsmedlemmar som har utsatts för kränkande behandling
-	\end{attlista}
-	\item[Sammansättning]
-	Trivselrådet består av
-	\begin{itemize}
-		\item Trivselmästare
-		\item Likabehandlingsombud
-		\item Världsmästare
-		\item Her Tech Future representant
-	\end{itemize}
 
-\end{reglemlista}
+Sexmästeriet
 
-\section{Framtidsutskottet}
 
-\begin{reglemlista}
+Åligganden:
+Det åligger sexmästeriet
 
-	\item[Åligganden]
-	Det åligger Framtidsutskottet
-	\begin{attlista}
-		\item bereda förslag för att presentera till styrelsen eller sektionsmötet
-		\item  förankra sin arbetsplan hos styrelsen eller sektionsmötet
-		\item arbeta strategiskt för att möjligöra långsiktiga mål
-		\item utarbeta ett förslag till de strategiska målen till det möte definierat i stadgarna
-	\end{attlista}
-	\item[Sammansättning]
-	Framtidsutskottet består av
-	\begin{itemize}
-		\item Framtidsordförande
-		\item Framtidsledamöter
-	\end{itemize}
+anordna sittningar, pubar samt eftersläpp.
 
-\end{reglemlista}
 
-\section{Tackmästeriet}
-	\begin{reglemlista}
-		\item[Åligganden]
-		Det åligger Tackmästeriet
-		\begin{attlista}
-			\item planera och genomföra sektionsgemensamma tackevenemang
-		\end{attlista}
-		\item[Sammansättning]
-		Tackmästeriet består av
-		\begin{itemize}
-			\item Tackmästare
-			\item Tackmästerister
-		\end{itemize}
-	\end{reglemlista}
+Pubmästeriet:
+Pubmästeriet ansvarar för sektionens pubverksamhet.
 
-\section{Centralprocessutskottet}
-	\begin{reglemlista}
-		\item[Åligganden]
-		Det åligger Centralprocessutskottet
-		\begin{attlista}
-			\item utveckla och underhålla sektionens system, servrar, och vad som hör därtill
-                \item hjälpa sektionens medlemmar att använda våra tekniska system
-                \item tillgodose övriga programmerings- och teknikprojekt
-		\end{attlista}
-		\item[Sammansättning]
-		Centralprocessutskottet består av
-		\begin{itemize}
-			\item Processmästare
-                \item Vice Processmästare
-                \item DWWW-ansvarig
-                \item root
-                \item Utvecklare
-                \item Funktionärer
-		\end{itemize}
-	\end{reglemlista}
+Sammansättning:
+Sexmästeriet består av
 
-%%%%%%%%%%%%% SECTION %%%%%%%%%%%%%
-\section{Funktionärer}
+Sexmästare
+Vice Sexmästare
+Köksmästare
+Vice köksmästare
+Pubmästare
+Vice Pubmästare
+Barmästare
+Vice Barmästare
+Sektionskock
+Sångförman
+Preferensmästare
+Ölförman
+Hovmästare
+Vinförman
+Funktionärer
+TappaD
+
+
+Skattmästeriet
+
+
+Åligganden:
+Det åligger skattmästeriet
+
+handha sektionens bokföring
+handha sektionens transaktioner
+skriva budgetförslag
+samordna sektionens ekonomiska verksamhet
+följa och bevaka sektionens likviditet
+
+
+Sammansättning:
+Skattmästeriet består av
+
+Skattmästare
+Vice Skattmästare
+Skattförman
+Funktionärer
+
+
+Nollningsutskottet
+
+
+Åligganden:
+Det åligger Nollningsutskottet
+
+med hjälp av sektionen planera och genomföra nollningen
+tillse att tredje part ej drabbas
+ansvara för att aktiviteter under nollningen visar positiv bild av D-sektionen och Teknologkåren
+vara goda representanter för D-sektionen och Teknologkåren under nollningen
+inom Staben utse ett ställföreträdande Øverphøs
+
+
+Sammansättning:
+Nollningsutskottet består av
+
+Øverphøs
+Stabsmedlemmar
+Ø verpeppare
+Peppare
+Phaddrar
+Pluggphaddrar
+Funktionärer
+
+
+Staben:
+Staben består av
+
+Øverphøs
+Stabsmedlemmar
+
+
+Studierådet
+
+
+Åligganden:
+Det åligger studierådet
+
+ansvara för sektionens studiebevakning
+välja
+
+Studierådssekreterare
+Studentrepresentant, Institutionsstyrelse
+Studentrepresentant, Programledning
+Årskursrepresentant, D1
+Årskursrepresentant, C1
+Årskursrepresentant, D2
+Årskursrepresentant, C2
+Årskursrepresentant, D3
+Årskursrepresentant, C3
+Årskursrepresentant, VR/AR1
+Årskursrepresentant, VR/AR2
+Årskursrepresentant, Specialisering
+Funktionärer
+
+
+föreslå representanter till TLTH:s externa organ
+
+
+Sammanträde:
+Studierådet sammanträder på kallelse av Studierådsordföranden eller vid
+dennes frånvaro av Vice Studierådsordföranden. Rätt att begära utlysning av
+studierådsmöte har
+
+minst 10 sektionsmedlemmar
+revisor
+Inspektor
+
+
+Sammansättning:
+Studierådet består av
+
+Studierådsordförande
+Vice Studierådsordförande
+Studierådssekreterare
+Studentrepresentant, Institutionsstyrelse
+Studentrepresentant, Programledning
+Årskursrepresentant, D1
+Årskursrepresentant, C1
+Årskursrepresentant, D2
+Årskursrepresentant, C2
+Årskursrepresentant, D3
+Årskursrepresentant, C3
+Årskursrepresentant, VR/AR1
+Årskursrepresentant, VR/AR2
+Årskursrepresentant, Specialisering
+Studerandeskyddsombud
+Funktionärer
+
+
+Kallelse:
+Kallelse till studierådsmöte samt föredragningslista skall senast fem
+dagar före sammanträdet anslås skriftligen i sektionslokalen där alla sektionsmedlemmar kan se.
+
+
+Trivselrådet
+
+
+Åligganden:
+Det åligger Trivselrådet
+
+driva sektionens arbete med frågor som berör likabehandling, internationalisering samt arbetsmiljö
+erbjuda en kanal där sektionsmedlemmar kan vända sig till med frågor som berör likabehandling, internationalisering samt arbetsmiljö
+stötta sektionsmedlemmar som har utsatts för kränkande behandling
+
+Sammansättning:
+Trivselrådet består av
+
+Trivselmästare
+Likabehandlingsombud
+Världsmästare
+Her Tech Future representant
+
+
+Framtidsutskottet
+
+
+Åligganden:
+Det åligger Framtidsutskottet
+
+bereda förslag för att presentera till styrelsen eller sektionsmötet
+förankra sin arbetsplan hos styrelsen eller sektionsmötet
+arbeta strategiskt för att möjligöra långsiktiga mål
+utarbeta ett förslag till de strategiska målen till det möte definierat i stadgarna
+
+Sammansättning:
+Framtidsutskottet består av
+
+Framtidsordförande
+Framtidsledamöter
+
+
+Tackmästeriet
+
+
+Åligganden:
+Det åligger Tackmästeriet
+
+planera och genomföra sektionsgemensamma tackevenemang
+
+Sammansättning:
+Tackmästeriet består av
+
+Tackmästare
+Tackmästerister
+
+
+Centralprocessutskottet
+
+
+Åligganden:
+Det åligger Centralprocessutskottet
+
+utveckla och underhålla sektionens system, servrar, och vad som hör därtill
+hjälpa sektionens medlemmar att använda våra tekniska system
+tillgodose övriga programmerings- och teknikprojekt
+
+Sammansättning:
+Centralprocessutskottet består av
+
+Processmästare
+Vice Processmästare
+DWWW-ansvarig
+root
+Utvecklare
+Funktionärer
+
+
+Funktionärer
+
 
 Samtliga funktionärsposter har mandatperioden kalenderår (1/1 - 31/12), om inget annat anges.
 
-%%%%%%%%%%%%% STYRELSEPOSTER %%%%%%%%%%%%%
 
-%%% funktionar %%%
-\funktionar{Ordföranden}
+Ordföranden
 Ordföranden leder styrelsens arbete och är sektionens ansikte utåt.
 
-\begin{reglemlista}
 
-	\item[Åligganden]
-	Det åligger Ordföranden
-	\begin{attlista}
-		\item representera och föra sektionens talan
-		\item kalla till styrelsemöten och upprätta erforderliga handlingar
-		\item leda och fördela arbetet inom styrelsen
-		\item kalla till sektionsmöte och upprätta erforderliga handlingar
-		\item boka lokal till sektionsmöte
-		\item hålla kontakt med TLTH:s ordförande samt övriga sektionsordförande
-		\item hålla kontakt med Inspektor, vaktmästaren och husstyrelsen
-		\item hålla kontakt med de övriga D-sektionerna i landet
-		\item kontinuerligt rapportera vad som händer på sektionen via sektionens informationskanaler
-		\item vid begäran skriva intyg till avgående funktionär; avgående ordförandens intyg skrivs av Inspektor tillsammans med tillträdande ordföranden
-	\end{attlista}
+Åligganden:
+Det åligger Ordföranden
 
-\end{reglemlista}
+representera och föra sektionens talan
+kalla till styrelsemöten och upprätta erforderliga handlingar
+leda och fördela arbetet inom styrelsen
+kalla till sektionsmöte och upprätta erforderliga handlingar
+boka lokal till sektionsmöte
+hålla kontakt med TLTH:s ordförande samt övriga sektionsordförande
+hålla kontakt med Inspektor, vaktmästaren och husstyrelsen
+hålla kontakt med de övriga D-sektionerna i landet
+kontinuerligt rapportera vad som händer på sektionen via sektionens informationskanaler
+vid begäran skriva intyg till avgående funktionär; avgående ordförandens intyg skrivs av Inspektor tillsammans med tillträdande ordföranden
 
 
-%%% funktionar %%%
-\funktionar{Informationsansvarig}
+Informationsansvarig
 Informationsansvarig ansvarar för sektionens informationsspridning samt att upprätthålla
 kommunikation mellan styrelsen och sektionen. Informationsansvarig leder även Informationsutskottet.
 
-\begin{reglemlista}
 
-	\item[Åligganden]
-	Det åligger Informationsansvarig
-	\begin{attlista}
-		\item leda Informationsutskottet
-		\item vara ansvarig utgivare av sektionens medier
-		\item hålla sektionens anslagstavlor och informationsskärmar i god ordning
-		\item upprätthålla god kommunikation mellan styrelsen och sektionens medlemmar
+Åligganden:
+Det åligger Informationsansvarig
 
-		\item kontinuerligt rapportera vad som händer på sektionen via sektionens informationskanaler
-	\end{attlista}
+leda Informationsutskottet
+vara ansvarig utgivare av sektionens medier
+hålla sektionens anslagstavlor och informationsskärmar i god ordning
+upprätthålla god kommunikation mellan styrelsen och sektionens medlemmar
 
-\end{reglemlista}
+kontinuerligt rapportera vad som händer på sektionen via sektionens informationskanaler
 
-%%% funktionar %%%
-\funktionar{Skattmästare}
+
+Skattmästare
 Skattmästaren handhar sektionens ekonomi, sköter bokföring och ekonomisk
 uppföljning. Skattmästaren leder även skattmästeriet.
 
-\begin{reglemlista}
 
-	\item[Åligganden]
-	Det åligger Skattmästaren
-	\begin{attlista}
-		\item leda skattmästeriet
-		\item presentera bokslut och halvårsrapport
-		\item redovisa sektionens ekonomiska status för styrelsen i slutet av varje läsperiod
-		\item hålla kontakten med generalsekreteraren på Teknologkåren
-	\end{attlista}
-	
-		\item[Rättigheter]
-	Skattmästaren äger rätt
-	\begin{attlista}
-		\item ha fortsatt tillgång till föreningens bokföring och övrig relevant dokumentation i syfte att möjliggöra upprättande och granskning av bokslut för det gångna verksamhetsåret. Denna
+Åligganden:
+Det åligger Skattmästaren
+
+leda skattmästeriet
+presentera bokslut och halvårsrapport
+redovisa sektionens ekonomiska status för styrelsen i slutet av varje läsperiod
+hålla kontakten med generalsekreteraren på Teknologkåren
+
+
+Rättigheter:
+Skattmästaren äger rätt
+
+ha fortsatt tillgång till föreningens bokföring och övrig relevant dokumentation i syfte att möjliggöra upprättande och granskning av bokslut för det gångna verksamhetsåret. Denna
 åtkomst ska säkerställas i minst fem månader efter det att bokslut för det föregående verksamhetsåret har fastställts av årsmötet, eller fem månader efter mandatperiodens utgång, beroende
 på vilket som inträffar sist.
-	\end{attlista}
 
-\end{reglemlista}
 
-%%% funktionar %%%
-\funktionar{Studierådsordförande}
+Studierådsordförande
 Studierådsordföranden är ansvarig för sektionens studiebevakning.
 Studierådsordföranden leder även studierådet.
 
-\begin{reglemlista}
 
-	\item[Åligganden]
-	Det åligger Studierådsordförande
-	\begin{attlista}
-		\item leda studierådet
-		\item hålla kontakten med relevanta utbildningsnämnder
-		\item aktivt deltaga i SRX, Teknologkårens studierådsordförandekollegium
-	\end{attlista}
+Åligganden:
+Det åligger Studierådsordförande
 
-\end{reglemlista}
+leda studierådet
+hålla kontakten med relevanta utbildningsnämnder
+aktivt deltaga i SRX, Teknologkårens studierådsordförandekollegium
 
-%%% funktionar %%%
-\funktionar{Cafémästare}
+
+Cafémästare
 Cafémästaren är ansvarig för sektionens caféverksamhet. Cafémästaren leder även cafémästeriet.
 
-\begin{reglemlista}
 
-	\item[Åligganden]
-	Det åligger Cafémästaren
-	\begin{attlista}
-		\item leda cafémästeriet
-	\end{attlista}
+Åligganden:
+Det åligger Cafémästaren
 
-\end{reglemlista}
+leda cafémästeriet
 
-%%% funktionar %%%
-\funktionar{Näringslivsansvarig}
+
+Näringslivsansvarig
 Näringslivsansvarig samordnar sektionens kontakter med näringslivet.
 Näringslivsansvarig leder även Näringslivsutskottet.
 
-\begin{reglemlista}
 
-	\item[Åligganden]
-	Det åligger Näringslivsansvarig
-	\begin{attlista}
-		\item leda Näringslivsutskottet
-		\item verka för att information om datateknik- och infocomutbildningarna vid LTH sprids till företag och näringsliv
-		\item aktivt deltaga i Teknologkårens näringslivskollegium
-	\end{attlista}
+Åligganden:
+Det åligger Näringslivsansvarig
 
-\end{reglemlista}
+leda Näringslivsutskottet
+verka för att information om datateknik- och infocomutbildningarna vid LTH sprids till företag och näringsliv
+aktivt deltaga i Teknologkårens näringslivskollegium
 
-%%% funktionar %%%
-\funktionar{Källarmästare}
+
+Källarmästare
 Källarmästaren är ansvarig för sektionens lokaler och inventarier.
 Källarmästaren leder även källarmästeriet.
 
-\begin{reglemlista}
 
-	\item[Åligganden]
-	Det åligger Källarmästaren
-	\begin{attlista}
-		\item leda källarmästeriet
-		\item administrera dörraccess och nyckelåtkomst till iDéts faciliteter
+Åligganden:
+Det åligger Källarmästaren
 
-	\end{attlista}
+leda källarmästeriet
+administrera dörraccess och nyckelåtkomst till iDéts faciliteter
 
-\end{reglemlista}
 
-%%% funktionar %%%
-\funktionar{Aktivitetsansvarig}
+Aktivitetsansvarig
 Aktivitetsansvarig är ansvarig för sektionens studiesociala verksamheter,
 undantaget fest- och pubverksamhet. Aktivitetsansvarig leder även Aktivitetsutskottet.
 
-\begin{reglemlista}
 
-	\item[Åligganden]
-	Det åligger Aktivitetsansvarig
-	\begin{attlista}
-		\item leda Aktivitetsutskottet
-		\item verka för att sektionen har lag med i tandemstafetten
-		\item hålla kontakt med aktivitetssamordnaren på Teknologkåren samt övriga sektioners Aktivitetsansvarig
-		\item anordna för sektionens medlemmar trevliga evenemang
-		\item informera om större arrangemang på andra orter
-	\end{attlista}
+Åligganden:
+Det åligger Aktivitetsansvarig
 
-\end{reglemlista}
+leda Aktivitetsutskottet
+verka för att sektionen har lag med i tandemstafetten
+hålla kontakt med aktivitetssamordnaren på Teknologkåren samt övriga sektioners Aktivitetsansvarig
+anordna för sektionens medlemmar trevliga evenemang
+informera om större arrangemang på andra orter
 
-%%% funktionar %%%
-\funktionar{Sexmästare}
+
+Sexmästare
 Sexmästaren är ansvarig för sektionens festverksamhet. Sexmästaren leder även Sexmästeriet.
 
-\begin{reglemlista}
 
-	\item[Åligganden]
-	Det åligger Sexmästaren
-	\begin{attlista}
-		\item leda sexmästeriet
-	\end{attlista}
+Åligganden:
+Det åligger Sexmästaren
 
-\end{reglemlista}
+leda sexmästeriet
 
-%%% funktionar %%%
-\funktionar{Øverphøs}
+
+Øverphøs
 Øverphøs är ansvarig för sektionens nollning.
 
-\begin{reglemlista}
 
-	\item[Åligganden]
-	Det åligger Øverphøs
-	\begin{attlista}
-		\item leda Nollningsutskottet.
-		\item samarbeta med Nollegeneralen, de andra Øverphøsen och LTH.
-	\end{attlista}
+Åligganden:
+Det åligger Øverphøs
 
-\end{reglemlista}
+leda Nollningsutskottet.
+samarbeta med Nollegeneralen, de andra Øverphøsen och LTH.
 
-%%%%%%%%%%%%% VICEPOSTER I STYRELSEN %%%%%%%%%%%%%
 
-%%% funktionar %%%
-\funktionar{Vice Ordförande}
+Vice Ordförande
 Vice Ordförande skall vara Ordförande behjälplig, föra protokoll under styrelsemöten och sektionsmöten.
 
-\begin{reglemlista}
 
-	\item[Åligganden]
-	Det åligger Vice Ordförande
-	\begin{attlista}
-		\item i Ordförandes frånvaro, leda Styrelsen.
-		\item vara Ordförande behjälplig, när så denne behöver det.
-		\item ansvara för att Policy-sidan, Stadgarna och Reglementet 			hålls uppdaterade.
-		\item vara kontaktperson för fria föreningar och eventuella projekt
-		\item anslå kallelser till styrelse- och sektionsmöten
-		\item föra protokoll vid styrelsemöten och sektionsmöten samt anslå dessa
-		\item arkivera uppförda protokoll och övriga handlingar i därför avsedd pärm
-		\item bistå ordförande i förberedande av sektionsmöten
-	\end{attlista}
+Åligganden:
+Det åligger Vice Ordförande
 
-	\item[Titulering]
-	Alternativ titulering är Sekreterare
+i Ordförandes frånvaro, leda Styrelsen.
+vara Ordförande behjälplig, när så denne behöver det.
+ansvara för att Policy-sidan, Stadgarna och Reglementet 			hålls uppdaterade.
+vara kontaktperson för fria föreningar och eventuella projekt
+anslå kallelser till styrelse- och sektionsmöten
+föra protokoll vid styrelsemöten och sektionsmöten samt anslå dessa
+arkivera uppförda protokoll och övriga handlingar i därför avsedd pärm
+bistå ordförande i förberedande av sektionsmöten
 
-\end{reglemlista}
 
-%%% funktionar %%%
-\funktionar{Vice Informationsansvarig}
+Titulering:
+Alternativ titulering är Sekreterare
+
+
+Vice Informationsansvarig
 Vice Informationsansvarig hjälper Informationsansvarig i dennes arbete.
 
-\begin{reglemlista}
 
-	\item[Åligganden]
-	Det åligger Vice Informationsansvarig
-	\begin{attlista}
-		\item hjälpa Informationsansvarig i dennes arbete
-		\item överta Informationsansvarigs funktion i dennes frånvaro
-	\end{attlista}
+Åligganden:
+Det åligger Vice Informationsansvarig
 
-\end{reglemlista}
+hjälpa Informationsansvarig i dennes arbete
+överta Informationsansvarigs funktion i dennes frånvaro
 
-%%% funktionar %%%
-\funktionar{Vice Skattmästare}
+
+Vice Skattmästare
 Vice Skattmästaren hjälper Skattmästaren i dennes arbete.
 
-\begin{reglemlista}
 
-	\item[Åligganden]
-	Det åligger Vice Skattmästaren
-	\begin{attlista}
-		\item hjälpa Skattmästaren i dennes arbete.
-		\item överta Skattmästarens funktion i dennes frånvaro.
-		
-	\end{attlista}
+Åligganden:
+Det åligger Vice Skattmästaren
 
-\end{reglemlista}
+hjälpa Skattmästaren i dennes arbete.
+överta Skattmästarens funktion i dennes frånvaro.
 
-%%% funktionar %%%
-\funktionar{Vice Cafémästare}
+
+Vice Cafémästare
 Vice Cafémästaren hjälper Cafémästaren i dennes arbete.
 
-\begin{reglemlista}
 
-	\item[Åligganden]
-	Det åligger Vice Cafémästaren
-	\begin{attlista}
-		\item hjälpa Cafémästaren i dennes arbete
-		\item överta Cafémästarens funktion i dennes frånvaro
-	\end{attlista}
+Åligganden:
+Det åligger Vice Cafémästaren
 
-\end{reglemlista}
+hjälpa Cafémästaren i dennes arbete
+överta Cafémästarens funktion i dennes frånvaro
 
-%%% funktionar %%%
-\funktionar{Vice Näringslivsansvarig}
+
+Vice Näringslivsansvarig
 Vice Näringslivsansvarig hjälper Näringslivsansvarig i dennes arbete.
 
-\begin{reglemlista}
 
-	\item[Åligganden]
-	Det åligger Vice Näringslivsansvarig
-	\begin{attlista}
-		\item hjälpa Näringslivsansvarig i dennes arbete
-		\item i Näringslivsansvariges frånvaro leda Näringslivsutskottet
-	\end{attlista}
+Åligganden:
+Det åligger Vice Näringslivsansvarig
 
-\end{reglemlista}
+hjälpa Näringslivsansvarig i dennes arbete
+i Näringslivsansvariges frånvaro leda Näringslivsutskottet
 
-%%% funktionar %%%
-\funktionar{Vice Källarmästare}
+
+Vice Källarmästare
 Vice Källarmästaren hjälper Källarmästaren i dennes arbete.
 
-\begin{reglemlista}
 
-	\item[Åligganden]
-	Det åligger Vice Källarmästaren
-	\begin{attlista}
-		\item hjälpa Källarmästaren i dennes arbete
-		\item överta Källarmästarens funktion i dennes frånvaro
-	\end{attlista}
+Åligganden:
+Det åligger Vice Källarmästaren
 
-\end{reglemlista}
+hjälpa Källarmästaren i dennes arbete
+överta Källarmästarens funktion i dennes frånvaro
 
-%%% funktionar %%%
-\funktionar{Vice Aktivitetsansvarig}
+
+Vice Aktivitetsansvarig
 Vice Aktivitetsansvarig hjälper Aktivitetsansvarig i dennes arbete.
 
-\begin{reglemlista}
 
-	\item[Åligganden]
-	Det åligger Vice Aktivitetsansvarig
-	\begin{attlista}
-		\item hjälpa Aktivitetsansvarig i dennes arbete
-		\item överta Aktivitetsansvarigs funktion i dennes frånvaro
-	\end{attlista}
+Åligganden:
+Det åligger Vice Aktivitetsansvarig
 
-\end{reglemlista}
+hjälpa Aktivitetsansvarig i dennes arbete
+överta Aktivitetsansvarigs funktion i dennes frånvaro
 
-%%% funktionar %%%
-\funktionar{Vice Sexmästare}
+
+Vice Sexmästare
 Vice Sexmästaren hjälper Sexmästaren i dennes arbete.
 
-\begin{reglemlista}
 
-	\item[Åligganden]
-	Det åligger Vice Sexmästaren
-	\begin{attlista}
-		\item hjälpa Sexmästaren i dennes arbete
-		\item överta Sexmästarens funktion i dennes frånvaro
-	\end{attlista}
+Åligganden:
+Det åligger Vice Sexmästaren
 
-\end{reglemlista}
+hjälpa Sexmästaren i dennes arbete
+överta Sexmästarens funktion i dennes frånvaro
 
-%%% funktionar %%%
-\funktionar{Vice Studierådsordförande}
+
+Vice Studierådsordförande
 Vice Studierådsordförande hjälper Studierådsordföranden i dennes arbete.
 
-\begin{reglemlista}
 
-	\item[Åligganden]
-	Det åligger Vice Studierådsordföranden
-	\begin{attlista}
-		\item hjälpa Studierådsorföranden i dennes arbete
-		\item i Studierådsordförandens frånvaro leda studierådet
-	\end{attlista}
-\end{reglemlista}
+Åligganden:
+Det åligger Vice Studierådsordföranden
 
-%%%%%%%%%%%%% ÖVRIGA FUNKTIONÄRER %%%%%%%%%%%%%
+hjälpa Studierådsorföranden i dennes arbete
+i Studierådsordförandens frånvaro leda studierådet
 
 
-
-%%% funktionar %%%
-\funktionar{Alumniansvarig}
-\begin{reglemlista}
-
-	\item[Åligganden]
-	Det åligger alumniansvarig
-
-	\begin{attlista}
-		\item med hjälp av alumnigruppen se till att sektionens alumniverksamhet fortskrider
-		\item leda alumnigruppen
-	\end{attlista}
-
-\end{reglemlista}
-\funktionar{Alumnigruppsmedlem}
-
-\begin{reglemlista}
-
-	\item[Åligganden]
-	Det åligger alumnigruppsmedlem
-	\begin{attlista}
-		\item bistå alumniansvarig i dess arbete kring alumniverksamheten
-	\end{attlista}
-
-\end{reglemlista}
+Alumniansvarig
 
 
+Åligganden:
+Det åligger alumniansvarig
 
-%%% funktionar %%%
-\funktionar{Arkivarie}
+
+med hjälp av alumnigruppen se till att sektionens alumniverksamhet fortskrider
+leda alumnigruppen
+
+
+Alumnigruppsmedlem
+
+
+Åligganden:
+Det åligger alumnigruppsmedlem
+
+bistå alumniansvarig i dess arbete kring alumniverksamheten
+
+
+Arkivarie
 Arkivarien ska handha sektionens arkiv.
 
-\begin{reglemlista}
 
-	\item[Åligganden]
-	Det åligger Arkivarien
-	\begin{attlista}
-		\item föra och underhålla sektionens arkiv
-		\item föra och underhålla sektionens dataarkiv
-	\end{attlista}
+Åligganden:
+Det åligger Arkivarien
 
-\end{reglemlista}
+föra och underhålla sektionens arkiv
+föra och underhålla sektionens dataarkiv
 
-%%% funktionar %%%
-\funktionar{Artist}
+
+Artist
 Artisten utför de artistiska arbetena på sektionen.
 
-\begin{reglemlista}
 
-	\item[Åligganden]
-	Det åligger Artisten
-	\begin{attlista}
-		\item leda och utföra de artistiska arbetena på sektionen
-	\end{attlista}
+Åligganden:
+Det åligger Artisten
 
-\end{reglemlista}
+leda och utföra de artistiska arbetena på sektionen
 
-%%% funktionar %%%
-\funktionar{Bilansvarig}
+
+Bilansvarig
 
 Bilansvarig är ansvarig för sektionens bil(ar) då sådan(a) finns.
 
-\begin{reglemlista}
 
-	\item[Åligganden]
-	Det åligger Bilansvarig
-	\begin{attlista}
-		\item se till att sektionens bil är i ett kördugligt skick
-        \item se till att besiktning och däckbyte utförs i tid
-	\end{attlista}
+Åligganden:
+Det åligger Bilansvarig
 
-\end{reglemlista}
+se till att sektionens bil är i ett kördugligt skick
+se till att besiktning och däckbyte utförs i tid
 
 
-%%% funktionar %%%
-\funktionar{Coach}
+Coach
 
 Coach ska för sektionen arrangera fotbollslagets verksamhet.
 
-\begin{reglemlista}
 
-	\item[Åligganden]
-	Det åligger Coach
-	\begin{attlista}
-		\item hålla i fotbollslagets träningar och verksamhet.
-	\end{attlista}
+Åligganden:
+Det åligger Coach
 
-\end{reglemlista}
+hålla i fotbollslagets träningar och verksamhet.
 
 
-%%% funktionar %%%
-\funktionar{Ljud- och ljusansvarig}
+Ljud- och ljusansvarig
 Ljud- och ljusansvarig är ansvarig för sektionens ljud- och
 ljusutrustning.
 
-\begin{reglemlista}
 
-	\item[Åligganden]
-	Det åligger Ljud- och ljusansvarig
-	\begin{attlista}
-		\item sköta och om serva iDéts ljud- och ljusutrustning
-		\item då utrustningen skall användas åtse att kompetent personal finns på plats för att sköta densamma
-	\end{attlista}
+Åligganden:
+Det åligger Ljud- och ljusansvarig
 
-\end{reglemlista}
+sköta och om serva iDéts ljud- och ljusutrustning
+då utrustningen skall användas åtse att kompetent personal finns på plats för att sköta densamma
 
-%%% funktionar %%%
-\funktionar{DWWW-ansvarig}
+
+DWWW-ansvarig
 DWWW-ansvarig underhåller sektionens hemsida.
 
-\begin{reglemlista}
 
-	\item[Åligganden]
-	Det åligger DWWW-ansvarig
-	\begin{attlista}
-		\item ansvara för underhåll och utveckling av sektionens webbsidor
-			\item agera projektledare för arbete med sektionens webbsidor
-			\item administrera sektionens hemsida och användarkonton
-	\end{attlista}
+Åligganden:
+Det åligger DWWW-ansvarig
 
-\end{reglemlista}
+ansvara för underhåll och utveckling av sektionens webbsidor
+agera projektledare för arbete med sektionens webbsidor
+administrera sektionens hemsida och användarkonton
 
-%%% funktionar %%%
-\funktionar{Redaktör}
+
+Redaktör
 Redaktören ska leda Redaktionen i arbetet att producera och publicera publikationer för sektionens nöje.
 
-\begin{reglemlista}
 
-	\item[Åligganden]
-	Det åligger Redaktör
-	\begin{attlista}
-		\item För sektionen producera och publicera publikationer i lämpligt medium.
-	\end{attlista}
+Åligganden:
+Det åligger Redaktör
 
-\end{reglemlista}
+För sektionen producera och publicera publikationer i lämpligt medium.
 
-\funktionar{Journalist}
+
+Journalist
 Journalisten bistår Redaktören i dennes arbete.
-\begin{reglemlista}
-
-	\item[Åligganden]
-	Det åligger Journalisten
-	\begin{attlista}
-		\item bistå Redaktören i dennes arbete.
-	\end{attlista}
-
-\end{reglemlista}
 
 
-%%% funktionar %%%
-\funktionar{Her Tech Future Representant}
+Åligganden:
+Det åligger Journalisten
+
+bistå Redaktören i dennes arbete.
+
+
+Her Tech Future Representant
 Her Tech Future Representant är ansvarig för Her Tech Future-arrangemanget på
 sektionen.
 
-\begin{reglemlista}
 
-	\item[Åligganden]
-	Det åligger Her Tech Future Representant
-	\begin{attlista}
-		\item framföra en positiv bild av LTH
-		\item ansvara för att sektionen är representerad på ett bra sätt under Her Tech Future
-	\end{attlista}
+Åligganden:
+Det åligger Her Tech Future Representant
 
-	\item[Mandatperiod]
-	Her Tech Future Representant mandatperiod är 1 januari - 31 december
+framföra en positiv bild av LTH
+ansvara för att sektionen är representerad på ett bra sätt under Her Tech Future
 
-\end{reglemlista}
 
-%%% funktionar %%%
-\funktionar{Fotograf}
+Mandatperiod:
+Her Tech Future Representant mandatperiod är 1 januari - 31 december
+
+
+Fotograf
 Fotografen ska dokumentera händelser på sektionen för eftervärlden.
 
-\begin{reglemlista}
 
-	\item[Åligganden]
-	Det åligger Fotografen
-	\begin{attlista}
-		\item fotografera alla för sektionen viktiga händelser på sektionen
-		\item snarast möjligt göra fotografierna tillgängliga för sektionens medlemmar
-	\end{attlista}
+Åligganden:
+Det åligger Fotografen
 
-\end{reglemlista}
+fotografera alla för sektionen viktiga händelser på sektionen
+snarast möjligt göra fotografierna tillgängliga för sektionens medlemmar
 
-%%% funktionar %%%
-\funktionar{Filmare}
+
+Filmare
 Filmaren dokumenterar och redigerar i videoformat händelser på sektionen.
 
-\begin{reglemlista}
 
-	\item[Åligganden]
-	Det åligger Filmaren
-	\begin{attlista}
-		\item filma alla för sektionen viktiga händelser på sektionen
-		\item vid behov redigera inspelat material för publicering
-		\item vid lämplig tidpunkt göra filmerna tillgängliga för sektionens medlemmar
-	\end{attlista}
+Åligganden:
+Det åligger Filmaren
 
-\end{reglemlista}
+filma alla för sektionen viktiga händelser på sektionen
+vid behov redigera inspelat material för publicering
+vid lämplig tidpunkt göra filmerna tillgängliga för sektionens medlemmar
 
-%%% funktionar %%%
-\funktionar{Hovmästare}
+
+Hovmästare
 Hovmästaren är den person som har det övergripande ansvaret för sexmästeriets servering och dukning.
 
-\begin{reglemlista}
 
-	\item[Åligganden]
-	Det åligger Hovmästaren
-	\begin{attlista}
-		\item vara ansvarig för Sexmästeriets servering, dukning, bordsplacering och schemaläggning.
-		\item tillgodose sektionens behov av sittningsdryck till sittningar.
-	\end{attlista}
+Åligganden:
+Det åligger Hovmästaren
 
-\end{reglemlista}
+vara ansvarig för Sexmästeriets servering, dukning, bordsplacering och schemaläggning.
+tillgodose sektionens behov av sittningsdryck till sittningar.
 
-%%% funktionar %%%
-\funktionar{Vinförman}
+
+Vinförman
 Vinförmannen är den person som har det övergripande ansvaret för sexmästeriets vinsortiment.
 
-\begin{reglemlista}
 
-	\item[Åligganden]
-	Det åligger Vinförmannen
-	\begin{attlista}
-		\item i samråd med pubmästaren och barmästaren se till att sexmästeriet har ett tillräckligt vinsortiment till pubar och andra tillställningar exklusive sittningar
-		\item hjälpa hovmästaren att tillgodose sektionen med sittningsdryck till sittningar
+Åligganden:
+Det åligger Vinförmannen
 
-	\end{attlista}
+i samråd med pubmästaren och barmästaren se till att sexmästeriet har ett tillräckligt vinsortiment till pubar och andra tillställningar exklusive sittningar
+hjälpa hovmästaren att tillgodose sektionen med sittningsdryck till sittningar
 
-\end{reglemlista}
 
-%%% funktionar %%%
-\funktionar{Idrottsförman}
+Idrottsförman
 Idrottsförmannen ska tillse sektionsmedlemmarnas fysiska hälsa.
 
-\begin{reglemlista}
 
-	\item[Åligganden]
-	Det åligger Idrottsförmannen
-	\begin{attlista}
-		\item tillgodose medlemmarnas behov av motion
-	\end{attlista}
+Åligganden:
+Det åligger Idrottsförmannen
 
-\end{reglemlista}
+tillgodose medlemmarnas behov av motion
 
-%%% funktionar %%%
-\funktionar{D-sportare}
+
+D-sportare
 D-sportaren arrangerar för sektionen turneringar inom E-sport
 
-\begin{reglemlista}
 
-	\item[Åligganden]
-	Det åligger Idrottsförmannen
-	\begin{attlista}
-		\item att arrangera E-sportsturneringar för sektionen
-	\end{attlista}
+Åligganden:
+Det åligger Idrottsförmannen
 
-\end{reglemlista}
+att arrangera E-sportsturneringar för sektionen
 
-%%% funktionar %%%
-\funktionar{Jubileumsansvarig}
+
+Jubileumsansvarig
 Jubileumsansvarig arrangerar, under Jubileumsgeneralens ledning, D-sektionensjubileum.
 
-\begin{reglemlista}
-	\item[Åligganden]
-	Det åligger Jubileumsansvarig
-	\begin{attlista}
-		\item bistå Jubileumsgeneralens arbete under jubileumet
-	\end{attlista}
-	
-	\item[Mandatperiod]
-	Jubileumsansvarigs mandatperiod är 1 juli - 30 juni
-\end{reglemlista}
 
-%%% funktionar %%%
-\funktionar{Jubileumsgeneral}
+Åligganden:
+Det åligger Jubileumsansvarig
+
+bistå Jubileumsgeneralens arbete under jubileumet
+
+
+Mandatperiod:
+Jubileumsansvarigs mandatperiod är 1 juli - 30 juni
+
+
+Jubileumsgeneral
 Jubileumsgeneral ansvarar för arrangerandet av D-sektionens jubileum.
 
-\begin{reglemlista}
-	\item[Åligganden]
-	Det åligger Jubileumsgeneralen
-	\begin{attlista}
-		\item ha det övergripande ansvaret för arrangerandet av D-sektionens jubileum
-		\item informera sektionens styrelse om jubileumets fortskridande
-		\item före jubileumets start presentera budgetförslag för sektionens styrelse
-	\end{attlista}
-	\item[Mandatperiod]
-	Jubileumsgeneralens mandatperiod är 1 juli - 30 juni
-\end{reglemlista}
 
-%%% funktionar %%%
-\funktionar{Trivselmästare}
+Åligganden:
+Det åligger Jubileumsgeneralen
+
+ha det övergripande ansvaret för arrangerandet av D-sektionens jubileum
+informera sektionens styrelse om jubileumets fortskridande
+före jubileumets start presentera budgetförslag för sektionens styrelse
+
+Mandatperiod:
+Jubileumsgeneralens mandatperiod är 1 juli - 30 juni
+
+
+Trivselmästare
 Trivselmästaren är ansvarig för likabehandling- och internationaliseringsarbetet på sektionen. Trivselmästaren ska driva sektionens arbetsmiljöfrågor. Trivselmästaren leder trivselrådet. Trivselmästaren bör
 ha tystnadsplikt för ärenden den behandlar.
 
-\begin{reglemlista}
 
-	\item[Åligganden]
-	Det åligger Trivselmästaren
+Åligganden:
+Det åligger Trivselmästaren
 
-	\begin{attlista}
-		\item tillsammans med Likabehandlingsombuden driva sektionens likabehandlingsarbete
-		\item ansvara för sektionens internationalisering
-		\item tillsammans med Studerandeskyddsombud, bevaka Sektionens intressen i arbetsmiljöfrågor
-		\item informera styrelsen om arbetet som sker inom trivselrådet
-	\end{attlista}
 
-\end{reglemlista}
+tillsammans med Likabehandlingsombuden driva sektionens likabehandlingsarbete
+ansvara för sektionens internationalisering
+tillsammans med Studerandeskyddsombud, bevaka Sektionens intressen i arbetsmiljöfrågor
+informera styrelsen om arbetet som sker inom trivselrådet
 
-%%% funktionar %%%
-\funktionar{Likabehandlingsombud}
+
+Likabehandlingsombud
 Likabehandlingsombudet bör ha tystnadsplikt för ärenden den behandlar.
 
-\begin{reglemlista}
 
-	\item[Åligganden]
-	Det åligger Likabehandlingsombudet
-
-	\begin{attlista}
-		\item bevaka sektionens verksamhet från ett likabehandlingsperspektiv
-		\item uppmärksamma styrelsen på situationer och miljöer som skulle kunna upplevas som kränkande av medlemmar ur sektionen eller bryta mot Teknologkårens likabehandlingspolicy
-		\item driva likabehandlingsfrågor inom utbildningen i Trivselrådet
-	\end{attlista}
+Åligganden:
+Det åligger Likabehandlingsombudet
 
 
-\end{reglemlista}
+bevaka sektionens verksamhet från ett likabehandlingsperspektiv
+uppmärksamma styrelsen på situationer och miljöer som skulle kunna upplevas som kränkande av medlemmar ur sektionen eller bryta mot Teknologkårens likabehandlingspolicy
+driva likabehandlingsfrågor inom utbildningen i Trivselrådet
 
-%%% funktionar %%%
-\funktionar{Karnevalsansvarig}
+
+Karnevalsansvarig
 Karnevalsansvarig har hand om sektionens deltagande i karnevalen och väljs var fjärde år.
 
-\begin{reglemlista}
 
-	\item[Åligganden]
-	Det åligger Karnevalsansvarig
-	\begin{attlista}
-		\item se till att sektionen deltager i karnevalens arrangemang såsom tåg- och tältnöjen
-		\item presentera en budget över sin verksamhet för styrelsen senast
-		tre månader före karnevalen äger rum
-		\item hålla kontakten med Karnevalskommittén
-	\end{attlista}
+Åligganden:
+Det åligger Karnevalsansvarig
 
-	\item[Mandatperiod]
-	Karnevalsansvariges mandatperiod är 1 juli - 30 juni
+se till att sektionen deltager i karnevalens arrangemang såsom tåg- och tältnöjen
+presentera en budget över sin verksamhet för styrelsen senast
+tre månader före karnevalen äger rum
+hålla kontakten med Karnevalskommittén
 
-	\item[Val]
-	Karnevalsansvarig väljs var fjärde år
 
-\end{reglemlista}
+Mandatperiod:
+Karnevalsansvariges mandatperiod är 1 juli - 30 juni
 
-%%% funktionar %%%
-\funktionar{Köksmästare}
+Val:
+Karnevalsansvarig väljs var fjärde år
+
+
+Köksmästare
 Köksmästaren har det övergripande ansvaret för Sexmästeriets köksverksamhet under deras evenemang.
 
-\begin{reglemlista}
 
-	\item[Åligganden]
-	Det åligger Köksmästaren
-	\begin{attlista}
-		\item vara ansvarig för Sexmästeriets matlagning under deras evenemang
-	\end{attlista}
-\end{reglemlista}
+Åligganden:
+Det åligger Köksmästaren
 
-%%% funktionar %%%
-\funktionar{Sektionskock}
-\begin{reglemlista}
-	\item[Åligganden]
-	Det åligger Sektionskocken
-	\begin{attlista}
-		\item laga mat utanför sittningar och pubar.
-	\end{attlista}
-\end{reglemlista}
+vara ansvarig för Sexmästeriets matlagning under deras evenemang
 
-%%% funktionar %%%
-\funktionar{Preferensmästare}
-\begin{reglemlista}
-	\item[Åligganden]
-	Det åligger Preferensmästaren
-	\begin{attlista}
-		\item vara ansvarig för Sexmästeriets köksverksamhet gällande specialkost under deras evenemang.
-	\end{attlista}
-\end{reglemlista}
 
-%%% funktionar %%
-\funktionar{Vice Köksmästare}
+Sektionskock
+
+Åligganden:
+Det åligger Sektionskocken
+
+laga mat utanför sittningar och pubar.
+
+
+Preferensmästare
+
+Åligganden:
+Det åligger Preferensmästaren
+
+vara ansvarig för Sexmästeriets köksverksamhet gällande specialkost under deras evenemang.
+
+
+Vice Köksmästare
 Vice Köksmästaren hjälper Köksmästaren i dennes arbete.
-\begin{reglemlista}
 
-	\item[Åligganden]
-	Det åligger Vice Köksmästaren
-	\begin{attlista}
-		\item hjälpa Köksmästaren i dennes arbete
-		\item överta Köksmästarens funktion vid dennes frånvaro
-	\end{attlista}
 
-\end{reglemlista}
+Åligganden:
+Det åligger Vice Köksmästaren
 
-%%% funktionar %%%
-\funktionar{LAN-partyansvarig}
+hjälpa Köksmästaren i dennes arbete
+överta Köksmästarens funktion vid dennes frånvaro
+
+
+LAN-partyansvarig
 LAN-partyansvarig ansvarar för att anordna LAN-partyn.
 
-\begin{reglemlista}
 
-	\item[Åligganden]
-	Det åligger LAN-partyansvarig
-	\begin{attlista}
-		\item anordna LAN-partyn
-	\end{attlista}
+Åligganden:
+Det åligger LAN-partyansvarig
 
-\end{reglemlista}
+anordna LAN-partyn
 
 
-%%% funktionar %%%
-\funktionar{Medaljelelekommittémedlem}
+Medaljelelekommittémedlem
 Medaljelelekommittémedlemen ingår i medaljelelekommittén och sköter om utdelning av medaljer och riddarskap.
 
-\begin{reglemlista}
 
-	\item[Åligganden]
-	Det åligger Medaljelelekommittémedlemmen
-	\begin{attlista}
-		\item närvara på Medaljelelekommitténs möten
-		\item lusteligen dela ut medaljer och andra utmärkelser till funktionärer som gjort sig förtjänta därav
-	\end{attlista}
-\end{reglemlista}
+Åligganden:
+Det åligger Medaljelelekommittémedlemmen
 
-%%% funktionar %%%
-\funktionar{Projektledare inom DELTA}
-
-\begin{reglemlista}
-	\item[Åligganden]
-	 Det åligger Projektledare inom DELTA
-	\begin{attlista}
-		\item bistå DELTA-generalerna i dennes arbete
-	\end{attlista}
-
-	\item[Mandatperiod]
-	Mandatperioden för Projektledare inom DELTA är 1 juli - 30 juni.
-\end{reglemlista}
-
-%%% funktionar %%%
-\funktionar{DELTA-värd}
-
-\begin{reglemlista}
-	\item[Åligganden]
-	Det åligger DELTA-värd
-	\begin{attlista}
-		\item bistå Projektgruppen för DELTA i deras arbete
-	\end{attlista}
-
-	\item[Mandatperiod]
-	Mandatperioden för DELTA-värd är 1 januari - 30 juni.
-
-\end{reglemlista}
+närvara på Medaljelelekommitténs möten
+lusteligen dela ut medaljer och andra utmärkelser till funktionärer som gjort sig förtjänta därav
 
 
-%%% funktionar %%%
-\funktionar{Märkvärdig}
+Projektledare inom DELTA
+
+
+Åligganden:
+Det åligger Projektledare inom DELTA
+
+bistå DELTA-generalerna i dennes arbete
+
+
+Mandatperiod:
+Mandatperioden för Projektledare inom DELTA är 1 juli - 30 juni.
+
+
+DELTA-värd
+
+
+Åligganden:
+Det åligger DELTA-värd
+
+bistå Projektgruppen för DELTA i deras arbete
+
+
+Mandatperiod:
+Mandatperioden för DELTA-värd är 1 januari - 30 juni.
+
+
+Märkvärdig
 
 Märkvärdig ska hjälpa Shopaholic med D-shopens inventarie. Detta bland annat genom att ge design för ny merch och nya märken.
 
-\begin{reglemlista}
 
-	\item[Åligganden]
-	Det åligger Märkvärdig
-	\begin{attlista}
-		\item bistå Shopaholic med D-shopens inventarie
-		\item  ge förslag på design på merch eller märken som kan säljas i D-shopen
-	\end{attlista}
+Åligganden:
+Det åligger Märkvärdig
 
-\end{reglemlista}
+bistå Shopaholic med D-shopens inventarie
+ge förslag på design på merch eller märken som kan säljas i D-shopen
 
 
-%%% funktionar %%%
-\funktionar{Nöjesförman}
+Nöjesförman
 
 Nöjesförmannen ska för sektionen arrangera evenemang av lek-, mys- och pysselkaraktär.
 
-\begin{reglemlista}
 
-	\item[Åligganden]
-	Det åligger Nöjesförman
-	\begin{attlista}
-		\item för sektionen arrangera evenemang av lek-, mys- och pysselkaraktär
-	\end{attlista}
+Åligganden:
+Det åligger Nöjesförman
 
-\end{reglemlista}
+för sektionen arrangera evenemang av lek-, mys- och pysselkaraktär
 
 
-%%% funktionar %%%
-\funktionar{Shopaholic}
+Shopaholic
 
 Shopaholic ska leda D-shopen, ansvara för dess inventarie och tillse sektionen med märken, merch, sångböcker och ouvvar.
 
-\begin{reglemlista}
 
-	\item[Åligganden]
-	Det åligger Shopaholic
-	\begin{attlista}
-		\item ansvara för försäljning, inköp och inventering av D-shopens produkter
-		\item sköta kontakten med andra utskott där D-shopens inventarie säljs
-	\end{attlista}
+Åligganden:
+Det åligger Shopaholic
 
-\end{reglemlista}
+ansvara för försäljning, inköp och inventering av D-shopens produkter
+sköta kontakten med andra utskott där D-shopens inventarie säljs
 
-%%% funktionar %%%
-\funktionar{Skald}
+
+Skald
 
 Skald ansvarar för sångboken och ser till att den är uppdaterad och studentikos.
 
-\begin{reglemlista}
 
-	\item[Åligganden]
-	Det åligger Skald
-	\begin{attlista}
-		\item se över och revidera sångboken
-		\item att bistå Shopaholic med D-shopens inventarie samt försäljning
-	\end{attlista}
+Åligganden:
+Det åligger Skald
 
-\end{reglemlista}
+se över och revidera sångboken
+att bistå Shopaholic med D-shopens inventarie samt försäljning
 
-%%% funktionar %%
-\funktionar{Phadder}
+
+Phadder
 Phaddrar verkar under nollningen för att välkomna de nya studenterna till D-sektionen.
 
-\begin{reglemlista}
 
-	\item[Åligganden]
-	Det åligger Phadder
-	\begin{attlista}
-		\item vara Nollningsutskottet behjälplig under nollningen
-		\item välkommna de nya studenterna till D-sektionen
-	\end{attlista}
+Åligganden:
+Det åligger Phadder
 
-	\item[Mandatperiod]
-	Phadderns mandatperiod är 1~april -- 31~oktober
+vara Nollningsutskottet behjälplig under nollningen
+välkommna de nya studenterna till D-sektionen
 
-\end{reglemlista}
 
-\funktionar{Pluggphadder}
+Mandatperiod:
+Phadderns mandatperiod är 1 april – 31 oktober
+
+
+Pluggphadder
 Pluggphaddrar verkar under nollningen för att hjälpa de nya studenterna komma igång med studierna.
 
-\begin{reglemlista}
 
-	\item[Åligganden]
-	Det åligger Pluggphadder
-	\begin{attlista}
-		\item Pluggphaddrar ska agera studiehjälp till nya studenter under Nollningen
-		\item på ett sunt vis introducera de nya studenterna till dess studier på D-sektionen
-        \item vara Studierådet behjälplig under nollningen
-	\end{attlista}
+Åligganden:
+Det åligger Pluggphadder
 
-	\item[Mandatperiod]
-	Pluggphadderns mandatperiod är 1~april -- 31~oktober
+Pluggphaddrar ska agera studiehjälp till nya studenter under Nollningen
+på ett sunt vis introducera de nya studenterna till dess studier på D-sektionen
+vara Studierådet behjälplig under nollningen
 
-\end{reglemlista}
 
-%%% funktionar %%%
-\funktionar{Pubmästare}
+Mandatperiod:
+Pluggphadderns mandatperiod är 1 april – 31 oktober
+
+
+Pubmästare
 Pubmästaren ansvarar för pubverksamheten.
 
-\begin{reglemlista}
 
-	\item[Åligganden]
-	Det åligger Pubmästaren
-	\begin{attlista}
-		\item ansvara för sexmästeriets pubverksamhet.
-		\item tillsammans med barmästaren hålla ett högkvalitativt öl- och drinksortiment samt se till att flera alkoholfria alternativ alltid finns.
-	\end{attlista}
+Åligganden:
+Det åligger Pubmästaren
 
-\end{reglemlista}
+ansvara för sexmästeriets pubverksamhet.
+tillsammans med barmästaren hålla ett högkvalitativt öl- och drinksortiment samt se till att flera alkoholfria alternativ alltid finns.
 
-%%% funktionar %%%
-\funktionar{Vice Pubmästare}
+
+Vice Pubmästare
 Vice Pubmästaren hjälper Pubmästaren i dennes arbete.
 
-\begin{reglemlista}
 
-	\item[Åligganden]
-	Det åligger Vice Pubmästaren
-	\begin{attlista}
-		\item hjälpa Pubmästaren i dennes arbete
-		\item överta Pubmästarens funktion vid dennes frånvaro
-	\end{attlista}
+Åligganden:
+Det åligger Vice Pubmästaren
 
-\end{reglemlista}
+hjälpa Pubmästaren i dennes arbete
+överta Pubmästarens funktion vid dennes frånvaro
 
-%%% funktionar %%%
-\funktionar{Barmästare}
+
+Barmästare
 Barmästaren ansvarar för barverksamheten under sittningar.
 
-\begin{reglemlista}
 
-	\item[Åligganden]
-	Det åligger Barmästaren
-	\begin{attlista}
-		\item anordna barverksamhet i samband med sittningar och eftersläpp arrangerade av sexmästeriet
-		\item tillsammans med pubmästaren hålla ett högkvalitativt öl- och drinksortiment samt se till att flera alkoholfria alternativ alltid finns
-	\end{attlista}
+Åligganden:
+Det åligger Barmästaren
 
-\end{reglemlista}
+anordna barverksamhet i samband med sittningar och eftersläpp arrangerade av sexmästeriet
+tillsammans med pubmästaren hålla ett högkvalitativt öl- och drinksortiment samt se till att flera alkoholfria alternativ alltid finns
 
-%%% funktionar %%%
-\funktionar{Vice Barmästare}
+
+Vice Barmästare
 Vice Barmästaren hjälper Barmästaren i dennes arbete.
 
-\begin{reglemlista}
 
-	\item[Åligganden]
-	Det åligger Vice Barmästaren
-	\begin{attlista}
-		\item hjälpa Barmästaren i dennes arbete
-		\item överta Barmästarens roll vid dennes frånvaro
-	\end{attlista}
+Åligganden:
+Det åligger Vice Barmästaren
 
-\end{reglemlista}
+hjälpa Barmästaren i dennes arbete
+överta Barmästarens roll vid dennes frånvaro
 
 
-%%% funktionar %%%
-\funktionar{Revisor}
+Revisor
 Revisorerna skall granska sektionens verksamhet och bokslut.
 
-\begin{reglemlista}
 
-	\item[Krav]
-	Det krävs
-	\begin{attlista}
-		\item revisorerna är myndiga svenska medborgare
-		\item revisorerna har den insikt i ekonomiska förhållanden som uppdraget kräver
-		\item en av revisorerna har god insyn i sektionens verksamhet
-		\item revisorerna inte är försatta i konkurs eller har näringsförbud
-		\item revisorerna inte har förvaltare
-		\item revisorerna inte är styrelseledamöter
-		\item revisorerna bör inte vara gift, sambo eller nära släkt med någon i styrelsen
-	\end{attlista}
+Krav:
+Det krävs
 
-	\item[Åligganden]
-	Det åligger revisorerna
-	\begin{attlista}
-		\item granska sektionens böcker och räkenskaper
-		\item taga del av sektionsmötenas och styrelsens protokoll
-		\item verkställa fortlöpande inventering eller kontrollera ställd inventering av sektionens kassa och övriga tillgångar
-		\item tillse huruvida sektionens organisation av och kontroll över bokföring är tillfredsställande
-		\item senast fjorton dagar innan vårterminsmötet, året
-		efter mandatperioden, till styrelsen inlämna revisionsberättelse
-	\end{attlista}
+revisorerna är myndiga svenska medborgare
+revisorerna har den insikt i ekonomiska förhållanden som uppdraget kräver
+en av revisorerna har god insyn i sektionens verksamhet
+revisorerna inte är försatta i konkurs eller har näringsförbud
+revisorerna inte har förvaltare
+revisorerna inte är styrelseledamöter
+revisorerna bör inte vara gift, sambo eller nära släkt med någon i styrelsen
 
-	\item[Rättigheter]
-	Revisorerna äger rätt
-	\begin{attlista}
-		\item närhelst han eller hon önskar taga del av sektionens samtliga räkenskaper, protokoll och andra handlingar
-		\item beredas tillträde till alla sektionens lokaler
-		\item erhålla upplysningar rörande sektionens verksamhet och förvaltning
-		\item närvara vid sektionens samtliga möten som ständigt adjungerade
-	\end{attlista}
 
-	\item[Skyldigheter]
-	Revisorerna är skyldiga
-	\begin{attlista}
-		\item alltid handla för sektionens bästa
-	\end{attlista}
+Åligganden:
+Det åligger revisorerna
 
-\end{reglemlista}
+granska sektionens böcker och räkenskaper
+taga del av sektionsmötenas och styrelsens protokoll
+verkställa fortlöpande inventering eller kontrollera ställd inventering av sektionens kassa och övriga tillgångar
+tillse huruvida sektionens organisation av och kontroll över bokföring är tillfredsställande
+senast fjorton dagar innan vårterminsmötet, året
+efter mandatperioden, till styrelsen inlämna revisionsberättelse
 
-%%% funktionar %%%
-\funktionar{root}
+
+Rättigheter:
+Revisorerna äger rätt
+
+närhelst han eller hon önskar taga del av sektionens samtliga räkenskaper, protokoll och andra handlingar
+beredas tillträde till alla sektionens lokaler
+erhålla upplysningar rörande sektionens verksamhet och förvaltning
+närvara vid sektionens samtliga möten som ständigt adjungerade
+
+
+Skyldigheter:
+Revisorerna är skyldiga
+
+alltid handla för sektionens bästa
+
+
+root
 root underhåller sektionens datorer och därtill kopplad utrustning.
-\begin{reglemlista}
 
-	\item[Åligganden]
-	Det åligger root
-	\begin{attlista}
-		\item ansvara för sektionens datorer och därtill kopplad utrustning
-			\item agera projektledare för arbete med sektionens datorer och övriga tekniska system
-			\item administrera sektionens mejlsystem och övriga tekniska system
-	\end{attlista}
 
-\end{reglemlista}
+Åligganden:
+Det åligger root
 
-%%% funktionar %%%
-\funktionar{Studerandeskyddsombud}
+ansvara för sektionens datorer och därtill kopplad utrustning
+agera projektledare för arbete med sektionens datorer och övriga tekniska system
+administrera sektionens mejlsystem och övriga tekniska system
+
+
+Studerandeskyddsombud
 Studerandeskyddsombudet bevakar sektionens intressen i olika organ för arbetsmiljöfrågor.
 Studerandeskyddsombudet för fram sektionens och studierådets åsikter gentemot E-husets
 husstyrelse. Studerandeskyddsombudet ansvarar för att informera studierådet om det som tagits upp på mötet för husstyrelsen.
 
-\begin{reglemlista}
 
-	\item[Åligganden]
-	Det åligger Studerandeskyddsombudet
-	\begin{attlista}
-		\item verka för god studiemiljö
-		\item medverka på HMS-kommitténs möten
-		\item att medverka på husstyrelsemöten för E-husets husstyrelse som
-		studentrepresentant
-		\item förmedla sektionens åsikter på HMS-kommitémöten och husstyrelsemöten
-		\item informera sektionen om kommande HMS-kommitémöten och Husstyrelsemöten
-		\item informera studierådet om vad som sagts på tidigare HMS-kommitémöten och Husstyrelsemöten
-		\item verka som Brandskyddssamordnare för D-sektionen
-		
-	\end{attlista}
-	
-	\item[Mandatperiod] 
-	Studentrepresentanter inom Husstyrelse har mandatperioden 1~juli -- 30~juni
+Åligganden:
+Det åligger Studerandeskyddsombudet
 
-\end{reglemlista}
+verka för god studiemiljö
+medverka på HMS-kommitténs möten
+att medverka på husstyrelsemöten för E-husets husstyrelse som
+studentrepresentant
+förmedla sektionens åsikter på HMS-kommitémöten och husstyrelsemöten
+informera sektionen om kommande HMS-kommitémöten och Husstyrelsemöten
+informera studierådet om vad som sagts på tidigare HMS-kommitémöten och Husstyrelsemöten
+verka som Brandskyddssamordnare för D-sektionen
 
-%%funktionar %%
-\funktionar{Stekare}
+
+Mandatperiod:
+Studentrepresentanter inom Husstyrelse har mandatperioden 1 juli – 30 juni
+
+
+Stekare
 Stekaren tillagar varor som används i maträtterna som serveras i Café iDét.
-\begin{reglemlista}
-	\item[Åligganden]
-	Det åligger Stekaren
-	\begin{attlista}
-		\item med lämpligt intervall
-		tillaga mat åt Cafémästeriets dagliga verksamhet, så att det alltid finns tillgängligt
-	\end{attlista}
 
-\end{reglemlista}
+Åligganden:
+Det åligger Stekaren
 
-%%funktionar %%
-\funktionar{Dagsansvarig}
+med lämpligt intervall
+tillaga mat åt Cafémästeriets dagliga verksamhet, så att det alltid finns tillgängligt
 
-\begin{reglemlista}
-	\item[Åligganden]
-	Det åligger Dagsansvarig
-	\begin{attlista}
-		\item ansvara för sektionens café under dennes tilldelade arbetspass.
-	\end{attlista}
 
-\end{reglemlista}
+Dagsansvarig
 
-%%funktionar %%
-\funktionar{Brunchmästare}
 
-\begin{reglemlista}
-	\item[Åligganden]
-	Det åligger Brunchmästare
-	\begin{attlista}
-		\item planera och genomföra bruncher eller andra evenemang för Cafémästeriets räkning
-        \item planera temaenligt sortiment inför temadagar
-	\end{attlista}
+Åligganden:
+Det åligger Dagsansvarig
 
-\end{reglemlista}
+ansvara för sektionens café under dennes tilldelade arbetspass.
 
-\funktionar{Bakis}
+
+Brunchmästare
+
+
+Åligganden:
+Det åligger Brunchmästare
+
+planera och genomföra bruncher eller andra evenemang för Cafémästeriets räkning
+planera temaenligt sortiment inför temadagar
+
+
+Bakis
 Bakisar bakar.
 
-\begin{reglemlista}
-	\item[Åligganden]
-	Det åligger Bakis
-	\begin{attlista}
-		\item baka för sektionen
-	\end{attlista}
 
-\end{reglemlista}
+Åligganden:
+Det åligger Bakis
 
-\funktionar{Inventarieansvarig}
+baka för sektionen
 
-\begin{reglemlista}
-	\item[Åligganden]
-	Det åligger Inventarieansvarig
-	\begin{attlista}
-		\item ha övergripande ansvar över sortimentet i cafét
-        \item se till så att inköp av ingredienser och sortiment till cafét sker
-        \item i samråd med mästarna, utskottet och sektionen utveckla caféts sortiment
-        \item ansvara för sektionens läskinventarier
-	\end{attlista}
 
-\end{reglemlista}
+Inventarieansvarig
 
-%%% funktionar %%%
-\funktionar{Stabsmedlem}
+
+Åligganden:
+Det åligger Inventarieansvarig
+
+ha övergripande ansvar över sortimentet i cafét
+se till så att inköp av ingredienser och sortiment till cafét sker
+i samråd med mästarna, utskottet och sektionen utveckla caféts sortiment
+ansvara för sektionens läskinventarier
+
+
+Stabsmedlem
 Stabsmedlem arrangerar, under Øverphøs ledning, nollning.
 
-\begin{reglemlista}
 
-	\item[Åligganden]
-	Det åligger Stabsmedlem
-	\begin{attlista}
-		\item bistå Øverphøs i dennes arbete.
-		\item att planera och genomföra nollningsrelaterade
+Åligganden:
+Det åligger Stabsmedlem
+
+bistå Øverphøs i dennes arbete.
+att planera och genomföra nollningsrelaterade
 evenemang.
-	\end{attlista}
-
-\end{reglemlista}
 
 
-%%% funktionar %%%
-\funktionar{Studentrepresentant, Institutionsstyrelse}
+Studentrepresentant, Institutionsstyrelse
 Studentrepresentanten för fram sektionens och studierådets åsikter gentemot institutionsstyrelsen som studenten sitter i. Studentrepresentanten ska förmedla sektionens åsikter inför, under och efter dessa möten. Åsikterna som förmedlas ska vara förankrade i studierådet. Studentrepresentanten ansvarar för att informera studierådet om det som tagits upp på institutionsstyrelsemötena.
 
-\begin{reglemlista}
 
-	\item[Åligganden]
-	Det åligger Studentrepresentant, Institutionsstyrelse
-	\begin{attlista}
-		\item medverka på institutionsstyrelsemötena för den institution som studentrepresentanten blivit vald till av TLTHs fullmäktige
-		\item förmedla studierådets åsikter på institutionsstyrelsemötena
-		\item informera studierådet om kommande Institutionsstyrelsemöten
-		\item informera studierådet om vad som sagts på tidigare Institutionsstyrelsemöten
-	\end{attlista}
-        \item[Mandatperiod]
-        Studentrepresentanter inom Institutionsstyrelse har mandatperioden 1 juli - 30 juni
+Åligganden:
+Det åligger Studentrepresentant, Institutionsstyrelse
 
-\end{reglemlista}
+medverka på institutionsstyrelsemötena för den institution som studentrepresentanten blivit vald till av TLTHs fullmäktige
+förmedla studierådets åsikter på institutionsstyrelsemötena
+informera studierådet om kommande Institutionsstyrelsemöten
+informera studierådet om vad som sagts på tidigare Institutionsstyrelsemöten
 
-%%% funktionar %%%
-\funktionar{Studentrepresentant, Programledning}
+Mandatperiod:
+Studentrepresentanter inom Institutionsstyrelse har mandatperioden 1 juli - 30 juni
+
+
+Studentrepresentant, Programledning
 Studentrepresentanten för fram sektionens och studierådets åsikter gentemot den programledning som studenten sitter i. Studentrepresentanten ska förmedla sektionens åsikter inför, under och efter dessa möten. Åsikterna som förmedlas ska vara förankrade i studierådet. Studentrepresentanten ansvarar för att informera studierådet om det som tagits upp på mötet för programledningen
 
-\begin{reglemlista}
 
-	\item[Åligganden]
-	Det åligger Studentrepresentant, Programledning
-	\begin{attlista}
-		\item medverka på programledningsmötena för den programledning som studentrepresentanten blivit vald till av TLTHs fullmäktige
-		\item förmedla studierådets åsikter på programledningsmötena
-		\item informera studierådet om kommande Programledningsmöten
-		\item informera studierådet om vad som sagts på tidigare Programledningsmöten
-	\end{attlista}
-         \item[Mandatperiod]
-        Studentrepresentanter inom Programledningen har mandatperioden 1 juli - 30 juni
-\end{reglemlista}
+Åligganden:
+Det åligger Studentrepresentant, Programledning
+
+medverka på programledningsmötena för den programledning som studentrepresentanten blivit vald till av TLTHs fullmäktige
+förmedla studierådets åsikter på programledningsmötena
+informera studierådet om kommande Programledningsmöten
+informera studierådet om vad som sagts på tidigare Programledningsmöten
+
+Mandatperiod:
+Studentrepresentanter inom Programledningen har mandatperioden 1 juli - 30 juni
 
 
-%%% funktionar %%%
-\funktionar{Studierådssekreterare}
+Studierådssekreterare
 Studierådssekreterare för protokoll under studierådetsmöten.
 
-\begin{reglemlista}
 
-	\item[Åligganden]
-	Det åligger Studierådssekreteraren
-	\begin{attlista}
-		\item föra protokoll under studierådsmöten
-		\item se till att dessa förs upp på D-sektionens hemsida
-       \end{attlista}
-       
-        \item[Mandatperiod]
-         Studierådssekreterare har mandatperioden 1 juli - 30 juni
+Åligganden:
+Det åligger Studierådssekreteraren
 
-	\item[Val]
-	Studierådssekreteraren väljs av Studierådet
+föra protokoll under studierådsmöten
+se till att dessa förs upp på D-sektionens hemsida
 
-\end{reglemlista}
 
-%%% funktionar %%%
-\funktionar{Sångarstridsförman}
+Mandatperiod:
+Studierådssekreterare har mandatperioden 1 juli - 30 juni
+
+Val:
+Studierådssekreteraren väljs av Studierådet
+
+
+Sångarstridsförman
 Sångarstridsförmannen är ansvarig för sektionens deltagande i Sångarstriden.
 
-\begin{reglemlista}
 
-	\item[Åligganden]
-	Det åligger Sångarstridsförmannen
-	\begin{attlista}
-		\item se till att sektionen ställer upp i Sångarstriden
-	\end{attlista}
+Åligganden:
+Det åligger Sångarstridsförmannen
 
-\end{reglemlista}
+se till att sektionen ställer upp i Sångarstriden
 
-%%% funktionar %%%
-\funktionar{Sångförman}
+
+Sångförman
 Sångförmannen leder sången under sektionens fester.
 
-\begin{reglemlista}
 
-	\item[Åligganden]
-	Det åligger Sångförmannen
-	\begin{attlista}
-		\item ansvara för schema och sång under sektionens sittningar.
-		\item  hjälpa Hovmästaren sätta tidschema på
+Åligganden:
+Det åligger Sångförmannen
+
+ansvara för schema och sång under sektionens sittningar.
+hjälpa Hovmästaren sätta tidschema på
 sektionens sittningar.
-		\item att vara sexmästeriets kontaktperson angående gyckel.
-		\item lära nollan vett och etikett på sittningar.
-		\item göra sångblad då så erfodras.
-	\end{attlista}
+att vara sexmästeriets kontaktperson angående gyckel.
+lära nollan vett och etikett på sittningar.
+göra sångblad då så erfodras.
 
-\end{reglemlista}
 
-%%% funktionar %%%
-\funktionar{Talman}
+Talman
 Talmannen är mötesordförande på sektionsmötena.
 
-\begin{reglemlista}
 
-	\item[Åligganden]
-	Det åligger Talmannen
-	\begin{attlista}
-		\item sitta som mötesordförande under sektionsmöten
-		\item hjälpa styrelsen med förberedelserna inför sektionsmöten
-	\end{attlista}
+Åligganden:
+Det åligger Talmannen
 
-\end{reglemlista}
+sitta som mötesordförande under sektionsmöten
+hjälpa styrelsen med förberedelserna inför sektionsmöten
 
-%%% funktionar %%%
-\funktionar{Tandemgeneral}
+
+Tandemgeneral
 Tandemgeneralen ska representera D-sektionen på Tandemstafetten, delta
 vid dess planering och se till att D-sektionens medlemmar får chansen att delta.
 
-\begin{reglemlista}
 
-	\item[Åligganden]
-	Det åligger Tandemgeneralen
-	\begin{attlista}
-		\item ge D-sektionens medlemmar en chans att delta i Tandemstafetten
-	\end{attlista}
+Åligganden:
+Det åligger Tandemgeneralen
 
-\end{reglemlista}
+ge D-sektionens medlemmar en chans att delta i Tandemstafetten
 
-%%% funktionar %%%
-\funktionar{DELTA-general}
+
+DELTA-general
 DELTA-general har tillsammans med Näringslivsansvarig hand om
 D-sektionens årliga arbetsmarknadsmässa DELTA.
 
-\begin{reglemlista}
 
-	\item[Åligganden]
-	Det åligger DELTA-general
-	\begin{attlista}
-		\item tillsammans med Näringslivsansvarig ansvara för arrangerandet av DELTA
-		\item hjälpa Näringslivsansvarig att i god tid presentera en budget för DELTA
-	\end{attlista}
-	\item[Mandatperiod]
-	DELTA-generalens mandatperiod är 1 juli - 30 juni
-\end{reglemlista}
+Åligganden:
+Det åligger DELTA-general
 
-%%% funktionar %%%
-\funktionar{Trädgårdsmästare}
+tillsammans med Näringslivsansvarig ansvara för arrangerandet av DELTA
+hjälpa Näringslivsansvarig att i god tid presentera en budget för DELTA
+
+Mandatperiod:
+DELTA-generalens mandatperiod är 1 juli - 30 juni
+
+
+Trädgårdsmästare
 Trädgårdsmästaren har hand om sektionens växter.
 
-\begin{reglemlista}
 
-	\item[Åligganden]
-	Det åligger Trädgårdsmästaren
-	\begin{attlista}
-		\item sköta sektionens växter
-	\end{attlista}
+Åligganden:
+Det åligger Trädgårdsmästaren
 
-\end{reglemlista}
+sköta sektionens växter
 
-%%% funktionar %%%
-\funktionar{TappaD}
+
+TappaD
 TappaD ansvarar för sektionens tappsystem
 
-\begin{reglemlista}
 
-	\item[Åligganden]
-	Det åligger TappaD
-	\begin{attlista}
-		\item ansvara för underhåll och kunskapsbevaring av sektionens tappsystem
-	\end{attlista}
+Åligganden:
+Det åligger TappaD
 
-\end{reglemlista}
+ansvara för underhåll och kunskapsbevaring av sektionens tappsystem
 
-%%% funktionar %%%
-\funktionar{UtEDischoansvarig}
+
+UtEDischoansvarig
 UtEDischoansvarig ansvarar för D-sektionens arrangemang i det årliga utEDischot.
 
-\begin{reglemlista}
 
-	\item[Åligganden]
-	Det åligger UtEDischoansvarig
-	\begin{attlista}
-		\item arrangera utEDischo i samband med nollningen
-	\end{attlista}
-\end{reglemlista}
+Åligganden:
+Det åligger UtEDischoansvarig
 
-%%% funktionar %%%
-\funktionar{Valberedningens ordförande}
+arrangera utEDischo i samband med nollningen
+
+
+Valberedningens ordförande
 Valberedningens ordförande leder valberedningens arbete.
 
-\begin{reglemlista}
 
-	\item[Åligganden]
-	Det åligger Valberedningens ordförande
-	\begin{attlista}
-		\item leda valberedningens arbete
-		\item inte diskutera intervjuerna och detaljer om kandidaterna förutom med valberedningen och den berörda kandidaten
-\end{attlista}
+Åligganden:
+Det åligger Valberedningens ordförande
+
+leda valberedningens arbete
+inte diskutera intervjuerna och detaljer om kandidaterna förutom med valberedningen och den berörda kandidaten
 
 
-    \item [Krav]
-    Det krävs att valberedningens ordförande ej är vald till styrelseledamot under en period som överlappar med mandadet för posten valberedningens ordförande
+Krav:
+Det krävs att valberedningens ordförande ej är vald till styrelseledamot under en period som överlappar med mandadet för posten valberedningens ordförande
 
-\end{reglemlista}
 
-%%% funktionar %%%
-\funktionar{Valberedningsrepresentant}
+Valberedningsrepresentant
 Valberedningsrepresentanten verkar för att bredda sektionens
 rekryteringsbas.
 
-\begin{reglemlista}
 
-	\item[Åligganden]
-	Det åligger Valberedningsrepresentanten
-	\begin{attlista}
-		\item bredda sektionens rekryteringsbas
-		\item inte diskutera intervjuerna och detaljer om kandidaterna förutom med valberedningen och den berörda kandidaten
-\end{attlista}
+Åligganden:
+Det åligger Valberedningsrepresentanten
+
+bredda sektionens rekryteringsbas
+inte diskutera intervjuerna och detaljer om kandidaterna förutom med valberedningen och den berörda kandidaten
 
 
-
-    \item[Krav]
-    Det krävs att valberedningsrepresentant ej är vald till styrelseledamot under en period som överlappar med mandadet
+Krav:
+Det krävs att valberedningsrepresentant ej är vald till styrelseledamot under en period som överlappar med mandadet
 för posten valberedningsrepresentant
 
-\end{reglemlista}
 
-%%% funktionar %%%
-\funktionar{Valnämndsrepresentant TLTH}
+Valnämndsrepresentant TLTH
 Valnämndsrepresentanten TLTH är sektionens representant i TLTHs valnämnd.
 
-\begin{reglemlista}
 
-	\item[Åligganden]
-	Det åligger Valnämndsrepresentanten TLTH
-	\begin{attlista}
-		\item representera sektionen i TLTHs valnämnd
-	\end{attlista}
+Åligganden:
+Det åligger Valnämndsrepresentanten TLTH
 
-\end{reglemlista}
+representera sektionen i TLTHs valnämnd
 
-%%% funktionar %%%
-\funktionar{Världsmästare}
+
+Världsmästare
 Världsmästaren verkar för sektionens internationalisering.
 
-\begin{reglemlista}
 
-	\item[Åligganden]
-	Det åligger Världsmästaren
-	\begin{attlista}
-		\item representera sektionen i TLTHs internationella utskott
-		\item verka för sektionens internationalisering
-		\item ge internationella studenter den information de behöver
-		\item öka medvetenhet om internationella studenter på sektionen
-	\end{attlista}
+Åligganden:
+Det åligger Världsmästaren
 
-\end{reglemlista}
+representera sektionen i TLTHs internationella utskott
+verka för sektionens internationalisering
+ge internationella studenter den information de behöver
+öka medvetenhet om internationella studenter på sektionen
 
-%%% funktionar %%%
-\funktionar{Årskursrepresentant}
+
+Årskursrepresentant
 Årskursrepresentanten är den som utvärderar våra kurser och framför sina
 kursarers åsikter.
 
-\begin{reglemlista}
 
-	\item[Åligganden]
-	Det åligger Årskursrepresentanten
-	\begin{attlista}
-		\item agera representant för sina kursare inför kursansvarig och framföra deras åsikter
-		\item delta på årskursens CEQ-möten
-		\item skriva slutkommentarer för kursen
-        \item informera Studierådet om vad som sagts på halvtidsmöten och CEQ-möten
-	\end{attlista}
-	\item[Mandatperiod]
-	Årskursrepresentants mandatperiod är 1~juli -- 30~juni.
+Åligganden:
+Det åligger Årskursrepresentanten
 
-	\item[Val]
-	Årskursrepresentant väljs av Studierådet.
-\end{reglemlista}
+agera representant för sina kursare inför kursansvarig och framföra deras åsikter
+delta på årskursens CEQ-möten
+skriva slutkommentarer för kursen
+informera Studierådet om vad som sagts på halvtidsmöten och CEQ-möten
+
+Mandatperiod:
+Årskursrepresentants mandatperiod är 1 juli – 30 juni.
+
+Val:
+Årskursrepresentant väljs av Studierådet.
 
 
-%%% funktionar %%%
-\funktionar{Ölförman}
+Ölförman
 Ölförmannen är i samråd med pub- och barmästare ansvarig för sexmästeriets inköp av bryggerivaror.
 
-\begin{reglemlista}
 
-	\item[Åligganden]
-	Det åligger Ölförmannen
-	\begin{attlista}
-		\item i samråd med pubmästaren och barmästaren se till så att sexmästeriet har nödvändiga drycker exklusive sittningsdryck i god tid före varje tillställning
-	\end{attlista}
+Åligganden:
+Det åligger Ölförmannen
 
-\end{reglemlista}
+i samråd med pubmästaren och barmästaren se till så att sexmästeriet har nödvändiga drycker exklusive sittningsdryck i god tid före varje tillställning
 
-%%% funktionar %%%
-\funktionar{Övermarskalk}
+
+Övermarskalk
 Övermarskalken bär sektionens fana samt sköter inbjudningar vid större sektionsfester.
 
-\begin{reglemlista}
 
-	\item[Åligganden]
-	Det åligger Övermarskalken
-	\begin{attlista}
-		\item vid högtider såsom Regatta och Kårbal bära sektionens fana
-		\item handha medaljer och av sektionen fastställda utmärkelser samt utdelandet av dessa
-		\item övervaka Ordenssällskapet D-sektionen inom TLTH och tillse att det verkar enligt gällande reglemente och stadgar
-		\item handha inbjudningar och anmodningar vid sektionens festligheter
-		\item ansvara för inhandling och förvaltning av ordensband
-		\item ha hand om sektionsflaggan
-	\end{attlista}
+Åligganden:
+Det åligger Övermarskalken
 
-\end{reglemlista}
+vid högtider såsom Regatta och Kårbal bära sektionens fana
+handha medaljer och av sektionen fastställda utmärkelser samt utdelandet av dessa
+övervaka Ordenssällskapet D-sektionen inom TLTH och tillse att det verkar enligt gällande reglemente och stadgar
+handha inbjudningar och anmodningar vid sektionens festligheter
+ansvara för inhandling och förvaltning av ordensband
+ha hand om sektionsflaggan
 
-%%% funktionar %%%
-\funktionar{Semesterfirare}
 
-\begin{reglemlista}
+Semesterfirare
 
-	\item[Åligganden]
-	Det åligger Semesterfiraren
-	\begin{attlista}
-		\item se till att sektionens medlemmar får åka på utomlandssemester till andra universitet i Sverige
-	\end{attlista}
 
-\end{reglemlista}
+Åligganden:
+Det åligger Semesterfiraren
 
-%%% funktionar %%%
-\funktionar{\O verpeppare}
-\O verpepparna agerar Stabens högra hand genom att vara med i planering
-och genomförande av nollningsrelaterade evenemang. \O verpepparna ansvarar för att leda Pepparna.
-\begin{reglemlista}
-	\item[Åligganden]
-	Det åligger \O verpeppare
-	\begin{attlista}
-		\item planera och genomföra nollningsrelaterade evenemang.
-		\item leda Pepparna
-	\end{attlista}
+se till att sektionens medlemmar får åka på utomlandssemester till andra universitet i Sverige
 
-\end{reglemlista}
 
-%%% funktionar %%%
-\funktionar{Peppare}
-Pepparna agerar \O verpepparnas högra hand genom att vara med i planering
+Ø verpeppare
+Ø verpepparna agerar Stabens högra hand genom att vara med i planering
+och genomförande av nollningsrelaterade evenemang. Ø verpepparna ansvarar för att leda Pepparna.
+
+Åligganden:
+Det åligger Ø verpeppare
+
+planera och genomföra nollningsrelaterade evenemang.
+leda Pepparna
+
+
+Peppare
+Pepparna agerar Ø verpepparnas högra hand genom att vara med i planering
 och genomförande av nollningsrelaterade evenemang.
-\begin{reglemlista}
-	\item[Åligganden]
-	Det åligger Pepparna
-	\begin{attlista}
-		\item planera och genomföra nollningsrelaterade evenemang.
-	\end{attlista}
 
-\end{reglemlista}
+Åligganden:
+Det åligger Pepparna
 
-%%% funktionar %%%
-\funktionar{Framtidsordförande}
+planera och genomföra nollningsrelaterade evenemang.
+
+
+Framtidsordförande
 Framtidsordförande ansvarar för att leda Framtidsutskottet.
-\begin{reglemlista}
-	\item[Åligganden]
-	Det åligger Framtidsordförande
-	\begin{attlista}
-		\item kalla till möten för Framtidsutskottet och upprätta erforderliga handlingar
-		\item leda och fördela arbetet inom utskottet
-		\item samverka med styrelsen för att gynna sektionens strategiska arbete
-	\end{attlista}
 
-\end{reglemlista}
-  
-%%% funktionar %%%
-\funktionar{Framtidsledamot}
+Åligganden:
+Det åligger Framtidsordförande
+
+kalla till möten för Framtidsutskottet och upprätta erforderliga handlingar
+leda och fördela arbetet inom utskottet
+samverka med styrelsen för att gynna sektionens strategiska arbete
+
+
+Framtidsledamot
 Framtidsledamoten sitter i Framtidsutskottet
-\begin{reglemlista}
-	\item[Åligganden]
-	Det åligger Framtidsledamöter
-	\begin{attlista}
-		\item arbeta med sektionens strategiska arbete
-		\item bereda förslag för att presentera till styrelsen eller sektionsmötet
-		\item bistå Framtidsordförannde i dess arbete
-	\end{attlista}
 
-\end{reglemlista}
-  
-%%% funktionar %%%
-\funktionar{Skattförman}
+Åligganden:
+Det åligger Framtidsledamöter
+
+arbeta med sektionens strategiska arbete
+bereda förslag för att presentera till styrelsen eller sektionsmötet
+bistå Framtidsordförannde i dess arbete
+
+
+Skattförman
 Skattförmannen hjälper Skattmästaren i dennes arbete.
-\begin{reglemlista}
-	\item[Åligganden]
-	Det åligger Skattförmannen
-	\begin{attlista}
-		\item att hjälpa Skattmästaren i dennes arbete.
-	\end{attlista}
 
-\end{reglemlista}
+Åligganden:
+Det åligger Skattförmannen
 
-%%% funktionar %%%
-\funktionar{Tackmästare}
+att hjälpa Skattmästaren i dennes arbete.
+
+
+Tackmästare
 Tackmästaren ansvarar för att leda Tackmästeriet.
-\begin{reglemlista}
-    \item[Åligganden]
-      Det åligger Tackmästaren
-      \begin{attlista}
-        \item välja in Tackmästerister
-        \item leda och fördela arbetet inom utskottet
-        \item tillsammans med utskottet planera och genomföra sektionsgemensamma tackevenemang
-        \item presentera en plan och en budget för tackevenemanget till styrelsen
-      \end{attlista}
-    \item[Rättigheter]
-      Tackmästaren äger rätt
-      \begin{attlista}
-        \item delta på nästkommande sektionsgemensamma tackevenemang efter avslutad mandatperiod
-      \end{attlista}
-    \item[Mandatperiod]
-      Tackmästarens mandatperiod är
-      \begin{itemize}
-      \item 1~januari -- 30~juni
-      \item 1~juli -- 31~december
-      \end{itemize}
-\end{reglemlista}
 
-%%% funktionar %%%
-\funktionar{Tackmästerist}
-\begin{reglemlista}
-\item[Åligganden]
-  Det åligger Tackmästeristen
-  \begin{attlista}
-    \item planera och genomföra sektionstacken
-    \end{attlista}
-  \item[Rättigheter]
-    Tackmästeristen äger rätt
-    \begin{attlista}
-      \item delta på nästkommande sektionsgemensamma tackevenemang efter avslutad mandatperiod
-      \end{attlista}
-    \item[Mandatperiod]
-      Tackmästeristens mandatperiod är
-      \begin{itemize}
-      \item 1~januari -- 30~juni
-      \item 1~juli -- 31~december
-      \end{itemize}
-\end{reglemlista}
+Åligganden:
+Det åligger Tackmästaren
 
-%%% funktionar %%%
-\funktionar{Processmästare}
+välja in Tackmästerister
+leda och fördela arbetet inom utskottet
+tillsammans med utskottet planera och genomföra sektionsgemensamma tackevenemang
+presentera en plan och en budget för tackevenemanget till styrelsen
+
+Rättigheter:
+Tackmästaren äger rätt
+
+delta på nästkommande sektionsgemensamma tackevenemang efter avslutad mandatperiod
+
+Mandatperiod:
+Tackmästarens mandatperiod är
+
+1 januari – 30 juni
+1 juli – 31 december
+
+
+Tackmästerist
+
+Åligganden:
+Det åligger Tackmästeristen
+
+planera och genomföra sektionstacken
+
+Rättigheter:
+Tackmästeristen äger rätt
+
+delta på nästkommande sektionsgemensamma tackevenemang efter avslutad mandatperiod
+
+Mandatperiod:
+Tackmästeristens mandatperiod är
+
+1 januari – 30 juni
+1 juli – 31 december
+
+
+Processmästare
 Processmästaren ansvarar för att leda Centralprocessutskottet och administrera sektionens hemsida.
-\begin{reglemlista}
-	\item[Åligganden]
-        Det åligger Processmästaren	
-        \begin{attlista}
-		\item leda Centralprocessutskottet
-            \item tillhandahålla administrativ information på hemsidan, såsom att administrera poster på sektionen
-	\end{attlista}
-\end{reglemlista}
 
-%%% funktionar %%%
-\funktionar{Vice Processmästare}
+Åligganden:
+Det åligger Processmästaren
+
+leda Centralprocessutskottet
+tillhandahålla administrativ information på hemsidan, såsom att administrera poster på sektionen
+
+
+Vice Processmästare
 Vice Processmästaren hjälper Processmästaren i dennes arbete.
-\begin{reglemlista}
-	\item[Åligganden]
-        Det åligger Vice Processmästaren	
-        \begin{attlista}
-		\item hjälpa Processmästaren i dennes arbete
-            \item överta Processmästarens funktion i dennes frånvaro
-	\end{attlista}
-\end{reglemlista}
 
-%%% funktionar %%%
-\funktionar{Utvecklare}
+Åligganden:
+Det åligger Vice Processmästaren
+
+hjälpa Processmästaren i dennes arbete
+överta Processmästarens funktion i dennes frånvaro
+
+
+Utvecklare
 Utvecklarna hjälper utskottet i dess åligganden.
-\begin{reglemlista}
-	\item[Åligganden]
-        Det åligger Utvecklarna	
-        \begin{attlista}
-		\item hjälpa DWWW-ansvarig och root i deras arbete
-            \item vägleda funktionärer och övriga sektionsmedlemmar i projekt och uppgifter inom  Centralprocessutskottet
-	\end{attlista}
-\end{reglemlista}
 
-%%% funktionar %%%
-\funktionar{Influencer}
+Åligganden:
+Det åligger Utvecklarna
+
+hjälpa DWWW-ansvarig och root i deras arbete
+vägleda funktionärer och övriga sektionsmedlemmar i projekt och uppgifter inom  Centralprocessutskottet
+
+
+Influencer
 Influencer ska hjälpa till att hantera sektionens sociala medier samt skapa innehåll som visar
 upp sektionen på ett representativt sätt
-\begin{reglemlista}
-	\item[Åligganden]
-        Det åligger Influencer	
-        \begin{attlista}
-		\item bistå informationsutskottets presidie med att hantera sektionens
+
+Åligganden:
+Det åligger Influencer
+
+bistå informationsutskottets presidie med att hantera sektionens
 sociala medier
-            \item skapa innehåll som visar upp sektionen på ett representativt sätt
-	\end{attlista}
-\end{reglemlista}
-
-%%% funktionar %%%
-\funktionar{Näringslivskoordinator}
-
-\begin{reglemlista}
-	\item[Åligganden]
-        Det åligger Näringslivskoordinator	
-        \begin{attlista}
-		\item att hjälpa Näringslivsansvarig i dess arbete på event
-
-	\end{attlista}
-\end{reglemlista}
+skapa innehåll som visar upp sektionen på ett representativt sätt
 
 
-%%%%%%%%%%%%% SECTION %%%%%%%%%%%%%
-\section{Medaljer och Utmärkelser}
+Näringslivskoordinator
+
+
+Åligganden:
+Det åligger Näringslivskoordinator
+
+att hjälpa Näringslivsansvarig i dess arbete på event
+
+
+Medaljer och Utmärkelser
+
 
 I detta avsnitt listas de medaljer och utmärkelser som sektionen delar ut samt de kriterier som ligger bakom förvärvandet av dessa.
 
@@ -2406,55 +1916,73 @@ I detta avsnitt listas de medaljer och utmärkelser som sektionen delar ut samt 
 Medaljer och utmärkelser delas företrädesvis ut två gånger om året, under de årliga ordenskapitlen i samband med Skiphtesgasque och Nollegasque. Vid speciella tillfällen, såsom t.ex. Jubileum, kan ett extra ordenskapitel
 hållas.
 
-\subsection{Funktionärsmedaljen}
+
+Funktionärsmedaljen
+
 Funktionärsmedaljen erhålles av funktionärer efter avslutad mandatperiod. Denna medalj bäres med stolthet. Funktionärsmedaljen utdelas till en och samma person endast en gång.
 
-\subsection{Stor D-medalj}
+
+Stor D-medalj
+
 Stor D-medalj utdelas av Medaljelelekommittén på årligt ordenskapitel, till person som Medaljelelekommittén har funnit dels under en ansenlig mängd år innehaft avancerade förtroendeuppdrag inom D-sektionen, dels verkat på det mest föredömliga sätt samt åstadkommit exceptionella fördelar för D-sektionen. Stor D-medalj utdelas till en och samma person endast en gång.
 
-\subsection{D-medalj}
-D-medalj utdelas av Medaljelelekommittén på årligt ordenskapitel, till person som Medaljelelekommittén har funnit dels under flera år innehaft förtroendeuppdrag inom D-sektionen, dels på olika sätt verkat mycket föredömligt för D-sektionen. I folkmun kallat för ''riddare''. D-medalj utdelas till en och samma person endast en gång.
 
-\subsection{Inspektor Emeritussignum}
+D-medalj
+
+D-medalj utdelas av Medaljelelekommittén på årligt ordenskapitel, till person som Medaljelelekommittén har funnit dels under flera år innehaft förtroendeuppdrag inom D-sektionen, dels på olika sätt verkat mycket föredömligt för D-sektionen. I folkmun kallat för ”riddare”. D-medalj utdelas till en och samma person endast en gång.
+
+
+Inspektor Emeritussignum
+
 Inspektor Emeritussignum utdelas av Medaljelelekommittén till D-sektionens avgående Inspektor vid installation av ny Inspektor för D-sektionen. Installationen sker under årligt ordenskapitel, eller vid annat av Medaljelelekommittén och D-sektionens sektionsmöte valt tillfälle. Inspektor Emeritussignum utdelas till en och samma person endast en gång.
 
-\subsection{Hedersledamotsignum}
+
+Hedersledamotsignum
+
 Hedersledamotsignum utdelas av Medaljelelekommittén till av D-sektionens sektionsmöte vald hedersledamot av D-sektionen vid installation av denne. Installationen sker under årligt ordenskapitel, eller vid annat av Medaljelelekommittén och D-sektionens sektionsmöte valt tillfälle. Hedersledamotsignum utdelas till en och samma person endast en gång.
 
-\subsection{Medaljelelekommittémedaljen}
+
+Medaljelelekommittémedaljen
+
 Medaljelelekommittémedaljen bäres av de som är medlemmar i Medaljelelekommittéen.
 
-\subsection{DuCtig-medaljen}
+
+DuCtig-medaljen
+
 DuCtig-medaljen erhålles som en del av studierådets utmärkelse DuCtig (Data und infocoms tentaprestationer i grundblocket). Medaljen finns i tre valörer; brons, silver och guld. Medaljen delas ut enligt studierådets kriterier.
 
-\subsection{Styrelsemedaljen}
+
+Styrelsemedaljen
+
 Styrelsemedaljen tilldelas de personer som innehar funktionärspost inom sektionsstyrelsen. En
 styrelsemedalj delas ut vid påbörjad mandatperiod på posten. Styrelsemedaljen utdelas till en
 och samma person endast en gång. Denna medalj tillhandages gratis.
 
-\subsection{Insignier}
+
+Insignier
+
 Insignier är små plaketter som fästes på erhållen funktionärsmedalj.
 
-\begin{reglemlista}
-	\item[Styrelseinsigniner]
-	Styrelseinsigniner tilldelas de personer som innehaft funktionärspost inom sektionsstyrelsen. En styrelseinsigna delas ut för varje påbörjad mandatperiod på posten.
-	\item[Gammal och äcklig]
-	Utdelas till de som uppfyller kraven på Gammal och äcklig: nämligen att ha varit vald funktionär i tre hela år, samt innehaft ett mandat i sektionsstyrelsen eller att ha varit vald funktionär i fyra hela år
-	\item[TLTH-Fullmäktige]
-	Tilldelas den som valts in som ordinarie ledamot eller suppleant i Teknologkårens fullmäktige
 
-\end{reglemlista}
-\subsection{Utskottsmedaljer}
-    
-    Tilldelas de personer som varit vald funktionär inom samma utskott i tre hela år.  
+Styrelseinsigniner:
+Styrelseinsigniner tilldelas de personer som innehaft funktionärspost inom sektionsstyrelsen. En styrelseinsigna delas ut för varje påbörjad mandatperiod på posten.
+Gammal och äcklig:
+Utdelas till de som uppfyller kraven på Gammal och äcklig: nämligen att ha varit vald funktionär i tre hela år, samt innehaft ett mandat i sektionsstyrelsen eller att ha varit vald funktionär i fyra hela år
+TLTH-Fullmäktige:
+Tilldelas den som valts in som ordinarie ledamot eller suppleant i Teknologkårens fullmäktige
 
-\subsection{Rosa Pantern}
+
+Utskottsmedaljer
+
+
+Tilldelas de personer som varit vald funktionär inom samma utskott i tre hela år.
+
+
+Rosa Pantern
+
 Rosa Pantern är ett diplom som utdelas av Studierådsordförande och Ordförande på årligt ordenskapitel, till person som de har funnit dels innehaft förtroendeuppdrag inom D-sektionen, dels på olika sätt verkat mycket föredömligt för D-sektionen, samt klarat överväldigande majoritet av sina studier på utsatt tid.
 
-\subsection{Gyllene Pekpinnen}
+
+Gyllene Pekpinnen
+
 Priset delas ut till en person, som har utvecklat pedagogiken på en eller flera kurser som läses av Datateknik, InfoCom, eller VRAR. Mottagaren kan vara doktorand men inte grundutbildningsstudent.
-
-\end{document}
-
-
-
