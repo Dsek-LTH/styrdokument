@@ -81,7 +81,7 @@
   Hedersmedlem äger rätt:
   - att närvara med yttranderätt och yrkanderätt vid sektionsmöte,
   - att taga del av protokoll och övriga handlingar som berör sektionen, samt
-  - att kandidera vid funktionärsval inom sektionen undantaget poster som innebär styrelsepost eller chef för utskott.
+  - att kandidera vid funktionärsval inom sektionen undantaget poster som innebär styrelsepost eller utskottsordförande.
 
 = Virtuella medlemmar
 
@@ -99,7 +99,7 @@
   Virtuell medlem äger rätt:
   - att närvara med yttranderätt och yrkanderätt vid sektionsmöte,
   - att taga del av protokoll och övriga handlingar som berör sektionen, samt
-  - att kandidera vid funktionärsval inom sektionen undantaget poster som innebär styrelsepost eller chef för utskott.
+  - att kandidera vid funktionärsval inom sektionen undantaget poster som innebär styrelsepost eller utskottsordförande.
 
 = Alumnimedlemmar
 
@@ -115,7 +115,7 @@
   Alumnimedlem äger rätt:
   - att närvara med yttranderätt och yrkanderätt vid sektionsmöte,
   - att taga del av protokoll och övriga handlingar som berör sektionen, samt
-  - att kandidera vid funktionärsval inom sektionen undantaget poster som innebär styrelsepost eller chef för utskott.
+  - att kandidera vid funktionärsval inom sektionen undantaget poster som innebär styrelsepost eller utskottsordförande.
 
 / Utträde:
   Alumnimedlemmar kan utträda ur sektionen genom egen förfrågan varpå sektionsmöte må besluta så. Sektionsmötet må även besluta att entlediga Alumnimedlemmar om denne inte uppfyller de skyldigheter som åligger posten.
