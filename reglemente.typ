@@ -68,13 +68,16 @@ Sektionen har ett antal policyer som fungerar som förlängningar av reglementet
 / Förtydligande:
   Efter varje post står en siffra inom parentes, det är antal personer som kan sitta på en post, om det inte står någon siffra så är det erforderligt antal.
 
-/ Vårterminsmöte:
-  Under vårterminsmötet skall följande poster tillsättas:
+/ Vårterminsmöte ett:
+  Under vårterminsmöte ett skall följande poster tillsättas:
 
   - DELTA-general (2)
   - Jubileumsgeneral (1) (väljes året innan jubileet äger rum)
-  - Tackmästare (1)
   - Studerandeskyddsombud (1)
+
+/ Vårterminsmöte två:
+  Under vårterminsmöte ett skall följande poster tillsättas:
+  - Tackmästare (1)
 
 / Höstterminsmöte ett:
   Under höstterminsmöte ett skall följande poster tillsättas:
@@ -1112,7 +1115,7 @@ Revisorerna skall granska sektionens verksamhet och bokslut.
   - att taga del av sektionsmötenas och styrelsens protokoll
   - att verkställa fortlöpande inventering eller kontrollera ställd inventering av sektionens kassa och övriga tillgångar
   - att tillse huruvida sektionens organisation av och kontroll över bokföring är tillfredsställande
-  - att senast fjorton dagar innan vårterminsmötet, året efter mandatperioden, till styrelsen inlämna revisionsberättelse
+  - att senast fjorton dagar innan första vårterminsmötet, året efter mandatperioden, till styrelsen inlämna revisionsberättelse
 
 / Rättigheter:
   Revisorerna äger rätt
