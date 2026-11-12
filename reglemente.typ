@@ -175,6 +175,9 @@ Sektionen har ett antal policyer som fungerar som förlängningar av reglementet
 / Titulering:
   Alternativ titulering för utskottsordförande är mästare.
 
+/ Utskottsfunktionärer:
+  Förutom de poster som listas per utskott kan varje utskott även ha utskottsfunktionärer utan fördefinierade åligganden, som kan väljas in av utskottsordförande då det anses lämpligt.
+
 = Cafémästeriet
 
 / Åligganden:
@@ -193,7 +196,6 @@ Sektionen har ett antal policyer som fungerar som förlängningar av reglementet
   - Brunchmästare
   - Inventarieansvarig
   - Bakis
-  - Funktionärer
 
 = Näringslivsutskottet
 
@@ -213,7 +215,6 @@ Sektionen har ett antal policyer som fungerar som förlängningar av reglementet
   - Alumnigruppen
   - Projektgruppen för DELTA
   - DELTA-värd
-  - Funktionärer
   - Näringlivskoordinator
 
 / *Alumnigruppen*:
@@ -254,7 +255,6 @@ Sektionen har ett antal policyer som fungerar som förlängningar av reglementet
   - Ljud- och ljusansvarig
   - Trädgårdsmästare
   - Bilansvarig
-  - Funktionärer
 
 = Medaljelelekommittén
 
@@ -294,7 +294,6 @@ Medaljelelekommittén delar ut medaljer till sektionsfunktionärer. Medaljelelek
   - D-sportare
   - Nöjesförman
   - Coach
-  - Funktionärer
 
 = Informationsutskottet
 
@@ -314,7 +313,6 @@ Medaljelelekommittén delar ut medaljer till sektionsfunktionärer. Medaljelelek
   - Fotograf
   - Filmare
   - Redaktionen
-  - Funktionärer
   - D-shopen
   - Influencer
 
@@ -367,7 +365,6 @@ Medaljelelekommittén delar ut medaljer till sektionsfunktionärer. Medaljelelek
   - Ölförman
   - Hovmästare
   - Vinförman
-  - Funktionärer
   - TappaD
 
 = Skattmästeriet
@@ -385,7 +382,6 @@ Medaljelelekommittén delar ut medaljer till sektionsfunktionärer. Medaljelelek
   - Skattmästare
   - Vice Skattmästare
   - Skattförman
-  - Funktionärer
 
 = Nollningsutskottet
 
@@ -405,7 +401,6 @@ Medaljelelekommittén delar ut medaljer till sektionsfunktionärer. Medaljelelek
   - Peppare
   - Phaddrar
   - Pluggphaddrar
-  - Funktionärer
 
 / Staben:
   Staben består av
@@ -430,7 +425,6 @@ Medaljelelekommittén delar ut medaljer till sektionsfunktionärer. Medaljelelek
   - Årskursrepresentant, VR/AR1
   - Årskursrepresentant, VR/AR2
   - Årskursrepresentant, Specialisering
-  - Funktionärer
 
   - att föreslå representanter till TLTH:s externa organ
 
@@ -457,7 +451,6 @@ Medaljelelekommittén delar ut medaljer till sektionsfunktionärer. Medaljelelek
   - Årskursrepresentant, VR/AR2
   - Årskursrepresentant, Specialisering
   - Studerandeskyddsombud
-  - Funktionärer
 
 / Kallelse:
   Kallelse till studierådsmöte samt föredragningslista skall senast fem dagar före sammanträdet anslås skriftligen i sektionslokalen där alla sektionsmedlemmar kan se.
@@ -517,7 +510,6 @@ Medaljelelekommittén delar ut medaljer till sektionsfunktionärer. Medaljelelek
   - DWWW-ansvarig
   - root
   - Utvecklare
-  - Funktionärer
 
 = Funktionärer
 
