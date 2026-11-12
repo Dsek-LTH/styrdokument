@@ -1,7 +1,7 @@
 #import "@preview/dsek:0.1.0": *
 
 #show: policy.with(
-  subject: "Jämlikhet",
+  subject: "jämlikhet",
   summary: [
     Policyn beskriver vilka värderingar D-sektionen har och verkar för.
   ],

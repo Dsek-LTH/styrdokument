@@ -1,7 +1,7 @@
 #import "@preview/dsek:0.1.0": *
 
 #show: policy.with(
-  subject: "Hantering av nya poster",
+  subject: "hantering av nya poster",
   summary: [
     Denna policy beskriver hur D-sektionen inom TLTH arbetar med frågor som rör hanteringen och införandet av nya funktionärsposter på D-sektionen.
   ],

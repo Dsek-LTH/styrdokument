@@ -1,7 +1,7 @@
 #import "@preview/dsek:0.1.0": *
 
 #show: guideline.with(
-  subject: "Sektionsbilens användning",
+  subject: "sektionsbilens användning",
   summary: [
     Riktlinjen beskriver hur bilen som antingen är inhyrd eller ägd av sektionen bokas, och regler vid utlåning samt uthyrning. Sektionens bil är för tillfället en Volvo V50 med registreringsnummer WPW 221, namngiven ÿalle.
   ],

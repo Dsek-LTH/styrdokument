@@ -50,13 +50,11 @@
 
 = Strategiska mål och verksamhetsplan
 
-/ Strategiska mål och verksamhetsplan:
-  De strategiska målen ska innehålla strategiska mål som sektionen ska arbeta med över längre tid. Verksamhetsplanen ska utgå från de strategiska målen och definiera konkreta mål som ska arbetas med under verksamhetsåret. Ett strategiskt mål kan sträcka sig över flera år och ska varje år ha en konkret motsvarighet i verksamhetsplanen.
+De strategiska målen ska innehålla strategiska mål som sektionen ska arbeta med över längre tid. Verksamhetsplanen ska utgå från de strategiska målen och definiera konkreta mål som ska arbetas med under verksamhetsåret. Ett strategiskt mål kan sträcka sig över flera år och ska varje år ha en konkret motsvarighet i verksamhetsplanen.
 
 = Policyer
 
-/ Policyer:
-  Sektionen har ett antal policyer som fungerar som förlängningar av reglementet gällande en särskild fråga. Notera att brott mot policyer kan medföra påföljder enligt TLTH:s #link("https://drive.google.com/file/d/1Tj4wEznmkJXwq5UtVrNK_zV4lMD3vbGw/view")[Policy för entledigande och avstängning]. En förteckning med sektionens policyer återfinns i #link("https://www.dsek.se/api/pdf/styrdokument/releases/download/latest/policy_for_styrdokument.pdf")[Policy för styrdokument].
+Sektionen har ett antal policyer som fungerar som förlängningar av reglementet gällande en särskild fråga. Notera att brott mot policyer kan medföra påföljder enligt TLTH:s #link("https://drive.google.com/file/d/1Tj4wEznmkJXwq5UtVrNK_zV4lMD3vbGw/view")[Policy för entledigande och avstängning]. En förteckning med sektionens policyer återfinns i #link("https://www.dsek.se/api/pdf/styrdokument/releases/download/latest/policy_for_styrdokument.pdf")[Policy för styrdokument].
 
 = Sektionsmöte
 
@@ -1213,7 +1211,7 @@ Studentrepresentanten för fram sektionens och studierådets åsikter gentemot i
   - att informera studierådet om vad som sagts på tidigare Institutionsstyrelsemöten
 
 / Mandatperiod:
-  Studentrepresentanter inom Institutionsstyrelse har mandatperioden 1 juli - 30 juni
+  Studentrepresentanter inom Institutionsstyrelse har mandatperioden 1 juli -- 30 juni
 
 == Studentrepresentant, Programledning
 
@@ -1227,7 +1225,7 @@ Studentrepresentanten för fram sektionens och studierådets åsikter gentemot d
   - att informera studierådet om vad som sagts på tidigare Programledningsmöten
 
 / Mandatperiod:
-  Studentrepresentanter inom Programledningen har mandatperioden 1 juli - 30 juni
+  Studentrepresentanter inom Programledningen har mandatperioden 1 juli -- 30 juni
 
 == Studierådssekreterare
 
@@ -1239,7 +1237,7 @@ Studierådssekreterare för protokoll under studierådetsmöten.
   - att se till att dessa förs upp på D-sektionens hemsida
 
 / Mandatperiod:
-  Studierådssekreterare har mandatperioden 1 juli - 30 juni
+  Studierådssekreterare har mandatperioden 1 juli -- 30 juni
 
 / Val:
   Studierådssekreteraren väljs av Studierådet
@@ -1291,7 +1289,7 @@ DELTA-general har tillsammans med Näringslivsansvarig hand om D-sektionens årl
   - att hjälpa Näringslivsansvarig att i god tid presentera en budget för DELTA
 
 / Mandatperiod:
-  DELTA-generalens mandatperiod är 1 juli - 30 juni
+  DELTA-generalens mandatperiod är 1 juli -- 30 juni
 
 == Trädgårdsmästare
 

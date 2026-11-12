@@ -1,7 +1,7 @@
 #import "@preview/dsek:0.1.0": *
 
 #show: policy.with(
-  subject: "Styrdokument",
+  subject: "styrdokument",
   summary: [
     Denna policy beskriver hur styrdokument på D-sektionen fungerar samt innehåller en förteckning av dessa. Policyn innehåller även hur styrdokumenten ska vara utformade.
   ],
