@@ -195,7 +195,8 @@
   + verksamhetsberättelse och bokslut från föregående års styrelse,
   + revisionsberättelse för det förflutna verksamhetsåret,
   + fråga om ansvarsfrihet för föregående års styrelse,
-  + Verksamhetsrapport från styrelsen, samt
+  + verksamhetsrapport från styrelsen,
+  + presentation av likabehandlingsplaner, samt
   + val enligt reglemente.
 
 / Vårterminsmöte två:
