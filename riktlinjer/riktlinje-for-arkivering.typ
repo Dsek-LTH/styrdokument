@@ -1,7 +1,7 @@
 #import "@preview/dsek:0.1.0": *
 
 #show: guideline.with(
-  subject: "Arkivering",
+  subject: "arkivering",
   summary: [
     Denna riktlinje ger direktiv kring hur material i D-sektionens verksamhet ska arkiveras.
   ],
