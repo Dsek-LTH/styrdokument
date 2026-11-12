@@ -81,7 +81,7 @@
   Hedersmedlem äger rätt:
   - att närvara med yttranderätt och yrkanderätt vid sektionsmöte,
   - att taga del av protokoll och övriga handlingar som berör sektionen, samt
-  - att kandidera vid funktionärsval inom sektionen undantaget poster som innebär styrelsepost eller chef för utskott.
+  - att kandidera vid funktionärsval inom sektionen undantaget poster som innebär styrelsepost eller utskottsordförande.
 
 = Virtuella medlemmar
 
@@ -99,7 +99,7 @@
   Virtuell medlem äger rätt:
   - att närvara med yttranderätt och yrkanderätt vid sektionsmöte,
   - att taga del av protokoll och övriga handlingar som berör sektionen, samt
-  - att kandidera vid funktionärsval inom sektionen undantaget poster som innebär styrelsepost eller chef för utskott.
+  - att kandidera vid funktionärsval inom sektionen undantaget poster som innebär styrelsepost eller utskottsordförande.
 
 = Alumnimedlemmar
 
@@ -115,7 +115,7 @@
   Alumnimedlem äger rätt:
   - att närvara med yttranderätt och yrkanderätt vid sektionsmöte,
   - att taga del av protokoll och övriga handlingar som berör sektionen, samt
-  - att kandidera vid funktionärsval inom sektionen undantaget poster som innebär styrelsepost eller chef för utskott.
+  - att kandidera vid funktionärsval inom sektionen undantaget poster som innebär styrelsepost eller utskottsordförande.
 
 / Utträde:
   Alumnimedlemmar kan utträda ur sektionen genom egen förfrågan varpå sektionsmöte må besluta så. Sektionsmötet må även besluta att entlediga Alumnimedlemmar om denne inte uppfyller de skyldigheter som åligger posten.
@@ -190,12 +190,17 @@
 / Sen handling:
   En sen handling definieras som en handling, vilken har inkommit efter utsatt sista datum enligt @sektionsmöte-upptagande-av-ärende, @sektionsmöte-interpellation eller @sektionsmöte-misstroendevotum, eller annan handling, exempelvis bilaga, som inte anslagits i tid enligt @sektionsmöte-handlingar. Om sådan handling har inkommit innan sista datum för anslag enligt @sektionsmöte-handlingar kan styrelsen välja att anslå och ta med den i föredragningslistan under prefixet _Sen handling_. Mötet beslutar sedan med enkel majoritet huruvida punkten skall behandlas. I den händelse att handlingen inte kan anslås i tid enligt @sektionsmöte-handlingar kan styrelsen istället välja att låta mötet avgöra huruvida den skall införas på föredragningslistan när denna fastställs. Alla sena handlingar som ej lyfts enligt ovan bordläggs till nästföljande sektionsmöte, då de behandlas som korrekt inkomna handlingar.
 
-/ Vårterminsmöte:
-  Vid vårterminsmötet skall följande ärenden förekomma:
+/ Vårterminsmöte ett:
+  Vid första vårterminsmötet skall följande ärenden förekomma:
   + verksamhetsberättelse och bokslut från föregående års styrelse,
   + revisionsberättelse för det förflutna verksamhetsåret,
   + fråga om ansvarsfrihet för föregående års styrelse,
-  + Verksamhetsrapport från styrelsen, samt
+  + verksamhetsrapport från styrelsen,
+  + presentation av likabehandlingsplaner, samt
+  + val enligt reglemente.
+
+/ Vårterminsmöte två:
+  Vid andra vårterminsmötet skall följande ärenden förekomma:
   + val enligt reglemente.
 
 / Höstterminsmöte ett:
