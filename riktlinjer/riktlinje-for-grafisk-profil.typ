@@ -30,6 +30,11 @@
       change: "Dokumentet omformades från att vara en policy till att bli en riktlinje",
       who: "-",
     ),
+    (
+      meeting: "HTM1 2026",
+      change: [Ändrade typsättningssystem från #LaTeX till Typst],
+      who: "Dag Hemberg och Nelli Skogman",
+    ),
   ),
 )
 
@@ -91,12 +96,9 @@ I regel brukar sektionens dokument skrivas med mallar likt den som denna riktlin
   table.hline(),
 ))
 
-== LaTeX-mallar
+== Typst-mallar
 
-Sektionen har historiskt sett varit duktiga på att använda typsättningssystemet #LaTeX, och därmed finns det både dokumentklasser och funktioner som både är väldokumenterade och välfungerande.
-
-All källkod och dokumentmallar och så vidare finns sparat på sektionens GitHub, som ni hittar här:  \
-#link("https://github.com/Dsek-LTH/dsekdocs")[github.com/Dsek-LTH/dsekdocs]
+För att typsätta sektionens olika dokument används Typst-mallar. All källkod och dokumentmallar och så vidare finns sparat på sektionens GitHub, som ni hittar här: #link("https://github.com/Dsek-LTH/dsek-typst")[github.com/Dsek-LTH/dsek-typst]
 
 = Riktlinjer för grafisk formgivning
 
