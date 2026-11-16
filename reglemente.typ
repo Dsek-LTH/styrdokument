@@ -1628,6 +1628,14 @@ Jubileumsansvarig arrangerar, under Jubileumsgenerals ledning, D-sektionens jubi
 
 / Mandatperiod: Jubileumsansvarigs mandatperiod är 1 juli -- 30 juni.
 
+=== Posten Posten
+
+Posten Posten är en hemlig post.
+
+/ Åligganden:
+  Det åligger posten Posten
+  - att ~
+
 === Revisor
 
 Revisorerna skall granska sektionens verksamhet och bokslut.
