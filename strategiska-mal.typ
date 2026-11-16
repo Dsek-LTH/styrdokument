@@ -15,6 +15,7 @@
     (meeting: "HTM1 2023", change: "Uppdaterad enligt motion", who: "Framtidsutskottet 2023"),
     (meeting: "HTM1 2024", change: "Uppdaterad enligt motion", who: "Framtidsutskottet 2024"),
     (meeting: "HTM-Val 2025", change: "Uppdaterad enligt motion", who: "Framtidsutskottet 2025"),
+    (meeting: "HTM1 2026", change: "Uppdaterad enligt motion", who: "Framtidsutskottet 2026"),
   ),
 )
 
@@ -62,13 +63,14 @@ Under våren 2023 genomfördes en undersökning, kallad D-Compassen, där trivse
 - Utjämna den givna sociala statusen mellan olika utskott.
 - Minskad ensamhet bland D-sektionens medlemmar.
 
-== Hållbar tillväxt 2022--2026
+== Hållbart engagemang 2027--2029
 
-År efter år kommer nya, ibland fler än dessförinnan, studenter till Lunds Universitet, LTH och framförallt till D-sektionen. För att kunna tillgodose fler medlemmars behov av gemenskap och rekreation bör sektionen växa på ett hållbart och produktivt sätt. Ett sätt att öka sektionens tillväxt och ge fler en möjlighet att engagera sig på sektionen är att lägga till fler poster. Dessa kan ha ett mer väldefinierat men begränsat ansvarsområde, vilket kan leda till ett engagemang som inte behöver gå ut över medlemmens välmående. Genom att sänka tröskeln för sektionsengagemang ger vi fler studenter möjligheten att bli uppslukade i allt vad vi kallar D-sek och studentengagemang.
+År efter år kommer nya, ibland fler än dessförinnan, studenter till Lunds Universitet, LTH och framförallt till D-sektionen. För att kunna tillgodose fler medlemmars behov av gemenskap och rekreation bör sektionen växa på ett hållbart och produktivt sätt. På sistånde har det ekonomiska läget för sektionen blivit allt mer kritiskt så för att säkerställa sektionens och dess medlemmars framtid bör även ekonomin hanteras mer hållbart.
 
 - Möjliggöra för att fler skall kunna engagera sig.
 - Tillgodose fler medlemmars intressen genom att utöka sektionens verksamhet, eller inkludera i existerande verksamhet.
 - Främja hållbart engagemang med fokus på individens hälsa.
+- Främja en långsiktigt hållbar ekonomi i syfte att möjliggöra engagemang för medlemmar. Detta genom ansvarsfull ekonomisk planering och uppföljning.
 
 == Råsa studentikåsa! 2024--2028
 
