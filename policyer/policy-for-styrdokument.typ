@@ -156,6 +156,7 @@ D-sektionen har följande policyer:
 - Policy för sektionsbil
 - Policy för val
 - Policy för tackverksamhet
+- Policy för uthyrning
 - Policy för styrdokument
 - Policy för samverkan med D-Chip
 
