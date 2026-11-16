@@ -1,10 +1,9 @@
 #import "@preview/dsek:0.1.0": *
-#import "@preview/fletcher:0.5.8" as fletcher: diagram, edge, node, shapes
 
 #show: policy.with(
   subject: "ekonomi",
   summary: [
-    Policyn beskriver hur sektionen ska arbeta med ekonomi och budget, hur attesteringsrätten fungerar samt vilka fonder sektionen har.
+    Policyn beskriver hur sektionen ska arbeta med ekonomi och budget, hur attesträtten fungerar samt hur sektionens kapital är strukturerat.
   ],
   purpose: [
     Policyns syfte är att ge styrelsen såväl som funktionärer vägledning i ekonomiska frågor.
@@ -14,39 +13,9 @@
   ],
   history: (
     (
-      meeting: "VTM 2017",
-      change: "Ursprungligen antagen enligt beslut",
-      who: "-",
-    ),
-    (
-      meeting: "VTM 2021",
-      change: "Omarbetning fastställd enligt beslut (samt motionär)",
-      who: "Joel Bäcker och Sean Jentz",
-    ),
-    (
-      meeting: "HTM2 2021",
-      change: "Uppdaterad enl. Policy för Policyer",
-      who: "-",
-    ),
-    (
-      meeting: "VTM 2022",
-      change: "Omarbetning fastställd enligt beslut (samt motionär)",
-      who: "Emma Kujala",
-    ),
-    (
-      meeting: "HTM2 2021",
-      change: "Uppdaterad enl. Policy för styrdokument",
-      who: "-",
-    ),
-    (
-      meeting: "HTM2 2023",
-      change: "Omarbetning fastställd enligt beslut (samt motionär)",
-      who: "Axel Svensson",
-    ),
-    (
-      meeting: "HTM1 2025",
-      change: "Omarbetning fastställd enligt beslut (samt motionär)",
-      who: "Tristan Farkas",
+      meeting: "HTM1 2026",
+      change: "Ursprungligt utkast färdigställt",
+      who: "Ludwig Gehlsdorf och Tristan Farkas",
     ),
   ),
 )
@@ -55,170 +24,231 @@
 
 = Övergripande
 
-D-sektionen är en ideell förening och har inget vinstintresse. Därmed skall ingen funktionär inom D-sektionen behöva betala pengar ur egen ficka för att kunna utföra sitt uppdrag så som uppdraget är beskrivet i reglementet. Ingen funktionär ska tjäna pengar på sektionens verksamhet.
+D-sektionen är en ideell förening och har inget vinstintresse. Därmed ska ingen funktionär inom D-sektionen behöva betala pengar ur egen ficka för att kunna utföra sitt uppdrag såsom uppdraget är beskrivet i reglementet. Ingen funktionär ska tjäna pengar på sektionens verksamhet.
 
 = Budget
 
+Budgeten är sektionens ekonomiska styrdokument. Den ska betraktas som en prognos för verksamhetsårets resultat och ett styrverktyg för verksamheten.
+
+Inför varje verksamhetsår beslutar sektionsmötet om rambudgeten och detaljbudgeten för det kommande verksamhetsåret. Förslag på rambudgeten och detaljbudgeten ska tas fram av tillträdande styrelse i samråd med den sittande styrelsen.
+
 == Terminologi
 
-/ Resultatenhet: Varje utskott, Styrelsen och Sektionen är var och en sin egen resultatenhet. Resultatenheten är uppdelad i ett eller flera kostnadsställen.
+/ Resultatenhet: Sektionens verksamhet är uppdelad i flera resultatenheter. Se @appendix för alla resultatenheter.
 
-/ Kostnadsställe: Ett kostnadsställe består av budgetposter för både kostnader och inkomster för en viss del av en resultatenhets verksamhet. Varje kostnadsställe har en egen kod, till exempel är SEKT01 ett kostnadsställe inom resultatenheten "sektionen".
+  Resultatet av en resultatenhet är summan av dess tillhörande kostnadsställens resultat.
 
-/ Budgetpost: En budgetpost visar hur mycket sektionen har budgeterat för en viss kostnad eller inkomst. Till exempel är _mötesfika_ och _programvaror_ båda budgetposter.
+/ Resultatansvarig: Individen eller individerna som ansvarar för att det budgeterade resultatet följs inom en resultatenhet.
 
-== Övergripande
+/ Kostnadsställe: Varje resultatenhet är uppdelad i ett eller flera kostnadsställen. Varje kostnadsställe har en egen kod som består av ett prefix och två siffror. Prefixet avgör vilken resultatenhet kostnadsstället tillhör. Se @appendix för dessa koder.
 
-Sektionsmötet beslutar varje höst om rambudgeten för det kommande året som ett styrmedel för resultaten i varje kostnadsställe. Likadant beslutar styrelsen om en detaljbudget under våren för att styra enskilda budgetposters storlek inom kostnadsställena.
+  Resultatet av ett kostnadsställe är summan av dess tillhörande kontoposter.
 
-En budget är att betrakta som en prognos för det kommande årets resultat. För att möjliggöra smidiga anpassningar efter verkligt utfall så krävs ett visst handlingsutrymme utanför rambudget respektive detaljbudgeten.
+/ Kontopost: Varje kostnadsställe består av kontoposter. En kontopost är en samling av enbart kostnader (kostnadspost) eller enbart intäkter (intäktspost).
 
-== Budgetavsteg
+/ Kontopostrad: Under varje kontopost finns det kontopostrader. Varje rad är ett exempel på hur budgeten för en kontopost kan fördelas.
 
-Om en budgetpost inom ett kostnadställe, hela kostnadsstället eller rambudgeten i sin helhet avsiktligt beräknas avvika negativt kan ett budgetavsteg göras.
+/ Rambudget: Rambudgeten avser det budgeterade resultatet för varje resultatenhet.
 
-Summan av de budgetavsteg som tas mellan två stycken redovisningstillfällen (sektions- och styrelsemöten) får totalt inte överstiga gränsen som kräver beslut från den högre instansen.  Till exempel så kan inte styrelsen ta två budgetavsteg à 20 000 kr på ett och samma kostnadsställe utan att först redovisa det första för sektionsmötet innan det andra tas.  På samma sätt kan inte skattmästaren ta två budgetavsteg à 1500 kr på samma budgetpost utanatt redovisa det första för styrelsen först.
+/ Detaljbudget: Detaljbudgeten avser hur budgeten fördelas mellan kontoposterna inom ett kostnadsställe, samt mellan kostnadsställena inom en resultatenhet.
 
-#let fn = [För rambudget och kostnadsställen kan styrelsen alltid ta budgetavsteg om summor lägre än 10 000 kr även om detta är mer än 50% av budgeterat resultat.]
-#show table.cell: set par(justify: false)
-#set table.hline(stroke: 0.3pt)
-#set table.vline(stroke: 0.3pt)
+== Budgetens utformning
 
-#table(
-  columns: (1fr, 1fr, 1fr),
-  stroke: none,
-  table.header([Ekonomiskt objekt], table.vline(), [Förändring], table.vline(), [Vem ska ta budgetavsteget]),
-  table.hline(),
-  [Rambudgeten i sin helhet], [Större än 50 000 kr eller mer än 50\% av budgeterat resultat], [Sektionsmötet],
-  [Rambudgeten i sin helhet],
-  [Mindre än 50 000 kr och mindre än 50\% av budgeterat resultat#footnote(fn)<fn>],
-  [Styrelsen],
+Styrelsen ansvarar för att budgeten bygger på realistiska antaganden om sektionens intäkter och kostnader.
 
-  [Kostnadsställe], [Större än 25 000 kr eller mer än 50\% av budgeterat resultat], [Sektionsmötet],
-  [Kostnadsställe], [Mindre än 25 000 kr och mindre än 50\% av budgeterat resultat\*], [Styrelsen],
-  [Budgetpost inom kostnadställen], [Budgetavsteg på max 2500 kr], [Skattmästaren i samråd med sektionsordförande],
-)
+== Överprövning
 
-Budgetavstegen ska vara skriftliga och dokumenteras för verksamhetens ekonomiska kontinuitet. När budgetavsteg görs av skattmästaren och sektionsordföranden ska dessa redovisas på ett styrelsemöte eller som ett per capsulambeslut minst en gång i månaden eller oftare om skattmästaren anser det vara lämpligt. Styrelsens och skattmästarens budgetavsteg ska redovisas på nästkommande sektionsmöte.
+Ett avslag från Skattmästaren enligt detta kapitel får överprövas av styrelsen. Styrelsens beslut får överprövas av sektionsmötet. Styrelsens respektive sektionsmötets beslut ersätter det tidigare beslut som överprövas.
 
-= Avtal
+== Budgetförändringar
 
-Firmatecknare äger alltid rätt att besluta om avtal som innebär ett positivt nettoresultat och om avtal som följer redan lagd budget. En förutsättning är att avtalet inte går emot sektionens eller Teknologkårens styrdokument.
+För att möjliggöra smidiga anpassningar efter verkligt utfall krävs verktyg för att justera budgeten. Med budgetförändring avses en budgetförflyttning, ett budgetavsteg eller en budgetrevision.
 
-= Sektionskort
+En kostnadsposts budgeterade belopp får inte överskridas utan att budgeten först justerats genom en budgetförändring, om inte något av fallen under avsnittet överskridande utan budgetförändring gäller. Sker ingen sådan justering får kostnaden inte tas.
 
-Sektionen äger ett antal betalkort, ofta kallade Sektionskort, som ska användas för betalning i sektionens namn. Dessa betalkort skall användas för att minimera behovet av privata utlägg.
+Budgetförflyttningar och budgetavsteg kräver godkännande av Skattmästaren. Ett avslag får överprövas enligt avsnittet överprövning.
 
-Vilka som erhåller sektionskort bestäms av styrelsen.
+Budgetförflyttningar och budgetavsteg ska alltid redovisas på nästkommande styrelse- och sektionsmöte, samt återspeglas i budgeten.
 
-= Inköp för sektionen
+=== Budgetförflyttningar
 
-Alla köp i sektionens namn, vare sig privata eller med sektionskort, ska redogöras för genom en utläggsräkning tillsammans med ett kvitto som uppnår lagstadgade krav för bokföring. Kontoutdrag räknas inte. Utläggsräkningar ska ha inkommit till skattmästeriet inom 60 dagar från det att utgiften uppstått, om inte särskilda skäl föreligger. Privata utlägg som inte inkommer inom denna tidsram och där särskilda skäl inte föreligger kommer inte att beaktas. Bedömningen av vad som utgör särskilda skäl sker enligt skattmästarens diskretionära beslut.
+Om det budgeterade beloppet för en kostnadspost inte räcker till, görs en budgetförflyttning för att öka beloppet. Detta innebär att detaljbudgeten omarbetas så att specifika kontoposters budgetbelopp omfördelas inom en resultatenhet, men så att rambudgeten inte påverkas.
 
-Samtliga utlägg skall signeras av två individer, personen som gjort utlägget och en som godkänner utlägget. Godkännandet ska, om möjligt, utföras av individ från den närmst följande instansen enligt nästa avsnitt. En högre instans signatur kan i samtliga fall ersätta en lägre instans signatur om så behövs. En lägre instans kan aldrig godkänna en högre instans utlägg. En individ signerar alltid i egenskap av sin högsta instans.
+=== Budgetavsteg
 
-Utlägg kan inte godkännas av samma individ som gjort utlägget.
+Om det budgeterade beloppet för en kostnadspost inte räcker till och beloppet inte kan omfördelas inom resultatenheten, görs ett budgetavsteg. Detta innebär att en kostnadsposts budgeterade belopp ökas så att rambudgetens resultat påverkas negativt.
+
+=== Budgetrevision
+
+Om budgeten behöver genomgå så väsentliga förändringar att de inte kan genomföras genom budgetavsteg eller budgetförflyttningar, kan en budgetrevision göras.
+
+En budgetrevision är ett helt nytt förslag på rambudgeten och detaljbudgeten som sektionsmötet beslutar om.
+
+== Överskridande utan budgetförändring
+
+I följande fall får en kostnadspost överskridas utan att en budgetförändring görs.
+
+=== Intäktsfinansierat överskridande
+
+En kostnadspost får överskridas om överskridandet rimligen kan förväntas motsvaras av en ökning av en intäktspost inom samma resultatenhet, så att resultatenhetens resultat inte försämras.
+
+Ett intäktsfinansierat överskridande kräver godkännande av Skattmästaren innan kostnaden uppstår. Ett avslag får överprövas enligt avsnittet överprövning.
+
+=== Tack
+
+Kostnader för tack där beloppet bestäms av antalet enskilda funktionärer får överskrida sin budgeterade kostnadspost om antalet funktionärer blivit fler än budgeterat. Kostnaden per funktionär får dock inte överstiga det tak som anges i Policy för tackverksamhet.
+
+Överskridandet ska redovisas av den resultatansvarige på nästkommande styrelsemöte.
+
+== Otillåtet överskridande
+
+Om en kostnadspost har överskridits i strid med denna policy ska budgeten justeras i efterhand så att den återspeglar det faktiska utfallet. Justeringen är inget beslut utan en redovisning, och markeras som retroaktiv i budgeten.
+
+Den resultatansvarige ska på nästkommande styrelsemöte redovisa överskridandet och förklara varför en budgetförändring inte gjordes innan kostnaden uppstod.
+
+== Balanser
+
+Sektionens likvida medel får inte bindas i tillgångar utan beslut. Om sektionen anskaffar en tillgång, eller ökar värdet på en befintlig tillgång, utan att värdet är avsett att inom verksamhetsåret återföras till resultatet mot en budgeterad kostnadspost, utgör detta ett balansavsteg.
+
+Ett balansavsteg påverkar inte rambudgetens resultat och fångas därför inte av reglerna om budgetavsteg. Ett balansavsteg kräver godkännande av Skattmästaren innan anskaffningen genomförs och ska redovisas på nästkommande styrelse- och sektionsmöte. Ett avslag får överprövas enligt avsnittet överprövning. Om anskaffningen är en investering som finansieras ur bufferten beslutas den i stället enligt avsnittet om uttag ur bufferten.
+
+Placeringar enligt avsnittet sektionens kapital utgör inte ett balansavsteg. Detsamma gäller inköp av varulager avsett att säljas eller förbrukas under verksamhetsåret, eftersom kostnaden träffar en budgeterad kostnadspost när varan säljs eller förbrukas. Sådana inköp hanteras enligt sektionens ordinarie inköps- och attestregler.
+
+= Inköp
+
+Alla köp i sektionens namn, vare sig de görs som privata utlägg eller med sektionskort, ska redovisas tillsammans med ett kvitto som uppnår lagstadgade krav för bokföring. Kvittot ska vara i det ursprungliga skick som det ges av försäljaren. Samtliga inköp ska attesteras i enlighet med avsnittet attesträtt.
+
+== Sektionskort
+
+Sektionen äger ett antal betalkort, ofta kallade sektionskort, som ska användas för betalning i sektionens namn. Dessa betalkort ska användas för att minimera behovet av privata utlägg.
+
+Vilka som erhåller sektionskort bestäms av Skattmästaren. Skattmästaren får återkalla ett sektionskort om det missköts, exempelvis genom att köp inte redovisas eller genom att kortet används för privata köp.
+
+== Privata utlägg
+
+Privata utlägg ska ha redovisats inom 60 dagar från det att utgiften uppstått, om inte särskilda skäl föreligger. Privata utlägg som inte redovisas inom denna tidsram kan nekas av Skattmästaren. Bedömningen av vad som utgör särskilda skäl görs av Skattmästaren med hänsyn till omständigheterna i det enskilda fallet.
 
 == Attesträtt
 
-Nedan följer hur attesteringsrätt fungerar för mästare, vice skattmästare och firmatecknare.  Attest ska alltid sträva efter att skötas på lägsta möjliga instans. Diagrammet nedan är endast för vägledning, nedanstående punkter beskriver mer exakta bestämmelser.
+Attest är ett dokumenterat godkännande av ett köp. Samtliga köp som genomförs för sektionens räkning ska attesteras. Attest ges när köpet redovisas enligt avsnittet inköp.
 
-Utskott som inte har en utskottsordförande som inte sitter i styrelsen och projektgrupper vänder sig till firmatecknare för att få sina utlägg attesterade.
+Firmatecknare äger attesträtt för samtliga köp.
 
-/ Firmatecknare: äger attesteringsrätt för alla utlägg och kan attesteras av varandra. Firmatecknare kan inte attestera sina egna utlägg.
+Resultatansvarig äger attesträtt för alla köp gjorda under sin resultatenhet.
 
-/ Vice skattmästare: äger attesteringsrätt för alla utlägg gjorda av funktionärer. Vice skattmästare kan inte attestera styrelseledamöter.
+Ingen får dock attestera sina egna köp.
 
-/ Näringslivsansvarig: äger attesteringsrätt för alla utlägg gjorda för näringslivsutskottet, inklusive utlägg gjorda av DELTA-general.
+Ett köp som saknar attest bekostas av den som genomfört det. Är köpet ett privat utlägg utgår ingen ersättning, och är det gjort med sektionskort faktureras individen för beloppet. Skattmästaren får, utifrån omständigheterna i det enskilda fallet, besluta att ersättning ändå ska utgå eller att fakturering inte ska ske.
 
-/ Aktivitetsansvarig: äger attesteringsrätt för alla utlägg gjorda för aktivitetsutskottet, inklusive UtEDischoansvarig.
+= Firmateckning
 
-/ Övriga styrelseledamöter: äger attersteringsrätt för utskott för vilka dem är utskottsordförande. Alltså har Vice Ordförande inte någon attesteringsrätt.
+Styrelsen får utse särskilda firmatecknare med rätt att teckna sektionens firma för ett visst slag av avtal. Rätten omfattar endast tecknande av sådana avtal och ger inte attesträtt. Ett sådant beslut ska ange vilka avtal rätten omfattar och gäller längst under styrelsens mandatperiod.
 
-/ DELTA-general: äger attesteringsrätt för alla utlägg gjorda för DELTA.
+= Intäkter
 
-#figure(
-  diagram(
-    node-stroke: 0.5pt,
-    {
-      node((1, 0), [Firmatecknare], name: <firma>)
-      node((0.5, 1), [Vice Skattmästare], name: <vskattm>)
-      node((1.5, 1), [Styrelseledamot], name: <styr>)
-      node((1, 2), [Funktionär], name: <funkis>)
-      node((2, 2), [DELTA-general], name: <deltag>)
-      node((2, 3), [DELTAfunktionär], name: <deltafunk>)
+== Externa uppdrag
 
-      edge(<firma>, <firma>, "-|>", bend: 130deg)
-      edge(<firma>, <vskattm>, "-|>")
-      edge(<firma>, <styr>, "-|>")
-      edge(<vskattm>, <funkis>, "-|>")
-      edge(<styr>, <funkis>, "-|>")
-      edge(<styr>, <deltag>, "-|>", [NärA])
-      edge(<deltag>, <deltafunk>, "-|>")
-    },
-  ),
-)
+Om en del av sektionens verksamhet genomför ett externt uppdrag mot ersättning ska ersättningen tillfalla sektionen.
 
-= Kontanthantering
+Styrelsen får besluta att en del av ersättningen får användas för ändamål som främjar den verksamhet som genomfört uppdraget. Sådan användning får inte innebära personlig ekonomisk vinning för någon funktionär.
 
-Sektionen ska eftersträva minimal kontanthantering och istället jobba med digitala betalningsalternativ.
+Vid beslut ska särskild hänsyn tas till:
+- att ändamålet inte strider mot sektionens andra policyer, och
+- att uppdragstagarna ges möjlighet att påverka användningen om detta är relevant.
 
-Kontantbelopp som överstiger 3000 kr skall och måste räknas av minst två personer.
+Innan ett externt uppdrag genomförs ska Skattmästaren i förening med Ordförande ha godkänt uppdraget.
 
-= Likviditet
+== Kontanthantering
 
-Sektionens grundlikviditet bör vara 500 000 kr. Tillfälliga negativa avvikelser är godtagbara i samband med större arrangemang såsom nollning, jubileum eller DELTA.
+Sektionen tar inte emot kontanter som ett giltigt betalningsmedel och ska inte genomföra någon kontanthantering.
 
-= Donationer
+== Donationer
 
-== Inkomna donationer
+D-sektionen sköter ingen vidareförmedling av donationer. Inkomna donationer betraktas som en donation till D-sektionen. Donationer kan inte heller öronmärkas till specifika delar av sektionens verksamhet.
 
-Vid inkomna donationer ska dessa pengar öronmärkas för ett specifik ändamål samt läggas i lämplig fond. I de fall där inget specifikt ändamål angetts hanteras de som om det inte fanns en specifik fond och behöver således inte heller öronmärkas till något speciellt.  Styrelsen kan ta emot och disponera donationer upp till 10 000 kr men högre än så måste ett sektionsmötesbeslut avgöra hur man ska disponera pengarna.
+= Sektionens kapital
 
-== Utgående donationer
+== Struktur
 
-Vid försäljning av varor kan ett utskott välja att ta emot donationer som ska gå till olika ickevinst drivande, ideella, välgörenhetsorganisationer. Dessa pengar ska inte användas av något annat än till dessa ändamål. Styrelsemöte avgör organisationens lämplighet.
+Sektionens kapital delas in i följande delar. Medel placeras efter hur snart de kan behövas.
 
-= Sektionens fonder
+/ Medel för löpande verksamhet: finansierar sektionens ordinarie verksamhet under verksamhetsåret, till exempel betalning av fakturor. Målsumman är 500 000 kronor. Medlen ska finnas tillgängliga som likvida medel.
 
-Sektionen fonderar medel vid bokslutsdispositionen, öronmärkta för att användas till vissa specifika saker. Nedan följer en lista på sektionens fonder och vilken instants som disponerar respektive fond följt av en fondavsättningsstrategi. Vid inköp som inte passar in på någon av fonderna ska inköpet belasta verksamhetsårets resultat.
+/ Buffert: täcker de perioder under verksamhetsåret då utbetalningarna överstiger inbetalningarna, samt större investeringar. Minimisumman är 150 000 kronor. Bufferten har ingen övre gräns, utan kapital som inte tillhör någon av de övriga delarna förs till bufferten.
 
-Sektionens årliga budget bör avsätta medel till de fonder som behöver det enligt fondens beskrivning. I händelse av att en fond redan är fylld då pengarna skall överföras bör de budgeterade pengarna som överskrider maxtaket för fonden läggas till resultatet. Samtliga uttag ur någon av fonderna skall redovisas för nästkommande sektionsmöte.
+/ Likviditetsreserv: är sektionens skyddsnät och ska inte behöva användas under ett verksamhetsår. Minimisumman är 350 000 kronor. Sektionens kapital får inte planeras understiga denna minimisumma.
 
-== Reparationsfonden
+/ Jubileumsfond: finansierar sektionens jubileumsfirande genom att pengar sparas årligen mellan jubileerna. Målsumman är 50 000 kronor. Den årliga avsättningen beslutas av sektionsmötet.
 
-Reparationsfondens syfte är att finansiera ersättande eller reparation av dyra inventarier (exklusive sektionsbil) som går sönder. Reparationsfonden får uppgå till maximalt 40 000 kr och dess medel disponeras av styrelsen. Den årliga budgeten bör avsätta 10 000 kr till fonden årligen.
+== Bokslutsdisposition
 
-== Bilfonden
+Vid bokslutsdispositionen ska styrelsen föreslå att resultatet överförs i ny räkning. Om resultatet är positivt ska styrelsen även be om befogenhet från sektionsmötet att som utgångsläge fördela resultatet så att:
++ medel för löpande verksamhet uppgår till sin målsumma,
++ likviditetsreserven uppgår till sin minimisumma,
++ jubileumsfonden erhåller sin årliga avsättning,
++ resterande medel förs till bufferten.
 
-Bilfondens medel skall nyttjas till att kunna reparera skador på sektionens bil samt tillse att den är säker att köra. I händelse av att sektionen behöver införskaffa en ny bil kan pengarna ur fonden också nyttjas. Fonden får maximalt uppgå till 60 000 kr och dess medel disponeras av styrelsen. Den årliga budgeten bör avsätta 10 000 kr till fonden årligen.
+Ett negativt resultat täcks i första hand av bufferten.
 
-== Projektfonden
+== Buffert
 
-Projektfonden syftar till att kunna avsätta medel för projekt inom D-sektionen. Dessa projekt skall pågå under en begränsad tid och vara till nytta för sektionen eller dess medlemmar. Fonden får uppgå till maximalt 20 000 kr och dess medel disponeras av styrelsen. Den årliga budgeten bör avsätta 5000 kr till fonden årligen.
+/ Uttag: Skattmästaren får använda bufferten för att täcka tillfälliga likviditetsbehov under verksamhetsåret.
 
-== Medaljfonden
+  Med investering avses anskaffning av en tillgång som är avsedd att användas i verksamheten under flera verksamhetsår. Användning av bufferten för investeringar beslutas av styrelsen upp till 60 000 kronor. Investeringar som överstiger 60 000 kronor beslutas av sektionsmötet. Beloppsgränsen avser investeringens totala värde, och en investering får inte delas upp för att understiga gränsen.
 
-Medaljfonden syftar till att kunna köpa in de medaljer som sektionen, enligt vårt reglemente, skall delas ut till funktionärer, riddare eller liknande. Medaljfondens medel kan också nyttjas till framtagande av nya medaljer som sektionsmötet beslutat om. Fondens medel får maximalt uppgå till 10 000 kr och de disponeras av styrelsen. Den årliga budgeten bör avsätta 2000 kr till fonden årligen.
+/ Placeringar: Bufferten ska placeras i sparkonto med sparränta som kan lösas in inom några bankdagar.
 
-== Jubileumsfonden
+/ Återställning: Om bufferten efter bokslutsdispositionen understiger sin minimisumma ska Skattmästaren redovisa orsaken på nästkommande sektionsmöte.
 
-Jubileumsfonden syftar till att kunna finansiera sektionens jubileumsfirande vart femte år.  Pengarna skall nyttjas för att säkerställa tillgängligheten för medlemmarna på jubileumsfirandet. Fondens medel disponeras av styrelsen. Fondens medel får uppgå till maximalt 50 000 kr.  Den årliga budgeten bör avsätta 10 000 kr till fonden årligen och bör inte heller överstiga detta om inte särskilda skäl finnes.
+== Likviditetsreserv
 
-== Motionsfonden
+/ Uttag: Uttag ur likviditetsreserven kräver godkännande från sektionsmötet. Undantag gäller för akuta situationer där ett beslut inte kan invänta ett sektionsmöte, om sektionens övriga tillgängliga medel inte räcker för att täcka leverantörsskulder eller avgifter som är förknippade med lagstadgade krav. Beslut om ett sådant uttag fattas av styrelsen. Sådana uttag ska anslås skriftligen i sektionslokalen där alla sektionsmedlemmar omedelbart kan ta del av informationen, samt redovisas för nästkommande sektionsmöte.
 
-Motionsfonden syftar till att kunna genomföra de motioner som föreslås av medlemmarna till sektionsmötet och som sedan röstas igenom där. Fonden har inget maxtak på mängden pengar som får finnas i den och dess medel får endast nyttjas av sektionsmötet.
+/ Placeringar: Minst 25 procent av likviditetsreserven ska finnas tillgänglig som likvida medel. Resterande del får placeras i breda indexfonder med låga avgifter och hållbarhetskriterier. Direktinvesteringar i enskilda aktier får inte göras. Avkastningen på placeringarna tillfaller likviditetsreserven. Styrelsen beslutar om val av fonder, och placeringarnas värde och avkastning redovisas i samband med bokslutet.
 
-== Fondavsättningsstrategi
+/ Återställning: Om likviditetsreserven understiger sin minimisumma ska Skattmästaren i samråd med Ordförande utreda orsaken och på nästkommande sektionsmöte lägga fram en plan för hur nivån återställs.
 
-Fondavsättningen bör följa denna ordning om inte särkilda fall finnes:
-+ reparationsfonden,
-+ bilfonden,
-+ projektfonden,
-+ medaljfonden,
-+ jubileumsfonden,
-+ motionsfonden.
+== Jubileumsfond
 
-= Placeringar
+/ Uttag: Uttag ur jubileumsfonden beslutas av sektionsmötet i samband med beslut om budgeten.
 
-Om sektionen har placeringar bör dessa följa de etiska hänsynstagande som finns i Teknologkårens policy för ekonomi.
+/ Placeringar: Medel i jubileumsfonden ska placeras i sparkonto med sparränta som kan lösas in inom några bankdagar.
+
+= Bokslut
+
+Enligt svensk lagstiftning åligger det organisationers styrelse att upprätta bokslut för deras verksamhetsår. Det huvudsakliga bokslutsarbetet bör tillfalla Skattmästaren, men i de fall där Skattmästarens arbete brister ska styrelsen hjälpa till i arbetet.
+
+Den sittande styrelsen ansvarar för att koordinera och följa upp bokslutsarbetet tillsammans med föregående års Skattmästare. Detta ansvar innebär att säkerställa att arbetet med bokslutet för det föregående verksamhetsåret fortskrider och att nödvändiga underlag och uppgifter inhämtas från föregående års Skattmästare. Arbetet med bokslutet och hur det fortskrider ska redovisas av styrelsen minst en gång per månad på ett styrelsemöte till dess att bokslutet är färdigställt.
+
+Om en styrelse inte har färdigställt bokslutet för sitt verksamhetsår senast till HTM1 åligger det dessutom den sittande styrelsen att hjälpa den föregående styrelsen att upprätta bokslutet. I sådana fall ska den sittande styrelsen anlita någon för att upprätta bokslutet.
+
+Vid presentation av bokslutet ska även alla budgetavsteg, budgetförflyttningar och balansavsteg presenteras. Otillåtna överskridanden ska presenteras separat.
+
+#appendix("Resultatenheter och kostnadsställen")[
+  #show table.cell: set par(justify: false)
+  #table(
+    columns: (1.4fr, 1fr, 1.2fr),
+    stroke: none,
+    table.header([*Resultatenhet*], [*Prefix för kostnadsställe*], [*Resultatansvarig*]),
+    table.hline(stroke: 0.4pt),
+    [Aktivitetsutskottet], [AKTU], [Aktivitetsansvarig],
+    [Cafémästeriet], [CAFE], [Cafémästaren],
+    [Centralprocessutskottet], [CPU], [Processmästaren],
+    [DELTA], [DELT], [Delta-general],
+    [Framtidsutskottet], [FRA], [Framtidsordförande],
+    [Informationsutskottet], [INFU], [Informationsansvarig],
+    [Jubileumsgruppen], [JUBI], [Jubileumsgeneral],
+    [Källarmästeriet], [KAL], [Källarmästaren],
+    [Medaljelele-kommittén], [MED], [Övermarskalk],
+    [Nollningsutskottet], [NOLL], [Øverphøs],
+    [Näringslivsutskottet], [NARU], [Näringslivsansvarig],
+    [Sexmästeriet], [SEX], [Sexmästaren],
+    [Skattmästeriet], [SKT], [Skattmästaren],
+    [Studierådet], [SRD], [Studierådsordförande],
+    [Tackmästeriet], [TACK], [Tackmästaren],
+    [Trivselrådet], [TRI], [Trivselmästaren],
+    [Valberedningen], [VAL], [Valberedningsordförande],
+    [Styrelsen], [STYR], [Ordförande],
+    [Sektionen], [SEKT], [Firmatecknare],
+  )
+]
