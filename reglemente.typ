@@ -948,6 +948,7 @@ Pluggphadder verkar under nollningen för att hjälpa de nya studenterna komma i
   - Alumnigruppsmedlem
   - DELTA-general
   - Projektledare inom DELTA
+  - Entreprenörsansvarig
   - DELTA-värd
 
 / Sammansättning:
@@ -1035,6 +1036,16 @@ DELTA-general har tillsammans med Näringslivsansvarig hand om D-sektionens årl
   - att bistå DELTA-generalerna i dennes arbete.
 
 / Mandatperiod: Projektledare inom DELTAs mandatperiod är 1 juli -- 30 juni.
+
+=== Entreprenörsansvarig
+
+Entreprenörsansvarig ansvarar för planering av sektionens entreprenörsverksamhet samt dess kontakt med näringslivet.
+
+/ Åligganden:
+  Det åligger Entreprenörsansvarig
+  - att verka för att sektionen fungerar som ett utbildningsforum för sektionsmedlemmar som vill starta och driva företag,
+  - att anordna träffar med fokus på entreprenörskap, såsom föreläsningar, workshops och nätverksträffar, samt
+  - att ansvara för kontakten med näringslivet i frågor som rör entreprenörskap.
 
 === DELTA-värd
 
