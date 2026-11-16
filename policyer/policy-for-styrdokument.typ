@@ -157,6 +157,7 @@ D-sektionen har följande policyer:
 - Policy för val
 - Policy för tackverksamhet
 - Policy för uthyrning
+- Policy för överlämning
 - Policy för styrdokument
 - Policy för samverkan med D-Chip
 
@@ -172,4 +173,3 @@ D-sektionen har följande riktlinjer:
 - Riktlinje för internationalisering
 - Riktlinje för marknadsföring och prissättning
 - Riktlinje för utmärkelsen DuCtig
-- Riktlinje för överlämning
