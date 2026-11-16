@@ -47,7 +47,7 @@ Om någon representant i valberedningen på något vis anser sig själv eller n�
 
 == Sekretess och etik
 
-Valberedningens valprocess sker i förtroende och ska hanteras med sekretess. Valberedningens medlemmar får ej delge denna information utanför valberedningen förutom när det gäller motiveringen till deras förslag som läses upp på valmötet.
+Valberedningens valprocess sker i förtroende och ska hanteras med sekretess. Valberedningens medlemmar får ej delge denna information utanför valberedningen förutom när det gäller motiveringen till deras förslag och deras motkandidater som läses upp på valmötet.
 
 = Allmän valprocess
 
@@ -78,7 +78,7 @@ Nominering respektive kandidatur sker, och presenteras, genom sektionens informa
 
 Valberedningen fastställer formerna för valprocessen. Valprocesser mellan kandidater till samma post skall hållas rättvist. Den eller de kravprofiler som fanns vid valets utlysande ska användas som underlag för valberedningens förslag. Valprocessen ska vara utformad för att den sökande ska få möjlighet att uppvisa egenskaperna som finns i kravprofilen.
 
-Innan sista dagen för inlämning av handlingar till respektive valmöte åligger det agerande ordförande för valberedningen att sammankalla valberedningen till möte för att besluta och lämna in förslag på kandidater till poster som ska väljas. För val som sker på sektionsmöten samt val av kärnposter, enligt @appendix-a, ska en motivering skickas med i samband med att valberedningens förslag kontaktas.
+Innan sista dagen för inlämning av handlingar till respektive valmöte åligger det agerande ordförande för valberedningen att sammankalla valberedningen till möte för att besluta och lämna in förslag på kandidater till poster som ska väljas. För val som sker på sektionsmöten samt val av kärnposter, enligt @appendix-a, ska en motivering skickas med i samband med att valberedningens förslag kontaktas. Potentiella motkandidater ska ges möjlighet att begära en motivering innan den väljer att motkandidera.
 
 === Information till kandidat
 
@@ -103,7 +103,7 @@ Vid beredda val då nomineringar inte är offentliga ska statistik över antalet
 
 = Val på sektionsmöten
 
-Valberedningen ska inleda sektionsmötets diskussion med motivering av valberedningens förslag. Är valberedningen oenig i detta förslaget skall mötet informeras om detta. Förslagen skall motiveras med en kort text som speglar valberedningens samlade intryck från valprocessen. Motiveringarna skall vara informativa och kärnfulla.
+Valberedningen ska inleda sektionsmötets diskussion med motivering av valberedningens förslag och därefter motiveringar för alla motkandidater, såvida inte en motkandidat i förväg valt att avstå från detta. Är valberedningen oenig i detta förslaget skall mötet informeras om detta. Förslagen samt deras motkandidater (som ej valt att avstå) skall motiveras med en kort text som speglar valberedningens samlade intryck från valprocessen. Motiveringarna skall vara informativa, kärnfulla och formulerade så att de tar upp kandidatens fördelaktiga egenskaper.
 
 == Utlysning
 
