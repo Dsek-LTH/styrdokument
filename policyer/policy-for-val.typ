@@ -9,7 +9,7 @@
     Syftet med denna policy är att förtydliga stadgan och reglementet samt att vägleda Valberedningen samt utskottsvalberedningarna i sitt arbete.
   ],
   scope: [
-    Alla val som behandlas på sektionen bortsett från val hanterade av Studierådet.
+    Alla val som behandlas på sektionen bortsett från val hanterade av Studierådet, med undantag för posten Posten.
   ],
   history: (
     (meeting: "-", change: "Utkast färdigställt", who: "Anna Qvil"),
