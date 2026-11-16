@@ -37,6 +37,11 @@
       change: "Omarbetning fastställd enligt beslut (samt motionär)",
       who: "Måns Bard Nilsson, Sexmästare",
     ),
+    (
+      meeting: "HTM1 2026",
+      change: "Omarbetning fastställd enligt beslut (samt motionär)",
+      who: "David Mitterer Stråhle, Sexmästare",
+    ),
   ),
 )
 
@@ -55,6 +60,10 @@ På ett serveringsställe där serveringstillstånd gäller får inte någon int
 == Alkoholfria alternativ
 
 Vid varje tillställning anordnad av D-sektionen där alkoholservering förekommer ska det finnas vatten att tillgå för gästerna. Alkoholfria alternativ, exempelvis alkoholfri öl och cider ska finnas i den omfattning som alkohollagen föreskriver. Vinstmarginalen för alkoholfria drycker får aldrig vara större än den för drycker som innehåller alkohol. Detta innebär exempelvis att priset på sittningsbiljetter bör ändras om inköpspriset för det alkoholfria alternativet är annat än alternativet som innehåller alkohol.
+
+== Matkrav
+
+Vid varje tillställning anordnad av D-sektionen där alkoholservering förekommer skall det finnas minst en rätt tillrädd mat. Arrangören beslutar antalet portioner på tillsällningen som den finner lämpligt. Undantag från detta kan ske med godkännande från styrelsen.
 
 = Ställningstagande mot narkotika
 
