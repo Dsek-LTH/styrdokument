@@ -171,6 +171,5 @@ D-sektionen har följande riktlinjer:
 - Riktlinje för grafisk profil
 - Riktlinje för internationalisering
 - Riktlinje för marknadsföring och prissättning
-- Riktlinje för sektionsbilens användning
 - Riktlinje för utmärkelsen DuCtig
 - Riktlinje för överlämning

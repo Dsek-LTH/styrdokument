@@ -16,23 +16,57 @@
     (meeting: "HTM2 2021", change: "Uppdaterad enl. Policy för policyer", who: "Albin Sverresson"),
     (meeting: "VTM-extra 2023", change: "Uppdaterad enl. Policy för styrdokument", who: "-"),
     (meeting: "VTM-extra 2023", change: "Uppdaterad enligt beslut", who: "Julia Karlsson"),
+    (meeting: "HTM1 2026", change: "Uppdaterad", who: "-"),
   ),
 )
 
-= Ändamål
+= Definitioner
 
-Sektionsbilen ska endast användas av sektionens medlemmar inom Sverige i sektionsfrämjande syfte. Detta kan vara t.ex frakt eller inköp av materiel till sektionen och dess evenemang samt kickoffer, tackfester eller dylikt.
+/ Sektionsbil: En bil som ägs eller under längre tid hyrs av sektionen.
+/ Bokare: Den person som har bokat sektionsbilen.
+/ Förare: Den person som enligt körjournalen kör sektionsbilen.
+/ Bilansvarig: Funktionär som tillsammans med Källarmästaren ansvarar för sektionsbilen.
+/ Körjournal: En förteckning där varje körning med sektionsbilen och dess förare förs in.
 
-= Bokning
+= Användning
 
-Ett bokningssystem bör tillhandahållas av Källarmästaren. I nödfall kan styrelsen besluta att upphäva en bokning. Hur bokning går till och regler att förhålla sig till finns i Riktlinje för sektionsbilens användning. Bilen får inte användas utan Källarmästarens tillåtelse.
+Sektionsbilen får endast köras av sektionens medlemmar och endast om:
+- körningen sker i sektionsfrämjande syfte,
+- körningen sker inom Sverige,
+- Källarmästaren har gett sin tillåtelse,
+- sektionsbilen är bokad,
+- föraren är antecknad i körjournalen.
+
+== Bokning
+
+Sektionsbilen ska alltid bokas innan den används. Bokaren behöver inte vara den som kör sektionsbilen.
+
+== Körjournal
+
+Föraren ska antecknas i körjournalen innan körningen påbörjas. Vid byte av förare ska detta antecknas i körjournalen innan den nya föraren börjar köra.
 
 = Ansvar
 
-Du som bokat är ansvarig och är den enda som får köra. Undantag för detta gäller då bokningen görs för någon annans räkning, till exempel då en utskottsordförande bokar åt sina funktionärer. I detta fall ska det vara tydligt vem som ska använda bilen i bokningen. Föraren förblir ansvarig tills nyckeln är tillbakalämnad. Innan körning ska bilens skick ses över och skador rapporteras till Källarmästaren eller Bilansvariga, annars riskerar föraren att få ansvaret för skadorna. Privat utlägg kan göras för parkering under godkända bokningar, men övriga kostnader så som böter betalas av föraren.
+== Källarmästarens ansvar
 
-Om en skada uppkommer eller en olycka sker under körningen ska du omedelbart rapportera detta till Källarmästaren eller Bilansvariga, oavsett storlek. Källarmästaren kan alltid kontaktas på #link("mailto:kallarm@dsek.se"). Kostnaden för sagda olycka betalas av sektionen givet att föraren inte varit oaktsam.
+Källarmästaren ansvarar för att det finns en körjournal för sektionsbilen och bör tillhandahålla ett bokningssystem.
 
-= Kostnad och budget
+== Bokarens ansvar
 
-Styrelsen får i budgeten bestämma hur transportkostnader delas upp. Om varje utskott har en egen budgetpost för transport bör Källarmästaren tillhandahålla någon form av körjournal som utskotten kan fylla i för att kunna beräkna transportkostnaderna för de olika utskotten. I det fall där alla utskotten delar på en under sektionen ordnad budgetpost för transport så bör styrelsen göra en intern uppdelning över hur mycket de olika utskotten bör spendera. Varje utskottsledare bör då beakta denna interna uppdelning och hålla koll på ungefär hur mycket ens bokningar kostar. \
+Bokaren ansvarar för sektionsbilen och dess nyckel under hela bokningen, från det att nyckeln hämtas ut tills den är tillbakalämnad.
+
+Innan sektionsbilen används ska bokaren se över dess skick och rapportera eventuella skador till Källarmästaren eller Bilansvarig. Skador som inte rapporteras innan användning kan komma att belasta bokaren.
+
+== Förarens ansvar
+
+Föraren övertar ansvaret för sektionsbilen under den tid hen är antecknad som förare i körjournalen.
+
+= Skador och kostnader
+
+== Skador och olyckor
+
+Om en skada uppkommer eller en olycka sker under körningen ska föraren omedelbart rapportera detta till Källarmästaren eller Bilansvarig, oavsett storlek. Skador ersätts i första hand av sektionsbilens försäkring.
+
+== Böter och avgifter
+
+Böter och liknande avgifter som uppstår under körningen betalas av föraren och ersätts inte av sektionen.
