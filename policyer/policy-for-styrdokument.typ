@@ -155,7 +155,6 @@ D-sektionen har följande policyer:
 - Policy för hantering av personuppgifter
 - Policy för sektionsbil
 - Policy för val
-- Policy för valberedningsarbete
 - Policy för tackverksamhet
 - Policy för styrdokument
 - Policy för samverkan med D-Chip
