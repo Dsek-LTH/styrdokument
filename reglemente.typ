@@ -948,6 +948,7 @@ Pluggphadder verkar under nollningen för att hjälpa de nya studenterna komma i
   - Alumnigruppsmedlem
   - DELTA-general
   - Projektledare inom DELTA
+  - Entreprenörsansvarig
   - DELTA-värd
 
 / Sammansättning:
