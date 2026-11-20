@@ -47,6 +47,11 @@
       change: "Uppdaterad till Riktlinje för internationalisering",
       who: "-",
     ),
+    (
+      meeting: "HTM1 2026",
+      change: "Förtydligade vad automatisk uppdatering innebär, uppdaterade ordlista enligt reglemente",
+      who: "Dag Hemberg",
+    ),
   ),
 )
 
@@ -66,7 +71,7 @@ Följande översättningar bör användas som utgångspunkt vid översättning a
 
 För att främja en öppen kultur bör studentikosa ord som inte har någon direkt motsvarighet på engelska, såsom gyckle, spex, sittning, cheps, osv, inte översättas.
 
-Vid namnändringsförslag eller förslag på införande av en ny post eller utskott bör motionären eller motionärerna själva komma med tänkta engelska översättningar. Vid uppdatering av reglementet uppdateras listan med eventuella nya post- eller utskottsnamn automatiskt.
+Vid namnändringsförslag eller förslag på införande av en ny post eller utskott bör motionären eller motionärerna själva komma med tänkta engelska översättningar. Vid uppdatering av reglementet uppdateras listan med eventuella nya post- eller utskottsnamn automatiskt utan att ytterligare beslut behöver tas.
 
 == Vanligt förekommmande ord
 
@@ -238,9 +243,9 @@ Vid namnändringsförslag eller förslag på införande av en ny post eller utsk
   [Studierådsordförande], [Head of the Student Council],
   [Vice Studierådsordförande], [Vice Head of the Student Council],
   [Studierådssekreterare], [Secretary of the Student Council],
+  [Studerandeskyddsombud], [Student Safety Representative],
   [Årskursrepresentant], [Class Representative],
   [Studentrepresentant i \[...\]], [Student Representative of \[...\]],
-  [Husstyrelsen], [The House Board],
   [Institutionsstyrelsen], [The Department Board],
   [Programledningen], [Program Management],
 )
@@ -251,12 +256,14 @@ Vid namnändringsförslag eller förslag på införande av en ny post eller utsk
   [*Näringslivsutskottet*], table.vline(), [*The Corporate Relations Committee*],
   [Näringslivsansvarig], [Head of Corporate Relations],
   [Vice Näringslivsansvarig], [Vice Head of Corporate Relations],
+  [Näringslivskoordinator], [Corporate Relations Coordinator],
   [*Alumnigruppen*], [*The Alumni Committee*],
   [Alumniansvarig], [Head of the Alumni Committee],
   [Alumnigruppsmedlem], [Member of the Alumni Committee],
   [*Projektgruppen för DELTA*], [*The DELTA Project Group*],
-  [DELTA-general], [The Project Manager of DELTA],
-  [Medlem i projektgruppen för DELTA], [Member of the DELTA Project Group],
+  [DELTA-general], [DELTA General],
+  [Projektledare inom DELTA], [Member of the DELTA Project Group],
+  [DELTA-värd], [DELTA Host],
 )
 
 === Källarmästeriet
@@ -283,6 +290,7 @@ Vid namnändringsförslag eller förslag på införande av en ny post eller utsk
   [Sångarstridsförman], [TLTH Song Contest Team Captain],
   [Tandemgeneral], [Tandem Relay Team Captain],
   [Semesterfirare], [Holidaymaker],
+  [Coach], [Coach],
   [D-sportare], [Tournament Organizer],
   [Nöjesförman], [Chief of Joy],
 )
@@ -296,6 +304,7 @@ Vid namnändringsförslag eller förslag på införande av en ny post eller utsk
   [Øverpeppare], [Head of Introduction Coordinators],
   [Peppare], [Introduction Coordinator],
   [Phadder], [Mentor],
+  [Pluggphadder], [Study mentor],
 )
 
 === Centralprocessutskottet
@@ -323,7 +332,6 @@ Vid namnändringsförslag eller förslag på införande av en ny post eller utsk
   [*Trivselrådet*], table.vline(), [*The Student Well-being Committee*],
   [Trivselmästare], [Head of Student Well-being],
   [Likabehandlingsombud], [Equal Opportunities Representative],
-  [Studerandeskyddsombud], [Student Safety Representative],
   [Världsmästare], [World Master],
   [Her Tech Future-representant], [Her Tech Future Representative],
 )

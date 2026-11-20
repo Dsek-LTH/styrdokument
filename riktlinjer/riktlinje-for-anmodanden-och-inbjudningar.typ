@@ -12,141 +12,137 @@
     Sektionen i sin helhet.
   ],
   history: (
-    (meeting: "S22 2023", change: "Antagen", who: "Axel Svensson"),
+    (
+      meeting: "S22 2023",
+      change: "Antagen",
+      who: "Axel Svensson",
+    ),
+    (
+      meeting: "VTM-extra 2026",
+      change: "Uppdaterad för att reflektera praxis",
+      who: "Styrelsen genom David Mitterer Stråhle",
+    ),
+    (
+      meeting: "HTM1 2026",
+      change: "Uppdaterad struktur",
+      who: "Dag Hemberg",
+    ),
   ),
 )
 
+#let invited(inbjudningar, anmodanden) = {
+  show table.cell: set par(justify: false)
+  table(
+    columns: (1fr, 1fr),
+    align: left,
+    stroke: none,
+    table.header([*Inbjudna*], [*Anmodade*]),
+    inbjudningar, anmodanden,
+  )
+}
+
 = Terminologi
 
-== Anmodan
+/ Anmodan: En anmodan till en tillställning är ett erbjudande att köpa biljett till den. För det mesta utan vidare formaliteter, men mer exklusiva gäster bör tillställas en formell anmodan. Ordningen för anmodan refererar till i vilken prioritetsordning biljettförsäljningen bör ske. Anmodan sker i mån av plats.
 
-En anmodan till en tillställning är ett erbjudande att köpa biljett till den. För det mesta utan vidare formaliteter, men mer exklusiva gäster bör tillställas en formell anmodan. Ordningen för anmodan refererar till i vilken prioritetsordning biljettförsäljningen bör ske.
-
-== Inbjudan
-
-En inbjudan är det samma som en anmodan fast att anordnaren står för biljettpriset; en erbjudan att delta. Eftersom inbjudan oftast är mer exklusiv än anmodan är de flesta inbjudningar formella. I enlighet med svensk alkohollag betalar inte arrangören priset för eventuell förköpbar alkohol (t.ex. vinpaket, punschbiljetter).
+/ Inbjudan: En inbjudan är det samma som en anmodan fast att anordnaren står för biljettpriset; en erbjudan att delta. Eftersom inbjudan oftast är mer exklusiv än anmodan är de flesta inbjudningar formella. I enlighet med svensk alkohollag betalar inte arrangören priset för eventuell förköpbar alkohol (t.ex. vinpaket, punschbiljetter).
 
 = Nollningen
 
 == Icke-gasque-sittningar under nollningen
 
-=== Inbjudningar
-
-Till en icke-gasque-sittning under nollningen ska följande erhålla en inbjudan:
-- øverphøs och stabsmedlemmar
-
-=== Anmodanden
-
-Till en icke-gasque-sittning under nollningen ska följande anmodas i den turordning som följer i mån av plats:
-
-- utsedda nyktra och ansvariga phaddrar,
-- øverphøs och stabsmedlemmar,
-- øverpeppare och peppare,
-- nollor,
-- grupphaddrar,
-- övriga phaddrar, samt
-- styrelseledamöter.
+#invited[
+  - Øverphøs och Stabsmedlemmar
+][
+  - Utsedda nyktra och ansvariga Phaddrar
+  - Øverpeppare och Peppare
+  - Nollor
+  - Grupphaddrar
+  - Övriga Phaddrar
+  - Styrelseledamöter
+]
 
 == Lär-känna-gasque (LKG)
 
-=== Inbjudningar
+#invited[
+  - Inspektorn och Inspektrix
+  - Øverphøs och Stabsmedlemmar
+][
+  - Utsedda nyktra och ansvariga Phaddrar
+  - Øverpeppare och Peppare
+  - Styrelseledamöter
+  - Nollor
+  - Grupphaddrar
+  - Övriga Phaddrar
+  - Nollningsfunktionärer
+]
 
-Till LKG ska följande erhålla en inbjudan:
-- inspektorn och inspektrix.
-- øverphøs och stabsmedlemmar,
+#pagebreak()
 
-=== Anmodanden
+== Sektionsöverskridande sittningar
 
-Till LKG ska följande anmodas i den turordning som följer i mån av plats:
-- utsedda ansvariga phaddrar,
-- øverpeppare och peppare,
-- styrelseledamöter,
-- nollor,
-- grupphaddrar,
-- övriga phaddrar,
-- nollningsfunktionärer,
-
-== Sektionsöverskridande-sittningar
-
-=== Inbjudan
-
-Till sektionsöverkridande sittningar ska följande erhålla en inbjudan:
-- Øverphøs och stabsmedlemmar
-
-=== Anmodanden
-
-Till sektionsöverskridande sittningar ska följande anmodas i den turordning som följer i mån av plats:
-- utsedda ansvariga phaddrar,
-- øverpeppare och peppare,
-- styrelseledamöter,
-- nollor,
-- grupphaddrar,
-- övriga phaddrar,
-- nollningsfunktionärer,
+#invited[
+  - Øverphøs och Stabsmedlemmar
+][
+  - Utsedda nyktra och ansvariga Phaddrar
+  - Øverpeppare och Peppare
+  - Styrelseledamöter
+  - Nollor
+  - Grupphaddrar
+  - Övriga Phaddrar
+  - Nollningsfunktionärer
+]
 
 == Nollegasque
 
-=== Inbjudningar
-
-Till nollegasque ska följande erhålla en inbjudan:
-- inspektorn och inspektrix, samt
-- hedersmedlemmar.
-
-=== Anmodanden
-
-Till nollegasque ska följande anmodas i den turordning som följer i mån av plats:
-- utsedda ansvariga phaddrar,
-- øverphøs och stabsmedlemmar,
-- øverpeppare och peppare,
-- styrelseledamöter,
-- nollor,
-- grupphaddrar,
-- övriga phaddrar,
-- nollningsfunktionärer,
-- heltidare vid Teknologkåren från D-sektionen,
-- sektionens kårkontakter,
-- kårens nollningsutskott,
-- övriga aktiva medlemmar, samt
-- passiva medlemmar.
+#invited[
+  - Inspektorn och Inspektrix
+  - Hedersmedlemmar
+][
+  - Utsedda ansvariga Phaddrar
+  - Øverphøs och Stabsmedlemmar
+  - Øverpeppare och Peppare
+  - Styrelseledamöter
+  - Nollor
+  - Grupphaddrar
+  - Övriga Phaddrar
+  - Nollningsfunktionärer
+  - Heltidare vid Teknologkåren från D-sektionen
+  - Sektionens kårkontakter
+  - Kårens nollningsutskott
+  - Övriga aktiva medlemmar
+  - Passiva medlemmar
+]
 
 = Andra sittningar
 
 == Skiphtesgasque
 
-=== Inbjudningar
-
-Till skiphtesgasquen ska följande erhålla en inbjudan:
-
-- inspektorn och inspektrix, samt
-- hedersmedlemmar.
-
-=== Anmodanden
-
-Till skiphtesgasquen ska följande anmodas i den turordning som följer i mån av plats:
-- tillträdande styrelseledamöter och övermarsalk,
-- avgående styrelseledamöten och övermarsalk,
-- tillträdande funktionärer,
-- avgående funktionärer,
-- före detta styrelseledamöter,
-- övriga aktiva medlemmar, samt
-- passiva medlemmar.
+#invited[
+  - Inspektorn och Inspektrix
+  - Hedersmedlemmar
+][
+  - Tillträdande styrelseledamöter och Øvermarskalk
+  - Avgående styrelseledamöter och Øvermarskalk
+  - Tillträdande funktionärer
+  - Avgående funktionärer
+  - Före detta styrelseledamöter
+  - Övriga aktiva medlemmar
+  - Passiva medlemmar
+]
 
 == Övriga Gasquer
 
-=== Inbjudan
-
-Till övriga gasquer ska följande erhålla en inbjudan;
-- Inspektor och inspektrix, samt
-- Hedersmedlemmar.
-
-=== Anmodanden
-
-Till övriga gasquer ska följande anmodas i den turordning som följer i mån av plats:
-- styrelseledamöter,
-- funktionärer,
-- övriga aktiva medlemmar,
-- passiva medlemmar,
-- alumner.
+#invited[
+  - Inspektorn och Inspektrix
+  - Hedersmedlemmar
+][
+  - Styrelseledamöter
+  - Funktionärer
+  - Övriga aktiva medlemmar
+  - Passiva medlemmar
+  - Alumner
+]
 
 = Övrigt
 
