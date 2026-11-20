@@ -1,7 +1,7 @@
 #import "@preview/dsek:0.1.0": *
 
 #show: policy.with(
-  subject: "Hantering av Personuppgifter",
+  subject: "hantering av personuppgifter",
   summary: [
     Policy för hantering av personuppgifter beskriver hur sektionen skall hantera personuppgifter och vilken bakgrund som finns i olika situationer.
   ],
