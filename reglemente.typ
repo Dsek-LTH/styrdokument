@@ -948,6 +948,7 @@ Pluggphadder verkar under nollningen för att hjälpa de nya studenterna komma i
   - Alumnigruppsmedlem
   - DELTA-general
   - Projektledare inom DELTA
+  - Entreprenörsansvarig
   - DELTA-värd
 
 / Sammansättning:
@@ -1493,6 +1494,7 @@ Tackmästare ansvarar för att leda Tackmästeriet.
   - Likabehandlingsombud
   - Världsmästare
   - Her Tech Future-representant
+  - Eventansvarig inom Trivselrådet
 
 === Trivselmästare
 
@@ -1533,6 +1535,14 @@ Her Tech Future-representant är ansvarig för Her Tech Future-arrangemanget på
   Det åligger Her Tech Future-representant
   - att framföra en positiv bild av LTH, samt
   - att ansvara för att sektionen är representerad på ett bra sätt under Her Tech Future.
+
+=== Eventansvarig inom Trivselrådet
+
+Eventansvarig inom Trivselrådet ansvarar för trivselrådets eventplanering och genomförande av event
+
+/ Åligganden:
+  Det åligger Eventansvarig inom Trivselrådet
+  - att ansvara för planering och genomförande av trivselrådets event
 
 
 // ██  ██  ▄▄▄  ▄▄    ▄▄    ▄▄▄▄▄ █████▄
@@ -1607,6 +1617,14 @@ Jubileumsansvarig arrangerar, under Jubileumsgenerals ledning, D-sektionens jubi
   - att bistå Jubileumsgenerals arbete under jubileumet.
 
 / Mandatperiod: Jubileumsansvarigs mandatperiod är 1 juli -- 30 juni.
+
+=== Posten Posten
+
+Posten Posten är en hemlig post.
+
+/ Åligganden:
+  Det åligger posten Posten
+  - att ~
 
 === Revisor
 

@@ -155,8 +155,9 @@ D-sektionen har följande policyer:
 - Policy för hantering av personuppgifter
 - Policy för sektionsbil
 - Policy för val
-- Policy för valberedningsarbete
 - Policy för tackverksamhet
+- Policy för uthyrning
+- Policy för överlämning
 - Policy för styrdokument
 - Policy för samverkan med D-Chip
 
@@ -171,6 +172,4 @@ D-sektionen har följande riktlinjer:
 - Riktlinje för grafisk profil
 - Riktlinje för internationalisering
 - Riktlinje för marknadsföring och prissättning
-- Riktlinje för sektionsbilens användning
 - Riktlinje för utmärkelsen DuCtig
-- Riktlinje för överlämning
