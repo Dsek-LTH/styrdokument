@@ -3,8 +3,6 @@ name: Compile diffs
 run-name: "Compile and compare ${{ github.actor }}'s changes"
 on:
   pull_request:
-    branches:
-      - main
 
 jobs:
   compile-diffs:
@@ -14,11 +12,11 @@ jobs:
         uses: actions/checkout@v4
         with:
           submodules: recursive
-      - name: Check out main
+      - name: Check out base branch
         uses: actions/checkout@v4
         with:
-          ref: main
-          path: main
+          ref: ${{ github.event.pull_request.base.ref }}
+          path: base
       - name: Set up Typst
         uses: typst-community/setup-typst@v5
         with:
@@ -33,20 +31,22 @@ jobs:
         run: |
           git clone --depth 1 https://github.com/Dsek-LTH/dsek-typst ../dsek-typst
       - name: Compile documents and diffs
+        env:
+          BASE_DIR: base
         run: |
           mkdir build
           for filename in stadgar.typ reglemente.typ strategiska-mal.typ policyer/*.typ riktlinjer/*.typ; do
               name="$(basename "${filename%.typ}")"
-              if [ ! -f "main/$filename" ]; then
+              if [ ! -f "$BASE_DIR/$filename" ]; then
                   # Document is new in this pull request; no diff possible
                   typst compile --root . --font-path ../dsek-typst/fonts \
                       "$filename" "build/$name.pdf"
                   continue
               fi
-              if ! cmp -s "main/$filename" "$filename"; then
+              if ! cmp -s "$BASE_DIR/$filename" "$filename"; then
                   typst compile --root . --font-path ../dsek-typst/fonts \
                       "$filename" "build/$name.pdf"
-                  typdiff "main/$filename" "$filename" -o "build/${name}_diff.typ"
+                  typdiff "$BASE_DIR/$filename" "$filename" -o "build/${name}_diff.typ"
                   typst compile --root . --font-path ../dsek-typst/fonts \
                       "build/${name}_diff.typ" "build/${name}_diff.pdf"
               fi
@@ -78,7 +78,7 @@ jobs:
 
             **Genererade dokument:**
             - ✅ Färdiga PDF:er av styrdokumenten med dessa ändringar
-            - 🔄 PDF med diff mot nuvarande \`main\` (genererad med \`typdiff\`).
+            - 🔄 PDF med diff mot bas-branch (genererad med \`typdiff\`).
 
             👉 **Ladda ner här:**
             ${runUrl}
