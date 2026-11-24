@@ -16,7 +16,7 @@
     (meeting: "HTM2 2021", change: "Uppdaterad enl. Policy för policyer", who: "Albin Sverresson"),
     (meeting: "VTM-extra 2023", change: "Uppdaterad enl. Policy för styrdokument", who: "-"),
     (meeting: "VTM-extra 2023", change: "Uppdaterad enligt beslut", who: "Julia Karlsson"),
-    (meeting: "HTM1 2026", change: "Uppdaterad", who: "-"),
+    (meeting: "HTM1 2026", change: "Uppdaterad", who: "Ella Svensson och Ludwig Gehlsdorf"),
   ),
 )
 

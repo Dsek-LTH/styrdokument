@@ -227,9 +227,15 @@ Vid presentation av bokslutet ska även alla budgetavsteg, budgetförflyttningar
 #appendix("Resultatenheter och kostnadsställen")[
   #show table.cell: set par(justify: false)
   #table(
-    columns: (1.4fr, 1fr, 1.2fr),
+    columns: 3,
     stroke: none,
-    table.header([*Resultatenhet*], [*Prefix för kostnadsställe*], [*Resultatansvarig*]),
+    table.header(
+      [*Resultatenhet*],
+      table.vline(stroke: 0.4pt),
+      [*Prefix för kostnadsställe*],
+      table.vline(stroke: 0.4pt),
+      [*Resultatansvarig*],
+    ),
     table.hline(stroke: 0.4pt),
     [Aktivitetsutskottet], [AKTU], [Aktivitetsansvarig],
     [Cafémästeriet], [CAFE], [Cafémästaren],
