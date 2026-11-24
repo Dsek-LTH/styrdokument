@@ -63,7 +63,7 @@ Vid varje tillställning anordnad av D-sektionen där alkoholservering förekomm
 
 == Matkrav
 
-Vid varje tillställning anordnad av D-sektionen där alkoholservering förekommer skall det finnas minst en rätt tillrädd mat. Arrangören beslutar antalet portioner på tillsällningen som den finner lämpligt. Undantag från detta kan ske med godkännande från styrelsen.
+Vid varje tillställning anordnad av D-sektionen där alkoholservering förekommer skall det finnas minst en rätt tillredd mat. Arrangören beslutar antalet portioner på tillsällningen som den finner lämpligt. Undantag från detta kan ske med godkännande från styrelsen.
 
 = Ställningstagande mot narkotika
 

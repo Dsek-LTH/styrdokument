@@ -35,7 +35,7 @@
 = Benämningar
 
 / Poster som väljs på sektionsmöten: Se reglemente 5.0 Sektionsmöte
-/ Kärnpost: Se appendix A
+/ Kärnpost: Se @appendix-a
 / Funktionärspost: Funktionärer inom ett utskott som inte har ett specifikt åtagande eller en bestämd mandatperiod.
 / Övriga poster: Poster som inte omfattas av övriga benämningar
 
@@ -143,7 +143,7 @@ Utskottsvalberedningen ska stadfästas av styrelsen på ett styrelsemöte.
 
 === Motkandidatur
 
-En person som ämnar att motkandidera måste ha valberedits för en post för att få lov att motkandidera till den, förutsatt att valberedningen lagt fram ett förslag för posten i fråga.
+En person som ämnar att motkandidera måste ha valberetts för en post för att få lov att motkandidera till den, förutsatt att valberedningen lagt fram ett förslag för posten i fråga.
 
 Om man ämnar att motkandidera måste man skicka in sin motkandidatur till Talmannen. Den inskickad motkandidatur måste skickas in Senast 23:59, 2 dagar efter att valberedningens förslag offentliggjorts och ska innehålla vilka poster personen menar att motkandidera.
 
@@ -169,7 +169,7 @@ På mötet ska kandidater få tid för att tala och tid för att ta emot frågor
 
 == Utlysning
 
-Utlysningen av valet sker senast 2 veckor innan styrelsemötet då valet skall hållas. När på året de olika posterna bör utlysas samt väljas finns specificerat i appendix B. Poster som inte specificeras i appendix B utlyses när utskottsordförande anser det lämpligt. Utskottsordförande eller i vissa fall utskottsordförande electus ansvarar för att utlysningen sker.
+Utlysningen av valet sker senast 2 veckor innan styrelsemötet då valet skall hållas. När på året de olika posterna bör utlysas samt väljas finns specificerat i @appendix-b. Poster som inte specificeras i @appendix-b utlyses när utskottsordförande anser det lämpligt. Utskottsordförande eller i vissa fall utskottsordförande electus ansvarar för att utlysningen sker.
 
 == Beredning
 
@@ -209,7 +209,7 @@ För val av phaddrar behövs ingen motivering skickas med när valberedningens f
 
 == Fyllnadsval
 
-Vid fyllnadsval av de poster som finns i appendix A skall alltid en utlysning ske. Dock kan styrelsen välja att tillförordna en funktionär till posten under tiden för utlysningen. Övriga poster fyllnadsväljs på så sätt utskottsordförande anser det lämpligt.
+Vid fyllnadsval av de poster som finns i @appendix-a skall alltid en utlysning ske. Dock kan styrelsen välja att tillförordna en funktionär till posten under tiden för utlysningen. Övriga poster fyllnadsväljs på så sätt utskottsordförande anser det lämpligt.
 
 = Val av övriga poster
 

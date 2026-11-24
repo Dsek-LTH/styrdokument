@@ -75,7 +75,7 @@ Följande delar bör ingå i ett testamente:
 - Tidslinje, i den mån det är relevant
 - Hemsidor och dylikt som man ska ha tillgång till
 - Kontaktuppgifter till externa parter
-- Lösningar på svåra probelm som uppstått under det gångna året
+- Lösningar på svåra problem som uppstått under det gångna året
 
 == Arkivering
 
@@ -87,8 +87,8 @@ Detta avsnitt avser ytterliggare överlämningsdetaljer som även gäller för s
 
 == Monument i gemensam sytelseöverlämning
 
-- Oavslutade arbetsuppgifter och projekt som lämnas över,
+- Oavslutade arbetsuppgifter och projekt som lämnas över.
 - Beslutsuppföljning.
 - Genomgång av Krishanteringsplan.
 - Styrelsens skyldigheter samt ansvar.
-- Styrelse och sektionsmötes formalia
+- Styrelse- och sektionsmötesformalia.
